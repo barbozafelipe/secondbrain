@@ -190,55 +190,40 @@ Depois, na segunda-feira, você me avisa quantas horas fez: “Deivison, acabei 
 Esse jogo de cintura e alinhamento evita problema para você também.
 
 **Felipe:**
-
 Sim, tranquilo.
 
 **Deivison:**
-
 Beleza.
-
 No mais, conversei com o Guilherme e pedi um feedback teu. Ele falou que está gostando muito do seu trabalho. Disse que você está indo super bem.
-
 Na visão dele, está sendo bem produtivo, porque você está aprendendo coisas novas com eles e também está conseguindo utilizar esse aprendizado para trazer coisas boas e novas para o time.
-
 Então está sendo uma troca muito boa, bem ganha-ganha. Ele está bem contente com o seu trabalho.
 
 **Felipe:**
-
 Beleza, legal.
 
 **Deivison:**
-
 Tranquilo.
 
 **Felipe:**
-
 Fechou, Deivison. Obrigado.
 
 **Deivison:**
-
 Maravilha, mestre. Vamos nos alinhando. Acho que essa troca, de você ir me atualizando, está sendo super válida.
-
 Se precisar conversar, é só me chamar. A gente marca um bate-papo sem problema.
 
 **Felipe:**
-
 Sim, fechado. Tranquilo.
 
 **Deivison:**
-
 Combinado então. Obrigado, bom início de ano, tudo de bom aí, e vamos nos alinhando.
 
 **Felipe:**
-
 Beleza, valeu. Para você também.
 
 **Deivison:**
-
 Valeu, abraço.
 
 **Felipe:**
-
 Tchau, tchau.
 
 ---
