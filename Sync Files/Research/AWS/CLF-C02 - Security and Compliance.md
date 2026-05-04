@@ -1,8 +1,23 @@
-
-# CLF-C02 - Security and Compliance
 **Domínio 2 · 30% da prova**
-
 Parte de: [[AWS Certified Cloud Practitioner]]
+
+---
+
+## ✅ Checklist de Estudo
+
+- [ ] Shared Responsibility Model (security OF vs. IN the cloud)
+- [ ] IAM: Users, Groups, Roles, Policies e Least Privilege
+- [ ] MFA e boas práticas de conta root
+- [ ] GuardDuty — detecção de ameaças via ML
+- [ ] Inspector — scan de vulnerabilidades em EC2 e containers
+- [ ] Macie — descoberta de dados sensíveis (PII) no S3
+- [ ] Shield Standard e Advanced — proteção DDoS
+- [ ] WAF — Web Application Firewall
+- [ ] Secrets Manager e KMS — gestão de credenciais e chaves
+- [ ] CloudTrail — auditoria de todas as chamadas de API
+- [ ] AWS Artifact — relatórios de conformidade (SOC, PCI, ISO, HIPAA)
+- [ ] AWS Config — auditoria de conformidade contínua de recursos
+- [ ] Criptografia em trânsito (TLS/HTTPS) e em repouso (SSE, KMS)
 
 ---
 

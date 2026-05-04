@@ -6,6 +6,19 @@ Parte de: [[AWS Certified Cloud Practitioner]]
 
 ---
 
+## ✅ Checklist de Estudo
+
+- [ ] Value Proposition da Cloud (CapEx → OpEx, escala, elasticidade, velocidade)
+- [ ] Modelos de serviço: IaaS, PaaS, SaaS
+- [ ] Modelos de implantação: pública, híbrida, on-premises
+- [ ] Well-Architected Framework — 6 pilares
+- [ ] Estratégias de migração — 6 Rs
+- [ ] AWS Cloud Adoption Framework (CAF) — 6 perspectivas
+- [ ] Infraestrutura global: Regions, Availability Zones, Edge Locations
+- [ ] Serviços de escopo global: CloudFront, Route 53, IAM, S3
+
+---
+
 ## Value Proposition da Cloud
 
 - **CapEx → OpEx**: troca de investimento fixo por custo variável sob demanda
@@ -50,3 +63,10 @@ Parte de: [[AWS Certified Cloud Practitioner]]
 ## AWS Cloud Adoption Framework (CAF)
 
 6 perspectivas: Business, People, Governance, Platform, Security, Operations
+
+## Infraestrutura Global AWS
+
+- **Region**: área geográfica com 2+ AZs (ex: us-east-1)
+- **Availability Zone (AZ)**: 1 ou mais datacenters isolados dentro de uma Region
+- **Edge Location**: ponto de presença para CDN (CloudFront) e DNS (Route 53)
+- **Local Zone**: extensão de Region mais próxima do usuário final para baixa latência
