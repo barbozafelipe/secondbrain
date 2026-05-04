@@ -4,5 +4,3 @@
 | DigiCertCA                 | Certificate Chain       |
 | semparar.com.br-2026       | Certificate body        |
 | semparar.com.br-2026-pkcs8 | Certificate private key 
-
-![[Pasted image 20260504102455.png]]
