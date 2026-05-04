@@ -19,9 +19,6 @@
 
 ### <mark style="background: #ABF7F7A6;">Notas Complementares:</mark>
 
-- [[CTASK0133893]]
-- [[Padrão de importação de certificado na AWS]]
-
 
 
 ### <mark style="background: #D2B3FFA6;">Etapas:</mark>
