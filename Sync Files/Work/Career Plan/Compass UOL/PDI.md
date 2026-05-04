@@ -3,7 +3,7 @@ tags: [PDI, carreira, infra]
 updated: 2026-05-04
 ---
 
-# PDI — Plano de Desenvolvimento Individual
+# PDI (!) — Plano de Desenvolvimento Individual
 
 ## Resumo Executivo
 
@@ -108,3 +108,6 @@ Hoje é 04/05/2026. A meta de conformidade vence em **29/05/2026** — 25 dias c
 ### Sem Conflito Real com os Demais
 - AWS CLP (31/08) e Terraform (31/10) têm folga suficiente para encaixar nos mesmos blocos de almoço ou em blocos de 1h nos fins de semana, sem impacto no VSM ou no sono.
 - Inglês (18/12) já está em progresso — manter cadência atual.
+
+
+Solicitado em: "[[One-one com Deivison (PDI e ponto)]]"
