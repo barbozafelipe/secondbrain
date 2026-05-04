@@ -1,1 +1,0 @@
-se for, deu bom em
