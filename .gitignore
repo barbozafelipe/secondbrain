@@ -1,23 +1,4 @@
-# Environment — never commit API keys
-.env
-*.env
-
-# Python virtual environment
-.venv/
-venv/
-__pycache__/
-*.pyc
-*.pyo
-
-# macOS
+.obsidian/workspace.json
+.obsidian/graph.json
+.obsidian/appearance.json
 .DS_Store
-.DS_Store?
-
-# Windows
-Thumbs.db
-desktop.ini
-
-# IDE
-.idea/
-.vscode/
-*.swp
