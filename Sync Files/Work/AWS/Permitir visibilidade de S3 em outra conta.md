@@ -1,3 +1,5 @@
+Este exemplo foi utilizado para estudo na execução da "[[TASK1231707]]"
+
 Bucket Policy:  
   
 `{`

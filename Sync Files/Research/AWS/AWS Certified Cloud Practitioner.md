@@ -19,7 +19,7 @@
 
 ### <mark style="background: #ABF7F7A6;">Notas Complementares:</mark>
 
-- [[Atualizar certificados na AWS Certificate Manager]]
+- [[CTASK0133893]]
 - [[Padrão de importação de certificado na AWS]]
 
 
