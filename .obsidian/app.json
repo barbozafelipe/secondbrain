@@ -1,12 +1,7 @@
 {
   "promptDelete": false,
   "userIgnoreFilters": [
-    "skills/",
-    "scripts/",
-    "vault-template/",
-    "CLAUDE.md",
-    "memory.md",
-    "README.md",
-    "banner.svg"
-  ]
+    "vault-template/"
+  ],
+  "alwaysUpdateLinks": true
 }

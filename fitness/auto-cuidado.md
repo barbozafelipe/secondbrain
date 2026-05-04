@@ -1,4 +1,3 @@
-# Protocolo VSM — Valor de Mercado Sexual
 
 ## Objetivo Central
 Maximização implacável do VSM através do Índice de Adonis.
