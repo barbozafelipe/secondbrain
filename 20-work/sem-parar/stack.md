@@ -12,6 +12,6 @@
 - Modalidade: Híbrido (presencial ter/qui, remoto seg/qua/sex)
 
 ## Convenções
-- Toda decisão de arquitetura → documentar em `infra/decisions/`
-- Runbooks → `infra/runbooks/`
-- Estudos e certificações → `research/`
+- Toda decisão de arquitetura → documentar em `20-work/sem-parar/decisions/`
+- Runbooks → `20-work/sem-parar/runbooks/`
+- Estudos e certificações → `30-career/` e `50-research/`
