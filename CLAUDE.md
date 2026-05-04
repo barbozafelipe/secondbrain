@@ -5,14 +5,22 @@ Analista de Infraestrutura Cloud Pleno na Sem Parar (AWS, OCI, Kubernetes/Ranche
 
 ## Vault Structure
 ```
-inbox/      ← Zona de entrada — tudo novo cai aqui primeiro
-daily/      ← Notas diárias YYYY-MM-DD.md, log de treino, check-in físico
-fitness/    ← VSM, Índice de Adonis, composição corporal, protocolo de pele
-infra/      ← Stack Sem Parar, runbooks, decisions, estudos cloud
-projects/   ← Draco Finance (FinFlow) e outros projetos pessoais
-research/   ← Docs oficiais, papers, referências técnicas e de saúde
-personal/   ← Perfil, finanças, decisões de vida, rotinas, Beatriz
-archive/    ← Concluído — nunca deletar, só arquivar
+00-inbox/                        ← Zona de captura
+10-daily/                        ← Notas diárias YYYY-MM-DD.md
+20-work/sem-parar/               ← Trabalho profissional — Sem Parar
+  stack.md                       ← Stack técnica e contexto
+  ops/certificados/              ← Certificados e tarefas operacionais
+  runbooks/                      ← Procedimentos operacionais
+  decisions/                     ← Decisões de arquitetura
+30-career/                       ← Desenvolvimento de carreira
+  pdi.md                         ← Plano de Desenvolvimento Individual
+  certifications/                ← Certificações (AWS, etc.)
+  learning/                      ← Notas de estudo e cursos
+40-projects/draco/               ← Draco Finance
+50-research/                     ← Docs oficiais, papers, referências
+60-personal/                     ← Perfil, finanças, Beatriz, rotinas
+70-fitness/                      ← VSM, Índice de Adonis, protocolos
+80-archive/compass-uol/          ← Compass UOL (empresa anterior)
 ```
 
 ## Rotina Semanal
@@ -35,12 +43,13 @@ archive/    ← Concluído — nunca deletar, só arquivar
 - Escopo full LifeOS: trabalho e vida pessoal com o mesmo peso
 
 ## Context Rules
-Quando menciono treino ou físico → ler `fitness/vsm-protocol.md` primeiro
-Quando menciono Draco Finance → ler `projects/draco-finance/` primeiro
-Quando menciono trabalho/infra → ler `infra/stack.md` primeiro
+Quando menciono treino ou físico → ler `70-fitness/vsm-protocol.md` primeiro
+Quando menciono Draco Finance → ler `40-projects/draco/` primeiro
+Quando menciono trabalho/infra → ler `20-work/sem-parar/stack.md` primeiro
+Quando menciono carreira ou PDI → ler `30-career/pdi.md` primeiro
 Quando menciono rotina, energia ou planejamento → checar o dia da semana e a rotina acima
-Quando algo cai no inbox/ → perguntar se quer sortear agora
-Quando escrevo qualquer coisa → ler `daily/` recentes para calibrar voz
+Quando algo cai no 00-inbox/ → perguntar se quer sortear agora
+Quando escrevo qualquer coisa → ler `10-daily/` recentes para calibrar voz
 
 ## Available Slash Commands
 - /vault-setup  — Repersonalizar este vault
