@@ -1,5 +1,5 @@
 %% Begin Waypoint %%
 - **[[AWS Certified Cloud Practitioner]]**
-- [[Plano de Estudo — Sem Parar]]
+- [[Plano de Estudo]]
 
 %% End Waypoint %%
