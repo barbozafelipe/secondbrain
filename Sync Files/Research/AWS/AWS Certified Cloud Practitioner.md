@@ -32,3 +32,63 @@
 - [ ] Fazer os 2 simulados oficiais
 - [ ] Score mínimo consistente de 80% antes de agendar
 - [ ] Agendar prova (Pearson VUE ou PSI)
+
+---
+
+### 📊 Progresso Automático
+
+```dataviewjs
+const domains = [
+  { file: "CLF-C02 - Cloud Concepts",              label: "Cloud Concepts",             peso: 24 },
+  { file: "CLF-C02 - Security and Compliance",     label: "Security & Compliance",      peso: 30 },
+  { file: "CLF-C02 - Cloud Technology and Services", label: "Cloud Technology & Services", peso: 34 },
+  { file: "CLF-C02 - Billing, Pricing and Support", label: "Billing, Pricing & Support", peso: 12 },
+];
+
+let totalTasks = 0;
+let totalDone  = 0;
+const rows = [];
+
+for (const d of domains) {
+  const page  = dv.pages().where(p => p.file.name === d.file).first();
+  let done = 0, total = 0;
+
+  if (page) {
+    const tasks = page.file.tasks;
+    total = tasks.length;
+    done  = tasks.where(t => t.completed).length;
+  }
+
+  totalTasks += total;
+  totalDone  += done;
+
+  const pct    = total > 0 ? Math.round((done / total) * 100) : 0;
+  const filled = Math.round(pct / 5);
+  const bar    = "█".repeat(filled) + "░".repeat(20 - filled);
+
+  rows.push([
+    d.label,
+    d.peso + "%",
+    done + " / " + total,
+    pct + "%",
+    bar
+  ]);
+}
+
+const totalPct    = totalTasks > 0 ? Math.round((totalDone / totalTasks) * 100) : 0;
+const totalFilled = Math.round(totalPct / 5);
+const totalBar    = "█".repeat(totalFilled) + "░".repeat(20 - totalFilled);
+
+rows.push([
+  "**GERAL**",
+  "100%",
+  "**" + totalDone + " / " + totalTasks + "**",
+  "**" + totalPct + "%**",
+  totalBar
+]);
+
+dv.table(
+  ["Domínio", "Peso na prova", "Tópicos", "% estudo", "Progresso"],
+  rows
+);
+```
