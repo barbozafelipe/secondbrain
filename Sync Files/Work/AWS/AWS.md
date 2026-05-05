@@ -3,3 +3,12 @@
 [[CTASK0133209]]
 [[Permitir visibilidade de S3 em outra conta]]
 [[Padrão de importação de certificado na AWS]]
+
+
+## Zapay
+
+```dataview
+LIST
+FROM "Sync Files/Work/AWS/Zapay"
+SORT file.name ASC
+```

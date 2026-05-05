@@ -3,7 +3,6 @@ tags: [trabalho, sem-parar, aws, iam, sso, padrão]
 data: 2026-05-05
 ---
 
-# Reutilização de Permission Sets existentes para novas contas AWS
 
 > [!info] Contexto
 > Quando uma nova conta AWS é incorporada à organização (ex: Afinz, Olho no Carro), os Permission Sets de IAM Identity Center já existentes **não precisam ser recriados** — basta associá-los à nova conta. Essa nota descreve o processo correto para fazer isso via console.
