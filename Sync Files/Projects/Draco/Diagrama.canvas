@@ -15,7 +15,7 @@
 		{"id":"b57e9c7a326891fa","type":"text","text":"EKS","x":-228,"y":-580,"width":106,"height":50,"color":"2"},
 		{"id":"b46d74ca4ff916e0","type":"text","text":"Conteiners","x":-340,"y":-580,"width":125,"height":50,"color":"2"},
 		{"id":"ce012fc9901ea8e2","type":"file","file":"Sync Files/Files/IMG_3210.jpeg","x":-923,"y":-878,"width":133,"height":132},
-		{"id":"421fb4d4855dfe76","x":-1192,"y":494,"width":250,"height":60,"type":"text","text":"[[Draco]]"}
+		{"id":"421fb4d4855dfe76","type":"text","text":"[[Draco]]","x":-1192,"y":494,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"6d6adf9629d6db62","fromNode":"12e4641b9a85bd03","fromSide":"right","toNode":"f40d4129a2b820ec","toSide":"left"},
