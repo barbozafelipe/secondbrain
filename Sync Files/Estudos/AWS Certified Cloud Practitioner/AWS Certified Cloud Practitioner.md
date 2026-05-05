@@ -94,4 +94,11 @@ dv.table(
 ```
 
 
+%% Begin Waypoint %%
+- [[CLF-C02 - Billing, Pricing and Support]]
+- [[CLF-C02 - Cloud Concepts]]
+- [[CLF-C02 - Cloud Technology and Services]]
+- [[CLF-C02 - Security and Compliance]]
+
+%% End Waypoint %%
 
