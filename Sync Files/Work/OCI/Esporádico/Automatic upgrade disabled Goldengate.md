@@ -2,3 +2,6 @@
 ![[Pasted image 20260505093351.png]]
 
 
+Criação de chamado:
+![[Pasted image 20260505100654.png]]
+
