@@ -2,7 +2,7 @@
 # CLF-C02 - Cloud Technology and Services
 **Domínio 3 · 34% da prova**
 
-Parte de: [[Plan]]
+Parte de: [[AWS Certified Cloud Practitioner]]
 
 ---
 

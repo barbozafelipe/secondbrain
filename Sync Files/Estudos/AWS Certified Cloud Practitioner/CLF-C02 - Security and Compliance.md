@@ -1,5 +1,5 @@
 **Domínio 2 · 30% da prova**
-Parte de: [[Plan]]
+Parte de: [[AWS Certified Cloud Practitioner]]
 
 ---
 

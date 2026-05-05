@@ -2,7 +2,7 @@
 # CLF-C02 - Cloud Concepts
 **Domínio 1 · 24% da prova**
 
-Parte de: [[Plan]]
+Parte de: [[AWS Certified Cloud Practitioner]]
 
 ---
 
