@@ -1,0 +1,6 @@
+/* Aumenta imagens no modo leitura e no Live Preview */
+.markdown-preview-view .image-embed img:not([width]),
+.markdown-source-view.mod-cm6 .cm-line .internal-embed.image-embed img:not([width]) {
+  width: min(100%, 900px);
+  height: auto;
+}
