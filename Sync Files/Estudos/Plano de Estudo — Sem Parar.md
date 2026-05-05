@@ -21,15 +21,17 @@ const trilhas = [
   { label: "⚪ Trilha 4 — Terraform (PDI Out)",    tag: "trilha-4" },
 ];
 
-const page = dv.page(dv.current().file.path);
-const allTasks = page.file.tasks;
+const allTasks = dv.current().file.tasks;
 
 const rows = [];
 let totalDone = 0, totalAll = 0;
 
 for (const t of trilhas) {
-  const filtered = allTasks.where(tk => tk.text.includes(`#${t.tag}`));
-  const done = filtered.where(tk => tk.completed).length;
+  const filtered = allTasks.where(tk =>
+    (tk.tags && (tk.tags.includes("#" + t.tag) || tk.tags.includes(t.tag))) ||
+    tk.text.includes("#" + t.tag)
+  );
+  const done  = filtered.where(tk => tk.completed).length;
   const total = filtered.length;
   totalDone += done;
   totalAll  += total;
@@ -54,10 +56,10 @@ dv.table(["Trilha", "Itens", "Progresso", "Barra"], rows);
 > **PRAZO: 29/05/2026 — 25 dias. Não iniciado. Fazer antes de qualquer coisa.**
 > Cursos curtos (~1–2h cada). Reserve o horário de almoço de segunda, quarta ou sexta.
 
-- [x] Concluir curso **ESG** na plataforma Sem Parar #trilha-0
-- [x] Concluir curso **LGPD** na plataforma Sem Parar #trilha-0
-- [x] Concluir curso **Assédio Moral e Sexual - Equipe** na plataforma Sem Parar #trilha-0
-- [x] Índice de conformidade = **100%** na plataforma #trilha-0
+- [ ] Concluir curso **ESG** na plataforma Sem Parar #trilha-0
+- [ ] Concluir curso **LGPD** na plataforma Sem Parar #trilha-0
+- [ ] Concluir curso **Assédio Moral e Sexual - Equipe** na plataforma Sem Parar #trilha-0
+- [ ] Índice de conformidade = **100%** na plataforma #trilha-0
 
 ---
 
