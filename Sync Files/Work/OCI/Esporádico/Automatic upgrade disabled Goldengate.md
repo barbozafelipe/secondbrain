@@ -4,4 +4,6 @@
 
 Criação de chamado:
 ![[Pasted image 20260505100654.png]]
+![[Pasted image 20260505100803.png]]
 
+[[Criação de chamado na OCI]]
