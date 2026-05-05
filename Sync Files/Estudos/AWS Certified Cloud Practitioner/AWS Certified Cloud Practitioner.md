@@ -1,8 +1,54 @@
+### 📊 Progresso por Domínio
+
+```dataviewjs
+const base = "Estudos/AWS Certified Cloud Practitioner";
+
+const domains = [
+  { file: `${base}/CLF-C02 - Cloud Concepts`,                label: "Cloud Concepts",              peso: 24 },
+  { file: `${base}/CLF-C02 - Security and Compliance`,       label: "Security & Compliance",       peso: 30 },
+  { file: `${base}/CLF-C02 - Cloud Technology and Services`, label: "Cloud Technology & Services", peso: 34 },
+  { file: `${base}/CLF-C02 - Billing, Pricing and Support`,  label: "Billing, Pricing & Support",  peso: 12 },
+];
+
+let totalTasks = 0;
+let totalDone  = 0;
+const rows = [];
+
+for (const d of domains) {
+  const page = dv.page(d.file);
+  let done = 0, total = 0;
+
+  if (page) {
+    const tasks = page.file.tasks;
+    total = tasks.length;
+    done  = tasks.where(t => t.completed).length;
+  }
+
+  totalTasks += total;
+  totalDone  += done;
+
+  const pct    = total > 0 ? Math.round((done / total) * 100) : 0;
+  const filled = Math.round(pct / 5);
+  const bar    = "█".repeat(filled) + "░".repeat(20 - filled);
+
+  rows.push([d.label, d.peso + "%", done + " / " + total, pct + "%", bar]);
+}
+
+const totalPct    = totalTasks > 0 ? Math.round((totalDone / totalTasks) * 100) : 0;
+const totalFilled = Math.round(totalPct / 5);
+const totalBar    = "█".repeat(totalFilled) + "░".repeat(20 - totalFilled);
+
+rows.push(["**GERAL**", "100%", "**" + totalDone + " / " + totalTasks + "**", "**" + totalPct + "%**", totalBar]);
+
+dv.table(["Domínio", "Peso na prova", "Tópicos", "% estudo", "Progresso"], rows);
+```
+
+---
 
 ### <mark style="background: #BBFABBA6;">Web links:</mark>
 
 - [Exam Guide CLF-C02 (PDF oficial)](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
-- [AWS SkillBuilder – Cloud Essentials Learning Plan](https://explore.skillbuilder.aws/learn/public/learning_plan/view/82/cloud-essentials-learning-plan)
+- [AWS SkillBuilder — Cloud Essentials Learning Plan](https://explore.skillbuilder.aws/learn/public/learning_plan/view/82/cloud-essentials-learning-plan)
 - [Página oficial da certificação](https://aws.amazon.com/certification/certified-cloud-practitioner/)
 - [Simulado oficial (20 questões grátis)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14050/aws-certified-cloud-practitioner-official-practice-question-set-clf-c02-english)
 
@@ -34,67 +80,6 @@
 - [ ] Agendar prova (Pearson VUE ou PSI)
 
 ---
-
-### 📊 Progresso por Domínio
-
-```dataviewjs
-const base = "Estudos/AWS Certified Cloud Practitioner";
-
-const domains = [
-  { file: `${base}/CLF-C02 - Cloud Concepts`,               label: "Cloud Concepts",              peso: 24 },
-  { file: `${base}/CLF-C02 - Security and Compliance`,      label: "Security & Compliance",       peso: 30 },
-  { file: `${base}/CLF-C02 - Cloud Technology and Services`, label: "Cloud Technology & Services", peso: 34 },
-  { file: `${base}/CLF-C02 - Billing, Pricing and Support`, label: "Billing, Pricing & Support",  peso: 12 },
-];
-
-let totalTasks = 0;
-let totalDone  = 0;
-const rows = [];
-
-for (const d of domains) {
-  const page = dv.page(d.file);
-  let done = 0, total = 0;
-
-  if (page) {
-    const tasks = page.file.tasks;
-    total = tasks.length;
-    done  = tasks.where(t => t.completed).length;
-  }
-
-  totalTasks += total;
-  totalDone  += done;
-
-  const pct    = total > 0 ? Math.round((done / total) * 100) : 0;
-  const filled = Math.round(pct / 5);
-  const bar    = "█".repeat(filled) + "░".repeat(20 - filled);
-
-  rows.push([
-    d.label,
-    d.peso + "%",
-    done + " / " + total,
-    pct + "%",
-    bar
-  ]);
-}
-
-const totalPct    = totalTasks > 0 ? Math.round((totalDone / totalTasks) * 100) : 0;
-const totalFilled = Math.round(totalPct / 5);
-const totalBar    = "█".repeat(totalFilled) + "░".repeat(20 - totalFilled);
-
-rows.push([
-  "**GERAL**",
-  "100%",
-  "**" + totalDone + " / " + totalTasks + "**",
-  "**" + totalPct + "%**",
-  totalBar
-]);
-
-dv.table(
-  ["Domínio", "Peso na prova", "Tópicos", "% estudo", "Progresso"],
-  rows
-);
-```
-
 
 %% Begin Waypoint %%
 - [[CLF-C02 - Billing, Pricing and Support]]
