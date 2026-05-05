@@ -23,7 +23,7 @@ updated: 2026-05-04
 ## 📋 As Regras — em ordem de criticidade
 
 > [!danger] Horas de compensação não entram no ponto da Compass
-> Se você trabalhou um sábado ou uma noite para "pagar" horas ao Guilherme, **não lance no Kairos/Caius**. Lançar geraria hora extra indevida — e você estaria compensando algo que a Compass já abonου.
+> Se você trabalhou um sábado ou uma noite para "pagar" horas ao Guilherme, **não lance no Ahgora**. Lançar geraria hora extra indevida — e você estaria compensando algo que a Compass já abonου.
 
 > [!danger] Hora extra só com autorização explícita
 > Guilherme ou Wellington precisam pedir antes. Se eles não pediram, você sai às 18h. Ficar por conta própria = hora extra não autorizada.
