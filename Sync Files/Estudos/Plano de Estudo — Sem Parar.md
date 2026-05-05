@@ -54,10 +54,10 @@ dv.table(["Trilha", "Itens", "Progresso", "Barra"], rows);
 > **PRAZO: 29/05/2026 — 25 dias. Não iniciado. Fazer antes de qualquer coisa.**
 > Cursos curtos (~1–2h cada). Reserve o horário de almoço de segunda, quarta ou sexta.
 
-- [ ] Concluir curso **ESG** na plataforma Sem Parar #trilha-0
-- [ ] Concluir curso **LGPD** na plataforma Sem Parar #trilha-0
-- [ ] Concluir curso **Assédio Moral e Sexual - Equipe** na plataforma Sem Parar #trilha-0
-- [ ] Índice de conformidade = **100%** na plataforma #trilha-0
+- [x] Concluir curso **ESG** na plataforma Sem Parar #trilha-0
+- [x] Concluir curso **LGPD** na plataforma Sem Parar #trilha-0
+- [x] Concluir curso **Assédio Moral e Sexual - Equipe** na plataforma Sem Parar #trilha-0
+- [x] Índice de conformidade = **100%** na plataforma #trilha-0
 
 ---
 
