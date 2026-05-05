@@ -3,8 +3,6 @@ tags: [estudo, carreira, pdi, aws, kubernetes, terraform]
 updated: 2026-05-05
 ---
 
-# 📚 Plano de Estudo — Sem Parar (Corpay)
-
 > Baseado nas tarefas reais, week meetings e PDI. Ordenado do mais urgente para o mais longo prazo.
 > Marque cada item conforme concluir. O progresso é calculado automaticamente abaixo.
 
