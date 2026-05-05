@@ -35,14 +35,16 @@
 
 ---
 
-### 📊 Progresso Automático
+### 📊 Progresso por Domínio
 
 ```dataviewjs
+const base = "Estudos/AWS Certified Cloud Practitioner";
+
 const domains = [
-  { file: "CLF-C02 - Cloud Concepts",              label: "Cloud Concepts",             peso: 24 },
-  { file: "CLF-C02 - Security and Compliance",     label: "Security & Compliance",      peso: 30 },
-  { file: "CLF-C02 - Cloud Technology and Services", label: "Cloud Technology & Services", peso: 34 },
-  { file: "CLF-C02 - Billing, Pricing and Support", label: "Billing, Pricing & Support", peso: 12 },
+  { file: `${base}/CLF-C02 - Cloud Concepts`,               label: "Cloud Concepts",              peso: 24 },
+  { file: `${base}/CLF-C02 - Security and Compliance`,      label: "Security & Compliance",       peso: 30 },
+  { file: `${base}/CLF-C02 - Cloud Technology and Services`, label: "Cloud Technology & Services", peso: 34 },
+  { file: `${base}/CLF-C02 - Billing, Pricing and Support`, label: "Billing, Pricing & Support",  peso: 12 },
 ];
 
 let totalTasks = 0;
@@ -50,7 +52,7 @@ let totalDone  = 0;
 const rows = [];
 
 for (const d of domains) {
-  const page  = dv.pages().where(p => p.file.name === d.file).first();
+  const page = dv.page(d.file);
   let done = 0, total = 0;
 
   if (page) {
