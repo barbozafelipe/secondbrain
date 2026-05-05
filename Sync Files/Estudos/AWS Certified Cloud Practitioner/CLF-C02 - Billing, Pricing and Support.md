@@ -2,7 +2,7 @@
 # CLF-C02 - Billing, Pricing and Support
 **Domínio 4 · 12% da prova**
 
-Parte de: [[AWS Certified Cloud Practitioner]]
+Parte de: [[Plan]]
 
 ---
 
