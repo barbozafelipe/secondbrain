@@ -1,14 +1,12 @@
-[[TASK1231707]]
-[[CTASK0133893]]
-[[CTASK0133209]]
-[[Permitir visibilidade de S3 em outra conta]]
-[[Padrão de importação de certificado na AWS]]
+%% Begin Waypoint %%
+- **Padrões**
+	- [[Certificado no LoadBalancer]]
+	- [[Padrão de importação de certificado na AWS]]
+	- [[Permitir visibilidade de S3 em outra conta]]
+- **Tasks**
+	- [[CTASK0133209]]
+	- [[CTASK0133893]]
+	- [[TASK1231707]]
+- **[[Zapay]]**
 
-
-## Zapay
-
-```dataview
-LIST
-FROM "Sync Files/Work/AWS/Zapay"
-SORT file.name ASC
-```
+%% End Waypoint %%
