@@ -92,6 +92,9 @@ dv.table(["Etapa", "Peso", "Itens", "% feito", "Progresso"], rows);
 ---
 
 %% Begin Waypoint %%
-
+- [[TF-01 - Fundamentos e Módulos Reutilizáveis]]
+- [[TF-02 - Módulo OCI]]
+- [[TF-03 - Módulo Azure]]
+- [[TF-04 - CI-CD e Documentação de Patterns]]
 
 %% End Waypoint %%
