@@ -1,8 +1,19 @@
 
 # CLF-C02 - Cloud Technology and Services
-**Domínio 3 · 34% da prova**
 
-Parte de: [[AWS Certified Cloud Practitioner]]
+**Domínio 3 · 34% da prova** | Parte de: [[AWS Certified Cloud Practitioner]]
+
+---
+
+## 🔔 Lembrete 2 — Revisar Cloud Technology & Services
+
+**Data:** 21/05/2026 (Qui) · 16h | ⏱️ Tempo estimado: 60 min *(domínio mais pesado)*
+
+> [!info] Primeiro passo (2 min)
+> Abra o checklist de **Computação** abaixo. ECS, EKS, Lambda — você usa isso no dia a dia na Sem Parar. Comece pelos serviços que já conhece e marque como revisados. O movimento inicial é o mais importante.
+
+> [!success] Ao terminar esta sessão
+> Você terá coberto **88% do peso total da prova** (24% + 30% + 34%). Faltará apenas o Billing para completar 100% do conteúdo.
 
 ---
 

@@ -1,8 +1,11 @@
 
 # CLF-C02 - Cloud Concepts
-**Domínio 1 · 24% da prova**
+**Domínio 1 · 24% da prova** | Parte de: [[AWS Certified Cloud Practitioner]]
 
-Parte de: [[AWS Certified Cloud Practitioner]]
+> [!success] ✅ Domínio quase concluído — 7 de 8 tópicos revisados
+> Falta apenas: **Serviços de escopo global (CloudFront, Route 53, IAM, S3)**.
+> Quando tiver 10 minutos livres durante a semana, marque esse item e este domínio estará 100% revisado.
+> Não precisa de lembrete — faça quando surgir um tempinho.
 
 ---
 

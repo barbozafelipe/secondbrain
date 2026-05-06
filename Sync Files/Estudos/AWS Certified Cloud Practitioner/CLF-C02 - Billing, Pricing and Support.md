@@ -1,8 +1,19 @@
 
 # CLF-C02 - Billing, Pricing and Support
-**Domínio 4 · 12% da prova**
 
-Parte de: [[AWS Certified Cloud Practitioner]]
+**Domínio 4 · 12% da prova** | Parte de: [[AWS Certified Cloud Practitioner]]
+
+---
+
+## 🔔 Lembrete 3 — Revisar Billing, Pricing & Support
+
+**Data:** 28/05/2026 (Qui) · 16h | ⏱️ Tempo estimado: 35 min *(domínio mais leve)*
+
+> [!info] Primeiro passo (2 min)
+> Olhe a tabela de modelos de preço do EC2 logo abaixo. Você já conhece Spot Instances do trabalho — isso é 20% deste domínio resolvido imediatamente. Siga pelo restante no ritmo.
+
+> [!success] Ao terminar esta sessão
+> Você terá coberto **100% do conteúdo dos 4 domínios**. Os estudos acabaram — é hora dos simulados.
 
 ---
 

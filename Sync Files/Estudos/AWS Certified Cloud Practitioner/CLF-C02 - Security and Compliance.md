@@ -1,3 +1,21 @@
+# CLF-C02 - Security and Compliance
+
+**Domínio 2 · 30% da prova** | Parte de: [[AWS Certified Cloud Practitioner]]
+
+---
+
+## 🔔 Lembrete 1 — Revisar Security & Compliance
+
+**Data:** 14/05/2026 (Qui) · 16h | ⏱️ Tempo estimado: 45 min
+
+> [!info] Primeiro passo (2 min)
+> Leia os títulos do checklist abaixo e mentalmente marque o que você **já usa no trabalho** (IAM, Roles, CloudTrail — você lida com isso todo dia). Perceber o que já sabe libera dopamina e reduz a resistência para começar.
+
+> [!success] Ao terminar esta sessão
+> Você terá coberto **54% do peso total da prova** (24% Cloud Concepts + 30% Security). Mais da metade feita.
+
+---
+
 **Domínio 2 · 30% da prova**
 Parte de: [[AWS Certified Cloud Practitioner]]
 
