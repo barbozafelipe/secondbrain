@@ -73,7 +73,7 @@ dv.table(["Domínio", "Peso na prova", "Tópicos", "% estudo", "Progresso"], row
 | 6 | Revisar pontos fracos do simulado 1 | 18/06/2026 (Qui) · 16h | [[CLF-C02 - Simulados]] |
 | 7 | Fazer simulado oficial 2 | 25/06/2026 (Qui) · 16h | [[CLF-C02 - Simulados]] |
 | 8 | Agendar prova (Pearson VUE / PSI) | 02/07/2026 (Qui) · 10h | [[CLF-C02 - Vouchers e Agendamento]] |
-| 9 | Revisão final — todos os domínios | 28/07/2026 (Ter) · 16h | [[CLF-C02 - Revisão Final]] |
+| 9 | LAST WEEK STUDY — Semana final de revisão | 25/07/2026 (Sáb) | [[CLF-C02 - Revisão Final]] |
 | 🎯 | **REALIZAR PROVA CLF-C02** | **01/08/2026 (Sáb)** | Pearson VUE / PSI — presencial |
 
 ---
