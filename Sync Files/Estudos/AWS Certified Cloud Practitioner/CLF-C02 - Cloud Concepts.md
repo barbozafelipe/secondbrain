@@ -11,13 +11,13 @@
 
 ## ✅ Checklist de Estudo
 
-- [x] Value Proposition da Cloud (CapEx → OpEx, escala, elasticidade, velocidade)
-- [x] Modelos de serviço: IaaS, PaaS, SaaS
-- [x] Modelos de implantação: pública, híbrida, on-premises
-- [x] Well-Architected Framework — 6 pilares
-- [x] Estratégias de migração — 6 Rs
-- [x] AWS Cloud Adoption Framework (CAF) — 6 perspectivas
-- [x] Infraestrutura global: Regions, Availability Zones, Edge Locations
+- [ ] Value Proposition da Cloud (CapEx → OpEx, escala, elasticidade, velocidade)
+- [ ] Modelos de serviço: IaaS, PaaS, SaaS
+- [ ] Modelos de implantação: pública, híbrida, on-premises
+- [ ] Well-Architected Framework — 6 pilares
+- [ ] Estratégias de migração — 6 Rs
+- [ ] AWS Cloud Adoption Framework (CAF) — 6 perspectivas
+- [ ] Infraestrutura global: Regions, Availability Zones, Edge Locations
 - [ ] Serviços de escopo global: CloudFront, Route 53, IAM, S3
 
 ---
