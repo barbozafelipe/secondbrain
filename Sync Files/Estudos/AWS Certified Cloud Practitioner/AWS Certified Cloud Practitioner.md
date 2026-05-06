@@ -113,4 +113,5 @@ dv.table(["Domínio", "Peso na prova", "Tópicos", "% estudo", "Progresso"], row
 - [[CLF-C02 - Security and Compliance]]
 - [[CLF-C02 - Simulados]]
 - [[CLF-C02 - Vouchers e Agendamento]]
+
 %% End Waypoint %%
