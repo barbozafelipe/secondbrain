@@ -1,7 +1,7 @@
 {
   "lastVersion": "4.0.8",
-  "aestheticStyle": "default",
-  "positionStyle": "fixed",
+  "aestheticStyle": "tiny",
+  "positionStyle": "top",
   "menuCommands": [
     {
       "id": "editing-toolbar:ai-tools",
@@ -423,7 +423,7 @@
     }
   ],
   "enableMultipleConfig": false,
-  "enableTopToolbar": false,
+  "enableTopToolbar": true,
   "enableFollowingToolbar": false,
   "enableFixedToolbar": false,
   "appendMethod": "workspace",
@@ -457,7 +457,7 @@
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
       "toolbarIconColor": "var(--text-normal)",
       "toolbarIconSize": 18,
-      "aestheticStyle": "default"
+      "aestheticStyle": "tiny"
     },
     "following": {
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
