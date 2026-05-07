@@ -22,8 +22,8 @@
 ### ==Blocos que abrangem os outros, sendo necessário liberar apenas eles (alinhado com o Thiago Barros):==
 165.225.192.0/18
 136.226.0.0/16
-147.161.128.0/17
-170.85.0.0/16
+<font color="#bfbfbf">147.161.128.0/17</font>
+<font color="#bfbfbf"><font color="#bfbfbf">170.85.0.0/<font col</font>or="#bfbfbf">16</font></font>
 
--------
+<font color="#bfbfbf">-------</font>
 Os de cima não abrangem: 165.225.34.0/23
