@@ -6,7 +6,7 @@
 - [x] <font color="#bfbfbf">stp-dig-rg-blogagent-nprd</font>
 - [x] <font color="#bfbfbf">stp-dig-rg-chatbot-nprd</font>
 - [x] stp-dig-rg-cokpit-nprd
-- [ ] stp-dig-rg-copilot-hml-nprd
+- [x] stp-dig-rg-copilot-hml-nprd
 - [ ] stp-dig-rg-copilot-nprd
 - [ ] stp-dig-rg-aiagentsapp-nprd
 - [ ] stp-dig-rg-aiagentsapp-hml-nprd
