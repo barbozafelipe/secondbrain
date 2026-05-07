@@ -1,11 +1,11 @@
 
 ### DIGITAL-NPROD:
-- [ ] <font color="#ffffff">stp-dig-rg-aihub-hml-nprd</font>
-- [ ] <font color="#ffffff">stp-dig-rg-aihub-nprd</font>
-- [ ] <font color="#ffffff">stp-dig-rg-blogagent-hml-nprd</font>
-- [ ] <font color="#ffffff">stp-dig-rg-blogagent-nprd</font>
-- [ ] <font color="#ffffff">stp-dig-rg-chatbot-nprd</font>
-- [ ] stp-dig-rg-cokpit-nprd
+- [x] <font color="#bfbfbf">stp-dig-rg-aihub-hml-nprd</font>
+- [x] <font color="#bfbfbf">stp-dig-rg-aihub-nprd</font>
+- [x] <font color="#bfbfbf">stp-dig-rg-blogagent-hml-nprd</font>
+- [x] <font color="#bfbfbf">stp-dig-rg-blogagent-nprd</font>
+- [x] <font color="#bfbfbf">stp-dig-rg-chatbot-nprd</font>
+- [x] stp-dig-rg-cokpit-nprd
 - [ ] stp-dig-rg-copilot-hml-nprd
 - [ ] stp-dig-rg-copilot-nprd
 - [ ] stp-dig-rg-aiagentsapp-nprd
