@@ -1,8 +1,8 @@
 
 Ajustados:
 <font color="#ff0000">stp-dig-rg-aihub-hml-nprd</font>
-<font color="#ff0000">stp-dig-rg-aihub-nprd</font>
-<font color="#ff0000">stp-dig-rg-blogagent-hml-nprd</font>
+<font color="#92d050">stp-dig-rg-aihub-nprd</font>
+<font color="#92d050">stp-dig-rg-blogagent-hml-nprd</font>
 <font color="#92d050">stp-dig-rg-blogagent-nprd</font>
 <font color="#92d050">stp-dig-rg-chatbot-nprd</font>
 stp-dig-rg-cokpit-nprd
