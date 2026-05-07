@@ -10,8 +10,8 @@
 - [x] stp-dig-rg-copilot-nprd
 - [x] stp-dig-rg-aiagentsapp-nprd
 - [x] stp-dig-rg-aiagentsapp-hml-nprd
-- [ ] stp-dig-net-rg-nprd
-- [ ] stp-dig-general-rg-nprd
+- [x] stp-dig-net-rg-nprd
+- [x] stp-dig-general-rg-nprd
 
 
 
