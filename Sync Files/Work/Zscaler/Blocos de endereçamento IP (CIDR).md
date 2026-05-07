@@ -20,9 +20,10 @@
 170.85.16.0/23
 170.85.18.0/23
 170.85.20.0/23
+170.85.22.0/23
+170.85.24.0/23
 
-
-
+### ==Blocos que abrangem os outros, sendo necessário liberar apenas eles (alinhado com o Thiago Barros):==
 165.225.192.0/18
 136.226.0.0/16
 147.161.128.0/17
