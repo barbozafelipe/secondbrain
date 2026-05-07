@@ -1,4 +1,4 @@
 %% Begin Waypoint %%
-- [[Blocos CIDR]]
+- [[Blocos de endereçamento IP (CIDR)]]
 
 %% End Waypoint %%
