@@ -423,7 +423,7 @@
     }
   ],
   "enableMultipleConfig": false,
-  "enableTopToolbar": true,
+  "enableTopToolbar": false,
   "enableFollowingToolbar": false,
   "enableFixedToolbar": false,
   "appendMethod": "workspace",
@@ -433,7 +433,7 @@
   "cMenuNumRows": 12,
   "cMenuWidth": 610,
   "cMenuFontColor": "#9bbb59",
-  "cMenuBackgroundColor": "#b1ffff",
+  "cMenuBackgroundColor": "#9254de",
   "autohide": false,
   "Iscentered": false,
   "custom_bg1": "#FFB78B8C",
