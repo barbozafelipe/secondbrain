@@ -15,7 +15,7 @@ updated: 2026-05-05
 
 ## ✅ Checklist
 
-- [ ] Concluir curso **ESG** na plataforma Sem Parar
+- [x] Concluir curso **ESG** na plataforma Sem Parar
 - [ ] Concluir curso **LGPD** na plataforma Sem Parar
 - [ ] Concluir curso **Assédio Moral e Sexual - Equipe** na plataforma Sem Parar
 - [ ] Índice de conformidade = **100%** na plataforma
