@@ -13,7 +13,7 @@ stp-dig-rg-aiagentsapp-hml-nprd
 stp-dig-net-rg-nprd
 stp-dig-general-rg-nprd
 
-
+165.225.34.0/23
 ### ==Blocos que abrangem os outros, sendo necessário liberar apenas eles (alinhado com o Thiago Barros):==
 165.225.192.0/18
 136.226.0.0/16
