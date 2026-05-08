@@ -1,2 +1,2 @@
 
-Prescrição para 
+Prescrição para doxiciclina
