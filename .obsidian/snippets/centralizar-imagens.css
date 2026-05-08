@@ -1,0 +1,17 @@
+/* Centraliza imagens no Obsidian */
+.markdown-preview-view .image-embed,
+.markdown-preview-view img,
+.markdown-source-view.mod-cm6 .cm-embed-block,
+.markdown-source-view.mod-cm6 .image-embed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.markdown-preview-view .image-embed img,
+.markdown-source-view.mod-cm6 .image-embed img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
