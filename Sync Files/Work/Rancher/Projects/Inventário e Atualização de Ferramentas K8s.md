@@ -1,8 +1,10 @@
 
 ### rkenprd
 
-external-secrets-operator
+- [x] external-secrets-operator
 
-monitoring
+- [ ] monitoring
 
-velero
+- [ ] velero
+
+
