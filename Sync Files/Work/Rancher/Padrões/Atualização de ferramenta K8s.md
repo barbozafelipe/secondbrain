@@ -5,6 +5,10 @@ rkenprd
 external-secrets-operator
 ![[Pasted image 20260508141724.png]]
 
+Descobrimento de atualização:
+![[Pasted image 20260508142830.png]]
+
+
 Alteração:
 ![[Pasted image 20260508141837.png|697]]
 
