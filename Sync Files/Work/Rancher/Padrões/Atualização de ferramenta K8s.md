@@ -5,8 +5,8 @@ rkenprd
 external-secrets-operator
 ![[Pasted image 20260508141724.png]]
 
-Descobrimento de atualização
-Descobrir dentro do ArtifactHub qual é o relm
+Descobrir se tem versão nova dentro do [Artifact Hub](https://artifacthub.io/)
+
 
 
 
