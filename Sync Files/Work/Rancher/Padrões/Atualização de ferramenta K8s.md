@@ -13,13 +13,6 @@ Descobrir se tem versão nova dentro do [Artifact Hub](https://artifacthub.io/)
 
 
 
-
-
-
-![[Pasted image 20260508142830.png|1493]]
-
-
-
 Alteração:
 ![[Pasted image 20260508141837.png|966]]
 
