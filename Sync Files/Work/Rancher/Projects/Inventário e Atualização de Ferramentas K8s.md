@@ -8,3 +8,9 @@ external-secrets-operator
 Alteração:
 ![[Pasted image 20260508141837.png|697]]
 
+Para que o application do external-secrets-operation fosse atualizado no argo, precisei atualizar o controller:
+![[Pasted image 20260508142053.png]]
+
+Foi atualizado:
+![[Pasted image 20260508142136.png]]
+
