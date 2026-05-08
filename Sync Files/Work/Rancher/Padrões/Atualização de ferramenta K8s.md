@@ -5,7 +5,7 @@ external-secrets-operator
 
 ![[Pasted image 20260508141724.png]]
 
-Descobrir se tem versão nova dentro do [Artifact Hub](https://artifacthub.io/)
+Descobrir se tem versão nova dentro do [Artifact Hub](https://artifacthub.io/)![[Pasted image 20260508143650.png]]
 ![[Pasted image 20260508143650.png|1193]]
 ![[Pasted image 20260508150431.png]]
 ![[Pasted image 20260508150459.png]]
