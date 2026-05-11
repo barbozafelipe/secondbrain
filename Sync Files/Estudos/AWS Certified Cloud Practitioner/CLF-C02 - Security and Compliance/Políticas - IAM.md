@@ -38,5 +38,10 @@ Meu entendimento:
 
 Criamos a policy dentro do recurso diretamente permitindo quem pode acessar e o que pode fazer naquele recurso, por exemplo:
 
-Em uma bucket S3: permitir que alguma Role específica tenha read e write
+Em uma bucket S3: permitir que alguma Role específica tenha permissão de read e write
 
+1. No JSON, esse “quem pode acessar” aparece como **Principal**.
+
+```
+"Principal": {  "AWS": "arn:aws:iam::001920500138:role/minha-role"}
+```
