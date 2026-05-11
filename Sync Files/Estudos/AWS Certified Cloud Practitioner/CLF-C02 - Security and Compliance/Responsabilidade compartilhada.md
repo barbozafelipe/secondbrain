@@ -26,4 +26,4 @@ SaaS: esse é o último modelo da escala, basicamente é quando nós somos o cli
 Exemplos: Excel, Teams, Obsidian, Facebook, Instagram, Youtube
 
 
-Agora que sabemos o que diferencia cada tipo de modelo de computação em nuvem, podemos entender que dependendo do serviço a AWS terá maior responsabilidade ou menor, nos levando assim à compreensão do modelo de responsabilidade
+Agora que sabemos o que diferencia cada tipo de modelo de computação em nuvem, podemos entender que dependendo do serviço a AWS terá maior responsabilidade ou menor, nos levando assim à compreensão do modelo de responsabilidade compartilhada da AWS.
