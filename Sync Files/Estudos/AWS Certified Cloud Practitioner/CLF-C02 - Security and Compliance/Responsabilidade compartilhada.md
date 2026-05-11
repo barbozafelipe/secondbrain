@@ -6,6 +6,8 @@ Mas tudo pode variar de acordo com o Serviço... existem serviços IaaS, PaaS e 
 
 Esses modelos determinam cada um, o que é de nossa responsabilidade ou não, segue o gráfico:
 ![[Pasted image 20260511115611.png]]
+![[Pasted image 20260511120235.png]]
+
 
 
 On-site: quando temos uma infraestrutura totalmente on-premisses (dentro de "casa"), toda a responsabilidade é nossa
@@ -24,4 +26,4 @@ SaaS: esse é o último modelo da escala, basicamente é quando nós somos o cli
 Exemplos: Excel, Teams, Obsidian, Facebook, Instagram, Youtube
 
 
-Agora que sabemos o que diferencia cada tipo de 
+Agora que sabemos o que diferencia cada tipo de modelo de computação em nuvem, podemos entender que dependendo do serviço a AWS terá maior responsabilidade ou menor, nos levando assim à compreensão do modelo de responsabilidade
