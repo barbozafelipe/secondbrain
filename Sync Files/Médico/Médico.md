@@ -1,5 +1,7 @@
 %% Begin Waypoint %%
-- [[Dermatologista]]
+- **[[Dermatologista]]**
+- **[[Otorrinolaringologista]]**
+- **Urologista**
 
 %% End Waypoint %%
 
