@@ -4,7 +4,9 @@ Entendo que por padrão a AWS tem suas responsabilidades assim como o cliente ta
 
 Mas tudo pode variar de acordo com o Serviço... existem serviços IaaS, PaaS e Saas, que são modelos diferentes e possuem estruturas de responsabilidades variadas por fazerem parte de um modelo de negócio variado.
 
-Esses modelos determinam cada um, o que é de nossa responsabilidade ou não:
+Esses modelos determinam cada um, o que é de nossa responsabilidade ou não, segue o gráfico:
 ![[Pasted image 20260511115611.png]]
 
+
+On-site: quando temos uma infraestrutura totalmente on-premisses (dentro de "casa"), toda a responsabilidade é nossa, por exemplo: ar-condicionado, fiações, espaço, organização, servidores, discos e etc... basicamente é tudo nosso, então nós gerenciamos tudo, existem vantagens e desvantagens.
 
