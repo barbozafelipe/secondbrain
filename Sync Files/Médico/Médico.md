@@ -1,5 +1,5 @@
 %% Begin Waypoint %%
-- [[Dermatologista]]
+- **[[Dermatologista]]**
 
 %% End Waypoint %%
 
