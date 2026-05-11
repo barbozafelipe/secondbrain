@@ -12,8 +12,7 @@ Inline Policy:
 ![[Pasted image 20260511160622.png]]
 
 
-
-
+Meu entendimento:
 
 Uma entidade pode ser um usuário, grupo ou role, em resumo:
 Permissões anexadas a um usuário, grupo ou role.
@@ -30,5 +29,10 @@ Role: São criadas a a partir de um tipo, precisamos escolher quem pode assumir 
 
 ### ==Políticas baseadas em recursos (Resource-based policies)==
 
+
+Onde se cria:
 ![[Pasted image 20260511160351.png]]
+
+
+Meu entendimento:
 
