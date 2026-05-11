@@ -1,4 +1,4 @@
 
 ==Políticas baseadas em identidade (Identity-based policies)==
 
-Uma entidade pode ser um usuário IAM
+Uma entidade pode ser um usuário, grupo ou
