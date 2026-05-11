@@ -1,9 +1,18 @@
 
 ### ==Políticas baseadas em identidade (Identity-based policies)==
 
+Onde se cria:
+Policy:
+![[Pasted image 20260511160421.png]]
+
+Role:
+![[Pasted image 20260511160445.png]]
+
+
+
+
 Uma entidade pode ser um usuário, grupo ou role, em resumo:
 Permissões anexadas a um usuário, grupo ou role.
-
 
 Policy: São criadas primeiramente sendo totalmente personalizada por mim ou utilizado outras já criadas pela AWS. Sendo personalizada por mim ou pela AWS, ali teremos descritas as permissões, ao salvar, teremos uma Policy. Podemos atachá-la em grupos, usuários e em Role.
 
