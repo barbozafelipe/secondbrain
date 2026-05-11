@@ -1,0 +1,1 @@
+![[laraingoscopia-laudo.pdf]]
