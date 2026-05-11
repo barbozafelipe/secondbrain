@@ -9,6 +9,6 @@ Policy: São criadas primeiramente sendo totalmente personalizada por mim ou uti
 
 Inline Policy: É a mesma coisa que a Policy, pórém só pode ser criada atachando direto em grupos, usuários ou Role. Não pode ser criada e deixada orfã igual a Policy padrão.
 
-Role: São criadas a apartir de um tipo, precisamos escolher quem pode assumir essa Role, no caso de escolher um serviço da AWS, eu escolhi que seria EC2, pronto, criado. Para ter alguma função eu preciso atachar uma Policy nela.
+Role: São criadas a apartir de um tipo, precisamos escolher quem pode assumir essa Role, no caso de escolher um serviço da AWS, eu escolhi que seria EC2, pronto, criado. Para ter alguma função eu preciso atachar uma Policy nela. E para ela atuar, eu poderia ir em qualquer uma das EC2 que tenho criada e atachar diretamente a EC2 que quero à Role.
 
 ![[Pasted image 20260511154633.png]]
