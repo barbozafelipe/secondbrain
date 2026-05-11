@@ -12,7 +12,6 @@ On-site: quando temos uma infraestrutura totalmente on-premisses (dentro de "cas
 Exemplos: ar-condicionado, fiações, espaço, organização, servidores, discos e etc... basicamente é tudo nosso, então nós gerenciamos tudo, existem vantagens e desvantagens.
 
 
-
 IaaS: não somos responsáveis pela infraestrutura, então podemos nos preocupar somente com o que roda ali, como as aplicações, os dados, o sistema operacional, são as camadas que não são físicas, resumindo bem: somos responsáveis apenas pelo software
 Exemplo: EC2
 
@@ -21,4 +20,8 @@ PaaS: nesse modelo nós não somos responsáveis pelo software... já existem pe
 Exemplos: RDS, EKS, ECS, Lambda, S3
 
 
-SaaS: esse é o último modelo da escala, basicamente é quando nós somos o cliente final, tudo está pron
+SaaS: esse é o último modelo da escala, basicamente é quando nós somos o cliente final, tudo está pronto e utilizável, nossa responsabilidade é apenas utilizar de acordo com a solução daquela aplicação.
+Exemplos: Excel, Teams, Obsidian, Facebook, Instagram, Youtube
+
+
+Agora que sabemos o que diferencia cada tipo de 
