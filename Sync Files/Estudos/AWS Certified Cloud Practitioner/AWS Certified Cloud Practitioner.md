@@ -107,8 +107,6 @@ dv.table(["Domínio", "Peso na prova", "Tópicos", "% estudo", "Progresso"], row
 
 %% Begin Waypoint %%
 - **[[CLF-C02 - Security and Compliance]]**
-	- [[Políticas - IAM]]
-	- [[Responsabilidade compartilhada]]
 - [[CLF-C02 - Billing, Pricing and Support]]
 - [[CLF-C02 - Cloud Concepts]]
 - [[CLF-C02 - Cloud Technology and Services]]

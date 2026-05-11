@@ -83,3 +83,9 @@ Parte de: [[AWS Certified Cloud Practitioner]]
 
 - **Em trânsito**: TLS/SSL (HTTPS)
 - **Em repouso**: SSE-S3, SSE-KMS, SSE-C (S3); criptografia de volume EBS; RDS encryption
+
+%% Begin Waypoint %%
+- [[Políticas - IAM]]
+- [[Responsabilidade compartilhada]]
+
+%% End Waypoint %%
