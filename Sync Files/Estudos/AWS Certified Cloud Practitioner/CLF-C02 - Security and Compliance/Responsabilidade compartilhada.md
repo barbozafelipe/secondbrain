@@ -10,3 +10,6 @@ Esses modelos determinam cada um, o que é de nossa responsabilidade ou não, se
 
 On-site: quando temos uma infraestrutura totalmente on-premisses (dentro de "casa"), toda a responsabilidade é nossa, por exemplo: ar-condicionado, fiações, espaço, organização, servidores, discos e etc... basicamente é tudo nosso, então nós gerenciamos tudo, existem vantagens e desvantagens.
 
+IaaS: não somos responsáveis pela infraestrutura, então podemos nos preocupar somente com o que roda ali, como as aplicações, os dados, o sistema operacional, são as camadas que não são físicas, resumindo bem: somos responsáveis apenas pelo software
+
+PaaS: nesse modelo nós não
