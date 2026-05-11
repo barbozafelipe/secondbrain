@@ -8,6 +8,10 @@ Policy:
 Role:
 ![[Pasted image 20260511160445.png]]
 
+Inline Policy:
+![[Pasted image 20260511160622.png]]
+
+
 
 
 
