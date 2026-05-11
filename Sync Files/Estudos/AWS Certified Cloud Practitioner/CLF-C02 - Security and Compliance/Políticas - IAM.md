@@ -36,3 +36,4 @@ Onde se cria:
 
 Meu entendimento:
 
+Criamos a policy dentro do recurso diretamente p
