@@ -12,4 +12,5 @@ On-site: quando temos uma infraestrutura totalmente on-premisses (dentro de "cas
 
 IaaS: não somos responsáveis pela infraestrutura, então podemos nos preocupar somente com o que roda ali, como as aplicações, os dados, o sistema operacional, são as camadas que não são físicas, resumindo bem: somos responsáveis apenas pelo software
 
-PaaS: nesse modelo nós não
+PaaS: nesse modelo nós não somos responsáveis pelo software... já existem pessoas gerenciando a infraestrutura para nós e também a forma que as coisas rodam, tipo: qual sistema operacional é, atualização, dados, e etc... nesse caso, nós nos preocupamos apenas em gerenciar a plataforma.
+Exemplos: DynamoDB, Lambda, 
