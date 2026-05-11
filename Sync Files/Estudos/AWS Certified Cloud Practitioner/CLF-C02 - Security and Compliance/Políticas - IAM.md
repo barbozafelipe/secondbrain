@@ -38,4 +38,5 @@ Meu entendimento:
 
 Criamos a policy dentro do recurso diretamente permitindo quem pode acessar e o que pode fazer naquele recurso, por exemplo:
 
-Em uma bucket S3: permitir que alguma Role tenha read e wri
+Em uma bucket S3: permitir que alguma Role específica tenha read e write
+
