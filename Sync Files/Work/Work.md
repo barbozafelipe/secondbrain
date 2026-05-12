@@ -19,5 +19,6 @@
 - **[[Rancher]]**
 - **[[Reuniões semanais]]**
 - **[[Zscaler]]**
+- [[Equipe]]
 
 %% End Waypoint %%
