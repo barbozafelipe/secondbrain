@@ -3,8 +3,8 @@ Ajudar na rotação dos certificados internos, já que a Root CA foi atualizada 
 **Divisão de trabalho (Wellington + Felipe):**
 
 
-- [ ] Fazer identificação do que cada certificado da planilha pertence
-- [ ] Chamar o Wellington para ajudar na separação do que é nosso (separar o que é nosso em outra página)
+- [x] Fazer identificação do que cada certificado da planilha pertence
+- [x] Chamar o Wellington para ajudar na separação do que é nosso (separar o que é nosso em outra página)
 - [ ] Wellington vai **me mostrar como emitir** o certificado pela minha máquina
 - Após o tutorial, eu começo a emitir os certificados sozinho
 - Ritmo proposto: **3–4 certificados por semana**, começando pelos de não produção
