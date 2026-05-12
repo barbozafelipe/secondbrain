@@ -1,0 +1,23 @@
+Ajudar na rotação dos certificados internos, já que a Root CA foi atualizada e todos os certs expiram em 28/06/2027.
+
+**Divisão de trabalho (Wellington + Felipe):**
+
+
+- Fazer identificação do que cada certificado d
+- Wellington vai **levantar quais certificados são nossos** (separando do universo geral que o Ítalo levantou)
+- Wellington vai **me mostrar como emitir** o certificado pela minha máquina
+- Após o tutorial, eu começo a emitir os certificados sozinho
+- Ritmo proposto: **3–4 certificados por semana**, começando pelos de não produção
+- Certificados críticos (Kafka, Redis) ficam para o final — vão precisar de **Change** aberta
+
+**Exemplos de certs que vão entrar no escopo:**
+
+- Rancher, Argo, Dragonfly, Keycloak
+- Wildcard `*.prd.oke` (Thiago já associou um)
+- Kafka (nominal — envolve devs depois)
+
+**Status: ⏳ Aguardando Wellington.**
+
+- Ele vai me chamar para mostrar o processo de emissão
+- Não preciso fazer nada agora além de estar ciente e aguardar
+- Meta: terminar todas as rotações **até o final de 2025**
