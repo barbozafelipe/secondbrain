@@ -29,6 +29,8 @@ O grupo da OCI precisa estar mapeado em Push Groups do Aplicativo (OCI) no Okta.
 
 # Tarefas de acompanhamento
 
-|Tarefa|Atribuído a|Data de conclusão|Balde|
-|---|---|---|---|
-|Confirmar se a ativação do grupo local no Okta foi realizada corretamente (Michel)||||
+| Tarefa                                                                             | Atribuído a | Data de conclusão | Balde |
+| ---------------------------------------------------------------------------------- | ----------- | ----------------- | ----- |
+| Confirmar se a ativação do grupo local no Okta foi realizada corretamente (Michel) |             |                   |       |
+
+[Falha no Provisionamento JIT e Atribuição de Grupo OCI via Okta – Grupo BR_OCIGROUP_DIGITAL-20260430_140043UTC-Meeting Recording.mp4](https://fleetcor-my.sharepoint.com/:v:/r/personal/wellington_wlan_corpay_com_br/Documents/Recordings/Falha%20no%20Provisionamento%20JIT%20e%20Atribui%C3%A7%C3%A3o%20de%20Grupo%20OCI%20via%20Okta%20%E2%80%93%20Grupo%20BR_OCIGROUP_DIGITAL-20260430_140043UTC-Meeting%20Recording.mp4?csf=1&web=1&e=j9lopa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
