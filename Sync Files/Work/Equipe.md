@@ -6,7 +6,7 @@ atualizado: 2026-05-12
 # Equipe — Cloud & Infraestrutura
 
 > Mapa de quem faz o quê no squad de infra/cloud da Sem Parar (Corpay).
-> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]]).
+> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]]).
 
 ---
 
@@ -108,8 +108,14 @@ atualizado: 2026-05-12
 | **João Barth / Luiz Vinholi** | Equipe de desenvolvimento AI Agents App — contato para tasks Azure                       |
 | **Deivison**                  | Gestão Compass UOL — assuntos de PDI, timesheet, banco de horas                          |
 | **Guilherme**                 | Gestão/capacity — sizing de node pools e infra                                           |
+| **Caio Cruvinel**             | Novo Account Manager do Google para a conta Gringo (alocado em maio/2026)                |
+| **Caio Proviel**              | Contato técnico na Gringo — validações de descomissionamento de recursos                 |
+| **Clayton**                   | Gestão/cronograma na Afinz/Carvalt — ponto de contato para planejamento de entregas      |
+| **Aparecida (Cida)**          | Gestão na Afinz — envolvida em cronograma e acompanhamento                               |
+| **Hélio**                     | Gringo — solicitou desligamento do Analyze (Dynatrace) em staging                        |
+| **Ênio**                      | Contato para janela de configuração do Okta no GCP                                       |
 
 ---
 
 > [!note] Atualização
-> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada na reunião de [[05-05-2026]].
+> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada na reunião de [[12-05-2026]].
