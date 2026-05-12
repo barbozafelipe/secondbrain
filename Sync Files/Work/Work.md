@@ -12,6 +12,7 @@
 	- **Sem Parar - Corpay**
 		- [[Alinhamento com Guilherme sobre banco de horas e atuação no Sem Parar]]
 	- [[Career Plan]]
+- **[[Certificados]]**
 - **[[GCP]]**
 - **[[OCI]]**
 - **[[Okta]]**
