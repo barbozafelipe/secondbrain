@@ -14,6 +14,7 @@
 	- [[Career Plan]]
 - **[[GCP]]**
 - **[[OCI]]**
+- **[[Okta]]**
 - **[[Rancher]]**
 - **[[Reuniões semanais]]**
 - **[[Zscaler]]**
