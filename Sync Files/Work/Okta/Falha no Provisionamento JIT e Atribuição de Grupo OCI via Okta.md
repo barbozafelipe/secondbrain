@@ -3,9 +3,9 @@ O grupo da OCI precisa estar mapeado em Push Groups do Aplicativo (OCI) no Okta.
 ![[Pasted image 20260512110449.png]]
 
 
-Análise da IA com base na reunião com o Michel sobre o problema:
 
-# Anotações da reunião
+
+# Anotações da reunião com o Michel
 
 ### Gestão de grupos e integrações
 
