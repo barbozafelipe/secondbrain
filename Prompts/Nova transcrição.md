@@ -1,4 +1,4 @@
-Acabei de colar a transcrição da nossa reunião semanal na nota `[DD-MM-YYYY]` dentro de `Work/Reuniões semanais/`. Processa ela no padrão das notas anteriores.
+Acabei de colar a transcrição da nossa reunião semanal na nota `[]` dentro de `Work/Reuniões semanais/`. Processa ela no padrão das notas anteriores.
 
 Consulta a nota `[[Equipe]]` para identificar quem é quem e o que cada um cuida. Mantém o formato:
 
