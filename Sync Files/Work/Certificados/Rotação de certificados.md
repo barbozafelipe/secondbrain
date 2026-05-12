@@ -15,9 +15,4 @@ Ajudar na rotação dos certificados internos, já que a Root CA foi atualizada 
 - Rancher, Argo, Dragonfly, Keycloak
 - Wildcard `*.prd.oke` (Thiago já associou um)
 - Kafka (nominal — envolve devs depois)
-
-**Status: ⏳ Aguardando Wellington.**
-
-- Ele vai me chamar para mostrar o processo de emissão
-- Não preciso fazer nada agora além de estar ciente e aguardar
-- Meta: terminar todas as rotações **até o final de 2025**
+- Meta: terminar todas as rotações **até o final de 2026**
