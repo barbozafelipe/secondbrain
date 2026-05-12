@@ -1,7 +1,6 @@
 %% Begin Waypoint %%
 - **[[AWS]]**
 - **[[Azure]]**
-- **Career Plan**
 - **Carreira**
 	- **Compass UOL**
 		- [[Alinhamento com Deivison sobre banco de horas, folgas e timesheet]]
