@@ -93,21 +93,21 @@ atualizado: 2026-05-12
 
 ## 🤝 Pessoas externas recorrentes nas reuniões
 
-| Nome | Contexto |
-|---|---|
-| **Isaú** | SRE — recebe passagem de conhecimento, ponto de contato para comunicar devs sobre CA |
-| **Kleber** | Tem aplicação que é case de uso do template Backstage |
-| **Diogo** | Executa mudanças no F5 (load balancer de rede) |
-| **Aurélio** | Time VB — acompanha e testa changes de migração de rede |
-| **Tales** | SI (Segurança da Informação) — envolvido em rotação de secrets e decisões de WAF/Imperva |
-| **Jonathan** | Gringo (operação) — envolvido em BigQuery, Elastic, PCI audit |
-| **Zaza** | DevOps — migração de código/infra para GitHub |
-| **Yasu** | Gringo — apoiou Thiago na criação do repositório de IaC |
-| **Feitosa** | Time do cliente (NAF3) — alertas Dynatrace |
-| **Gabriel Anderson Graani** | Contato AWS na Afinz |
-| **João Barth / Luiz Vinholi** | Equipe de desenvolvimento AI Agents App — contato para tasks Azure |
-| **Deivison** | Gestão Compass UOL — assuntos de PDI, timesheet, banco de horas |
-| **Guilherme** | Gestão/capacity — sizing de node pools e infra |
+| Nome                          | Contexto                                                                                 |
+| ----------------------------- | ---------------------------------------------------------------------------------------- |
+| **Isaú**                      | SRE — recebe passagem de conhecimento, ponto de contato para comunicar devs sobre CA     |
+| **Kleber**                    | Tem aplicação que é case de uso do template Backstage                                    |
+| **Diogo**                     | Executa mudanças no F5 (load balancer de rede)                                           |
+| **Aurélio**                   | Time VB — acompanha e testa changes de migração de rede                                  |
+| **Tales**                     | SI (Segurança da Informação) — envolvido em rotação de secrets e decisões de WAF/Imperva |
+| **Jonathan**                  | Gringo (operação) — envolvido em BigQuery, Elastic, PCI audit                            |
+| **Zaza**                      | DevOps — migração de código/infra para GitHub                                            |
+| **Yasu**                      | Gringo — apoiou Thiago na criação do repositório de IaC                                  |
+| **Feitosa**                   | Time do cliente (NAF3) — alertas Dynatrace                                               |
+| **Gabriel Anderson Graani**   | Contato AWS na Afinz                                                                     |
+| **João Barth / Luiz Vinholi** | Equipe de desenvolvimento AI Agents App — contato para tasks Azure                       |
+| **Deivison**                  | Gestão Compass UOL — assuntos de PDI, timesheet, banco de horas                          |
+| **Guilherme**                 | Gestão/capacity — sizing de node pools e infra                                           |
 
 ---
 
