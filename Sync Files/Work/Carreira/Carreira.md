@@ -8,5 +8,6 @@
 	- [[Plano de Saúde]]
 - **Sem Parar - Corpay**
 	- [[Alinhamento com Guilherme sobre banco de horas e atuação no Sem Parar]]
+	- [[Equipe]]
 
 %% End Waypoint %%
