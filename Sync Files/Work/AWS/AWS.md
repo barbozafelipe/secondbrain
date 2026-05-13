@@ -1,5 +1,4 @@
 %% Begin Waypoint %%
-- **[[Zapay]]**
 - [[Certificado no LoadBalancer]]
 - [[CTASK0133209]]
 - [[CTASK0133893]]
@@ -9,5 +8,10 @@
 - [[Permitir visibilidade de S3 em outra conta]]
 - [[TASK1231707]]
 - [[TASK1247656]]
+- [[ZPY - Anotação original PTSK0010372]]
+- [[ZPY - Associando permition set e conta em um grupo]]
+- [[ZPY - Como fazer nova conta AWS aparecer no Portal SSO]]
+- [[ZPY - PTSK0010372]]
+- [[ZPY- Reutilização de Permission Sets para novas contas AWS]]
 
 %% End Waypoint %%

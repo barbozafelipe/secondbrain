@@ -17,4 +17,4 @@ criar o permition st nos dois portais, tanto da corpay quanto zapay, pra poder f
 
 ajustar primeiro no sailpoint, quando aparecer na aws, vou vendo permition set e plugando com as contas, só ir em identity center, groups, vai aparecer o grupo BR_AWSZPY_IA_DEVELOPER, vou pegar ele, colocar as contas em AWS Accounts
 
-[[PTSK0010372]]
+[[ZPY - PTSK0010372]]

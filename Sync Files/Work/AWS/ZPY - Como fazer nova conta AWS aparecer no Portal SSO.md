@@ -59,7 +59,7 @@ data: 2026-05-05
 ## 🔁 Relação com a nota anterior
 
 > [!tip] Ver também
-> Este processo é o mesmo descrito em [[Reutilização de Permission Sets para novas contas AWS]]. A diferença de foco é:
+> Este processo é o mesmo descrito em [[ZPY- Reutilização de Permission Sets para novas contas AWS]]. A diferença de foco é:
 > - Aquela nota responde: *"posso reaproveitar o Permission Set que já existe?"* → **Sim.**
 > - Esta nota responde: *"como faço a conta aparecer no portal para os usuários?"* → **Crie o Assignment.**
 > Na prática, as duas ações acontecem juntas.
