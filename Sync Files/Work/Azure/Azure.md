@@ -1,6 +1,5 @@
 %% Begin Waypoint %%
 - **Padrões**
-	- [[Sem título]]
 - **Tasks**
 	- [[CHG0094480]]
 	- [[CTASK0134245]]
