@@ -1,7 +1,4 @@
 %% Begin Waypoint %%
-- **Padrões**
-- **Tasks**
-- **[[Zapay]]**
 - [[Certificado no LoadBalancer]]
 - [[CTASK0133209]]
 - [[CTASK0133893]]
