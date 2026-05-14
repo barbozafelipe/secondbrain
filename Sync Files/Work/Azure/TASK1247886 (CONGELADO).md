@@ -189,6 +189,8 @@ resource "azurerm_postgresql_flexible_server" "example" {
 ```
 
 
-Eu deletei os três primeiros campos que iriam criar um RG, VNET e SUBNET, deixei apenas a
+Eu deletei os três primeiros campos que iriam criar um RG, VNET e SUBNET, e também a parte do dns zone.deixei apenas a parte do dns zone e a de baixo que contém informações do DB.
+
+
 
 ---
