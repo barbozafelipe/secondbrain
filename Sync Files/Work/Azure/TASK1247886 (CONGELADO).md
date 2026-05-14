@@ -191,7 +191,9 @@ resource "azurerm_postgresql_flexible_server" "example" {
 
 Eu deletei os três primeiros campos que iriam criar um RG, VNET e SUBNET, e também a parte do dns zone. Deixei apenas a parte que contém informações do DB (senha e etc...).
 
-Para a parte do dns zone eu criei o private_dns_zone.tf e
+Para a parte do dns zone eu criei o private_dns_zone.tf, colei igual um outro recurso que tinha e alterei os campos do resource_group_name onde apontei para o módulo do RG dentro da mesma pasta que já tem o nome do RG e também alterei a parte do virtual_network_id, deixando três subnets (db, app e web)
+
+
 
 
 
