@@ -116,6 +116,9 @@ criado: 2026-05-12
 
 ## 📝 Anotações Pessoais
 
-> Para começar o trabalho eu copiei o conteúdo para azure postgresql flexible server dentro do Registry do Terraform: 
+> Para começar o trabalho eu copiei o conteúdo para azure postgresql flexible server dentro do Registry do Terraform: [azurerm_postgresql_flexible_server | Resources | hashicorp/azurerm | Terraform | Terraform Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/postgresql_flexible_server)
+
+Eu escolhi o ambiente de nprd para começar, o RG é o 
+Criei um postgresql.tf dentro da pasta do RG que devo
 
 ---
