@@ -118,7 +118,8 @@ criado: 2026-05-12
 
 > Para começar o trabalho eu copiei o conteúdo para azure postgresql flexible server dentro do Registry do Terraform: [azurerm_postgresql_flexible_server | Resources | hashicorp/azurerm | Terraform | Terraform Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/postgresql_flexible_server)
 
-Eu escolhi o ambiente de nprd para começar, o RG é o 
-Criei um postgresql.tf dentro da pasta do RG que devo
+Eu escolhi o ambiente de nprd para começar, o RG é o stp-dig-rg-aiagentsapp-nprd e o nome do recurso stp-dig-pg-aiagentsapp-nprd.
+Criei um postgresql.tf dentro da pasta do RG que devo utilizar e colei o conteúdo que copiei no registry:
+
 
 ---
