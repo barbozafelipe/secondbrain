@@ -116,6 +116,6 @@ criado: 2026-05-12
 
 ## 📝 Anotações Pessoais
 
-> *Espaço livre para observações, erros encontrados, decisões tomadas, lições aprendidas.*
+> Para começar o trabalho eu copiei o conteúdo para azure postgresql flexible server dentro do Registry do Terraform: 
 
 ---
