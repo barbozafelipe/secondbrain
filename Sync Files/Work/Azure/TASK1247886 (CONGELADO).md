@@ -193,6 +193,27 @@ Eu deletei os três primeiros campos que iriam criar um RG, VNET e SUBNET, e tam
 
 Para a parte do dns zone eu criei o private_dns_zone.tf, colei igual um outro recurso que tinha e alterei os campos do resource_group_name onde apontei para o módulo do RG dentro da mesma pasta que já tem o nome do RG e também alterei a parte do virtual_network_id, deixando três subnets (db, app e web)
 
+`module "private_dns_zone" {`
+  `source = "../../MODULES/private_dns_zone"`
+  `dns_zone_name        = "stp-dig-pg-aiagentsapp-nprd.postgres.database.azure.com"`
+  `resource_group_name  = module.rg.resource_group_name`
+  `registration_enabled = false`
+  `virtual_network_id = [`
+    `data.azurerm_subnet.snet_db.id,`
+    `data.azurerm_subnet.snet_app.id,`
+    `data.azurerm_subnet.snet_web.id`
+  `]`
+
+  `tags = {`
+    `TECNOLOGIA = "PRIVATE_DNS_ZONE"`
+  `}`
+`}`
+
+
+
+
+
+
 
 
 
