@@ -13,7 +13,7 @@ atualizado: 2026-05-15
 
 ## 🔹 Thiago (Kubernetes / IaC / Networking)
 - **Como me orienta no dia a dia:**
-  - **Terraform (Senhas/Secrets):** Pediu para sempre criar variáveis sensíveis (`sensitive = true`) no próprio arquivo `.tf` (ex: `postgresql.tf`) e referenciar a variável no resource, em vez de deixar a senha hardcoded. A senha deve ser passada via linha de comando no plan/apply (ex: `$env:TF_VAR_admin_password = "senha"`).
+  - **Terraform (Senhas/Secrets):** Pediu para sempre criar variáveis sensíveis (`sensitive = true`) no próprio arquivo `.tf` (ex: `postgresql.tf`) e referenciar a variável no resource, em vez de deixar a senha hardcoded. A senha deve ser passada via linha de comando no plan/apply (ex: `$env:TF_VAR_admin_password = "senha"`). Após o provisionamento, a senha gerada deve ser armazenada em local seguro e enviada para quem vai cuidar do recurso (equipe de dev ou DBA, ex: João Barth/Luiz Vinholi).
   - *(Adicione aqui os resumos de futuros prints e conversas com o Thiago)*
 
 ## 👑 Wellington (Tech Lead / Arquitetura)
