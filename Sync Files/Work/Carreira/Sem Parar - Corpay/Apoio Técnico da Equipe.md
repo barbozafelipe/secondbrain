@@ -19,6 +19,7 @@ atualizado: 2026-05-15
 ## 👑 Wellington (Tech Lead / Arquitetura)
 - **Como me orienta no dia a dia:**
   - **Delegação:** Está me passando progressivamente tarefas de provisionamento (Azure, AWS) e configuração (Rancher). A expectativa é que eu monte a estrutura (ex: Terraform) de forma segura, valide via `plan` e não faça `apply` de cara sem alinhar.
+  - **Provisionamento de Bancos (PostgreSQL):** Pediu para sempre subir os recursos com **integração à rede** (acesso interno via delegated subnet) em vez de acesso público. Após o provisionamento, devo repassar os **IPs privados/FQDNs** gerados e alinhar com ele se será necessário criar **regras de firewall** para acesso dos DBAs.
   - *(Adicione aqui os resumos de futuros prints e conversas com o Wellington)*
 
 ## 🔹 João Pedro (GCP / FinOps)
