@@ -213,7 +213,7 @@ Para a parte do dns zone eu criei o private_dns_zone.tf, colei igual um outro re
 
 
 
-
+data.azurerm_subnet.snet_app.id
 
 
 
