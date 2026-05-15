@@ -6,6 +6,6 @@
 - [[Inserção de blocos Zscaler em alguns serviços da Azure]]
 - [[TASK1247601]]
 - [[TASK1247602]]
-- [[TASK1247886 (CONGELADO)]]
+- [[TASK1247886]]
 
 %% End Waypoint %%
