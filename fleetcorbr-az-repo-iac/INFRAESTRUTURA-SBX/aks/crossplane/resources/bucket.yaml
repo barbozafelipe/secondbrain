@@ -1,9 +1,0 @@
-apiVersion: xbuckets.aws.semparar.io/v1alpha1
-kind: XBucket
-metadata:
-  name: flt-crossplane-test-bucket
-  namespace: crossplane-system
-spec:
-  bucketName: flt-crossplane-test-bucket
-  providerConfigName: aws-infra-provider-config
-  region: sa-east-1

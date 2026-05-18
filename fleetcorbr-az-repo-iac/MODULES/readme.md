@@ -1,1 +1,0 @@
-Modulos da Azure para uso do sem parar com exemplos de uso.
