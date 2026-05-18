@@ -1,0 +1,87 @@
+apiVersion: apiextensions.crossplane.io/v1
+kind: CompositeResourceDefinition
+metadata:
+  name: xlambdafunctions.aws.semparar.io
+spec:
+  group: aws.semparar.io
+  names:
+    kind: XLambdaFunction
+    plural: xlambdafunctions
+  claimNames:
+    kind: LambdaFunction
+    plural: lambdafunctions
+  versions:
+    - name: v1alpha1
+      served: true
+      referenceable: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                providerConfigName:
+                  type: string
+                resourceConfig:
+                  type: object
+                  properties:
+                    description:
+                      type: string
+                    handler:
+                      type: string
+                    memorySize:
+                      type: integer
+                      default: 128
+                    region:
+                      type: string
+                    role:
+                      type: string
+                    runtime:
+                      type: string
+                    s3Bucket:
+                      type: string
+                    s3Key:
+                      type: string
+                    timeout:
+                      type: integer
+                      default: 10
+                    vpcConfig:
+                      type: object
+                      properties:
+                        securityGroupIds:
+                          type: array
+                          items:
+                            type: string
+                        subnetIds:
+                          type: array
+                          items:
+                            type: string
+                    variables:
+                      type: object
+                      additionalProperties:
+                        type: string
+                    tags:
+                      type: object
+                      additionalProperties:
+                        type: string
+                  required:
+                    - handler
+                    - runtime
+                    - role
+              required:
+                - providerConfigName
+                - resourceConfig
+            status:
+              properties:
+                functionRoleArn:
+                  type: string
+                functionRoleName:
+                  type: string
+                functionName:
+                  type: string
+                functionArn:
+                  description: Indicates this function's ARN
+                  type: string
+              type: object
+    

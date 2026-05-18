@@ -1,0 +1,194 @@
+apiVersion: apiextensions.crossplane.io/v1
+kind: Composition
+metadata:
+  name: composition-lambda
+spec:
+  compositeTypeRef:
+    apiVersion: aws.semparar.io/v1alpha1
+    kind: XLambdaFunction
+  mode: Pipeline
+  pipeline:
+  - step: patch-and-transform
+    functionRef:
+      name: function-patch-and-transform
+    input:
+      apiVersion: pt.fn.crossplane.io/v1beta1
+      kind: Resources
+      patchSets:
+      - name: common-fields
+        patches:
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.providerConfigName"
+          toFieldPath: "spec.providerConfigRef.name"
+      resources:
+      - name: function-role
+        base:
+          apiVersion: iam.aws.upbound.io/v1beta1
+          kind: Role
+          spec:
+            forProvider:
+              assumeRolePolicy: |
+                {
+                  "Version": "2012-10-17",
+                  "Statement": [
+                    {
+                      "Effect": "Allow",
+                      "Principal": {
+                        "Service": "lambda.amazonaws.com"
+                      },
+                      "Action": "sts:AssumeRole"
+                    }
+                  ]
+                }
+        patches:
+          - type: PatchSet
+            patchSetName: common-fields
+          - type: FromCompositeFieldPath
+            fromFieldPath: spec.claimRef.name
+            toFieldPath: metadata.name
+            transforms:
+              - type: string
+                string:
+                  type: Format
+                  fmt: "role-lambda-%s"
+          - type: ToCompositeFieldPath
+            fromFieldPath: status.atProvider.arn
+            toFieldPath: status.functionRoleArn
+          - type: ToCompositeFieldPath
+            fromFieldPath: status.atProvider.id
+            toFieldPath: status.functionRoleName
+          - type: FromCompositeFieldPath
+            fromFieldPath: spec.permissionsBoundaryArn
+            toFieldPath: spec.forProvider.permissionsBoundary
+          - type: FromCompositeFieldPath
+            fromFieldPath: spec.resourceConfig.tags
+            toFieldPath: spec.forProvider.tags
+            policy:
+              mergeOptions:
+                keepMapValues: true
+      
+      - name: lambda-policy
+        base:
+          apiVersion: iam.aws.upbound.io/v1beta1
+          kind: Policy
+          spec:
+            forProvider:
+              policy: |
+                {
+                  "Version": "2012-10-17",
+                  "Statement": [
+                      {
+                          "Action": [
+                              "logs:CreateLogGroup",
+                              "logs:CreateLogStream",
+                              "logs:PutLogEvents"
+                          ],
+                          "Resource": "arn:aws:logs:*:*:*",
+                          "Effect": "Allow"
+                      },
+                      {
+                          "Effect": "Allow",
+                          "Action": [
+                              "s3:GetObject"
+                          ],
+                          "Resource": "arn:aws:s3:::*"
+                      },
+                      {
+                          "Action": [
+                              "ec2:CreateNetworkInterface",
+                              "ec2:DescribeNetworkInterfaces",
+                              "ec2:DescribeSubnets",
+                              "ec2:DeleteNetworkInterface",
+                              "ec2:AssignPrivateIpAddresses",
+                              "ec2:UnassignPrivateIpAddresses"
+                          ],
+                          "Resource": "*",
+                          "Effect": "Allow"
+                      }
+                  ]
+                }
+        patches:
+          - type: PatchSet
+            patchSetName: common-fields
+          - type: FromCompositeFieldPath
+            fromFieldPath: spec.claimRef.name
+            toFieldPath: metadata.name
+            transforms:
+              - type: string
+                string:
+                  type: Format
+                  fmt: "policy-lambda-%s"
+
+      - name: lambda-basic-policy-attachment
+        base:
+          apiVersion: iam.aws.upbound.io/v1beta1
+          kind: RolePolicyAttachment
+          spec:
+            forProvider:
+              policyArnSelector:
+                matchControllerRef: true
+              roleSelector:
+                matchControllerRef: true
+        patches:
+        - type: PatchSet
+          patchSetName: common-fields
+        - type: FromCompositeFieldPath
+          fromFieldPath: spec.claimRef.name
+          toFieldPath: metadata.name
+      
+      - name: function
+        base:
+          apiVersion: lambda.aws.upbound.io/v1beta1
+          kind: Function
+        patches:
+        - type: PatchSet
+          patchSetName: common-fields
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.claimRef.name"
+          toFieldPath:  "metadata.name"
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.resourceConfig.description"
+          toFieldPath: "spec.forProvider.description"
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.resourceConfig.handler"
+          toFieldPath: "spec.forProvider.handler"
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.resourceConfig.memorySize"
+          toFieldPath: "spec.forProvider.memorySize"
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.resourceConfig.region"
+          toFieldPath: "spec.forProvider.region"
+        - type: FromCompositeFieldPath
+          fromFieldPath: "status.functionRoleArn"
+          toFieldPath: "spec.forProvider.role"
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.resourceConfig.runtime"
+          toFieldPath: "spec.forProvider.runtime"
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.resourceConfig.s3Bucket"
+          toFieldPath: "spec.forProvider.s3Bucket"
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.resourceConfig.s3Key"
+          toFieldPath: "spec.forProvider.s3Key"
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.resourceConfig.timeout"
+          toFieldPath: "spec.forProvider.timeout"
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.resourceConfig.variables"
+          toFieldPath: "spec.forProvider.environment[0].variables"
+          policy:
+            mergeOptions:
+              keepMapValues: true
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.resourceConfig.vpcConfig.securityGroupIds"
+          toFieldPath: "spec.forProvider.vpcConfig[0].securityGroupIds"
+        - type: FromCompositeFieldPath
+          fromFieldPath: "spec.resourceConfig.vpcConfig.subnetIds"
+          toFieldPath: "spec.forProvider.vpcConfig[0].subnetIds"              
+        - type: FromCompositeFieldPath
+          fromFieldPath: spec.resourceConfig.tags
+          toFieldPath: spec.forProvider.tags
+          policy:
+            mergeOptions:
+              keepMapValues: true
+

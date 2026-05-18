@@ -1,0 +1,17 @@
+# Function app settings
+EMBEDDING_DEPLOYMENT  = "ada-embedding-azure"
+GPT_DEPLOYMENT        = "gpt-35-azure"
+INDEX_NAME            = "idx-faz-v12-1"
+OPENAI_API_KEY        = "549e0cf651b446cfbc62db7762e7615e"
+OPENAI_API_URL        = "https://stp-dig-cog-prd.openai.azure.com/"
+OPENAI_API_VERSION    = "2023-05-15"
+VECTOR_STORE_ADDRESS  = "https://stp-dig-cogsearch-prd.search.windows.net"
+VECTOR_STORE_PASSWORD = "5ZvwSk3OZfaclLcYYAsBFKcFo6O5riCvonRBILIwPCAzSeBtMrGC"
+GPT_FUNCTION_URL      = "https://stp-dig-func-gpt-apim-prd.azure-api.net/gpt-prd/generate-completion"
+# CHG
+GPT_STOP_WORDS        = "gptstop"
+COSMOS_ENDPOINT       = "https://stp-dig-cdb-prd.documents.azure.com:443/"
+COSMOS_DATABASE_NAME  = "chat-history"
+COSMOS_CONTAINER_NAME = "chats"
+COSMOS_PARTITION_KEY  = "61dba35b"
+INDEX_NAME_CONTEXT    = "idx-faq-v2"  

@@ -1,0 +1,22 @@
+eventhub_names = [
+  "spe-qa-retornopropostavenda",
+  "spe-qa-processamentocancelamentolote",
+  "spe-qa-processamentobonus",
+  "spe-qa-notificacaopipedrive",
+  "spe-qa-motorcreditoctf",
+  "spe-qa-gerarmeiocobrancacargacliente",
+  "spe-qa-email",
+  "spe-qa-confirmarcomprapedagiosemparar",
+  "spe-qa-filaconfirmapgtowhatsappac",
+  "spe-qa-complementardadosoperacaoctf",
+  "spe-qa-cancelarviagem",
+  "spe-qa-bcaconsistenciacerc",
+  "spe-qa-bcaagendascerc",
+  "spe-qa-agendascercwebhook",
+  "spe-qa-processamentoagcargadados",
+  "spe-qa-evtoperacaoregistrada",
+  "spe-qa-evtnotafiscalregimeespecialenv",
+  "spe-qa-evtmeiocobrancapago",
+  "spe-qa-evtcargaclienteprocessada",
+  "spe-qa-evtbloqueioconta"
+]

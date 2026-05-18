@@ -1,0 +1,198 @@
+### INSTALAÇÃO NGINX INGRESS CONTROLER VIA Helm:
+
+## Comandos básicos para criação:
+helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+helm repo update
+
+## Instalação utilizando um IP Externo:
+
+# Helm de instalação
+helm install ingress-nginx ingress-nginx/ingress-nginx \
+  --create-namespace \
+  --namespace ingress-nginx \
+  --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-health-probe-request-path"=/healthz \
+  --set controller.replicaCount=3 \
+  --set controller.nodeSelector."kubernetes\.io/os"=linux \
+  --set controller.admissionWebhooks.patch.nodeSelector."kubernetes\.io/os"=linux \
+  --set controller.service.externalTrafficPolicy=Local \
+  --set controller.service.loadBalancerIP=4.228.34.112 \
+  --set controller.ingressClassResource.name=nginx \
+  --set controller.ingressClass=nginx
+  
+ 
+# Compactado em 1 linha
+helm install ingress-nginx ingress-nginx/ingress-nginx --create-namespace  --namespace ingress-nginx  --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-health-probe-request-path"=/healthz --set controller.replicaCount=3 --set controller.nodeSelector."kubernetes\.io/os"=linux --set controller.admissionWebhooks.patch.nodeSelector."kubernetes\.io/os"=linux --set controller.service.externalTrafficPolicy=Local --set controller.service.loadBalancerIP=4.228.34.112 --set controller.ingressClass=nginx
+
+# Usando o Echo-Server para testar
+kubectl create -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/docs/examples/http-svc.yaml
+
+# Publicando um ingress
+kubectl apply -f example-ingress.yaml
+
+# Criação Secret com Certificado
+kubectl create secret tls kafka-cert-v1-2027jun28 --key="tls.key" --cert="tls.crt" -n kube-system
+
+
+## Instalação utilizando um IP Interno:
+
+helm install ingress-nginx-internal ingress-nginx/ingress-nginx \
+    --namespace ingress-nginx-internal \
+    --create-namespace \
+    --set controller.replicaCount=3 \
+    --set controller.nodeSelector."kubernetes\.io/os"=linux \
+    --set controller.admissionWebhooks.patch.nodeSelector."kubernetes\.io/os"=linux \
+    --set controller.service.loadBalancerIP=10.17.203.254 \
+    --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-internal"=true \
+    --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-health-probe-request-path"=/healthz \
+    --set defaultBackend.nodeSelector."kubernetes\.io/os"=linux \
+    --set controller.service.externalTrafficPolicy=Local \
+    --set controller.ingressClassResource.name=nginx-internal
+    --set controller.ingressClass=nginx-internal
+    --set controller.extraArgs.default-ssl-certificate="<namespace>/<secret_name>"
+    --set "controller.extraArgs.enable-ssl-passthrough="
+
+# Compactado em 1 linha
+helm install ingress-nginx-internal ingress-nginx/ingress-nginx --namespace ingress-nginx-internal --create-namespace --set controller.replicaCount=3 --set controller.nodeSelector."kubernetes\.io/os"=linux --set controller.admissionWebhooks.patch.nodeSelector."kubernetes\.io/os"=linux --set controller.service.loadBalancerIP=10.17.203.254 --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-internal"=true --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-health-probe-request-path"=/healthz --set defaultBackend.nodeSelector."kubernetes\.io/os"=linux --set controller.service.externalTrafficPolicy=Local --set controller.ingressClassResource.name=nginx-internal --set controller.ingressClass=nginx-internal --set controller.extraArgs.default-ssl-certificate="kube-system/kafka-cert-v1-2027jun28"   --set "controller.extraArgs.enable-ssl-passthrough="
+
+# Publicando um ingress
+kubectl apply -f example-ingress-internal.yaml
+
+### INSTALÇÃO DO OPERATOR HUB.IO
+
+## Instalação do Operator LifeCycle Manager (OLM)
+- Referência para instalação:
+https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/install/install.md
+
+## Instalação:
+kubectl create -f olm/crds.yaml
+kubectl create -f olm/olm.yaml
+
+
+### Instalação do Operator Strimzi Kafka
+
+## Comando para Instalação:
+kubectl create -f kafka/strimzi-kafka-operator.yaml
+> O operator é instalado no namespace  "operators". (por padrão... alterar no yaml do Operator!)
+
+## Validação:
+kubectl get csv -n kafka
+
+## Alguns comandos para verificação da Subscription:
+
+# Listar a Subscription:
+kubectl get sub -n kafka
+
+# Listar o InstallPlan:
+kubectl get ip -n kafka
+
+# aplicar um patch para mudar o InstallPlan para Manual:
+kubectl edit sub my-strimzi-kafka-operator -n operators
+kubectl edit ip install-892rh -n operators -o yaml
+
+## Para fazer atualização do Operator:
+kubectl get ip -n operators
+kubectl patch installplan install-2lxhr --type merge --patch '{"spec":{"approved":true}}'
+kubectl get csv -n operators
+
+## Para fazer o deploy do Cluster Kafka:
+
+
+# Criação dos ConfigMaps:
+kubectl apply -f kafka\configmap-kafka-metrics.yaml
+kubectl apply -f kafka\configmap-zookeeper-metrics.yaml
+
+# Criação Secret com Certificado
+kubectl create secret tls kafka-cert-v1-2027jun28 --key="tls.key" --cert="tls.crt" -n kafka
+
+# Instalação do Clsuter Kafka
+kubectl apply -f kafka\kafka.yaml
+
+# Análise dos Logs
+kubectl logs -f -l name=strimzi-cluster-operator --all-containers -n kafka
+
+
+### Install Prometheus via Helm
+
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+--
+helm repo update
+--
+
+
+## Tarefas adicionais para a instalação do Prometheus no Cluster para Monitorar o Kafka:
+
+kubectl create ns monitoring
+--
+kubectl create secret generic additional-scrape-configs --from-file=prometheus-additional.yaml -n monitoring
+
+--
+helm install prometheus prometheus-community/kube-prometheus-stack --values values.yaml --namespace monitoring --set kubeEtcd.enabled=false   --set kubeControllerManager.enabled=false   --set kubeScheduler.enabled=false  --debug
+
+# old ##
+helm install prometheus prometheus-community/kube-prometheus-stack --values values.yaml --namespace monitoring --set kubeEtcd.enabled=false   --set kubeControllerManager.enabled=false   --set kubeScheduler.enabled=false   --create-namespace --debug
+--
+kubectl apply -f strimzi-pod-monitor.yaml -n monitoring
+kubectl apply -f prometheus-rules.yaml -n monitoring
+
+--
+kubectl create configmap strimzi-kafka --from-file=metrics\strimzi-kafka.json -n monitoring
+kubectl label configmap strimzi-kafka grafana_dashboard=1 -n monitoring
+
+--
+
+kubectl create configmap strimzi-kafka-exporter --from-file=metrics\strimzi-kafka-exporter.json -n monitoring
+kubectl label configmap strimzi-kafka-exporter grafana_dashboard=1 -n monitoring
+
+--
+
+kubectl create configmap strimzi-operators --from-file=metrics\strimzi-operators.json -n monitoring
+kubectl label configmap strimzi-operators grafana_dashboard=1 -n monitoring
+
+--
+
+kubectl create configmap strimzi-zookeeper --from-file=metrics\strimzi-zookeeper.json -n monitoring
+kubectl label configmap strimzi-zookeeper grafana_dashboard=1 -n monitoring
+
+--
+## Incluir as informações abaixo no configmap prometheus-grafana:
+
+[auth]
+disable_login_form = false
+[auth.anonymous]
+enabled = true
+
+--
+kubectl port-forward svc/prometheus-grafana -n monitoring 4000:80
+admin/prom-operator
+--
+kubectl port-forward svc/prometheus-kube-prometheus-prometheus -n monitoring 4001:9090
+--
+--
+# Check the release version
+helm ls -n monitoring
+
+# To upgrade the chart with modified values.yaml
+helm upgrade -f values.yaml prometheus prometheus-community/kube-prometheus-stack --debug -n monitoring 
+→ changes version if no chart upgrade
+
+# To push images to ACR
+docker pull quay.io/prometheus-operator/prometheus-operator:v0.50.0
+docker tag quay.io/prometheus-operator/prometheus-operator:v0.50.0 registry.azurecr.io/prometheus/prometheus-operator:v0.50.0
+docker push registry.azurecr.io/prometheus/prometheus-operator:v0.50.0
+
+
+##### TESTANDO O ACR com AKS:
+az acr login --name spespeacrnprd.azurecr.io
+docker pull nginx
+docker tag nginx spespeacrnprd.azurecr.io/samples/nginx
+docker push spespeacrnprd.azurecr.io/samples/nginx
+kubectl apply -f nginx.yaml
+
+
+
+
+
+
+
+
+

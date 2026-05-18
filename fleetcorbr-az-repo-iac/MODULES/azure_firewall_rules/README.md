@@ -1,0 +1,1 @@
+# Modulo utilizado para a criação de regras no Azure Firewall

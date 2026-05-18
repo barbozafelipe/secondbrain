@@ -1,0 +1,24 @@
+apiVersion: lambda.aws.upbound.io/v1beta1
+kind: Function
+metadata:
+  name: crossplane-lambda-test-02
+spec:
+  managementPolicies: ["Observe", "Create", "Update", "Delete"]
+  initProvider:
+    tags:
+      Environment: LAB
+      Project: Crossplane
+    memorySize: 256
+    environment:
+      - variables:
+          KEY: Value
+  forProvider:
+    region: sa-east-1  
+    runtime: nodejs20.x
+    role: arn:aws:iam::498638359097:role/RL_Lambda_Default
+    handler: index.handler
+    s3Bucket: flt-terraform-cloud
+    s3Key: index.zip
+    timeout: 15
+  providerConfigRef:
+    name: aws-infra

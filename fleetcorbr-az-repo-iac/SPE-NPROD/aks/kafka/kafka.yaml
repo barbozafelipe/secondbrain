@@ -1,0 +1,95 @@
+﻿apiVersion: kafka.strimzi.io/v1beta2
+kind: Kafka
+metadata:
+  name: kafka-cluster
+  namespace: kafka
+spec:
+  entityOperator:
+    topicOperator: {}
+    userOperator: {}
+  kafka:
+    config:
+      auto.create.topics.enable: false
+      default.replication.factor: 3
+      inter.broker.protocol.version: '3.5'
+      min.insync.replicas: 2
+      offsets.topic.replication.factor: 3
+      transaction.state.log.min.isr: 2
+      transaction.state.log.replication.factor: 3
+#    jvmOptions:
+#      '-Xms': 1024m
+#      '-Xmx': 1024m
+    listeners:
+      - name: plain
+        port: 9092
+        tls: false
+        type: internal
+      - configuration:
+          bootstrap:
+            host: kafka-bootstrap-kafka-cluster.apps.aks-nprd.fleetcor.com.br
+            annotations:
+              kubernetes.io/ingress.class: nginx-internal
+          brokers:
+          - broker: 0
+            host: broker-0.apps.aks-nprd.fleetcor.com.br
+            annotations:
+              kubernetes.io/ingress.class: nginx-internal            
+          - broker: 1
+            host: broker-1.apps.aks-nprd.fleetcor.com.br
+            annotations:
+              kubernetes.io/ingress.class: nginx-internal            
+          - broker: 2
+            host: broker-2.apps.aks-nprd.fleetcor.com.br
+            annotations:
+              kubernetes.io/ingress.class: nginx-internal            
+          brokerCertChainAndKey:
+            certificate: tls.crt
+            key: tls.key
+            secretName: kafka-cert-v1-2027jun28
+        name: tls
+        port: 9093
+        tls: true
+        type: ingress
+        
+    metricsConfig:
+      type: jmxPrometheusExporter
+      valueFrom:
+        configMapKeyRef:
+          key: kafka-metrics-config.yaml
+          name: kafka-metrics
+    replicas: 3
+#    resources:
+#      limits:
+#        memory: 1Gi
+#      requests:
+#        cpu: 500m
+#        memory: 1Gi
+    storage:
+      class: default
+      size: 50Gi
+      type: persistent-claim
+    version: 3.5.1
+  kafkaExporter:
+    groupRegex: .*
+    topicRegex: .*
+  zookeeper:
+#    jvmOptions:
+#      '-Xms': 512m
+#      '-Xmx': 512m
+    metricsConfig:
+      type: jmxPrometheusExporter
+      valueFrom:
+        configMapKeyRef:
+          key: zookeeper-metrics.yml
+          name: zookeeper-metrics
+    replicas: 3
+#    resources:
+#      limits:
+#        memory: 1Gi
+#      requests:
+#        cpu: 500m
+#        memory: 1Gi
+    storage:
+      class: default
+      size: 10Gi
+      type: persistent-claim
