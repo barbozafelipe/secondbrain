@@ -1,12 +1,12 @@
 ---
 tags: [trabalho, sem-parar, equipe, squad, referência]
-atualizado: 2026-05-12
+atualizado: 2026-05-19
 ---
 
 # Equipe — Cloud & Infraestrutura
 
 > Mapa de quem faz o quê no squad de infra/cloud da Sem Parar (Corpay).
-> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]]).
+> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]], [[19-05-2026]]).
 
 ---
 
@@ -114,8 +114,9 @@ atualizado: 2026-05-12
 | **Aparecida (Cida)**          | Gestão na Afinz — envolvida em cronograma e acompanhamento                               |
 | **Hélio**                     | Gringo — solicitou desligamento do Analyze (Dynatrace) em staging                        |
 | **Ênio**                      | Contato para janela de configuração do Okta no GCP                                       |
+| **Joson**                     | Solicitante externo — pediu adição de headers em API Gateway (Dev/HML/Prod)              |
 
 ---
 
 > [!note] Atualização
-> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada na reunião de [[12-05-2026]].
+> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada na reunião de [[19-05-2026]].
