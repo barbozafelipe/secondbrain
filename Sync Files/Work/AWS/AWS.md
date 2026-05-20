@@ -4,7 +4,6 @@
 - [[CTASK0133893]]
 - [[CTASK0134245]]
 - [[CTASK0134619]]
-- [[Deny Blocos Zscaler]]
 - [[Padrão de importação de certificado na AWS]]
 - [[Permitir visibilidade de S3 em outra conta]]
 - [[TASK1231707]]
