@@ -30,7 +30,7 @@
 170.85.0.0/16
 
 
-### ==Atuais na SCP da AWS ORGANIZATION:==
+### ==Atuais na SCP da AWS Organization:==
             "64.215.22.0/24",
             "165.225.214.0/23",
             "147.161.128.0/23",
