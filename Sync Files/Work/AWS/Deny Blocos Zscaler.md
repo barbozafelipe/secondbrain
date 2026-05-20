@@ -1,11 +1,11 @@
-Segue um texto bem completo para você colar no Obsidian/Antigravity e pedir para a IA montar a nota da task:
+
 
 ````markdown
 # Contexto completo da análise - Erro de acesso no Route 53 por Deny de IP no Permission Set
 
 ## Resumo do caso
 
-Foi analisado um problema de permissão de um usuário chamado Thiago ao acessar o Route 53 na AWS. Inicialmente parecia ser falta de permissão no serviço Route 53, mas depois ficou claro que o usuário já possuía permissões administradas da AWS para Route 53 e Route 53 Domains no Permission Set. O problema real era um `Deny` explícito em uma inline policy do Permission Set `BR_PS_SEGURANCA`, condicionado por IP de origem.
+Foi analisado um problema de permissão de um usuário chamado Thiago da área de SI ao acessar o Route 53 na AWS. Inicialmente parecia ser falta de permissão no serviço Route 53, mas depois ficou claro que o usuário já possuía permissões administradas da AWS para Route 53 e Route 53 Domains no Permission Set. O problema real era um `Deny` explícito em uma inline policy do Permission Set `BR_PS_SEGURANCA`, condicionado por IP de origem.
 
 O erro acontecia porque existia uma regra antiga no próprio Permission Set negando qualquer ação AWS quando o acesso não vinha de determinados blocos de IP. Esses blocos eram relacionados aos IPs antigos de saída/Zscaler/corporativos. Como recentemente houve mudança nos blocos de IP utilizados, usuários que estavam saindo pelos novos IPs não estavam contemplados nessa allowlist antiga e acabavam sendo bloqueados.
 
