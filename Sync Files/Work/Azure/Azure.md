@@ -9,5 +9,6 @@
 - [[TASK1247602]]
 - [[TASK1247886]]
 - [[TASK1248888]]
+- [[Webapp com erro para puxar imagem do Registry (equivalente ao ECR da AWS)]]
 
 %% End Waypoint %%
