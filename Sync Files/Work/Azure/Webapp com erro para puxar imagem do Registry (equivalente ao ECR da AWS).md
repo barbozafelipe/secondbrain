@@ -6,6 +6,7 @@ No WebApp:
 
 ![[Pasted image 20260521163512.png]]
 ![[Pasted image 20260521165437.png]]
+![[Pasted image 20260521173622.png]]
 
 
 No Conteiner Registry:
