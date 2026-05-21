@@ -65,7 +65,23 @@
 
 ## AWS Cloud Adoption Framework (CAF)
 
-6 perspectivas: Business, People, Governance, Platform, Security, Operations
+O CAF organiza a jornada de adoção da cloud em **6 perspectivas**, agrupadas em duas categorias:
+
+**Perspectivas de Negócio** (quem patrocina e decide):
+| Perspectiva | Foco | Quem lidera |
+|---|---|---|
+| **Business** | Valor de negócio, ROI, casos de uso | C-level, CFO |
+| **People** | Cultura, habilidades, mudança organizacional | RH, Liderança |
+| **Governance** | Riscos, conformidade, portfólio de projetos | CIO, Risk Management |
+
+**Perspectivas Técnicas** (quem executa):
+| Perspectiva | Foco | Quem lidera |
+|---|---|---|
+| **Platform** | Arquitetura, infraestrutura, ambiente cloud | CTO, Arquitetos |
+| **Security** | IAM, proteção de dados, conformidade | CISO, Security team |
+| **Operations** | Monitoramento, gestão de incidentes, automação | Operações de TI |
+
+> **Regra rápida para a prova**: Se a questão falar de cultura e pessoas → **People**. Risco e compliance → **Governance**. Arquitetura técnica → **Platform**.
 
 ## Infraestrutura Global AWS
 
@@ -73,3 +89,20 @@
 - **Availability Zone (AZ)**: 1 ou mais datacenters isolados dentro de uma Region
 - **Edge Location**: ponto de presença para CDN (CloudFront) e DNS (Route 53)
 - **Local Zone**: extensão de Region mais próxima do usuário final para baixa latência
+
+---
+
+## Serviços de Escopo Global
+
+A maioria dos serviços AWS são **regionais** — você cria na us-east-1 e ele fica só lá. Mas alguns serviços são **globais**: existem em uma única instância e funcionam em qualquer região automaticamente.
+
+| Serviço | Escopo | Por que é global |
+|---|---|---|
+| **IAM** | Global | Usuários, grupos, roles e políticas valem para todas as regiões da conta |
+| **S3** | Global (buckets com nomes únicos globais) | O namespace de bucket é global, mas os dados ficam na região escolhida |
+| **CloudFront** | Global | CDN distribuída em Edge Locations ao redor do mundo — não pertence a uma região |
+| **Route 53** | Global | DNS é por natureza global — resolve nomes independente de região |
+| **AWS Organizations** | Global | Gerencia contas e SCPs de forma centralizada para toda a org |
+| **AWS IAM Identity Center** | Global (por instância) | Configurado uma vez, funciona para todas as contas da organização |
+
+> **Regra para a prova**: Quando a questão perguntar qual serviço é global (não regional), pense em IAM, CloudFront, Route 53 e S3 (namespace). EC2, RDS, Lambda, VPC são **sempre regionais**.
