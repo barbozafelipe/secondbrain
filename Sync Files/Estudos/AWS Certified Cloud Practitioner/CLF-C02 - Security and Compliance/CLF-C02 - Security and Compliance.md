@@ -23,8 +23,8 @@ Parte de: [[AWS Certified Cloud Practitioner]]
 
 ## ✅ Checklist de Estudo
 
-- [ ] Shared Responsibility Model (security OF vs. IN the cloud)
-- [ ] IAM: Users, Groups, Roles, Policies e Least Privilege
+- [x] Shared Responsibility Model (security OF vs. IN the cloud)
+- [x] IAM: Users, Groups, Roles, Policies e Least Privilege
 - [ ] MFA e boas práticas de conta root
 - [ ] GuardDuty — detecção de ameaças via ML
 - [ ] Inspector — scan de vulnerabilidades em EC2 e containers
