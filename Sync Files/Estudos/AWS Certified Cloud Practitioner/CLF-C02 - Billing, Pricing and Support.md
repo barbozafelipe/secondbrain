@@ -96,6 +96,25 @@
 | **Enterprise On-Ramp** | A partir de $5.500/mês | 30min | Compartilhado | Completo |
 | **Enterprise** | A partir de $15.000/mês | 15min | Dedicado | Completo |
 
+### Diferenças que mais caem na prova
+
+> **Trusted Advisor completo**: só a partir do plano **Business**. Basic e Developer têm apenas 7 checks básicos.
+
+> **TAM (Technical Account Manager)**: só nos planos **Enterprise On-Ramp** (compartilhado) e **Enterprise** (dedicado). É um profissional AWS que acompanha sua conta proativamente.
+
+> **Acesso 24/7 por telefone e chat**: só a partir do **Business**. Developer tem apenas e-mail em horário comercial.
+
+### Cenários típicos de prova
+
+> **"Uma empresa quer receber recomendações completas do Trusted Advisor sobre segurança e custos. Qual o plano mínimo?"**
+> → **Business** — é o mínimo para Trusted Advisor completo.
+
+> **"Uma empresa crítica precisa de um SLA de 15 minutos para incidentes e um TAM dedicado. Qual o plano?"**
+> → **Enterprise** — único com TAM dedicado e SLA de 15 min.
+
+> **"Um desenvolvedor quer suporte técnico por e-mail durante o horário comercial ao menor custo possível."**
+> → **Developer** — mínimo com acesso a suporte técnico (Basic não tem).
+
 ---
 
 ## AWS Organizations e Faturamento Consolidado

@@ -255,3 +255,161 @@
 > Esse é o padrão de arquitetura: **DynamoDB Streams → Lambda → Kinesis Data Streams → Firehose → S3**. Para a prova: Data Streams é para ingestão/consumo em tempo real; Firehose é para entrega gerenciada a um destino.
 >
 > Você também aprendeu que quando o destino S3 está em **outra conta**, não é possível selecionar pelo console — é necessário usar CLI (`aws firehose update-destination`). Isso é conhecimento além da prova, mas reforça o entendimento de cross-account.
+
+### Diferença SQS vs SNS vs EventBridge
+
+| | SQS | SNS | EventBridge |
+|---|---|---|---|
+| **Modelo** | Fila (um consumidor por vez) | Pub/sub (vários assinantes) | Barramento de eventos |
+| **Quando usar** | Desacoplar um produtor e um consumidor | Notificar múltiplos destinos ao mesmo tempo | Roteamento de eventos entre serviços AWS/SaaS |
+| **Exemplo** | Pedido → fila → processamento | Alerta → e-mail + SMS + Lambda | CloudTrail event → trigger automação |
+
+---
+
+## Analytics e IA/ML
+
+### Ferramentas de Analytics
+
+| Serviço | O que faz | Quando usar |
+|---|---|---|
+| **Athena** | Executa queries SQL diretamente em arquivos no S3 (CSV, JSON, Parquet) sem provisionar servidores | Análise pontual de dados no S3 |
+| **Glue** | ETL gerenciado: extrai dados de várias fontes, transforma e carrega no destino. Tem Data Catalog (catálogo de metadados) | Pipelines de dados e descoberta de esquema |
+| **Redshift** | Data warehouse para analytics em petabytes de dados estruturados | Consultas complexas de BI sobre grandes volumes |
+| **QuickSight** | Ferramenta de BI e visualização de dados (dashboards) | Criar gráficos e relatórios sobre dados AWS |
+| **Kinesis Data Analytics** | Queries SQL em tempo real sobre streams Kinesis | Análise em tempo real (detecção de anomalias, métricas ao vivo) |
+
+> **Regra para a prova**: Athena = query ad-hoc no S3. Glue = ETL e catálogo. Redshift = data warehouse. QuickSight = dashboards.
+
+### Serviços de IA/ML
+
+#### SageMaker
+- Plataforma completa para criar, treinar e implantar modelos de Machine Learning
+- Você traz seus próprios dados e algoritmos; a AWS gerencia a infraestrutura de treino e deploy
+- Para a prova: é a resposta quando a questão pede um serviço para **treinar um modelo de ML customizado**
+
+#### Serviços de IA pré-treinados (sem precisar saber ML)
+
+| Serviço | O que faz | Exemplo de uso |
+|---|---|---|
+| **Rekognition** | Análise de imagens e vídeos (rostos, objetos, cenas, texto em imagem) | Moderar conteúdo, reconhecimento facial |
+| **Polly** | Converte texto em fala (Text-to-Speech) | Narrar conteúdo, assistentes de voz |
+| **Transcribe** | Converte fala em texto (Speech-to-Text) | Legendas automáticas, transcrição de reuniões |
+| **Translate** | Tradução automática entre idiomas | Localizar conteúdo para múltiplos países |
+| **Comprehend** | Processamento de linguagem natural (sentimento, entidades, idioma) | Analisar avaliações de clientes |
+| **Lex** | Cria chatbots com voz e texto (mesmo motor do Alexa) | Assistente virtual, atendimento automatizado |
+| **Kendra** | Busca inteligente em documentos usando ML | Motor de busca interno em bases de conhecimento |
+| **Textract** | Extrai texto e dados de documentos (PDFs, imagens de formulários) | Digitalizar formulários, extrair dados de contratos |
+
+> **Regra para a prova**: Se a questão descreve uma tarefa pronta (analisar imagem, traduzir, detectar sentimento), é um dos serviços de IA pré-treinados. Se pede para **criar e treinar** um modelo customizado, é **SageMaker**.
+
+---
+
+## Migração
+
+### Estratégias de migração (revisando os 6 Rs)
+
+Para migrar workloads on-premises para a AWS, a AWS define 6 estratégias:
+
+| R | Nome | O que faz |
+|---|---|---|
+| **Rehost** | Lift-and-shift | Move a aplicação sem mudar nada. Rápido, sem benefício de cloud nativo |
+| **Replatform** | Lift-and-reshape | Pequenas otimizações (ex: MySQL manual → RDS) sem mudar o código |
+| **Repurchase** | Drop-and-shop | Substituir por SaaS (ex: CRM próprio → Salesforce) |
+| **Refactor** | Re-architect | Reescrever para cloud-native (serverless, microsserviços). Mais caro, maior ganho |
+| **Retire** | Descomissionar | Identificar e desligar o que não é mais necessário |
+| **Retain** | Manter | Deixar on-premises por enquanto (compliance, dependência técnica) |
+
+### Ferramentas de Migração
+
+| Serviço | O que faz |
+|---|---|
+| **AWS Migration Hub** | Painel centralizado para acompanhar o progresso de todas as migrações |
+| **Application Migration Service (MGN)** | Lift-and-shift automatizado de servidores físicos/VMs para EC2 |
+| **Database Migration Service (DMS)** | Migra bancos de dados com downtime mínimo (suporta migrações homógeneas e heterogêneas) |
+| **Schema Conversion Tool (SCT)** | Converte schema de um banco para outro tipo (ex: Oracle → PostgreSQL) |
+
+### AWS Snow Family — Transferência Física de Dados
+
+Usado quando transferir dados pela internet é inviável (muito volume, conexão lenta, sem conectividade):
+
+| Dispositivo | Capacidade | Caso de uso |
+|---|---|---|
+| **Snowcone** | 8 TB | Edge computing em campo, transferência pequena, cabe na mochila |
+| **Snowball Edge** | 80 TB | Transferência de grande volume, processamento local antes de enviar |
+| **Snowmobile** | 100 PB | Migração de datacenters inteiros (chega em um caminhão) |
+
+> **Regra para a prova**: Se a questão menciona "sem conexão de internet", "muitos TB/PB de dados", ou "migração física" → **Snow Family**.
+
+---
+
+## Developer Tools — CI/CD na AWS
+
+A AWS tem um conjunto de serviços nativos para criar pipelines de integração e entrega contínua:
+
+| Serviço | Função | Equivalente comum |
+|---|---|---|
+| **CodeCommit** | Repositório Git gerenciado na AWS | GitHub / GitLab |
+| **CodeBuild** | Compila código, roda testes, gera artefatos | Jenkins / GitHub Actions |
+| **CodeDeploy** | Faz o deploy do artefato em EC2, Lambda ou on-premises | Ansible / Octopus Deploy |
+| **CodePipeline** | Orquestra todo o pipeline CI/CD (do commit ao deploy) | GitHub Actions / Azure DevOps |
+
+### Fluxo típico
+
+```
+Código no CodeCommit
+        ↓
+   CodePipeline detecta o commit
+        ↓
+   CodeBuild compila e testa
+        ↓
+   CodeDeploy faz o deploy no EC2 / Lambda
+```
+
+> **Para a prova**: A questão vai descrever uma etapa do pipeline e perguntar qual serviço corresponde. Lembre: **Build** = CodeBuild, **Deploy** = CodeDeploy, **Orquestração** = CodePipeline, **Repositório** = CodeCommit.
+
+---
+
+## Outros Serviços Importantes
+
+### AWS Outposts
+- Hardware AWS instalado **fisicamente no seu datacenter** on-premises
+- Permite rodar serviços AWS (EC2, RDS, EKS) localmente com baixa latência
+- Para a prova: resposta para cenários que exigem cloud AWS mas com dados locais por compliance
+
+### AWS Wavelength
+- Extende a infraestrutura AWS para dentro das redes 5G das operadoras
+- Para aplicações que precisam de latência ultra-baixa (jogos, IoT, AR/VR)
+
+### AWS Global Accelerator
+- Roteia tráfego pelo backbone privado da AWS (não pela internet pública)
+- Reduz latência e melhora disponibilidade global
+- **Diferente do CloudFront**: Global Accelerator é para qualquer protocolo TCP/UDP; CloudFront é CDN para conteúdo HTTP/S
+
+### Amazon Connect
+- Central de atendimento telefônico (call center) gerenciada na cloud
+
+### AWS Trusted Advisor
+- Analisa sua conta e dá recomendações em 5 categorias:
+  1. **Cost Optimization** — recursos ociosos, reservas subutilizadas
+  2. **Security** — MFA desabilitado, buckets públicos, portas abertas
+  3. **Fault Tolerance** — AZ única, sem backup
+  4. **Performance** — instâncias superprovisionadas
+  5. **Service Limits** — uso próximo do limite da conta
+
+### Kinesis — Streaming de Dados em Tempo Real
+
+| Serviço | O que faz |
+|---|---|
+| **Kinesis Data Streams** | Ingere e armazena dados em tempo real para consumo por aplicações |
+| **Kinesis Data Firehose** | Entrega gerenciada de streams para destinos (S3, Redshift, OpenSearch) |
+| **Kinesis Data Analytics** | Queries SQL em tempo real sobre streams |
+
+> [!tip] 🔗 Conexão com o trabalho
+> A CTASK0133209 foi um exercício completo de arquitetura de dados em tempo real com Kinesis:
+> - Você criou um **Kinesis Data Stream** (app-vehicles-stream) para receber os eventos do DynamoDB em tempo real
+> - Depois configurou um **Kinesis Data Firehose** (DNA_Vehicles) que lê desse stream e entrega os arquivos no bucket S3 da DLA (flt-dna-l0-landing)
+> - O Firehose ainda passou por uma Lambda de transformação antes de chegar no S3
+>
+> Esse é o padrão de arquitetura: **DynamoDB Streams → Lambda → Kinesis Data Streams → Firehose → S3**. Para a prova: Data Streams é para ingestão/consumo em tempo real; Firehose é para entrega gerenciada a um destino.
+>
+> Você também aprendeu que quando o destino S3 está em **outra conta**, não é possível selecionar pelo console — é necessário usar CLI (`aws firehose update-destination`). Isso é conhecimento além da prova, mas reforça o entendimento de cross-account.

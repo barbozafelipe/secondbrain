@@ -108,17 +108,39 @@ AWS IAM Identity Center
 
 ## Serviços de segurança relevantes para a prova
 
-| Serviço | O que faz |
-|---------|-----------|
-| **GuardDuty** | Detecção de ameaças via ML (logs de VPC, DNS, CloudTrail) |
-| **Inspector** | Scan de vulnerabilidades em EC2 e imagens de container |
-| **Macie** | Descoberta de dados sensíveis (PII) no S3 |
-| **Shield Standard** | Proteção DDoS automática e gratuita |
-| **Shield Advanced** | DDoS com suporte 24/7 e SLA financeiro |
-| **WAF** | Firewall de aplicação web (regras customizáveis) |
-| **Secrets Manager** | Rotação automática de credenciais |
-| **KMS** | Gerenciamento de chaves de criptografia |
-| **CloudTrail** | Auditoria de todas as chamadas de API |
+A prova costuma descrever um **cenário** e pedir qual serviço resolve. Use a tabela e os exemplos abaixo para fixar cada um:
+
+| Serviço | O que faz | Palavra-chave na prova |
+|---------|-----------|------------------------|
+| **GuardDuty** | Detecção de ameaças via ML (analisa logs de VPC Flow, DNS, CloudTrail) | "detectar ameaças", "atividade suspeita", "intruso" |
+| **Inspector** | Scan automático de vulnerabilidades em EC2 e imagens de container | "vulnerabilidades", "CVEs", "conformidade de patches" |
+| **Macie** | Descobre e protege dados sensíveis (PII) no S3 usando ML | "dados sensíveis", "PII", "CPF/cartão em S3" |
+| **Shield Standard** | Proteção DDoS automática e **gratuita** para todos os clientes | "DDoS", "proteção básica", "sem custo adicional" |
+| **Shield Advanced** | DDoS com suporte 24/7, SLA financeiro e equipe de resposta | "DDoS crítico", "reembolso de custo DDoS", "SLA" |
+| **WAF** | Firewall de aplicação web (filtra requisições HTTP/S maliciosas) | "SQL injection", "XSS", "bloquear IPs", "regras HTTP" |
+| **Secrets Manager** | Armazena e faz rotação automática de credenciais (senhas, API keys) | "rotação automática", "credenciais de banco" |
+| **KMS** | Gerenciamento de chaves de criptografia para outros serviços AWS | "chave de criptografia", "CMK", "criptografar S3/EBS/RDS" |
+| **CloudTrail** | Log de auditoria de **todas** as chamadas de API da conta | "quem fez o quê", "histórico de API", "auditoria" |
+
+### Cenários típicos de prova
+
+> **Cenário 1:** "Um analista quer saber se alguém deletou um bucket S3 na semana passada. Qual serviço usar?"
+> → **CloudTrail** — registra todas as chamadas de API, incluindo quem deletou o quê e quando.
+
+> **Cenário 2:** "A empresa quer ser avisada se um usuário IAM começar a fazer chamadas suspeitas de uma região desconhecida."
+> → **GuardDuty** — detecta comportamento anômalo analisando os logs automaticamente com ML.
+
+> **Cenário 3:** "A equipe de compliance quer garantir que nenhum bucket S3 contenha dados de CPF de clientes expostos."
+> → **Macie** — escaneia o S3 e identifica dados sensíveis (PII).
+
+> **Cenário 4:** "O site está sofrendo ataques de SQL injection na API. Qual serviço bloqueia isso?"
+> → **WAF** — filtra requisições HTTP maliciosas antes de chegarem na aplicação.
+
+> **Cenário 5:** "A aplicação está sofrendo um ataque DDoS. Qual proteção a AWS já inclui por padrão?"
+> → **Shield Standard** — já ativo e gratuito para todos.
+
+> **Cenário 6:** "A aplicação usa a senha do banco hardcoded no código. Como resolver de forma segura com rotação automática?"
+> → **Secrets Manager** — armazena a credencial e a rotaciona automaticamente.
 
 ---
 
