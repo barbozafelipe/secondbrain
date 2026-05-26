@@ -27,8 +27,8 @@
 		{"id":"dbbc863d67c5f398","fromNode":"d9ee69a25122a580","fromSide":"left","toNode":"08bb6af739cefd7d","toSide":"right","label":"1."},
 		{"id":"166c9cf8f649ce5b","fromNode":"d9ee69a25122a580","fromSide":"left","toNode":"23cac570e4a28c28","toSide":"right","label":"2."},
 		{"id":"0bb54bc2a5a92eb4","fromNode":"d9ee69a25122a580","fromSide":"bottom","toNode":"002df7a7189c3ff0","toSide":"top","label":"3."},
-		{"id":"a9516a03a57d6e1b","fromNode":"23cac570e4a28c28","fromSide":"bottom","toNode":"e124cd7bd7f6794d","toSide":"top"},
-		{"id":"ea91b9a7b2627666","fromNode":"08bb6af739cefd7d","fromSide":"bottom","toNode":"e124cd7bd7f6794d","toSide":"top"},
+		{"id":"a9516a03a57d6e1b","fromNode":"23cac570e4a28c28","fromSide":"bottom","toNode":"e124cd7bd7f6794d","toSide":"top","color":"5","label":"Tarefa deles"},
+		{"id":"ea91b9a7b2627666","fromNode":"08bb6af739cefd7d","fromSide":"bottom","toNode":"e124cd7bd7f6794d","toSide":"top","color":"5","label":"Tarefa deles"},
 		{"id":"5b568e5e95289325","fromNode":"002df7a7189c3ff0","fromSide":"left","toNode":"91151daf3fb33efd","toSide":"right","color":"5","label":"Tarefa deles"},
 		{"id":"336d87385d8f0a22","fromNode":"a59f866ec896b3f5","fromSide":"top","toNode":"9f731309b2a6d15d","toSide":"bottom","color":"5","label":"Tarefa deles"},
 		{"id":"1abdba761fb7df9b","fromNode":"d9ee69a25122a580","fromSide":"bottom","toNode":"a59f866ec896b3f5","toSide":"top","label":"4."}
