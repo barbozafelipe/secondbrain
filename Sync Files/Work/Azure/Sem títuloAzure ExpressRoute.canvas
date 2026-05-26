@@ -10,7 +10,7 @@
 		{"id":"d2bbac676cce5f01","type":"text","text":"vNet - SPE (NPRD)\n10.17.200.0/22","x":-980,"y":270,"width":200,"height":70},
 		{"id":"5540d6a1f021d5db","type":"text","text":"vNet - DIGITAL (NPRD)\n","x":-1007,"y":480,"width":207,"height":60},
 		{"id":"a847efeae46dca89","type":"text","text":"vNet - DIGITAL (PROD)\n","x":-1027,"y":380,"width":207,"height":54},
-		{"id":"4cd51633a2918d34","x":340,"y":61,"width":694,"height":206,"type":"file","file":"Pasted image 20260526145411.png"}
+		{"id":"5fc14438f6fe4daa","x":140,"y":73,"width":780,"height":247,"type":"file","file":"Pasted image 20260526145505.png"}
 	],
 	"edges":[
 		{"id":"eb50f73ac91d4157","fromNode":"424c98758b9a723a","fromSide":"right","toNode":"e124cd7bd7f6794d","toSide":"left","label":"Túnel VPN"},
@@ -19,6 +19,7 @@
 		{"id":"59dce7c288ae00f0","fromNode":"9f731309b2a6d15d","fromSide":"left","toNode":"f51d381249773e07","toSide":"right","color":"4","label":"rota"},
 		{"id":"231d8d417b81ba4a","fromNode":"9f731309b2a6d15d","fromSide":"left","toNode":"d2bbac676cce5f01","toSide":"right","color":"4","label":"rota"},
 		{"id":"764d718c286ab77f","fromNode":"9f731309b2a6d15d","fromSide":"left","toNode":"a847efeae46dca89","toSide":"right","toEnd":"none","color":"1","label":"x"},
-		{"id":"28b785245b6d989c","fromNode":"9f731309b2a6d15d","fromSide":"left","toNode":"5540d6a1f021d5db","toSide":"right","toEnd":"none","color":"1","label":"x"}
+		{"id":"28b785245b6d989c","fromNode":"9f731309b2a6d15d","fromSide":"left","toNode":"5540d6a1f021d5db","toSide":"right","toEnd":"none","color":"1","label":"x"},
+		{"id":"950d23fa536f2b35","fromNode":"91151daf3fb33efd","fromSide":"right","toNode":"5fc14438f6fe4daa","toSide":"left","toEnd":"none"}
 	]
 }
