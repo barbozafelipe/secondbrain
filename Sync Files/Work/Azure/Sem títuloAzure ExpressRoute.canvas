@@ -11,7 +11,8 @@
 		{"id":"5540d6a1f021d5db","type":"text","text":"vNet - DIGITAL (NPRD)\n","x":-1007,"y":480,"width":207,"height":60},
 		{"id":"a847efeae46dca89","type":"text","text":"vNet - DIGITAL (PROD)\n","x":-1027,"y":380,"width":207,"height":54},
 		{"id":"ddc2279aa3dc2f8f","x":-661,"y":880,"width":902,"height":180,"type":"file","file":"Pasted image 20260526145541.png"},
-		{"id":"5fc14438f6fe4daa","x":320,"y":87,"width":780,"height":247,"type":"file","file":"Pasted image 20260526145505.png"}
+		{"id":"5fc14438f6fe4daa","x":320,"y":87,"width":780,"height":247,"type":"file","file":"Pasted image 20260526145505.png"},
+		{"id":"ea1d8151a023d96b","x":124,"y":-800,"width":776,"height":792,"type":"file","file":"Pasted image 20260526150231.png"}
 	],
 	"edges":[
 		{"id":"eb50f73ac91d4157","fromNode":"424c98758b9a723a","fromSide":"right","toNode":"e124cd7bd7f6794d","toSide":"left","label":"Túnel VPN"},
