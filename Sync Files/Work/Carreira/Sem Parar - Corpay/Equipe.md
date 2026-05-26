@@ -115,6 +115,10 @@ atualizado: 2026-05-19
 | **Hélio**                     | Gringo — solicitou desligamento do Analyze (Dynatrace) em staging                        |
 | **Ênio**                      | Contato para janela de configuração do Okta no GCP                                       |
 | **Joson**                     | Solicitante externo — pediu adição de headers em API Gateway (Dev/HML/Prod)              |
+| **Hudson**                    | Head/Gestor da área de dados (perfil mais de negócios/marketing)                         |
+| **André**                     | Envolvido na discussão sobre coexistência de domínios e nós no Okta                      |
+| **Célio e Ian**               | Equipe de desenvolvimento/esteira no GCP (deploy e secrets)                              |
+| **Luciano**                   | Ponto de contato sobre configuração de DNS interno e rotas estáticas                     |
 
 ---
 
