@@ -2,9 +2,9 @@
 	"nodes":[
 		{"id":"424c98758b9a723a","type":"text","text":"Pessoa de Infra\n10.80.8.x","x":-960,"y":-100,"width":160,"height":60},
 		{"id":"e124cd7bd7f6794d","type":"text","text":"Firewall On-Premisses","x":-420,"y":-100,"width":210,"height":60},
-		{"id":"91151daf3fb33efd","type":"text","text":"Rule collections","x":-396,"y":250,"width":161,"height":70,"color":"1"},
+		{"id":"91151daf3fb33efd","type":"text","text":"==<mark style=\"background:rgba(240, 107, 5, 0.2)\">Rule collections</mark>==","x":-396,"y":250,"width":161,"height":70,"color":"2"},
 		{"id":"4fc4e9e1f9802239","type":"text","text":"Azure Firewall","x":-396,"y":320,"width":160,"height":60},
-		{"id":"9f731309b2a6d15d","type":"text","text":"Route table","x":-536,"y":320,"width":140,"height":60},
+		{"id":"9f731309b2a6d15d","type":"text","text":"Route table","x":-536,"y":320,"width":140,"height":60,"color":"2"},
 		{"id":"f51d381249773e07","type":"text","text":"vNet - CPP (PRD)\n10.17.130.0/24","x":-1000,"y":180,"width":180,"height":60},
 		{"id":"fdc90b65bdbfa099","type":"text","text":"vNet - Shared \n10.17.184.0/24","x":-980,"y":80,"width":158,"height":60},
 		{"id":"d2bbac676cce5f01","type":"text","text":"vNet - SPE (NPRD)\n10.17.200.0/22","x":-980,"y":270,"width":200,"height":70},
