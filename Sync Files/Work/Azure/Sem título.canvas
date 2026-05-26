@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"424c98758b9a723a","type":"text","text":"Pessoa de Infra\n10.80.8.x","x":-960,"y":-100,"width":160,"height":60},
-		{"id":"e124cd7bd7f6794d","x":-420,"y":-100,"width":210,"height":60,"type":"text","text":"Firewall On-Premisses"}
-	],
-	"edges":[
-		{"id":"eb50f73ac91d4157","fromNode":"424c98758b9a723a","fromSide":"right","toNode":"e124cd7bd7f6794d","toSide":"left","label":"Túnel VPN"}
-	]
-}
