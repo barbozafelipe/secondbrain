@@ -1,8 +1,7 @@
 {
 	"nodes":[
-		{"id":"08bb6af739cefd7d","x":-368,"y":-649,"width":250,"height":60,"type":"text","text":""},
 		{"id":"424c98758b9a723a","type":"text","text":"Pessoa de Infra\n10.80.8.x","x":-960,"y":-100,"width":160,"height":60},
-		{"id":"e124cd7bd7f6794d","type":"text","text":"Firewall On-Premisses","x":-420,"y":-100,"width":210,"height":60},
+		{"id":"e124cd7bd7f6794d","type":"text","text":"Firewall On-Premisses","x":-420,"y":-100,"width":240,"height":60},
 		{"id":"91151daf3fb33efd","type":"text","text":"==<mark style=\"background:rgba(240, 107, 5, 0.2)\">Rule collections</mark>==","x":-396,"y":250,"width":161,"height":70,"color":"2"},
 		{"id":"4fc4e9e1f9802239","type":"text","text":"Azure Firewall","x":-396,"y":320,"width":160,"height":60},
 		{"id":"9f731309b2a6d15d","type":"text","text":"==Route table==","x":-536,"y":320,"width":140,"height":60,"color":"2"},
@@ -13,7 +12,9 @@
 		{"id":"a847efeae46dca89","type":"text","text":"vNet - DIGITAL (PROD)\n","x":-1027,"y":380,"width":207,"height":54},
 		{"id":"ddc2279aa3dc2f8f","x":-661,"y":880,"width":902,"height":180,"type":"file","file":"Pasted image 20260526145541.png"},
 		{"id":"5fc14438f6fe4daa","x":320,"y":87,"width":780,"height":247,"type":"file","file":"Pasted image 20260526145505.png"},
-		{"id":"d9ee69a25122a580","type":"file","file":"Pasted image 20260526150231.png","x":480,"y":-2000,"width":1320,"height":1347}
+		{"id":"d9ee69a25122a580","type":"file","file":"Pasted image 20260526150231.png","x":480,"y":-2000,"width":1320,"height":1347},
+		{"id":"08bb6af739cefd7d","x":-580,"y":-840,"width":840,"height":260,"type":"text","text":"- **Eles configuram o BGP Network Announcement (Prefix List):**\n    \n    - **Nome da Lista:** `PRX_BGP_TO_AZURE_OUT`\n    - **Ação:** `Permit` (Anunciar/Permitir rota)\n    - **Redes Permitidas (Prefixos):**\n        - `10.80.0.0/18` (Sua rede de VPN)\n        - `10.9.0.0/16` (Redes de infra/cloud locais)\n    - _Objetivo:_ Garantir que a rede local avise o BGP da Azure que ela conhece o caminho de volta para os IPs de VPN dos usuários."},
+		{"id":"23cac570e4a28c28","type":"text","text":"- **Eles configuram as regras de Segurança Locais (Security Policy):**\n    \n    - **Source (Origem):** `10.80.9.128/25`, `10.9.9.128/25`, `10.80.8.0/25`, `10.9.8.0/25` (Redes do chamado)\n    - **Destination (Destino):** `10.17.204.160/27` (Digital NPROD) e `10.17.205.160/27` (Digital PROD)\n    - **Service/Port (Porta):** `TCP/5432` (Postgres)\n    - **Action:** `Accept / Allow`\n    - _Objetivo:_ Permitir que os pacotes iniciados na sua VPN/máquina saiam do datacenter local em direção à Azure pela porta do banco.","x":-580,"y":-500,"width":840,"height":260}
 	],
 	"edges":[
 		{"id":"eb50f73ac91d4157","fromNode":"424c98758b9a723a","fromSide":"right","toNode":"e124cd7bd7f6794d","toSide":"left","label":"Túnel VPN"},
