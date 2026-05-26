@@ -5,12 +5,16 @@
 		{"id":"91151daf3fb33efd","type":"text","text":"Rule collections","x":-396,"y":250,"width":161,"height":70},
 		{"id":"4fc4e9e1f9802239","type":"text","text":"Azure Firewall","x":-396,"y":320,"width":160,"height":60},
 		{"id":"9f731309b2a6d15d","type":"text","text":"Route table","x":-536,"y":320,"width":140,"height":60},
-		{"id":"fdc90b65bdbfa099","x":-820,"y":190,"width":158,"height":60,"type":"text","text":"vNet - Shared\n10.17.184.0/24"},
-		{"id":"f51d381249773e07","type":"text","text":"vNet - CPP\n10.17.130.0/24","x":-820,"y":290,"width":158,"height":60},
-		{"id":"d2bbac676cce5f01","type":"text","text":"vNet - SPE\n10.17.200.0/22","x":-820,"y":400,"width":158,"height":60}
+		{"id":"fdc90b65bdbfa099","type":"text","text":"vNet - Shared\n10.17.184.0/24","x":-960,"y":160,"width":158,"height":60},
+		{"id":"f51d381249773e07","type":"text","text":"vNet - CPP ()\n10.17.130.0/24","x":-980,"y":260,"width":158,"height":60},
+		{"id":"d2bbac676cce5f01","type":"text","text":"vNet - SPE (NPRD)\n10.17.200.0/22","x":-960,"y":350,"width":200,"height":70},
+		{"id":"a847efeae46dca89","type":"text","text":"vNet - DIGITAL\n","x":-987,"y":466,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"eb50f73ac91d4157","fromNode":"424c98758b9a723a","fromSide":"right","toNode":"e124cd7bd7f6794d","toSide":"left","label":"Túnel VPN"},
-		{"id":"ca455b7004057500","fromNode":"e124cd7bd7f6794d","fromSide":"bottom","toNode":"91151daf3fb33efd","toSide":"top","label":"Azure ExpressRoute"}
+		{"id":"ca455b7004057500","fromNode":"e124cd7bd7f6794d","fromSide":"bottom","toNode":"91151daf3fb33efd","toSide":"top","label":"Azure ExpressRoute"},
+		{"id":"993f0b857800f472","fromNode":"9f731309b2a6d15d","fromSide":"left","toNode":"fdc90b65bdbfa099","toSide":"right","label":"rota"},
+		{"id":"59dce7c288ae00f0","fromNode":"9f731309b2a6d15d","fromSide":"left","toNode":"f51d381249773e07","toSide":"right","label":"rota"},
+		{"id":"231d8d417b81ba4a","fromNode":"9f731309b2a6d15d","fromSide":"left","toNode":"d2bbac676cce5f01","toSide":"right","label":"rota"}
 	]
 }
