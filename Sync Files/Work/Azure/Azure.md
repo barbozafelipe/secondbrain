@@ -4,6 +4,7 @@
 - [[CTASK0134545]]
 - [[CTASK0134547]]
 - [[Inserção de blocos Zscaler em alguns serviços da Azure]]
+- [[IPs zscaler]]
 - [[PostgreSQL_MultiEnv_Provisioning]]
 - [[Roteamento_BGP_ExpressRoute]]
 - [[TASK1247601]]
