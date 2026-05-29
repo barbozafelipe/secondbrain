@@ -20,25 +20,25 @@
 ## ✅ Checklist de Estudo
 
 **Computação**
-- [ ] EC2: tipos de instância, famílias (C, M, R, T), AMIs, estados
-- [ ] Lambda — serverless, event-driven, cobrança por invocação
-- [ ] ECS e EKS — orquestração de containers
-- [ ] Fargate — containers serverless (sem gerenciar nodes)
+- [x] EC2: tipos de instância, famílias (C, M, R, T), AMIs, estados
+- [x] Lambda — serverless, event-driven, cobrança por invocação
+- [x] ECS e EKS — orquestração de containers
+- [x] Fargate — containers serverless (sem gerenciar nodes)
 - [ ] Elastic Beanstalk — PaaS para deploy de aplicações
 
 **Armazenamento**
-- [ ] S3: classes (Standard, IA, Glacier), versionamento, lifecycle, políticas de bucket
-- [ ] EBS — block storage persistente para EC2
-- [ ] EFS — file system gerenciado e compartilhado (NFS)
-- [ ] S3 Glacier e Glacier Deep Archive — arquivamento de longo prazo
-- [ ] AWS Storage Gateway e AWS Backup
+- [x] S3: classes (Standard, IA, Glacier), versionamento, lifecycle, políticas de bucket
+- [x] EBS — block storage persistente para EC2
+- [x] EFS — file system gerenciado e compartilhado (NFS)
+- [x] S3 Glacier e Glacier Deep Archive — arquivamento de longo prazo
+- [x] AWS Storage Gateway e AWS Backup
 
 **Banco de dados**
-- [ ] RDS e Aurora — relacionais gerenciados (MySQL, PostgreSQL, Oracle...)
-- [ ] DynamoDB — NoSQL serverless, chave-valor, com Streams
-- [ ] Redshift — data warehouse para analytics
-- [ ] ElastiCache — cache em memória (Redis e Memcached)
-- [ ] DocumentDB (MongoDB-compatible) e Neptune (grafo)
+- [x] RDS e Aurora — relacionais gerenciados (MySQL, PostgreSQL, Oracle...)
+- [x] DynamoDB — NoSQL serverless, chave-valor, com Streams
+- [x] Redshift — data warehouse para analytics
+- [x] ElastiCache — cache em memória (Redis e Memcached)
+- [x] DocumentDB (MongoDB-compatible) e Neptune (grafo)
 
 **Rede e segurança de rede**
 - [ ] VPC: subnets públicas/privadas, route tables, Internet Gateway
