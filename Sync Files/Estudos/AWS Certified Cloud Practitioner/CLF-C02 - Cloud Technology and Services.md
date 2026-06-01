@@ -41,7 +41,7 @@
 - [x] DocumentDB (MongoDB-compatible) e Neptune (grafo)
 
 **Rede e segurança de rede**
-- [ ] VPC: subnets públicas/privadas, route tables, Internet Gateway
+- [x] VPC: subnets públicas/privadas, route tables, Internet Gateway
 - [ ] Security Groups (stateful) vs NACLs (stateless)
 - [ ] Route 53 — DNS gerenciado, roteamento de tráfego
 - [ ] CloudFront — CDN global com Edge Locations
