@@ -1,12 +1,12 @@
 ---
 tags: [trabalho, sem-parar, equipe, squad, referência]
-atualizado: 2026-05-19
+atualizado: 2026-06-02
 ---
 
 # Equipe — Cloud & Infraestrutura
 
 > Mapa de quem faz o quê no squad de infra/cloud da Sem Parar (Corpay).
-> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]], [[19-05-2026]]).
+> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]], [[19-05-2026]], [[26-05-2026]], [[02-06-2026]]).
 
 ---
 
@@ -119,8 +119,12 @@ atualizado: 2026-05-19
 | **André**                     | Envolvido na discussão sobre coexistência de domínios e nós no Okta                      |
 | **Célio e Ian**               | Equipe de desenvolvimento/esteira no GCP (deploy e secrets)                              |
 | **Luciano**                   | Ponto de contato sobre configuração de DNS interno e rotas estáticas                     |
+| **Rafael Humberto**           | Envolvido na certificação PCI da Gringo — mapeamento de fluxo de dados                  |
+| **Rodolfo**                   | Contato da área de dados (Gringo Data) — responsável por BigQuery e reservas             |
+| **Leandro**                   | Gestão de Change — acompanha projetos como NAT Gateway e CPP                             |
+| **Diego Ferraz**              | Tech Lead externo do Olho no Carro — trata Mateus como DevOps (problema recorrente)      |
 
 ---
 
 > [!note] Atualização
-> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada na reunião de [[19-05-2026]].
+> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada na reunião de [[02-06-2026]].
