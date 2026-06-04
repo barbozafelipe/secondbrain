@@ -41,11 +41,11 @@ fonte: reflexao-cowork
 
 ## Prioridade 5 — Vista (último, não primeiro)
 - [ ] Refazer exame oftalmológico (faz ~10 anos)
-- [ ] Usar óculos pra longe/dirigir só se de fato ajudar
+- Usar óculos pra longe/dirigir só se de fato ajudar
 > Miopia -0,50/-0,75 é leve. Não é vilão cognitivo importante.
 
 ## Depois da recuperação
-- [ ] Jiu-jitsu — só **meses** após consolidação do osso do nariz. Ferramenta de calma e tolerância a pressão.
+- Jiu-jitsu — só **meses** após consolidação do osso do nariz. Ferramenta de calma e tolerância a pressão.
 
 ## Lembretes pra mim mesmo
 - O modelo "cuidar do corpo reduz a energia de ativação da disciplina" está certo. Mas não virar pornografia da produtividade — viés pra ação simples.
