@@ -12,7 +12,6 @@ fonte: reflexao-cowork
 ## Prioridade 1 — Cirurgia (destrava tudo)
 - [ ] Fazer exame de sangue (fim de semana) — pré-operatório
 - [ ] Fazer ECG / ecocardiograma (fim do mês)
-- [ ] Confirmar quais exames pré-op ainda faltam com o médico do CEMA
 - [ ] Retornar ao otorrino (CEMA) com exames prontos
 - [ ] Médico emite o pedido de cirurgia (septoplastia + turbinoplastia)
 - [ ] Lançar pedido no app Seguros Unimed (Privian) e aguardar aprovação
