@@ -5,5 +5,6 @@
 - [[Imagens da Laringoscopia]]
 - [[Laudo da Laringoscopia]]
 - [[Laudo da Tomografia seios da face]]
+- [[Plano de Ação]]
 
 %% End Waypoint %%
