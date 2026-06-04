@@ -21,24 +21,23 @@ fonte: reflexao-cowork
 
 ## Prioridade 2 — Refluxo (RFL +++/4+) — começar JÁ, sem esperar a cirurgia
 > Marcado como urgente no seu próprio laudo. Piora o inchaço nasal e o sono. Dá ganho antes mesmo de operar.
-- [ ] Conversar com otorrino/gastro sobre tratamento (ex: IBP)
-- [ ] Não comer 2–3h antes de deitar
-- [ ] Elevar a cabeceira da cama
-- [ ] Reduzir gatilhos noturnos (frituras, café à noite, álcool, refrigerante)
+- Não comer 2–3h antes de deitar
+- Elevar a cabeceira da cama
+- Reduzir gatilhos noturnos (frituras, café à noite, álcool, refrigerante)
 
 ## Prioridade 3 — Higiene de sono (base diária)
-- [ ] Horário fixo pra dormir e acordar
-- [ ] Quarto escuro e mais frio
-- [ ] Cafeína só de manhã (corta a represa de adenosina à tarde)
-- [ ] Tela longe ~1h antes de dormir
-- [ ] Usar o Apple Watch só como tendência grosseira — **não** como verdade nem competição. Smartwatch erra muito no sono profundo.
+- Horário fixo pra dormir e acordar
+- Quarto escuro e mais frio
+- Cafeína só de manhã (corta a represa de adenosina à tarde)
+- Tela longe ~1h antes de dormir
+- Usar o Apple Watch só como tendência grosseira — **não** como verdade nem competição. Smartwatch erra muito no sono profundo.
 
 ## Prioridade 4 — Corpo (academia + dieta)
 > A barriga é matemática de caloria, não GH baixo. A 1,82m/70kg você está magro.
-- [ ] Treino consistente com sobrecarga progressiva
-- [ ] Proteína suficiente todo dia
-- [ ] Ajustar a *quantidade* do superávit (estava grande demais)
-- [ ] Dar tempo de recuperação (sono ajuda aqui)
+- Treino consistente com sobrecarga progressiva
+- Proteína suficiente todo dia
+- Ajustar a *quantidade* do superávit (estava grande demais)
+- Dar tempo de recuperação (sono ajuda aqui)
 
 ## Prioridade 5 — Vista (último, não primeiro)
 - [ ] Refazer exame oftalmológico (faz ~10 anos)
