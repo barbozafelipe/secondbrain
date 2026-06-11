@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+- [[APIM AIHub - 404 em operacao por urlTemplate com barra dupla]]
 - [[CHG0094480]]
 - [[CTASK0134245]]
 - [[CTASK0134545]]

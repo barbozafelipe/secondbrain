@@ -18,18 +18,6 @@ tipo: reunião técnica
 4. **Há 1.800+ secrets em produção** — Messias está mapeando o que está ativo. Algumas secrets de staging espelham valores de produção.
 5. **Plano imediato**: criar canal de solicitações de infra + bloquear merge no repo de IaC sem aprovação do time de Cloud.
 
----
-
-## 👤 O que me diz respeito diretamente
-
-> [!warning] Acesso ao repositório de infra da Gringo ainda pendente
-> Parte do time ainda não tem acesso ao repo de Terraform da Gringo no GitHub. O desbloqueio depende do Zaza. Wellington ficou de cobrar. **Verificar se seu acesso foi concedido.**
-
-> [!tip] O time de Cloud vai passar a aprovar mudanças de IaC
-> A partir do alinhamento desta reunião, qualquer mudança de infraestrutura na Gringo precisa passar pelo time de Cloud antes de ir para produção. João Pedro e Messias são os pontos focais no primeiro momento, mas o contexto é relevante para todos.
-
----
-
 ## 🗂️ Estado atual do Terraform na Gringo
 
 ### Estrutura do repositório
