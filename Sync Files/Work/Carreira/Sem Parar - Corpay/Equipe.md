@@ -82,7 +82,7 @@ atualizado: 2026-06-02
 
 ---
 
-## 🔹 Felipe (eu) — Azure + AWS + Rancher + Certificados
+## 🔹 Felipe — Azure + AWS + Rancher + Certificados
 
 - **Papel:** execução de chamados (Azure, AWS), governança RBAC no Rancher, rotação de certificados, inventário de cluster tools. Recebendo cada vez mais tarefas da Zapay/Olho no Carro por delegação de Wellington.
 - **Cloud principal:** Azure (Sem Parar) e AWS (Sem Parar + apoio Zapay/Olho no Carro).
