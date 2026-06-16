@@ -1,4 +1,6 @@
 %% Begin Waypoint %%
+- [[2026-06-12_databricks-dla-prd-sftp-egress-timeout]]
+- [[2026-06-16_zapay-account-disambiguation]]
 - [[Certificado no LoadBalancer]]
 - [[CTASK0133209]]
 - [[CTASK0133893]]
