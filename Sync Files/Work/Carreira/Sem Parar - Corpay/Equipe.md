@@ -6,7 +6,7 @@ atualizado: 2026-06-23
 # Equipe — Cloud & Infraestrutura
 
 > Mapa de quem faz o quê no squad de infra/cloud da Sem Parar (Corpay).
-> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]], [[19-05-2026]], [[26-05-2026]], [[02-06-2026]], [[23-06-2026]]).
+> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]], [[19-05-2026]], [[26-05-2026]], [[02-06-2026]], [[16-06-2026]], [[23-06-2026]]).
 
 ---
 
@@ -130,8 +130,12 @@ atualizado: 2026-06-23
 | **Itamar**                    | Responsável por chamado de monitoramento (Elastic/Dynatrace) — tarefa pendente pós-Change |
 | **Gabriel (Olho no Carro)**   | Dev do time externo do Olho no Carro — carioca, participou da reunião de alinhamento     |
 | **Argentino (Rio/Cloud)**     | Representante do Google Cloud na América Latina — vem ao Brasil para workshop em julho   |
+| **Darcimara**                 | Gestora do time de dados da Afinz/Carvalt — time não engaja nas reuniões de quarta       |
+| **Maracanã**                  | Contato/gestor no Olho no Carro — acionado por Rafael Humberto para dar tração ao projeto |
+| **Erlani**                    | Arquitetura — pode ter contato na Caixa pré-pago para liberação de IPs do NAT Gateway    |
+| **Everton**                   | Ex-membro do time de Network (Diogo) — saiu da empresa, deixando gap no time             |
 
 ---
 
 > [!note] Atualização
-> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada na reunião de [[23-06-2026]].
+> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada na reunião de [[16-06-2026]] e [[23-06-2026]].
