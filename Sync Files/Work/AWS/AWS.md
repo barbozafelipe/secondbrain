@@ -10,6 +10,7 @@
 - [[Permitir visibilidade de S3 em outra conta]]
 - [[TASK1231707]]
 - [[TASK1247656]]
+- [[TASK1254831]]
 - [[ZPY - Anotação original PTSK0010372]]
 - [[ZPY - Associando permition set e conta em um grupo]]
 - [[ZPY - Como fazer nova conta AWS aparecer no Portal SSO]]
