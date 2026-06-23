@@ -8,6 +8,7 @@
 - [[Inserção de blocos Zscaler em alguns serviços da Azure]]
 - [[IPs zscaler]]
 - [[PostgreSQL_MultiEnv_Provisioning]]
+- [[RITM0903921]]
 - [[Roteamento_BGP_ExpressRoute]]
 - [[TASK1247601]]
 - [[TASK1247602]]
