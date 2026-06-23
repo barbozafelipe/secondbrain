@@ -1,12 +1,12 @@
 ---
 tags: [trabalho, sem-parar, equipe, squad, referência]
-atualizado: 2026-06-02
+atualizado: 2026-06-23
 ---
 
 # Equipe — Cloud & Infraestrutura
 
 > Mapa de quem faz o quê no squad de infra/cloud da Sem Parar (Corpay).
-> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]], [[19-05-2026]], [[26-05-2026]], [[02-06-2026]]).
+> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]], [[19-05-2026]], [[26-05-2026]], [[02-06-2026]], [[23-06-2026]]).
 
 ---
 
@@ -110,6 +110,7 @@ atualizado: 2026-06-02
 | **Guilherme**                 | Gestão/capacity — sizing de node pools e infra                                           |
 | **Caio Cruvinel**             | Novo Account Manager do Google para a conta Gringo (alocado em maio/2026)                |
 | **Caio Proviel**              | Contato técnico na Gringo — validações de descomissionamento de recursos                 |
+| **Caio Medice**               | Account Manager do Google — procurando Léo para reunião de alinhamento de demandas       |
 | **Clayton**                   | Gestão/cronograma na Afinz/Carvalt — ponto de contato para planejamento de entregas      |
 | **Aparecida (Cida)**          | Gestão na Afinz — envolvida em cronograma e acompanhamento                               |
 | **Hélio**                     | Gringo — solicitou desligamento do Analyze (Dynatrace) em staging                        |
@@ -123,8 +124,14 @@ atualizado: 2026-06-02
 | **Rodolfo**                   | Contato da área de dados (Gringo Data) — responsável por BigQuery e reservas             |
 | **Leandro**                   | Gestão de Change — acompanha projetos como NAT Gateway e CPP                             |
 | **Diego Ferraz**              | Tech Lead externo do Olho no Carro — trata Mateus como DevOps (problema recorrente)      |
+| **Jessé**                     | SI (Segurança da Informação) — pressiona sobre certificação PCI Gringo e segregação      |
+| **Noio**                      | Contato Okta — responsável por entregar credenciais de configuração                      |
+| **Luiz**                      | Desenvolvedor — pediu atualização de Secret; caso de uso que evidenciou necessidade de canal de comunicação |
+| **Itamar**                    | Responsável por chamado de monitoramento (Elastic/Dynatrace) — tarefa pendente pós-Change |
+| **Gabriel (Olho no Carro)**   | Dev do time externo do Olho no Carro — carioca, participou da reunião de alinhamento     |
+| **Argentino (Rio/Cloud)**     | Representante do Google Cloud na América Latina — vem ao Brasil para workshop em julho   |
 
 ---
 
 > [!note] Atualização
-> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada na reunião de [[02-06-2026]].
+> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada na reunião de [[23-06-2026]].
