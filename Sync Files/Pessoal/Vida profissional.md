@@ -33,16 +33,16 @@ Cloud Engineer em ambiente multi-cloud (**AWS, Azure e OCI**) em um dos maiores 
 - **Gringo** = GCP · **Zapay + Olho no Carro** = AWS · **Afinz/Carvalt** = AWS (em migração).
 
 ## Equipe e pessoas
-| Pessoa | Papel | Observações |
-|---|---|---|
-| **Wellington** | Tech Lead / Arquitetura (cliente) | ~40 anos, pai de família. Delega tarefas progressivamente (simples → complexas). Lidera o projeto Stra (AI Agents). |
-| **Guilherme** | Gestor do cliente (Sem Parar/Corpay) | Direto e prático. Controla banco de horas de terceiros em planilha. Feedback positivo sobre mim. |
-| **Deivison** | Meu gestor na Compass | Canal aberto via Teams. Cadência: 1:1 ~90 dias + updates assíncronos a cada 15 dias. |
-| **Humberto Lopes** | Gestor Compass (par do Deivison) | Vai ao Sem Parar Seg/Qua; ocasionalmente Ter/Qui. |
-| **Thiago** | Apoio técnico (Azure/OCI/K8s/Networking) | ~30 anos. Muito solícito. Meu principal apoio técnico. |
-| **João Pedro ("João")** | GCP / FinOps | ~30 anos. |
-| **Lucas** | AWS / Argo / GitOps | Nascido em 1999. |
-| Outros | Mateus, Ítalo, Ian (GKE), Leonardo ("Léo", cobra o time) | Contatos recorrentes do squad. |
+| Pessoa                  | Papel                                                                                              | Observações                                                                                                         |
+| ----------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Wellington**          | Tech Lead / Arquitetura (cliente)                                                                  | ~40 anos, pai de família. Delega tarefas progressivamente (simples → complexas). Lidera o projeto Stra (AI Agents). |
+| **Guilherme**           | Gestor do cliente (Sem Parar/Corpay)                                                               | Direto e prático. Controla banco de horas de terceiros em planilha. Feedback positivo sobre mim.                    |
+| **Deivison**            | Meu gestor na Compass                                                                              | Canal aberto via Teams. Cadência: 1:1 ~90 dias + updates assíncronos a cada 15 dias.                                |
+| **Humberto Lopes**      | Gestor Compass (par do Deivison)                                                                   | Vai ao Sem Parar Seg/Qua; ocasionalmente Ter/Qui.                                                                   |
+| **Thiago**              | Apoio técnico (Azure/OCI/K8s/Networking)                                                           | ~30 anos. Muito solícito. Meu principal apoio técnico.                                                              |
+| **João Pedro ("João")** | GCP / FinOps                                                                                       | ~30 anos.                                                                                                           |
+| **Lucas**               | AWS / Argo / GitOps                                                                                | Nascido em 1999 (o mais novo da equipe, depois de mim).                                                             |
+| Outros                  | Mateus, Ítalo, Ian (GKE), Leonardo ("Léo", cobra o time, é o diretor de infraestrutura da empresa) | Contatos recorrentes do squad.                                                                                      |
 
 Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 
