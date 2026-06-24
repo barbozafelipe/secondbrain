@@ -4,7 +4,7 @@
 
 ## Dados pessoais
 - Nome: Felipe Barboza Gonçalves.
-- Nascimento: 23/01/2003, em Jaguariúna/SP.
+- Nascimento: 30/01/2003, em Jaguariúna/SP.
 
 ## Origem e trajetória
 - Ainda bebê, mudei para Artur Nogueira; depois para São Paulo com meus pais.
