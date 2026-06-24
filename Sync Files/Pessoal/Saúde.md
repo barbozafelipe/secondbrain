@@ -11,7 +11,7 @@
 
 ## Sono (questão central)
 - **Déficit de sono profundo (N3)**: média ~58 min/noite (ideal ~1h30–2h). Estimativa de ~600h de sono profundo perdidas nos últimos 2 anos.
-- Rastreado pelo **Apple Watch Series 8**; baseline salvo para comparação pós-cirurgia. **TODO:** localizar/anexar o baseline.
+- Rastreado pelo **Apple Watch Series 8** (vale analisar sua taxa de efetividade, os números não são exatos); baseline salvo para comparação pós-cirurgia. **TODO:** localizar/anexar o baseline.
 - Causa raiz mecânica: obstrução nasal gerando RERAs (despertares por esforço respiratório) que expulsam o corpo do sono profundo.
 
 ## Otorrino — diagnóstico
