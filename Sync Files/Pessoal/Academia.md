@@ -1,3 +1,5 @@
+Ectomorfo, meta de 80kg de massa magra, framework VSM/Adonis Index (proporção ombro/cintura 1.618, baixa adiposidade). Acne-prone — evitar excesso de gordura, laticínios e gatilhos conhecidos. Baixo sono profundo crônico rastreado pelo Apple Watch Series 8 — baseline salvo para comparação pós-cirurgia. Septoplastia/turbinoplastia planejada pelo plano de saúde para resolver obstrução nasal como causa raiz do sono ruim. Ecocardiograma agendado pelo plano de saúde. A ideia é melhorar a saúde do meu corpo a ponto de ter um corpo capaz que me dê autoestima para evoluir, ser melhor nas áreas importantes da minha vida e também quero ter um VSM (valor sexual de mercado) bem ajustado para me sentir bem comigo mesmo, inclusive para agradar a beatriz.
+
 Segunda-feira — Pull (costas, posterior de ombro, bíceps):
 
 Puxada alta pegada aberta 3 séries de 8–12 repetições, remada baixa na polia 3 séries de 8–12 repetições, remada curvada unilateral com halter 3 séries de 8–12 repetições, crucifixo inverso sentado na máquina 3 séries de 12–20 repetições, rosca direta barra W 3 séries de 8–12 repetições, rosca martelo com halteres 3 séries de 10–12 repetições.

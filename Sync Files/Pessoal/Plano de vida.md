@@ -1,0 +1,1 @@
+Objetivo central é sair da casa dos pais em 2027, morando de aluguel com a Bia (iremos dividir os gastos) em apartamento próximo ao metrô Tucuruvi. Progressão planejada: aluguel → apartamento na planta → quitado quando ficar pronto. Reserva de independência necessária estimada em R$ 18.000–24.000 (6 meses de custo de vida morando sozinho).
