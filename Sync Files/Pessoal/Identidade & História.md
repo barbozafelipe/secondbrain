@@ -1,0 +1,1 @@
+Me chamo Felipe, nascido em 23/01/2003 em Jaguariúna/SP. Fui bebê para Artur Nogueira, depois para São Paulo com meus pais. Moro atualmente em Cabuçu, Guarulhos, com meus pais. Meu pai é marceneiro e minha mãe é manicure.
