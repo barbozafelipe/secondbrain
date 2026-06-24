@@ -11,12 +11,11 @@
 - **PPR da Compass**: não considerar no planejamento enquanto não confirmado e depositado.
 
 ## Controle e comportamento
-- Controle financeiro pelo app **Draco Finance** (quando eu trouxer o relatório exportado, o Claude tem contexto para análise completa).
 - Padrão identificado: parcelamentos longos e gastos esporádicos altos em meses com projetos de quarto ou lazer.
 - Hábito de fragmentar compras grandes em múltiplos parcelamentos em instituições diferentes para diluir o impacto mensal percebido — isso cria âncora permanente no orçamento.
 
 ## Decisões tomadas (podem mudar)
-- Não comprar Xbox Series X nem TV em 2026.
+- Não comprar Xbox Series X nem TV em 2026 (a compra do xbox ainda pesa muito no meu emocional, queria muito jogar o gta 6, espero isso há vários anos, então não confirmo que não irei comprar).
 - Pausar aulas de inglês até setembro de 2026. *(Atenção: conflita com a meta de Inglês do PDI — ver [[Vida profissional]].)*
 - Vender **iPad Air 4 (~R$ 2.000)** e **volante G29 (~R$ 1.300)** assim que achar comprador → quitar dívidas rotativas e iniciar reserva de emergência.
 
