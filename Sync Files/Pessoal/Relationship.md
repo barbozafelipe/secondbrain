@@ -1,1 +1,18 @@
-Namoro a Beatriz ("Bia") desde 16 de setembro de 2023, ela nasceu no dia 15 de fevereiro de 2000. Nos encontramos geralmente aos finais de semana (geralmente eu gasto R160 em cada um... isso porque a bia costume dividir os gastos comigo). Plano de longo prazo: morar em um apartamento alugado juntos de 2 quartos em uma região próxima do metrô que não seja cara para começarmos a vida, após essa estabilização, eu ganhando um pouco mais, nós comprarmos um apartamento na planta para que quando sair a chave, colocarmos os móveis e podermos nos mudar, saindo do aluguel, quero casar tendo em torno de 29 anos (~2032) com casamento estimado em R 70.000, e ter nosso primeiro e único filho com ~30–31 anos (~2033–2034).
+# Relacionamento
+
+> Sobre a Beatriz ("Bia"), minha namorada, e a dinâmica atual do relacionamento.
+> O plano de futuro conjunto (moradia, casamento, filho) está consolidado em [[Plano de vida]].
+
+## Quem é
+- Beatriz ("Bia"), nascida em 15/02/2000.
+- Namoramos desde 16/09/2023.
+
+## Dinâmica atual
+- Encontros geralmente nos finais de semana.
+- Gasto típico meu por encontro: ~R$ 160 — a Bia costuma dividir os gastos comigo.
+
+## Futuro com a Bia
+Os planos de morar juntos, casar e ter um filho estão detalhados em [[Plano de vida]] (com datas, valores e sequência). Em resumo: morar de aluguel juntos → apartamento na planta → casamento (~2032) → primeiro e único filho (~2033–2034).
+
+---
+_Atualizado: 2026-06-24._
