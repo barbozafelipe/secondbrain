@@ -67,12 +67,12 @@ Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 - **Projeto Stra (AI Agents)** do Wellington: oportunidade de participar (sessões semanais).
 
 ## PDI — metas de desenvolvimento
-| Meta | Prazo | Status |
-|---|---|---|
-| Trilha Sem Parar (ESG, LGPD, Assédio) | 29/05/2026 | **TODO: prazo já vencido — confirmar conclusão** |
-| AWS Certified Cloud Practitioner (CLF-C02) | 31/08/2026 | Em progresso |
-| Especialização Terraform (Azure + OCI) | 31/10/2026 | Não iniciado |
-| Ciclo de Inglês Técnico (30h) | 18/12/2026 | Em progresso |
+| Meta                                       | Prazo      | Status                                                                                                                                                 |
+| ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Trilha Sem Parar (ESG, LGPD, Assédio)      | 29/05/2026 | Concluído                                                                                                                                              |
+| AWS Certified Cloud Practitioner (CLF-C02) | 31/08/2026 | Em progresso                                                                                                                                           |
+| Especialização Terraform (Azure + OCI)     | 31/10/2026 | Não iniciado                                                                                                                                           |
+| Ciclo de Inglês Técnico (30h)              | 18/12/2026 | Em progresso, mas cancelei as aulas por questões financeiras com o professor, e não posso voltar a ter aulas tão cedo ainda... não sei como vou fazer. |
 
 **TODO / conflito a resolver:** a decisão financeira de "pausar aulas de inglês até setembro de 2026" (ver [[Financeiro]]) conflita com a meta de Inglês do PDI (em progresso, prazo 18/12/2026). Alinhar.
 
