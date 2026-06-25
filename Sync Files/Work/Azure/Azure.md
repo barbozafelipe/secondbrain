@@ -1,5 +1,6 @@
 %% Begin Waypoint %%
 - [[2026-06-25_ianoapp-cert-azure-localizacao]]
+- [[2026-06-25_ianoapp-cert-troca-portal]]
 - [[APIM AIHub - 404 em operacao por urlTemplate com barra dupla]]
 - [[CHG0094480]]
 - [[CHG0096757]]
