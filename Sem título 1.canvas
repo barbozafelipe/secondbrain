@@ -1,8 +1,7 @@
 {
 	"nodes":[
-		{"id":"2b5c4c1cf9dbca71","type":"text","text":"Repositório","x":-120,"y":-200,"width":360,"height":140},
-		{"id":"31e6a90b7542e9b7","type":"file","file":"Pasted image 20260625160011.png","x":-120,"y":-520,"width":80,"height":80},
-		{"id":"a982e51cb51a53cd","x":81,"y":-442,"width":99,"height":50,"type":"text","text":"Córtex"}
+		{"id":"c6cae69d830432ea","type":"file","file":"ChatGPT Image Jun 25, 2026, 04_14_53 PM.png","x":-305,"y":-660,"width":185,"height":123},
+		{"id":"2b5c4c1cf9dbca71","type":"text","text":"Repositório","x":-40,"y":-440,"width":140,"height":50}
 	],
 	"edges":[]
 }
