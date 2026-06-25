@@ -8,12 +8,12 @@
 
 ## Moradia — progressão planejada
 1. **Aluguel**: apartamento de 2 quartos, em região próxima de metrô que não seja cara. Referência atual de região: **metrô Tucuruvi**.
-2. **Apartamento na planta**: comprar quando eu estiver ganhando um pouco mais; quando sair a chave, mobiliar e mudar, saindo do aluguel.
+2. **Apartamento na planta**: comprar quando eu estiver ganhando um pouco mais; quando sair a chave, mobiliar e mudar, saindo do aluguel, as vezes penso que esse apartamento seria apenas o primeiro, se evoluir na carreira, iria migrar para um apartamento com 3 quartos, esse quarto a mais seria para meu f.
 3. **Quitação**: quitar o apartamento conforme a estabilização financeira.
 
 ## Casamento
 - Por volta dos **29 anos (~2032)**.
-- Custo estimado: **R$ 70.000**.
+- Custo estimado: **R$ 70.000** (esse valor seria dividido com a bia).
 
 ## Filho
 - Primeiro e único filho por volta dos **30–31 anos (~2033–2034)**.
