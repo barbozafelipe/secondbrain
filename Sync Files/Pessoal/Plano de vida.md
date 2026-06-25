@@ -11,6 +11,8 @@
 2. **Apartamento na planta**: comprar quando eu estiver ganhando um pouco mais; quando sair a chave, mobiliar e mudar, saindo do aluguel, as vezes penso que esse apartamento seria apenas o primeiro, se evoluir na carreira, iria migrar para um apartamento com 3 quartos, esse quarto a mais seria para meu filho, não posso deixar de ter um quarto que seja meu escritório.
 3. **Quitação**: quitar o apartamento conforme a estabilização financeira.
 
+## Carro
+- Eu gostaria muito de ter um carro, sou apaixonado pelo Volkswagen T-Cross... embora gostaria muito de ter, a compra precisa ser incluída em algum momento que faça sentido e minha vida financeira esteja compatível.
 ## Casamento
 - Por volta dos **29 anos (~2032)**.
 - Custo estimado: **R$ 70.000** (esse valor seria dividido com a bia).
