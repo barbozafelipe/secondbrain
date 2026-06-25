@@ -1,6 +1,7 @@
 {
 	"nodes":[
-		{"id":"2b5c4c1cf9dbca71","type":"text","text":"Repositório","x":-120,"y":-200,"width":360,"height":140}
+		{"id":"2b5c4c1cf9dbca71","type":"text","text":"Repositório","x":-120,"y":-200,"width":360,"height":140},
+		{"id":"31e6a90b7542e9b7","x":-460,"y":-480,"width":400,"height":400,"type":"file","file":"Pasted image 20260625160011.png"}
 	],
 	"edges":[]
 }
