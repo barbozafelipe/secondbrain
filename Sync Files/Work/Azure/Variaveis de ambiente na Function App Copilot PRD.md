@@ -43,7 +43,7 @@ chamado: CTASK0134545
 |---|---|
 | [[Setup PRD do Agente de IA no App]] | **Mesma operação, projeto diferente.** Na CTASK0132397 (dentro dessa change) você inseriu ~30 variáveis de ambiente no Web App do AI Agents App. Aqui é o mesmo gesto, só que na Function App do Copilot. A diferença é que aqui os valores são simples (nomes de endpoint), lá eram URLs completas, chaves e certificados. |
 | [[Variavel de ambiente no Web App Copilot PRD]] | **Task irmã.** Mesmo projeto (Copilot), mesmo RG, mesma subscription. Lá você insere 1 variável na **Web App** (`stp-dig-app-copilot-prd`), aqui você insere 3 na **Function App** (`stp-dig-func-copilot-prd`). Pode executar as duas em sequência. |
-| [[Atualizar certificado copiloto-operacao-prd.semparar.com.br]] | **Mesmo produto (Copilot).** Nessa task você atualizou o certificado do `copiloto-operacao-prd.semparar.com.br`. Diferente tipo de operação, mas mesmo ecossistema — você já tem contexto desse RG. |
+| [[[Azure] Atualizar certificado copiloto-operacao-prd.semparar.com.br]] | **Mesmo produto (Copilot).** Nessa task você atualizou o certificado do `copiloto-operacao-prd.semparar.com.br`. Diferente tipo de operação, mas mesmo ecossistema — você já tem contexto desse RG. |
 
 ---
 

@@ -32,5 +32,5 @@ Para `ianoapp-hml.semparar.com.br`, é preciso estar na rede corporativa/VPN (re
 
 ## Notas relacionadas
 
-- [[2026-06-25_ianoapp-cert-azure-localizacao]]
-- [[2026-06-25_ianoapp-cert-troca-portal]]
+- [[[Azure] Localizar certificado ianoapp (diagnóstico)]]
+- [[[Azure] Trocar certificado ianoapp pelo portal (procedimento)]]

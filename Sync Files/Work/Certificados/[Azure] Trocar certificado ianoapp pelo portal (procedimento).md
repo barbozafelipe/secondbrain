@@ -7,7 +7,7 @@ status: procedimento
 
 ## Troca do certificado TLS pelo portal Azure (ianoapp)
 
-Mesmo cert SAN (`ianoapp.semparar.com.br` + SANs dev/hml) replicado em 3 recursos, sem Key Vault, sem auto-renovação. Tem que trocar nos 3, em 2 subscriptions. Ver localização em [[2026-06-25_ianoapp-cert-azure-localizacao]].
+Mesmo cert SAN (`ianoapp.semparar.com.br` + SANs dev/hml) replicado em 3 recursos, sem Key Vault, sem auto-renovação. Tem que trocar nos 3, em 2 subscriptions. Ver localização em [[[Azure] Localizar certificado ianoapp (diagnóstico)]].
 
 Pré-requisito: ter o novo `.pfx` (cert + chave privada + cadeia) e a senha.
 

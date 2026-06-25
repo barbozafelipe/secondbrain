@@ -1,13 +1,13 @@
 %% Begin Waypoint %%
-- [[2026-06-25_ianoapp-cert-azure-localizacao]]
-- [[2026-06-25_ianoapp-cert-troca-portal]]
-- [[Atualizacao de certificado SAN Caixa Prepagos]]
-- [[Atualizar certificado apisemparar multi-conta]]
-- [[Atualizar certificado copiloto-operacao-prd.semparar.com.br]]
-- [[Atualizar certificado cpay-qa.corpay.com.br]]
-- [[Certificado no LoadBalancer]]
-- [[Inventário de certificados SemParar (venda-segura e ianoapp)]]
-- [[Padrão de importação de certificado na AWS]]
+- [[[AWS] Atualizacao de certificado SAN Caixa Prepagos]]
+- [[[AWS] Atualizar certificado apisemparar multi-conta]]
+- [[[AWS] Atualizar certificado cpay-qa.corpay.com.br]]
+- [[[AWS] Certificado no LoadBalancer]]
+- [[[AWS] Padrão de importação de certificado]]
+- [[[AWS+Azure] Inventário de certificados SemParar (venda-segura e ianoapp)]]
+- [[[Azure] Atualizar certificado copiloto-operacao-prd.semparar.com.br]]
+- [[[Azure] Localizar certificado ianoapp (diagnóstico)]]
+- [[[Azure] Trocar certificado ianoapp pelo portal (procedimento)]]
 - [[Rotação de certificados]]
 
 %% End Waypoint %%
