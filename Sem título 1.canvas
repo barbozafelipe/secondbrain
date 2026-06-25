@@ -1,12 +1,12 @@
 {
 	"nodes":[
-		{"id":"2b5c4c1cf9dbca71","type":"text","text":"## Repositório","x":-40,"y":-567,"width":180,"height":67,"color":"5"},
-		{"id":"bdf4a5101757377b","type":"text","text":"Anotações1.md","x":-40,"y":-500,"width":180,"height":50,"color":"5"},
-		{"id":"c0ec5b0dd0fc4be5","type":"text","text":"Anotações1.md","x":-40,"y":-450,"width":180,"height":50,"color":"5"},
-		{"id":"4ce76ad38d761021","type":"text","text":"Anotações1.md","x":-40,"y":-400,"width":180,"height":50,"color":"5"},
-		{"id":"c6cae69d830432ea","type":"file","file":"ChatGPT Image Jun 25, 2026, 04_14_53 PM.png","x":320,"y":-561,"width":185,"height":123},
-		{"id":"2645dc249b5972b8","x":347,"y":-438,"width":131,"height":54,"type":"text","text":"Front-End\n"},
-		{"id":"abd766e1eb100528","x":366,"y":-351,"width":250,"height":60,"type":"text","text":"LLM"}
+		{"id":"c6cae69d830432ea","type":"file","file":"ChatGPT Image Jun 25, 2026, 04_14_53 PM.png","x":520,"y":-552,"width":185,"height":123},
+		{"id":"2645dc249b5972b8","x":520,"y":-429,"width":185,"height":54,"type":"text","text":"Front-End\n"},
+		{"id":"abd766e1eb100528","x":440,"y":-550,"width":80,"height":175,"type":"text","text":"LLM"},
+		{"id":"2b5c4c1cf9dbca71","type":"text","text":"## Repositório","x":-20,"y":-499,"width":180,"height":67,"color":"5"},
+		{"id":"bdf4a5101757377b","type":"text","text":"Anotações1.md","x":-200,"y":-540,"width":180,"height":50,"color":"5"},
+		{"id":"c0ec5b0dd0fc4be5","type":"text","text":"Anotações1.md","x":-200,"y":-490,"width":180,"height":50,"color":"5"},
+		{"id":"4ce76ad38d761021","type":"text","text":"Anotações1.md","x":-200,"y":-440,"width":180,"height":50,"color":"5"}
 	],
 	"edges":[]
 }
