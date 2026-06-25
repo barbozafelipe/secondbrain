@@ -35,15 +35,15 @@ chamado: CTASK0134619
 
 | Task relacionada | Relação |
 |---|---|
-| [[CTASK0133893]] | **Mesmo tipo de operação.** Lá você atualizou certificados do `apisemparar.com.br` em múltiplas contas (PCIQA, STP QA, PCIPRD, STP PRD). A diferença é que lá cada domínio tinha seu próprio certificado, um por conta. Aqui o certificado era **compartilhado (SAN)** entre contas — cenário novo. |
+| [[Atualizar certificado apisemparar multi-conta]] | **Mesmo tipo de operação.** Lá você atualizou certificados do `apisemparar.com.br` em múltiplas contas (PCIQA, STP QA, PCIPRD, STP PRD). A diferença é que lá cada domínio tinha seu próprio certificado, um por conta. Aqui o certificado era **compartilhado (SAN)** entre contas — cenário novo. |
 | [[Padrão de importação de certificado na AWS]] | Padrão de mapeamento de arquivos seguido (DigiCertCA → Chain, semparar.com.br-2026 → Body, pkcs8 → Key). |
-| [[Sync Files/Work/AWS/CTASK0134245]] | Mesma operação (atualização de certificado), mas na Azure. Produto diferente (Copilot). |
+| [[Atualizar certificado copiloto-operacao-prd.semparar.com.br]] | Mesma operação (atualização de certificado), mas na Azure. Produto diferente (Copilot). |
 
 ---
 
 ## 🧠 Ancoragem Mental
 
-> **Cenário normal** (como na [[CTASK0133893]]): cada domínio tem seu próprio certificado em sua respectiva conta. Você entra na conta, atualiza o certificado, pronto.
+> **Cenário normal** (como na [[Atualizar certificado apisemparar multi-conta]]): cada domínio tem seu próprio certificado em sua respectiva conta. Você entra na conta, atualiza o certificado, pronto.
 >
 > **Cenário desta task (novo):** o certificado é do tipo **SAN** — um único cert com Common Name `caixaprepagos.com.br` contendo **10 domínios dentro dele**. Esse mesmo certificado estava importado em 3 contas diferentes (DEV, QA, PRD). Quando você atualizou na conta de DEV, o Imperva (que valida pelo conteúdo do cert, não pela conta) já reconheceu a mudança para QA também.
 >

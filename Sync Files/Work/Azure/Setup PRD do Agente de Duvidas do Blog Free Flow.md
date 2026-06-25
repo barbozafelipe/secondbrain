@@ -69,7 +69,7 @@ chamado: CHG0096757
   - [x] `text-embedding-ada-002` — embeddings (alimenta o RAG) (SKU GlobalStandard)
 - ⚠️ Deployments criados **na mão/portal, fora do Terraform** → na reconstrução `-prd` precisam ser **republicados** (não vêm no `apply`).
 - É a 1ª task, abre a janela. Destrava o passo 2 (dataset/RAG).
-- **Precedente:** [[CHG0094480]] / CTASK0132395 (lá foram 5 modelos no `aiagentapp`). Mesmo procedimento: Foundry → Deployments → criar deployment por modelo.
+- **Precedente:** [[Setup PRD do Agente de IA no App]] / CTASK0132395 (lá foram 5 modelos no `aiagentapp`). Mesmo procedimento: Foundry → Deployments → criar deployment por modelo.
 
 ### 2️⃣ CTASK0136880 — *outro (dev/GO AI)* · 10:00–12:00 (2h) · ✅ **ENCERRADA**
 **Subir o dataset do RAG no Azure AI Search.**
@@ -98,7 +98,7 @@ chamado: CHG0096757
 > **Pulados** (já existiam, regra "não alterar existentes"): `APPINSIGHTS_INSTRUMENTATIONKEY` e `APPINSIGHTS_CONNECTION_STRING`. Obs.: o nome exato `APPINSIGHTS_CONNECTION_STRING` nem existia — o que há é `APPLICATIONINSIGHTS_CONNECTION_STRING` (nome padrão). Se o código do dev ler o nome exato, fica sem valor — confirmar com o GO AI se necessário.
 >
 > 💡 **Aprendizado p/ próximas:** sempre cruzar `AZURE_SEARCH_KEY` × `az search admin-key show` e os nomes em `AZURE_OPENAI_*_DEPLOYMENT` × `az cognitiveservices account deployment list` antes de gravar — as listas de env var do dev vêm com typo de copy/paste entre nprd/prd.
-- **Precedente:** [[CHG0094480]] / CTASK0132397 (lá foi um Web App; aqui Function App — mesma lógica de lista KEY=VALUE: chaves OpenAI/Foundry, endpoint/key/index do AI Search, etc.).
+- **Precedente:** [[Setup PRD do Agente de IA no App]] / CTASK0132397 (lá foi um Web App; aqui Function App — mesma lógica de lista KEY=VALUE: chaves OpenAI/Foundry, endpoint/key/index do AI Search, etc.).
 - Tem que estar pronta **antes** do deploy (passo 4).
 
 ### 4️⃣ CTASK0136882 — *outro (Producao/dev)* · 14:30–15:30 (1h) · ❌ **FALHOU**
@@ -139,7 +139,7 @@ chamado: CHG0096757
 
 ## 🧠 Ancoragem Mental
 
-> Essa change é o **gêmeo em PRD** do produto que eu já vi em NPRD (blog agent). É praticamente o mesmo roteiro da [[CHG0094480]] (setup de IA na Azure: modelos → env vars → APIM), só que aqui o backend é **Azure Functions** (não Web App) e o APIM é o **compartilhado do AI Hub** (`stp-dig-apim-aihub-prd`), não um dedicado do produto.
+> Essa change é o **gêmeo em PRD** do produto que eu já vi em NPRD (blog agent). É praticamente o mesmo roteiro da [[Setup PRD do Agente de IA no App]] (setup de IA na Azure: modelos → env vars → APIM), só que aqui o backend é **Azure Functions** (não Web App) e o APIM é o **compartilhado do AI Hub** (`stp-dig-apim-aihub-prd`), não um dedicado do produto.
 >
 > Os dois lugares onde eu mais posso me queimar:
 > 1. **Env vars (task 3)** — depender da dev e dos valores `< obter no recurso >`. Resolver a lista antes.
@@ -180,6 +180,6 @@ chamado: CHG0096757
 
 | Nota | Relação |
 |---|---|
-| [[CHG0094480]] | **Mesmo tipo de change** (setup de IA na Azure: modelos + env vars + APIM). Roteiro de referência. |
+| [[Setup PRD do Agente de IA no App]] | **Mesmo tipo de change** (setup de IA na Azure: modelos + env vars + APIM). Roteiro de referência. |
 | [[APIM AIHub - 404 em operacao por urlTemplate com barra dupla]] | **Mesmo produto** (blog agent) em NPRD. Gotcha do `urlTemplate //{route}` → 404, direto na minha task 5. |
 | RITM0903921 | **Follow-up desta change** — recriação do RG como `-prd` + exclusão do `-prod`. |

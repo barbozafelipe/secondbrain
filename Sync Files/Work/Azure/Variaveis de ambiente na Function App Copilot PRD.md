@@ -41,9 +41,9 @@ chamado: CTASK0134545
 
 | Task relacionada | Relação |
 |---|---|
-| [[CHG0094480]] | **Mesma operação, projeto diferente.** Na CTASK0132397 (dentro dessa change) você inseriu ~30 variáveis de ambiente no Web App do AI Agents App. Aqui é o mesmo gesto, só que na Function App do Copilot. A diferença é que aqui os valores são simples (nomes de endpoint), lá eram URLs completas, chaves e certificados. |
-| [[CTASK0134547]] | **Task irmã.** Mesmo projeto (Copilot), mesmo RG, mesma subscription. Lá você insere 1 variável na **Web App** (`stp-dig-app-copilot-prd`), aqui você insere 3 na **Function App** (`stp-dig-func-copilot-prd`). Pode executar as duas em sequência. |
-| [[Sync Files/Work/Azure/CTASK0134245]] | **Mesmo produto (Copilot).** Nessa task você atualizou o certificado do `copiloto-operacao-prd.semparar.com.br`. Diferente tipo de operação, mas mesmo ecossistema — você já tem contexto desse RG. |
+| [[Setup PRD do Agente de IA no App]] | **Mesma operação, projeto diferente.** Na CTASK0132397 (dentro dessa change) você inseriu ~30 variáveis de ambiente no Web App do AI Agents App. Aqui é o mesmo gesto, só que na Function App do Copilot. A diferença é que aqui os valores são simples (nomes de endpoint), lá eram URLs completas, chaves e certificados. |
+| [[Variavel de ambiente no Web App Copilot PRD]] | **Task irmã.** Mesmo projeto (Copilot), mesmo RG, mesma subscription. Lá você insere 1 variável na **Web App** (`stp-dig-app-copilot-prd`), aqui você insere 3 na **Function App** (`stp-dig-func-copilot-prd`). Pode executar as duas em sequência. |
+| [[Atualizar certificado copiloto-operacao-prd.semparar.com.br]] | **Mesmo produto (Copilot).** Nessa task você atualizou o certificado do `copiloto-operacao-prd.semparar.com.br`. Diferente tipo de operação, mas mesmo ecossistema — você já tem contexto desse RG. |
 
 ---
 
@@ -51,7 +51,7 @@ chamado: CTASK0134545
 
 > Pense assim: são **3 endpoints de URA** (Uso de Veículo, Abastece, DriveThru). Os nomes das variáveis seguem o padrão `URA_<FUNCIONALIDADE>_ENDPOINT` e os valores são os nomes das rotas que a Function App vai chamar.
 >
-> Diferente da [[CTASK0134547]] (onde falta o valor), aqui **está tudo no chamado** — só executar.
+> Diferente da [[Variavel de ambiente no Web App Copilot PRD]] (onde falta o valor), aqui **está tudo no chamado** — só executar.
 
 ---
 
@@ -98,7 +98,7 @@ chamado: CTASK0134545
 - Os valores parecem ser **nomes de rotas** (camelCase, sem `/` no início). Confirmar que não deveriam ter prefixo como `/api/` ou URL base.
 - **Ambiente de produção** — qualquer erro impacta o Copilot em PRD. Revisar antes de salvar.
 - **Restart automático** — ao salvar Application Settings, a Function App reinicia. Considerar janela de menor impacto se necessário.
-- Executar junto com a [[CTASK0134547]] para otimizar — ambas no mesmo RG e subscription.
+- Executar junto com a [[Variavel de ambiente no Web App Copilot PRD]] para otimizar — ambas no mesmo RG e subscription.
 
 ---
 

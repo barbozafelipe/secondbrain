@@ -44,8 +44,8 @@ Chamado: TASK1247886
 
 | Task relacionada | Relação |
 |---|---|
-| [[TASK1247602]] | **Mesmo projeto, mesmo padrão.** Lá você criou Web App + Container Registry nos mesmos 3 RGs (`nprd`, `hml-nprd`, `prd`) para o AI Agents Dashboard. Aqui você repete a lógica: mesmo projeto, mesmos ambientes, mesmo raciocínio de "1 recurso por RG, 3 ambientes". A diferença é o tipo de recurso (PostgreSQL ao invés de Web App + ACR). |
-| [[CHG0094480]] | **Mesmo produto (IA no APP).** Essa change envolve o setup completo de produção do AI Agents App — modelos OpenAI, CosmosDB, variáveis de ambiente, APIM. A TASK1247886 é mais uma peça do mesmo quebra-cabeça: o PostgreSQL que a aplicação vai usar. |
+| [[Web App e Container Registry para AI Agents Dashboard]] | **Mesmo projeto, mesmo padrão.** Lá você criou Web App + Container Registry nos mesmos 3 RGs (`nprd`, `hml-nprd`, `prd`) para o AI Agents Dashboard. Aqui você repete a lógica: mesmo projeto, mesmos ambientes, mesmo raciocínio de "1 recurso por RG, 3 ambientes". A diferença é o tipo de recurso (PostgreSQL ao invés de Web App + ACR). |
+| [[Setup PRD do Agente de IA no App]] | **Mesmo produto (IA no APP).** Essa change envolve o setup completo de produção do AI Agents App — modelos OpenAI, CosmosDB, variáveis de ambiente, APIM. A TASK1247886 é mais uma peça do mesmo quebra-cabeça: o PostgreSQL que a aplicação vai usar. |
 
 > 💡 Não encontrei tasks anteriores que envolvessem especificamente a criação de PostgreSQL Flexible Server, então este é um tipo novo de recurso para você.
 
@@ -53,7 +53,7 @@ Chamado: TASK1247886
 
 ## 🧠 Ancoragem Mental
 
-> Pense assim: você já fez o mesmo "gesto" na [[TASK1247602]] — **provisionar recurso X nos 3 ambientes do AI Agents App**. Lá era Web App + ACR, aqui é PostgreSQL. O padrão é idêntico:
+> Pense assim: você já fez o mesmo "gesto" na [[Web App e Container Registry para AI Agents Dashboard]] — **provisionar recurso X nos 3 ambientes do AI Agents App**. Lá era Web App + ACR, aqui é PostgreSQL. O padrão é idêntico:
 > 
 > **3 ambientes → 3 RGs → 3 recursos com nomes padronizados → mesma config.**
 > 
@@ -106,7 +106,7 @@ Chamado: TASK1247886
 
 - O chamado usa "sugestão de nomenclatura" — pode haver padrão corporativo que exija ajuste. Confirmar se os nomes propostos estão de acordo.
 - Credenciais de admin do PostgreSQL: o chamado não especifica usuário/senha. Definir e documentar de forma segura.
-- Networking: o chamado não menciona se o acesso deve ser público ou privado (VNet integration). Na [[TASK1247602]], o acesso era via VPN. Vale confirmar se o PostgreSQL também deve ser privado.
+- Networking: o chamado não menciona se o acesso deve ser público ou privado (VNet integration). Na [[Web App e Container Registry para AI Agents Dashboard]], o acesso era via VPN. Vale confirmar se o PostgreSQL também deve ser privado.
 - Em caso de dúvida, o chamado aponta contatos diretos: **João Barth** e/ou **Luiz Vinholi**.
 
 ---

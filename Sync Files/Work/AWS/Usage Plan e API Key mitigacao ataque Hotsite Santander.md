@@ -89,4 +89,4 @@ Além do usage plan, o chamado pedia o ajuste de uma variável de ambiente em um
 
 ## 🔗 Relacionados
 
-- [[TASK1247656]] — Usage Plan + API Key (Integração Meta / Agente WhatsApp) — mesmo padrão de configuração no API Gateway
+- [[Usage Plan e API Key integracao Meta WhatsApp]] — Usage Plan + API Key (Integração Meta / Agente WhatsApp) — mesmo padrão de configuração no API Gateway

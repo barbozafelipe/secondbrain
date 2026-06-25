@@ -39,15 +39,15 @@ chamado: CTASK0134547
 
 | Task relacionada | Relação |
 |---|---|
-| [[CHG0094480]] | **Mesma operação, projeto diferente.** Na CTASK0132397 (dentro dessa change) você inseriu ~30 variáveis de ambiente no Web App do AI Agents App (`stp-dig-app-aiagentsapp-prd`). Aqui é o mesmo gesto: abrir Configuration → Application Settings → adicionar variável → salvar. A diferença é que lá era o AI Agents, aqui é o Copilot. |
-| [[CTASK0134545]] | **Task irmã.** Mesmo projeto (Copilot), mesmo RG, mesma subscription. Lá você insere 3 variáveis na **Function App** (`stp-dig-func-copilot-prd`), aqui você insere 1 na **Web App** (`stp-dig-app-copilot-prd`). Pode executar as duas em sequência. |
-| [[Sync Files/Work/Azure/CTASK0134245]] | **Mesmo produto (Copilot).** Nessa task você atualizou o certificado do `copiloto-operacao-prd.semparar.com.br`. Diferente tipo de operação, mas mesmo ecossistema. |
+| [[Setup PRD do Agente de IA no App]] | **Mesma operação, projeto diferente.** Na CTASK0132397 (dentro dessa change) você inseriu ~30 variáveis de ambiente no Web App do AI Agents App (`stp-dig-app-aiagentsapp-prd`). Aqui é o mesmo gesto: abrir Configuration → Application Settings → adicionar variável → salvar. A diferença é que lá era o AI Agents, aqui é o Copilot. |
+| [[Variaveis de ambiente na Function App Copilot PRD]] | **Task irmã.** Mesmo projeto (Copilot), mesmo RG, mesma subscription. Lá você insere 3 variáveis na **Function App** (`stp-dig-func-copilot-prd`), aqui você insere 1 na **Web App** (`stp-dig-app-copilot-prd`). Pode executar as duas em sequência. |
+| [[Atualizar certificado copiloto-operacao-prd.semparar.com.br]] | **Mesmo produto (Copilot).** Nessa task você atualizou o certificado do `copiloto-operacao-prd.semparar.com.br`. Diferente tipo de operação, mas mesmo ecossistema. |
 
 ---
 
 ## 🧠 Ancoragem Mental
 
-> Você já fez isso antes — na [[CHG0094480]] foram ~30 variáveis de uma vez. Aqui é **1 única variável**. O gesto é idêntico: Configuration → Application Settings → New → colar nome e valor → Save.
+> Você já fez isso antes — na [[Setup PRD do Agente de IA no App]] foram ~30 variáveis de uma vez. Aqui é **1 única variável**. O gesto é idêntico: Configuration → Application Settings → New → colar nome e valor → Save.
 >
 > O pulo do gato aqui é que **o valor não veio no chamado**. Antes de abrir o portal, resolva isso: fale com a equipe de dev e pegue o valor.
 

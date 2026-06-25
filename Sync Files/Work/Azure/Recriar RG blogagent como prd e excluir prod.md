@@ -12,13 +12,13 @@ chamado: RITM0903921
 # RITM0903921 — Recriar RG blogagent como `-prd` + excluir `-prod`
 
 > [!info] Resumo de uma linha
-> Follow-up da [[CHG0096757]] (encerrada incompleta). Criar `stp-dig-rg-blogagent-prd` (com `-prd`) com os mesmos recursos/tiers do `stp-dig-rg-blogagent-prod` e, após validação, **excluir** o `-prod`. Corrige o mismatch de nome que travava a pipeline (`ResourceGroupNotFound`).
+> Follow-up da [[Setup PRD do Agente de Duvidas do Blog Free Flow]] (encerrada incompleta). Criar `stp-dig-rg-blogagent-prd` (com `-prd`) com os mesmos recursos/tiers do `stp-dig-rg-blogagent-prod` e, após validação, **excluir** o `-prod`. Corrige o mismatch de nome que travava a pipeline (`ResourceGroupNotFound`).
 
 ---
 
 ## 🧩 Contexto (por que existe)
 
-A [[CHG0096757]] subiu o stack no RG **`stp-dig-rg-blogagent-prod`** (com `-prod`, conforme o texto do chamado original), mas a esteira de deploy procura **`stp-dig-rg-blogagent-prd`** (com `-prd`) → `ResourceGroupNotFound`, falhando a task 4 e encerrando a change incompleta.
+A [[Setup PRD do Agente de Duvidas do Blog Free Flow]] subiu o stack no RG **`stp-dig-rg-blogagent-prod`** (com `-prod`, conforme o texto do chamado original), mas a esteira de deploy procura **`stp-dig-rg-blogagent-prd`** (com `-prd`) → `ResourceGroupNotFound`, falhando a task 4 e encerrando a change incompleta.
 
 - Azure **não renomeia RG**. `az resource move` **não suporta** AI Search nem Redis Enterprise → solução é **recriar** via Terraform.
 - Nada funcional crítico subiu no `-prod` → recriar é seguro.
@@ -107,6 +107,6 @@ A [[CHG0096757]] subiu o stack no RG **`stp-dig-rg-blogagent-prod`** (com `-prod
 
 | Nota | Relação |
 |---|---|
-| [[CHG0096757]] | **Change de origem** — encerrada incompleta pelo mismatch `-prod`/`-prd`. |
+| [[Setup PRD do Agente de Duvidas do Blog Free Flow]] | **Change de origem** — encerrada incompleta pelo mismatch `-prod`/`-prd`. |
 | [[APIM AIHub - 404 em operacao por urlTemplate com barra dupla]] | Gotcha do APIM válido pra task de rotas. |
-| [[CHG0094480]] | Roteiro de referência (setup de IA na Azure). |
+| [[Setup PRD do Agente de IA no App]] | Roteiro de referência (setup de IA na Azure). |
