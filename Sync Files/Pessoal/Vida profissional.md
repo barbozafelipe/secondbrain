@@ -70,7 +70,7 @@ Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 | Meta                                       | Prazo      | Status                                                                                                                                                 |
 | ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Trilha Sem Parar (ESG, LGPD, Assédio)      | 29/05/2026 | Concluído                                                                                                                                              |
-| AWS Certified Cloud Practitioner (CLF-C02) | 31/08/2026 | Em progresso                                                                                                                                           |
+| AWS Certified Cloud Practitioner (CLF-C02) | 31/08/2026 | Prova agendada para 22/08/2026, plano de estudos já traçado                                                                                            |
 | Especialização Terraform (Azure + OCI)     | 31/10/2026 | Não iniciado                                                                                                                                           |
 | Ciclo de Inglês Técnico (30h)              | 18/12/2026 | Em progresso, mas cancelei as aulas por questões financeiras com o professor, e não posso voltar a ter aulas tão cedo ainda... não sei como vou fazer. |
 
