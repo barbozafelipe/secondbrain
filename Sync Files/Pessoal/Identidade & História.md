@@ -11,8 +11,8 @@
 - Moro atualmente em Cabuçu, Guarulhos/SP, com meus pais.
 
 ## Família
-- Pai: marceneiro.
-- Mãe: manicure.
+- Pai: marceneiro (ganha um pouco mais que eu).
+- Mãe: manicure (ganha umas 2 a 3x menos que eu).
 
 ---
 _Atualizado: 2026-06-24._

@@ -13,6 +13,7 @@
 
 ## Carro
 - Eu gostaria muito de ter um carro, sou apaixonado pelo Volkswagen T-Cross... embora gostaria muito de ter, a compra precisa ser incluída em algum momento que faça sentido e minha vida financeira esteja compatível.
+
 ## Casamento
 - Por volta dos **29 anos (~2032)**.
 - Custo estimado: **R$ 70.000** (esse valor seria dividido com a bia).
