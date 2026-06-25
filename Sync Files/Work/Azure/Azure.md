@@ -1,8 +1,5 @@
 %% Begin Waypoint %%
-- [[2026-06-25_ianoapp-cert-azure-localizacao]]
-- [[2026-06-25_ianoapp-cert-troca-portal]]
 - [[APIM AIHub - 404 em operacao por urlTemplate com barra dupla]]
-- [[Atualizar certificado copiloto-operacao-prd.semparar.com.br]]
 - [[Criacao de Azure Database PostgreSQL AI Agents App]]
 - [[Criar RG e Azure AI Foundry para IA no B2B]]
 - [[Inserção de blocos Zscaler em alguns serviços da Azure]]

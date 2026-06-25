@@ -1,11 +1,6 @@
 %% Begin Waypoint %%
 - [[2026-06-12_databricks-dla-prd-sftp-egress-timeout]]
 - [[2026-06-16_zapay-account-disambiguation]]
-- [[Atualizacao de certificado SAN Caixa Prepagos]]
-- [[Atualizar certificado apisemparar multi-conta]]
-- [[Atualizar certificado cpay-qa.corpay.com.br]]
-- [[Certificado no LoadBalancer]]
-- [[Padrão de importação de certificado na AWS]]
 - [[Permitir acesso do Databricks a buckets S3 multi-conta]]
 - [[Permitir visibilidade de S3 em outra conta]]
 - [[Pipeline Kinesis Firehose DynamoDB para Databricks]]
