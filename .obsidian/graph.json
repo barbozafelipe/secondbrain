@@ -1,0 +1,121 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Sync Files/Work/AWS\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16750848
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Work/Azure\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 30932
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Work/OCI\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13059636
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Work/GCP\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4359668
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Work/Rancher\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 3193464
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Work/Okta\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 32193
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Work/Zscaler\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 40154
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Work/Certificados\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9132587
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Work/Carreira\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9323693
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Work/Reuniões semanais\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6122878
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Estudos\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15844367
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Projetos\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14037892
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Médico\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 1482885
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Pessoal\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11895693
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.1,
+  "nodeSizeMultiplier": 1.23745454545455,
+  "lineSizeMultiplier": 2.308,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.4307576878569386,
+  "close": true
+}
