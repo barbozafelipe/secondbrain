@@ -1,3 +1,0 @@
-Olá! Antes de começarmos a trabalhar na task de hoje, por favor leia os arquivos `Equipe.md` e `Apoio Técnico da Equipe.md` na pasta `c:\GitHub\secondbrain\Sync Files\Work\Carreira\Sem Parar - Corpay\` para entender o contexto atual do meu time, quem manja de quê, e o histórico de como eles me ajudam tecnicamente e quais os padrões da squad.
-
-Depois de ler, me ajude com a seguinte tarefa: _(descreva a sua dúvida, cole seu código ou mande o print do Thiago/Wellington aqui)_
