@@ -105,8 +105,7 @@ VARIAVEIS:
 
  `FOUNDRY_EMBEDDINGS_URL = [https://stp-dig-cog-aiagentapp-prd.openai.azure.com/openai/deployments/text-embedding-3-large/embeddings?api-version=2023-05-15](https://stp-dig-cog-aiagentapp-prd.openai.azure.com/openai/deployments/text-embedding-3-large/embeddings?api-version=2023-05-15)`
 
- `JWT_SECRET =eyJhbGciOiJIUzUx54354534543rcwfscf32r2r12414124cfcfaGFyYXIgaWEgY2hhdCBhY2Nlc3MgdG9rZW4ifQ.FRVxz7wZ1oUfXm-Z5oW5X7ZzmxMBDOxuwHxDrmpQ_3dPLI0uCz10FnZCos8kyxXj5hd-02A037U2IvO46fVoCw`
-
+ `JWT_SECRET =xxxxxxxxxxxxxxxxxxxxxxxx
  `LANGFUSE_BASE_URL = [https://cloud.langfuse.com](https://cloud.langfuse.com)`
 
  `LANGFUSE_FLUSH_AT = 20`
@@ -121,13 +120,13 @@ VARIAVEIS:
 
  `OPENAI_API_EMBEDDING_URL = [https://stp-dig-cog-aiagentapp-prd.openai.azure.com/openai/deployments/text-embedding-3-large/embeddings?api-version=2023-05-15](https://stp-dig-cog-aiagentapp-prd.openai.azure.com/openai/deployments/text-embedding-3-large/embeddings?api-version=2023-05-15)`
 
- `OPENAI_API_KEY = CNhPkWe6QVHEQrA5255235234csfsxxfsgfhBlr8NnIJQQJ99CCACHYHv6XJ3w3AAABACOGkhPt`
+ `OPENAI_API_KEY = xxxxxxxxxxxxxxxxx
 
  `OPENAI_API_URL = [https://stp-dig-cog-aiagentapp-prd.openai.azure.com/](https://stp-dig-cog-aiagentapp-prd.openai.azure.com/)`
 
  `PORT = 3001`
 
- `REDIS_PASSWORD = sAwZdbSGqM7Q234234fcsdfscsdfaJfUCAzCaIzf4T4=`
+ `REDIS_PASSWORD = xxxxxxxxxxxxxxxxxxxxxx
 
  `REDIS_URL = stp-dig-redis-aiagentsapp-prd.brazilsouth.redis.azure.net:10000`
 
@@ -137,7 +136,7 @@ VARIAVEIS:
 
  `SEMPARAR_API_BASE_URL = [www.apisemparar.io/ai/integrations](http://www.apisemparar.io/ai/integrations)`
 
- `SEMPARAR_API_KEY = wzREKwsPY5423453214cxvxcvwsdvQFSkY4xK66mHZwVRT`
+ `SEMPARAR_API_KEY = xxxxxxxxxxxxxxxxxxxxxxx
 
  `SEMPARAR_CA_CERT = -----BEGIN CERTIFICATE-----xxxxxxxxxxxxxxxxxxxxxxxxxxxx-----END CERTIFICATE-----`
 
@@ -147,7 +146,7 @@ VARIAVEIS:
 
  `SEMPARAR_DB = postgresql://loomi:loomi@localhost:5432/loomi`
 
- `STAGING_API_KEY = 1dee234234523423432423432423423423423
+ `STAGING_API_KEY = xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
  `WEBSITE_HTTPLOGGING_RETENTION_DAYS = 3`
 
