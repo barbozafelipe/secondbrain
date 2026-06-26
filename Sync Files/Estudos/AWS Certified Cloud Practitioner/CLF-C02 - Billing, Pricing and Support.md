@@ -20,11 +20,11 @@
 ## ✅ Checklist de Estudo
 
 **Modelos de preço**
-- [ ] On-Demand — sem compromisso, cobrado por hora ou segundo
-- [ ] Reserved Instances — 1 ou 3 anos, desconto até 72%
-- [ ] Savings Plans — compromisso de $/hora, mais flexível que RI
-- [ ] Spot Instances — capacidade ociosa, até 90% de desconto (pode ser interrompida)
-- [ ] Dedicated Hosts — servidor físico dedicado (compliance/licença)
+- [x] On-Demand — sem compromisso, cobrado por hora ou segundo
+- [x] Reserved Instances — 1 ou 3 anos, desconto até 72%
+- [x] Savings Plans — compromisso de $/hora, mais flexível que RI
+- [x] Spot Instances — capacidade ociosa, até 90% de desconto (pode ser interrompida)
+- [x] Dedicated Hosts — servidor físico dedicado (compliance/licença)
 
 **Gestão de custos**
 - [ ] AWS Free Tier: Always Free, 12 meses, Trial
