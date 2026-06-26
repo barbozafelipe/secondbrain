@@ -24,7 +24,7 @@
 - [x] Lambda — serverless, event-driven, cobrança por invocação
 - [x] ECS e EKS — orquestração de containers
 - [x] Fargate — containers serverless (sem gerenciar nodes)
-- [ ] Elastic Beanstalk — PaaS para deploy de aplicações
+- [x] Elastic Beanstalk — PaaS para deploy de aplicações
 
 **Armazenamento**
 - [x] S3: classes (Standard, IA, Glacier), versionamento, lifecycle, políticas de bucket
@@ -42,7 +42,7 @@
 
 **Rede e segurança de rede**
 - [x] VPC: subnets públicas/privadas, route tables, Internet Gateway
-- [ ] Security Groups (stateful) vs NACLs (stateless)
+- [x] Security Groups (stateful) vs NACLs (stateless)
 - [ ] Route 53 — DNS gerenciado, roteamento de tráfego
 - [ ] CloudFront — CDN global com Edge Locations
 - [ ] Direct Connect — conexão dedicada on-premises ↔ AWS
