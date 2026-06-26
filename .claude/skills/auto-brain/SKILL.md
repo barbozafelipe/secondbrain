@@ -54,9 +54,11 @@ Avise o Felipe: "📝 Criei a nota **[Nome]** em `[pasta]`."
 
 ```markdown
 ---
+tipo: nota
 tags: [auto-brain, domínio, tecnologia, ...]
 criado: YYYY-MM-DD
-fonte: conversa-antigravity
+status: ativo
+fonte: conversa-claude
 ---
 
 # Título Descritivo
@@ -74,7 +76,7 @@ Médio: ~300-500 tokens. Tasks/troubleshooting: mais detalhado com código.]
 ```
 
 ### Regras do template
-- **Frontmatter obrigatório**: tags (incluindo `auto-brain`), criado, fonte
+- **Frontmatter obrigatório**: `tipo`, `tags` (incluindo `auto-brain`), `criado`, `status`, `fonte`
 - **TL;DR obrigatório**: sempre ter o resumo de 1-2 frases
 - **Profundidade média por padrão** (~300-500 tokens de corpo)
 - **Profundidade detalhada** para tasks e troubleshooting (com código, tabelas, checklists)
