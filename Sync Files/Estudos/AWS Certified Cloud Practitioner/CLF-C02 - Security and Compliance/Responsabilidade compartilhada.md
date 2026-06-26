@@ -1,0 +1,29 @@
+
+Entendo que por padrão a AWS tem suas responsabilidades assim como o cliente também tem, por padrão, é assim que funciona:
+![[Pasted image 20260511115425.png]]
+
+Mas tudo pode variar de acordo com o Serviço... existem serviços IaaS, PaaS e Saas, que são modelos diferentes e possuem estruturas de responsabilidades variadas por fazerem parte de um modelo de negócio variado.
+
+Esses modelos determinam cada um, o que é de nossa responsabilidade ou não, segue o gráfico:
+![[Pasted image 20260511115611.png]]
+![[Pasted image 20260511120235.png]]
+
+
+
+On-site: quando temos uma infraestrutura totalmente on-premisses (dentro de "casa"), toda a responsabilidade é nossa
+Exemplos: ar-condicionado, fiações, espaço, organização, servidores, discos e etc... basicamente é tudo nosso, então nós gerenciamos tudo, existem vantagens e desvantagens.
+
+
+IaaS: não somos responsáveis pela infraestrutura, então podemos nos preocupar somente com o que roda ali, como as aplicações, os dados, o sistema operacional, são as camadas que não são físicas, resumindo bem: somos responsáveis apenas pelo software
+Exemplo: EC2
+
+
+PaaS: nesse modelo nós não somos responsáveis pelo software... já existem pessoas gerenciando a infraestrutura para nós e também a forma que as coisas rodam, tipo: qual sistema operacional é, atualização, dados, e etc... nesse caso, nós nos preocupamos apenas em gerenciar a plataforma.
+Exemplos: RDS, EKS, ECS, Lambda, S3
+
+
+SaaS: esse é o último modelo da escala, basicamente é quando nós somos o cliente final, tudo está pronto e utilizável, nossa responsabilidade é apenas utilizar de acordo com a solução daquela aplicação.
+Exemplos: Excel, Teams, Obsidian, Facebook, Instagram, Youtube
+
+
+Agora que sabemos o que diferencia cada tipo de modelo de computação em nuvem, podemos entender que dependendo do serviço a AWS terá maior responsabilidade ou menor, nos levando assim à compreensão do modelo de responsabilidade compartilhada da AWS.

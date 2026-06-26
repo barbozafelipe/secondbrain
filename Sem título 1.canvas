@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"c6cae69d830432ea","type":"file","file":"ChatGPT Image Jun 25, 2026, 04_14_53 PM.png","x":520,"y":-552,"width":180,"height":120,"color":"4"},
+		{"id":"abd766e1eb100528","x":400,"y":-550,"width":120,"height":175,"color":"4","type":"text","text":"Agent\n\nLLM\n"},
+		{"id":"2645dc249b5972b8","x":700,"y":-553,"width":120,"height":176,"color":"4","type":"text","text":"Front-End\n"},
+		{"id":"2b5c4c1cf9dbca71","type":"text","text":"## Repositório","x":-40,"y":-484,"width":180,"height":67,"color":"5"},
+		{"id":"bdf4a5101757377b","type":"text","text":"Anotações1.md","x":-220,"y":-525,"width":180,"height":50,"color":"5"},
+		{"id":"c0ec5b0dd0fc4be5","type":"text","text":"Anotações2.md","x":-220,"y":-475,"width":180,"height":50,"color":"5"},
+		{"id":"4ce76ad38d761021","type":"text","text":"Anotações3.md","x":-220,"y":-425,"width":180,"height":50,"color":"5"},
+		{"id":"ff015e9cca60d106","x":1020,"y":-500,"width":100,"height":100,"type":"file","file":"Pasted image 20260625162005.png"}
+	],
+	"edges":[
+		{"id":"e93304650bfdee58","fromNode":"ff015e9cca60d106","fromSide":"left","toNode":"2645dc249b5972b8","toSide":"right","label":"1."},
+		{"id":"29fbcf73e4d7272f","fromNode":"abd766e1eb100528","fromSide":"left","toNode":"2b5c4c1cf9dbca71","toSide":"right","label":"2."},
+		{"id":"5bd26b8257c194ea","fromNode":"2b5c4c1cf9dbca71","fromSide":"bottom","toNode":"abd766e1eb100528","toSide":"bottom","label":"4."},
+		{"id":"39e18a0796a943ef","fromNode":"2645dc249b5972b8","fromSide":"bottom","toNode":"ff015e9cca60d106","toSide":"bottom","label":"5."},
+		{"id":"5407bace583e49d4","fromNode":"2b5c4c1cf9dbca71","fromSide":"top","toNode":"bdf4a5101757377b","toSide":"top","label":"3."}
+	]
+}

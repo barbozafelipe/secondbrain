@@ -18,6 +18,18 @@ data: 2026-05-05
 4. **Padrão de permissões**: grupo Produção tem `get/list/watch` de pods + permissão de `delete` — faz sentido e deve ser replicado.
 5. **Felipe**: tarefa inicial é incluir o grupo Servidores e mapear as permissões existentes por grupo em todos os clusters, entendendo os objetos `RoleBinding` e `ClusterRoleBinding`.
 
+---
+
+## 👤 O que me diz respeito diretamente
+
+> [!warning] Minha primeira tarefa de governança K8s
+> Wellington/Thiago pediram para eu:
+> 1. Solicitar a criação do grupo **K8s Servidores** no Provider (Digital Ocean / AD Point)
+> 2. Mapear em cada cluster quais grupos têm quais permissões via ClusterRoleBinding
+> 3. Identificar roles sem regra e propor exclusão
+> 4. Aplicar o padrão de permissões do grupo Produção nos clusters que ainda não o têm
+>
+> *"A ideia é você começar a entender como é o nível de permissionamento, entender os objetos de RoleBinding e ClusterRoleBinding."*
 
 > [!tip] Ação prática
 > - Abrir chamado para criar o grupo `k8s-servidores` no Identity Provider
