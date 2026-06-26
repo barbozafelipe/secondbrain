@@ -1,1 +1,0 @@
-![[tcseriosdaface-laudo.pdf]]

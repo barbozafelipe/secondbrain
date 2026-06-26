@@ -1,1 +1,0 @@
-![[laraingoscopia-imagens.pdf]]
