@@ -132,9 +132,9 @@
 - **Não criar parcelamento novo.** Cada parcela nova é âncora.
 - **Cortar o vazamento** (Uber, ZIG/balada, Shopee, assinaturas redundantes, Outback).
 - **Pai nunca atrasa.**
-- Não comprar Xbox Series X nem TV em 2026 (a compra do Xbox ainda pesa muito no emocional, queria muito jogar o GTA 6, esperado há anos — não confirmo que não vou comprar). _(GTA 6 só sai em console em 2026; no PC dele provavelmente só 2027–28.)_
 - Pausar aulas de inglês até setembro de 2026. _(Atenção: conflita com a meta de Inglês do PDI — ver [[Vida profissional]].)_
 - **Cadeira (Sophy) / console (PS5)**: só depois de **rotativo zerado + 1 mês sem estourar limite + reserva iniciada**. Provavelmente **um OU outro** (não os dois) via 13º em dez/2026. Cadeira sem urgência (sem dor nas costas). Console em dez ou jogar GTA 6 no PC em 2027–28.
+- TV 
 - Reserva de independência alvo **R$ 18–24k** ([[Plano de vida]]).
 
 ## Instruções de cálculo futuro (para o Claude do futuro)
