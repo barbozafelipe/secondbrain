@@ -134,7 +134,7 @@
 - **Pai nunca atrasa.**
 - Pausar aulas de inglês até setembro de 2026. _(Atenção: conflita com a meta de Inglês do PDI — ver [[Vida profissional]].)_
 - **Cadeira (Sophy) / console (PS5)**: só depois de **rotativo zerado + 1 mês sem estourar limite + reserva iniciada**. Provavelmente **um OU outro** (prefiro o PS5) via 13º em dez/2026. Cadeira sem urgência (sem dor nas costas).
-- TV 65” TCL 65C6K 4K QD-Mini Led 144Hz, em torno de R$4.084,05, estou pensando em comprar isso parcelado fim deste ano.
+- TV 65” TCL 65C6K 4K QD-Mini Led 144Hz, em torno de R$4.084,05, estou pensando em comprar isso parcelado fim deste ano (mas a chance é baixa, já que me prejudicaria financeiramente, embora eu quisesse muito).
 - Reserva de independência alvo **R$ 18–24k** ([[Plano de vida]]).
 
 ## Instruções de cálculo futuro (para o Claude do futuro)
