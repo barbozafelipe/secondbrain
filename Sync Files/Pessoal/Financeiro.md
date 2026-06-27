@@ -18,7 +18,7 @@
 - **Pro Pai** (pago no fim do mês quando recebe) — total atual **R$ 674,63**:
     - Permanentes: Luz 150 + Internet 100 + Água 50 + Netflix 20 = **R$ 320**.
     - Temporários: **iPad Air 4 R$ 284,71** (parcela ao pai, acaba **set/2026**) + **Instalação multimídia R$ 70** (parcela 1/5, acaba **out/2026**).
-- **Bia** (fins de semana): ~R$ 170/fim de semana → **~R$ 680/mês**.
+- **Bia** (fins de semana): ~R$ 170/fim de semana → **~R$ 680/mês**. A Bia **divide os gastos** (e, por comissão, às vezes ganha mais que eu) — esse valor já é só a minha parte. Ao **morar junto em 2027 o aluguel também é dividido**, não cai cheio em mim → o custo real morando fora é menor que "sozinho" (ver [[Plano de vida]], [[Relationship]]).
 - **Esporádicos**: salgado em dia presencial + marmita (R$ 33) em home-office sem almoço → **~R$ 180/mês**.
 
 ## Saldos líquidos (snapshot 26/06 — volátil)
@@ -104,6 +104,16 @@
 - Comprometido: Pai 675 + Bia 680 + esporádicos 180 + empréstimo 99 + parcelas de cartão ~840–1.180 = **~R$ 2.474–2.814**.
 - **Folga: ~R$ 1.890–2.230/mês** antes do consumo discricionário que vaza.
 
+## Meta de saída de casa 2027 (a reserva tem prazo e ritmo)
+
+> Liga o Financeiro ao **objetivo #1** do [[Plano de vida]]: sair da casa dos pais em **2027** e alugar com a Bia (região metrô Tucuruvi). A reserva não é um número solto — tem deadline.
+
+- **Reserva-alvo: R$ 18–24k** (≈6 meses morando fora). **Hoje: R$ 0.**
+- **Prazo: 2027.** Pra juntar R$ 18k em ~12 meses (jun/2026 → meados de 2027) → **~R$ 1.500/mês** de poupança consistente.
+- **Cabe na folga** (~R$ 1.890–2.230/mês) **só se** as duas coisas forem verdade ao mesmo tempo: (1) o **vazamento morre** e (2) **zero âncora nova**.
+- **Semente da reserva**: líquido das vendas (G29 + iPad ~R$ 2.161) **+ 13º de nov/dez 2026**. Esse é o destino natural do 13º — **não** PS5/TV.
+- A **Bia divide o aluguel** → margem extra; a reserva de 6 meses é colchão de segurança, não teto.
+
 ## Calendário de alívio (quando o fluxo abre)
 
 - **jul/2026**: acaba Nike (PicPay) e Shopee LuaLeo (Itaú).
@@ -132,9 +142,9 @@
 - **Não criar parcelamento novo.** Cada parcela nova é âncora.
 - **Cortar o vazamento** (Uber, ZIG/balada, Shopee, assinaturas redundantes, Outback).
 - **Pai nunca atrasa.**
-- Pausar aulas de inglês até setembro de 2026. _(Atenção: conflita com a meta de Inglês do PDI — ver [[Vida profissional]].)_
-- **Cadeira (Sophy) / console (PS5)**: só depois de **rotativo zerado + 1 mês sem estourar limite + reserva iniciada**. Provavelmente **um OU outro** (prefiro o PS5) via 13º em dez/2026. Cadeira sem urgência (sem dor nas costas).
-- TV 65” TCL 65C6K 4K QD-Mini Led 144Hz, em torno de R$4.084,05, estou pensando em comprar isso parcelado fim deste ano (mas a chance é baixa, já que me prejudicaria financeiramente, embora eu quisesse muito).
+- **Inglês fora do jogo por enquanto.** Aulas pausadas por tempo indeterminado — sem condição financeira nem mental de retomar agora. A meta de Inglês do PDI (18/12/2026) fica **conscientemente adiada**, sem pendência cobrando (ver [[Vida profissional]]).
+- **Cadeira (Sophy) / console (PS5)**: só depois de **rotativo zerado + 1 mês sem estourar limite + reserva iniciada**. **Um OU outro** (prefiro o PS5) via 13º em dez/2026. Cadeira sem urgência (sem dor nas costas). ⚠ Mas o 13º é a **semente da reserva de 2027** — gastar com PS5 atrasa a saída de casa.
+- **⚠ TV 65" TCL 65C6K** (~R$ 4.084,05, cogitada parcelada fim de 2026 — chance baixa, mas o desejo é forte): **compete diretamente com a meta de sair de casa em 2027**, não com a fatura. Em 12x (~R$ 340/mês) come ~23% da capacidade de poupança e atrasa a saída **~3 meses** sozinha; **TV + PS5 juntos empurram a mudança pra 2028.** O trade-off real é **"apartamento com a Bia vs. TV"**.
 - Reserva de independência alvo **R$ 18–24k** ([[Plano de vida]]).
 
 ## Instruções de cálculo futuro (para o Claude do futuro)
@@ -150,4 +160,4 @@
 
 ---
 
-_Atualizado: 2026-06-26 (foto financeira completa). Versão anterior: 2026-06-24._
+_Atualizado: 2026-06-26 (cruzado com [[Plano de vida]], [[Relationship]], [[Vida profissional]]: meta de saída 2027 ancorada à reserva, flag TV/PS5, Inglês fora do jogo, custo Bia dividido). Versão anterior: 2026-06-26 (foto financeira completa)._
