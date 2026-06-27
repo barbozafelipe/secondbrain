@@ -58,7 +58,7 @@
 | HBO Max                 | Nubank       | 3/12 @ jul/26  | R$ 27,95  | **abr/2027**                |
 | Mac Mini M4             | Nubank       | 10/12 @ jul/26 | R$ 344,00 | **set/2026**                |
 | Mercado Livre           | Mercado Pago | 4/12 @ jul/26  | R$ 100,53 | **mar/2027**                |
-| Mercado Livre           | Mercado Pago | 5/18 @ jul/26  | R$ 124,83 | **ago/2027** ⚠ âncora longa |
+| Sony WH-1000 XM5        | Mercado Pago | 5/18 @ jul/26  | R$ 124,83 | **ago/2027** ⚠ âncora longa |
 | Monitor Arzopa Portátil | Mercado Pago | 10/12 @ jul/26 | R$ 57,72  | **set/2026**                |
 | Mercado Livre           | Mercado Pago | 1/2 @ jul/26   | R$ 76,59  | **ago/2026**                |
 | Mercado (MERCAD)        | PicPay       | 3/10 @ jun/26  | R$ 85,55  | **jan/2027**                |
