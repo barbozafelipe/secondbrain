@@ -133,8 +133,8 @@
 - **Cortar o vazamento** (Uber, ZIG/balada, Shopee, assinaturas redundantes, Outback).
 - **Pai nunca atrasa.**
 - Pausar aulas de inglês até setembro de 2026. _(Atenção: conflita com a meta de Inglês do PDI — ver [[Vida profissional]].)_
-- **Cadeira (Sophy) / console (PS5)**: só depois de **rotativo zerado + 1 mês sem estourar limite + reserva iniciada**. Provavelmente **um OU outro** (não os dois) via 13º em dez/2026. Cadeira sem urgência (sem dor nas costas). Console em dez ou jogar GTA 6 no PC em 2027–28.
-- TV 
+- **Cadeira (Sophy) / console (PS5)**: só depois de **rotativo zerado + 1 mês sem estourar limite + reserva iniciada**. Provavelmente **um OU outro** (prefiro o PS5) via 13º em dez/2026. Cadeira sem urgência (sem dor nas costas). Console em dez ou jogar GTA 6 no PC em 2027–28.
+- TV 65” TCL 65C6K 4K QD-Mini Led 144Hz, em torno de R$4.084,05, estou pensando em comprar isso parcelado fim deste ano.
 - Reserva de independência alvo **R$ 18–24k** ([[Plano de vida]]).
 
 ## Instruções de cálculo futuro (para o Claude do futuro)
