@@ -53,21 +53,21 @@
 
 > Lê-se "X/Y @ mês" = no mês-ref a parcela cobrada é a X de Y. Ver _regra X de Y_ abaixo.
 
-| Item                      | Cartão       | Parcela @ ref  | Valor/mês | Acaba em                    |
-| ------------------------- | ------------ | -------------- | --------- | --------------------------- |
-| HBO Max                   | Nubank       | 3/12 @ jul/26  | R$ 27,95  | **abr/2027**                |
-| Mac Mini M4               | Nubank       | 10/12 @ jul/26 | R$ 344,00 | **set/2026**                |
-| Volante g29 - parte 1     | Mercado Pago | 4/12 @ jul/26  | R$ 100,53 | **mar/2027**                |
-| Sony WH-1000 XM5          | Mercado Pago | 5/18 @ jul/26  | R$ 124,83 | **ago/2027** ⚠ âncora longa |
-| Monitor Arzopa Portátil   | Mercado Pago | 10/12 @ jul/26 | R$ 57,72  | **set/2026**                |
-| Switch TP-LINK + HDMI 10m | Mercado Pago | 1/2 @ jul/26   | R$ 76,59  | **ago/2026**                |
-| Voltante g29 - parte 2    | PicPay       | 3/10 @ jun/26  | R$ 85,55  | **jan/2027**                |
-| Aparador de pelos íntimos | PicPay       | 3/6 @ jun/26   | R$ 30,13  | **set/2026**                |
-| Shopee (FRIOPE)           | PicPay       | 2/12 @ jun/26  | R$ 184,31 | **abr/2027** ⚠              |
-| Nike                      | PicPay       | 3/4 @ jun/26   | R$ 112,49 | **jul/2026**                |
-| Drogaria São P            | PicPay       | 1/3 @ jun/26   | R$ 120,00 | **ago/2026**                |
-| HTM*Reservator            | Itaú         | 5/12 @ jun/26  | R$ 29,90  | **jan/2027**                |
-| Shopee (LuaLeo)           | Itaú         | 3/4 @ jun/26   | R$ 17,01  | **jul/2026**                |
+| Item                        | Cartão       | Parcela @ ref  | Valor/mês | Acaba em                    |
+| --------------------------- | ------------ | -------------- | --------- | --------------------------- |
+| HBO Max                     | Nubank       | 3/12 @ jul/26  | R$ 27,95  | **abr/2027**                |
+| Mac Mini M4                 | Nubank       | 10/12 @ jul/26 | R$ 344,00 | **set/2026**                |
+| Volante g29 - parte 1       | Mercado Pago | 4/12 @ jul/26  | R$ 100,53 | **mar/2027**                |
+| Sony WH-1000 XM5            | Mercado Pago | 5/18 @ jul/26  | R$ 124,83 | **ago/2027** ⚠ âncora longa |
+| Monitor Arzopa Portátil     | Mercado Pago | 10/12 @ jul/26 | R$ 57,72  | **set/2026**                |
+| Switch TP-LINK + HDMI 10m   | Mercado Pago | 1/2 @ jul/26   | R$ 76,59  | **ago/2026**                |
+| Voltante g29 - parte 2      | PicPay       | 3/10 @ jun/26  | R$ 85,55  | **jan/2027**                |
+| Aparador de pelos íntimos   | PicPay       | 3/6 @ jun/26   | R$ 30,13  | **set/2026**                |
+| Ar Condicionado Inverter LG | PicPay       | 2/12 @ jun/26  | R$ 184,31 | **abr/2027** ⚠              |
+| Nike                        | PicPay       | 3/4 @ jun/26   | R$ 112,49 | **jul/2026**                |
+| Drogaria São P              | PicPay       | 1/3 @ jun/26   | R$ 120,00 | **ago/2026**                |
+| HTM*Reservator              | Itaú         | 5/12 @ jun/26  | R$ 29,90  | **jan/2027**                |
+| Shopee (LuaLeo)             | Itaú         | 3/4 @ jun/26   | R$ 17,01  | **jul/2026**                |
 
 > A lista do PicPay pode estar incompleta (só faturas fechadas exportam). Consolidado de parcelas futuras do PicPay = **~R$ 2.884,83** em 28/05/2026 (cai a cada mês). Itaú futuro ~R$ 226,31.
 
