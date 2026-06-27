@@ -137,11 +137,10 @@
 
 - **#1: pagar a fatura Nubank de julho INTEGRAL** (mata o rotativo de 722). Nunca pagar mínimo, nunca deixar rolar.
 - **Nunca atrasar fatura** (atraso no Itaú custou R$ 38 à toa).
-- **Vender G29 → colchão de caixa.
-- **Vender iPad** (por 2 mil reais)→ corta R$ 285/mês do "pro pai".
+- **Vender G29 por 1.300 reais → colchão de caixa.
 - **Não criar parcelamento novo.** Cada parcela nova é âncora.
 - **Cortar o vazamento** (Uber, ZIG/balada, Shopee, assinaturas redundantes, Outback).
-- **Pai nunca atrasa.**
+- **Nunca atraso os pagamentos pro meu pai que faço com o salário do fim do mês.**
 - **Inglês fora do jogo por enquanto.** Aulas pausadas por tempo indeterminado — sem condição financeira nem mental de retomar agora. A meta de Inglês do PDI (18/12/2026) fica **conscientemente adiada**, sem pendência cobrando (ver [[Vida profissional]]).
 - **Cadeira (Sophy) / console (PS5)**: só depois de **rotativo zerado + 1 mês sem estourar limite + reserva iniciada**. **Um OU outro** (prefiro o PS5) via 13º em dez/2026. Cadeira sem urgência (sem dor nas costas). ⚠ Mas o 13º é a **semente da reserva de 2027** — gastar com PS5 atrasa a saída de casa.
 - **⚠ TV 65" TCL 65C6K** (~R$ 4.084,05, cogitada parcelada fim de 2026 — chance baixa, mas o desejo é forte): **compete diretamente com a meta de sair de casa em 2027**, não com a fatura. Em 12x (~R$ 340/mês) come ~23% da capacidade de poupança e atrasa a saída **~3 meses** sozinha; **TV + PS5 juntos empurram a mudança pra 2028.** O trade-off real é **"apartamento com a Bia vs. TV"**.
