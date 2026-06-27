@@ -127,13 +127,13 @@
 
 - **#1: pagar a fatura Nubank de julho INTEGRAL** (mata o rotativo de 722). Nunca pagar mínimo, nunca deixar rolar.
 - **Nunca atrasar fatura** (atraso no Itaú custou R$ 38 à toa).
-- **Vender G29 antes de 30/06** → colchão de caixa imediato.
-- **Vender iPad** → corta R$ 285/mês do "pro pai".
+- **Vender G29 → colchão de caixa.
+- **Vender iPad** (por 2 mil reais)→ corta R$ 285/mês do "pro pai".
 - **Não criar parcelamento novo.** Cada parcela nova é âncora.
 - **Cortar o vazamento** (Uber, ZIG/balada, Shopee, assinaturas redundantes, Outback).
 - **Pai nunca atrasa.**
 - Pausar aulas de inglês até setembro de 2026. _(Atenção: conflita com a meta de Inglês do PDI — ver [[Vida profissional]].)_
-- **Cadeira (Sophy) / console (PS5)**: só depois de **rotativo zerado + 1 mês sem estourar limite + reserva iniciada**. Provavelmente **um OU outro** (prefiro o PS5) via 13º em dez/2026. Cadeira sem urgência (sem dor nas costas). Console em dez ou jogar GTA 6 no PC em 2027–28.
+- **Cadeira (Sophy) / console (PS5)**: só depois de **rotativo zerado + 1 mês sem estourar limite + reserva iniciada**. Provavelmente **um OU outro** (prefiro o PS5) via 13º em dez/2026. Cadeira sem urgência (sem dor nas costas).
 - TV 65” TCL 65C6K 4K QD-Mini Led 144Hz, em torno de R$4.084,05, estou pensando em comprar isso parcelado fim deste ano.
 - Reserva de independência alvo **R$ 18–24k** ([[Plano de vida]]).
 
