@@ -67,7 +67,7 @@
 | Camisa do Brasil Copa 2026           | PicPay       | 3/4 @ jun/26   | R$ 112,49 | **jul/2026**                |
 | Cosméticos tratamento dermatologista | PicPay       | 1/3 @ jun/26   | R$ 120,00 | **ago/2026**                |
 | Reservatório de Dopamina - Eslen     | Itaú         | 5/12 @ jun/26  | R$ 29,90  | **jan/2027**                |
-| Shopee (LuaLeo)                      | Itaú         | 3/4 @ jun/26   | R$ 17,01  | **jul/2026**                |
+| Shopee                               | Itaú         | 3/4 @ jun/26   | R$ 17,01  | **jul/2026**                |
 
 > A lista do PicPay pode estar incompleta (só faturas fechadas exportam). Consolidado de parcelas futuras do PicPay = **~R$ 2.884,83** em 28/05/2026 (cai a cada mês). Itaú futuro ~R$ 226,31.
 
