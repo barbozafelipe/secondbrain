@@ -97,9 +97,23 @@ A [[Setup PRD do Agente de Duvidas do Blog Free Flow]] subiu o stack no RG **`st
 
 ### ⏳ Pendências para o agente funcionar 100% (não são das vars)
 - [x] **Felipe** — recriou os 2 deployments no Foundry novo (`stp-dig-cog-blogagent-prd`): `gpt-4o-mini` (2024-07-18) + `text-embedding-ada-002` (v2), ambos GlobalStandard. ✅ Validado via az cli: nomes batem com as vars `AZURE_OPENAI_*_DEPLOYMENT`. (24/06)
-- [ ] **Dev/GO AI** — reupload do dataset no AI Search novo (índice `agent-blog-index`).
-- [ ] **Esteira** — deploy do código (agora acha o RG `-prd`).
-- [ ] **Felipe** — rotas no APIM `stp-dig-apim-aihub-prd` (gotcha `urlTemplate /{route}`) + subscription keys.
+- [ ] **Dev/GO AI** — reupload do dataset no AI Search novo (índice `agent-blog-index`). ⚠️ Ver gotcha do índice abaixo.
+- [x] **Esteira** — deploy do pacote de release (CTASK0136882 reexecutada, Release#14, run `28255040925`, repo `SemParar-B2C/pyaz-ai-blogagent`). RG `-prd` encontrado, sem mais `ResourceGroupNotFound`. (30/06)
+- [x] **Felipe** — rotas no APIM `stp-dig-apim-aihub-prd` (CTASK0137390, change CHG0096865, 30/06 11h-12h) + subscription key. **Concluído e validado.**
+
+### 🐛 Gotcha descoberto: nome do índice diverge entre vars e AI Search real
+- **Var `AZURE_SEARCH_INDEX`** na func aponta pra `agent-blog-index`.
+- **Índice real** subido no AI Search `-prd` (pelo dev) ficou como `blog-index` (sem o prefixo `agent-`).
+- Confirmado via REST (`GET .../indexes?api-version=2023-11-01`): só existe `blog-index` no serviço.
+- **Ainda não resolvido** — Joao perguntou se trocamos a var. Sugestão dada: manter o padrão `agent-blog-index` (reupload do dev) em vez de ajustar a var pra `blog-index`, já que a mudança de nomenclatura foi a causa-raiz de todo esse RITM. Decisão pendente do time.
+- ⚠️ Enquanto não resolvido, a busca RAG da função retorna vazio/erro (índice não encontrado).
+
+### ✅ CTASK0137390 — Configuração das rotas no APIM (concluída, 30/06)
+- API `stp-dig-func-blogagent-prd` importada da Function App no APIM `stp-dig-apim-aihub-prd`, backend = `stp-dig-func-blogagent-prd`.
+- **Gotcha do `urlTemplate` se repetiu** (igual NPRD): import automático criou as 7 operações (GET/POST/PUT/DELETE/HEAD/OPTIONS/PATCH) com `//{route}` (barra dupla). Felipe corrigiu manualmente uma a uma no portal (Design → Frontend → editar template). Validado via `az rest` no fim: **7/7 operações com `/{route}` correto**, zero barra dupla.
+- **Subscription key criada** com escopo restrito só a essa API (`scope: .../apis/stp-dig-func-blogagent-prd`), nome `stp-dig-func-blogagent-prd` — não usou a `sub-aihub-prd` (que seria all-access a todas APIs do Hub, escopo largo demais).
+
+> [!note] A partir de 2026-06-30 esta nota passa a ser mantida em `synapse-docs` (vault compartilhado da equipe), não mais aqui. Ver [[project_sinapse_shared_vault]].
 
 ---
 
