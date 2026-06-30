@@ -93,47 +93,47 @@ atualizado: 2026-06-23
 
 ## 🤝 Pessoas externas recorrentes nas reuniões
 
-| Nome                          | Contexto                                                                                 |
-| ----------------------------- | ---------------------------------------------------------------------------------------- |
-| **Isaú**                      | SRE — recebe passagem de conhecimento, ponto de contato para comunicar devs sobre CA     |
-| **Kleber**                    | Tem aplicação que é case de uso do template Backstage                                    |
-| **Diogo**                     | Executa mudanças no F5 (load balancer de rede)                                           |
-| **Aurélio**                   | Time VB — acompanha e testa changes de migração de rede                                  |
-| **Tales**                     | SI (Segurança da Informação) — envolvido em rotação de secrets e decisões de WAF/Imperva |
-| **Jonathan**                  | Gringo (operação) — envolvido em BigQuery, Elastic, PCI audit                            |
-| **Zaza**                      | DevOps — migração de código/infra para GitHub                                            |
-| **Yasu**                      | Gringo — apoiou Thiago na criação do repositório de IaC                                  |
-| **Feitosa**                   | Time do cliente (NAF3) — alertas Dynatrace                                               |
-| **Gabriel Anderson Graani**   | Contato AWS na Afinz                                                                     |
-| **João Barth / Luiz Vinholi** | Equipe de desenvolvimento AI Agents App — contato para tasks Azure                       |
-| **Deivison**                  | Gestão Compass UOL — assuntos de PDI, timesheet, banco de horas                          |
-| **Guilherme**                 | Gestão/capacity — sizing de node pools e infra                                           |
-| **Caio Cruvinel**             | Novo Account Manager do Google para a conta Gringo (alocado em maio/2026)                |
-| **Caio Proviel**              | Contato técnico na Gringo — validações de descomissionamento de recursos                 |
-| **Caio Medice**               | Account Manager do Google — procurando Léo para reunião de alinhamento de demandas       |
-| **Clayton**                   | Gestão/cronograma na Afinz/Carvalt — ponto de contato para planejamento de entregas      |
-| **Aparecida (Cida)**          | Gestão na Afinz — envolvida em cronograma e acompanhamento                               |
-| **Hélio**                     | Gringo — solicitou desligamento do Analyze (Dynatrace) em staging                        |
-| **Ênio**                      | Contato para janela de configuração do Okta no GCP                                       |
-| **Joson**                     | Solicitante externo — pediu adição de headers em API Gateway (Dev/HML/Prod)              |
-| **Hudson**                    | Head/Gestor da área de dados (perfil mais de negócios/marketing)                         |
-| **André**                     | Envolvido na discussão sobre coexistência de domínios e nós no Okta                      |
-| **Célio e Ian**               | Equipe de desenvolvimento/esteira no GCP (deploy e secrets)                              |
-| **Luciano**                   | Ponto de contato sobre configuração de DNS interno e rotas estáticas                     |
-| **Rafael Humberto**           | Envolvido na certificação PCI da Gringo — mapeamento de fluxo de dados                  |
-| **Rodolfo**                   | Contato da área de dados (Gringo Data) — responsável por BigQuery e reservas             |
-| **Leandro**                   | Gestão de Change — acompanha projetos como NAT Gateway e CPP                             |
-| **Diego Ferraz**              | Tech Lead externo do Olho no Carro — trata Mateus como DevOps (problema recorrente)      |
-| **Jessé**                     | SI (Segurança da Informação) — pressiona sobre certificação PCI Gringo e segregação      |
-| **Noio**                      | Contato Okta — responsável por entregar credenciais de configuração                      |
+| Nome                          | Contexto                                                                                                    |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Isaú**                      | SRE — recebe passagem de conhecimento, ponto de contato para comunicar devs sobre CA                        |
+| **Kleber**                    | Tem aplicação que é case de uso do template Backstage                                                       |
+| **Diogo**                     | Executa mudanças no F5 (load balancer de rede)                                                              |
+| **Aurélio**                   | Time VB — acompanha e testa changes de migração de rede                                                     |
+| **Tales**                     | SI (Segurança da Informação) — envolvido em rotação de secrets e decisões de WAF/Imperva                    |
+| **Jonathan**                  | Gringo (operação) — envolvido em BigQuery, Elastic, PCI audit                                               |
+| **Zaza**                      | DevOps — migração de código/infra para GitHub                                                               |
+| **Yasu**                      | Gringo — apoiou Thiago na criação do repositório de IaC                                                     |
+| **Feitosa**                   | Time do cliente (NAF3) — alertas Dynatrace                                                                  |
+| **Gabriel Anderson Graani**   | Contato AWS na Afinz                                                                                        |
+| **João Barth / Luiz Vinholi** | Equipe de desenvolvimento AI Agents App — contato para tasks Azure                                          |
+| **Deivison**                  | Gestão Compass UOL — assuntos de PDI, timesheet, banco de horas                                             |
+| **Guilherme**                 | Gestão/capacity — sizing de node pools e infra                                                              |
+| **Caio Cruvinel**             | Novo Account Manager do Google para a conta Gringo (alocado em maio/2026)                                   |
+| **Caio Proviel**              | Contato técnico na Gringo — validações de descomissionamento de recursos                                    |
+| **Caio Medice**               | Account Manager do Google — procurando Léo para reunião de alinhamento de demandas                          |
+| **Clayton**                   | Gestão/cronograma na Afinz/Carvalt — ponto de contato para planejamento de entregas                         |
+| **Aparecida (Cida)**          | Gestão na Afinz — envolvida em cronograma e acompanhamento                                                  |
+| **Hélio**                     | Gringo — solicitou desligamento do Analyze (Dynatrace) em staging                                           |
+| **Ênio**                      | Contato para janela de configuração do Okta no GCP                                                          |
+| **Joson**                     | Solicitante externo — pediu adição de headers em API Gateway (Dev/HML/Prod)                                 |
+| **Hudson**                    | Head/Gestor da área de dados (perfil mais de negócios/marketing)                                            |
+| **André**                     | Envolvido na discussão sobre coexistência de domínios e nós no Okta                                         |
+| **Célio e Ian**               | Equipe de desenvolvimento/esteira no GCP (deploy e secrets)                                                 |
+| **Luciano**                   | Ponto de contato sobre configuração de DNS interno e rotas estáticas                                        |
+| **Rafael Humberto**           | Envolvido na certificação PCI da Gringo — mapeamento de fluxo de dados                                      |
+| **Rodolfo**                   | Contato da área de dados (Gringo Data) — responsável por BigQuery e reservas                                |
+| **Leandro**                   | Gestão de Change — acompanha projetos como NAT Gateway e CPP                                                |
+| **Diego Ferraz**              | Tech Lead externo do Olho no Carro — trata Mateus como DevOps (problema recorrente)                         |
+| **Jessé**                     | SI (Segurança da Informação) — pressiona sobre certificação PCI Gringo e segregação                         |
+| **Noio**                      | Contato Okta — responsável por entregar credenciais de configuração                                         |
 | **Luiz**                      | Desenvolvedor — pediu atualização de Secret; caso de uso que evidenciou necessidade de canal de comunicação |
-| **Itamar**                    | Responsável por chamado de monitoramento (Elastic/Dynatrace) — tarefa pendente pós-Change |
-| **Gabriel (Olho no Carro)**   | Dev do time externo do Olho no Carro — carioca, participou da reunião de alinhamento     |
-| **Argentino (Rio/Cloud)**     | Representante do Google Cloud na América Latina — vem ao Brasil para workshop em julho   |
-| **Darcimara**                 | Gestora do time de dados da Afinz/Carvalt — time não engaja nas reuniões de quarta       |
-| **Maracanã**                  | Contato/gestor no Olho no Carro — acionado por Rafael Humberto para dar tração ao projeto |
-| **Erlani**                    | Arquitetura — pode ter contato na Caixa pré-pago para liberação de IPs do NAT Gateway    |
-| **Everton**                   | Ex-membro do time de Network (Diogo) — saiu da empresa, deixando gap no time             |
+| **Itamar**                    | Responsável por chamado de monitoramento (Elastic/Dynatrace) — tarefa pendente pós-Change                   |
+| **Gabriel (Olho no Carro)**   | Dev do time externo do Olho no Carro — carioca, participou da reunião de alinhamento                        |
+| **Argentino (Rio/Cloud)**     | Representante do Google Cloud na América Latina — vem ao Brasil para workshop em julho                      |
+| **Darcimara**                 | Gestora do time de dados da Afinz/Carvalt — time não engaja nas reuniões de quarta                          |
+| **Maracanã**                  | Contato/gestor no Olho no Carro — acionado por Rafael Humberto para dar tração ao projeto                   |
+| **Erlani**                    | Arquitetura — pode ter contato na Caixa pré-pago para liberação de IPs do NAT Gateway                       |
+| **Everton**                   | Ex-membro do time de Network (Diogo) — saiu da empresa, deixando gap no time                                |
 
 ---
 
