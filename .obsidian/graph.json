@@ -8,98 +8,105 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Sync Files/Work/AWS\"  ",
+      "query": "path:\"Sync Files/Cloud Team/AWS\"",
       "color": {
         "a": 1,
         "rgb": 16750848
       }
     },
     {
-      "query": "path:\"Sync Files/Work/Azure\"  ",
+      "query": "path:\"Sync Files/Cloud Team/Azure\"",
       "color": {
         "a": 1,
         "rgb": 30932
       }
     },
     {
-      "query": "path:\"Sync Files/Work/OCI\"  ",
+      "query": "path:\"Sync Files/Cloud Team/OCI\"",
       "color": {
         "a": 1,
         "rgb": 13059636
       }
     },
     {
-      "query": "path:\"Sync Files/Work/GCP\"  ",
+      "query": "path:\"Sync Files/Cloud Team/GCP\"",
       "color": {
         "a": 1,
         "rgb": 4359668
       }
     },
     {
-      "query": "path:\"Sync Files/Work/Rancher\"  ",
+      "query": "path:\"Sync Files/Cloud Team/Rancher\"",
       "color": {
         "a": 1,
         "rgb": 3193464
       }
     },
     {
-      "query": "path:\"Sync Files/Work/Okta\"  ",
+      "query": "path:\"Sync Files/Cloud Team/Okta\"",
       "color": {
         "a": 1,
         "rgb": 32193
       }
     },
     {
-      "query": "path:\"Sync Files/Work/Zscaler\"  ",
+      "query": "path:\"Sync Files/Cloud Team/Zscaler\"",
       "color": {
         "a": 1,
         "rgb": 40154
       }
     },
     {
-      "query": "path:\"Sync Files/Work/Certificados\"  ",
+      "query": "path:\"Sync Files/Cloud Team/Certificados\"",
       "color": {
         "a": 1,
         "rgb": 9132587
       }
     },
     {
-      "query": "path:\"Sync Files/Work/Carreira\"  ",
+      "query": "path:\"Sync Files/Cloud Team/Elastic\"",
       "color": {
         "a": 1,
-        "rgb": 9323693
+        "rgb": 49075
       }
     },
     {
-      "query": "path:\"Sync Files/Work/Reuniões semanais\"  ",
+      "query": "path:\"Sync Files/Cloud Team/Reuniões semanais\"",
       "color": {
         "a": 1,
         "rgb": 6122878
       }
     },
     {
-      "query": "path:\"Sync Files/Estudos\"  ",
+      "query": "path:\"Sync Files/Carreira\"",
+      "color": {
+        "a": 1,
+        "rgb": 9323693
+      }
+    },
+    {
+      "query": "path:\"Sync Files/Estudos\"",
       "color": {
         "a": 1,
         "rgb": 15844367
       }
     },
     {
-      "query": "path:\"Sync Files/Projetos\"  ",
+      "query": "path:\"Sync Files/Projetos\"",
       "color": {
         "a": 1,
         "rgb": 14037892
       }
     },
     {
-      "query": "path:\"Sync Files/Médico\"  ",
+      "query": "path:\"Sync Files/Médico\"",
       "color": {
         "a": 1,
         "rgb": 1482885
       }
     },
     {
-      "query": "path:\"Sync Files/Pessoal\"  ",
+      "query": "path:\"Sync Files/Pessoal\"",
       "color": {
         "a": 1,
         "rgb": 11895693
@@ -117,5 +124,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.6949523198678963,
-  "close": false
+  "close": true
 }
