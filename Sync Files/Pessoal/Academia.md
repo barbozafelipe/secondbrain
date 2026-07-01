@@ -13,15 +13,19 @@
 - Acne-prone: evitar excesso de gordura, laticínios e gatilhos conhecidos (acompanhamento dermatológico em [[Saúde]]).
 - **TODO:** plano alimentar / macros / meta calórica (não documentado).
 
-## Divisão de treino
+## Divisão de treino (v2 — 2026-07-01)
 
-**Segunda — Pull (costas, posterior de ombro, bíceps)**
+> Planilha de execução com log de cargas (S1–S8, RIR, descanso): [Treino Felipe — PPL + Upper v2 no Google Sheets](https://docs.google.com/spreadsheets/d/1szv_cY12wQdk10EK9n40bkrOXxgmW04Fu3cusZu62s4/edit)
+> Progressão dupla: topo da faixa em todas as séries com RIR alvo → +2,5–5% de carga. Deload na semana 9.
+
+**Segunda — Pull (costas, posterior de ombro, bíceps + lateral)**
 - Puxada alta pegada aberta — 3x 8–12
 - Remada baixa na polia — 3x 8–12
 - Remada curvada unilateral com halter — 3x 8–12
 - Crucifixo inverso sentado na máquina — 3x 12–20
+- Elevação lateral polia unilateral — 3x 15–20 _(movida do sábado — 3ª frequência de lateral)_
 - Rosca direta barra W — 3x 8–12
-- Rosca martelo com halteres — 3x 10–12
+- Rosca martelo com halteres — 3x 10–15
 
 **Quarta — Push (peito, ombro, tríceps)**
 - Supino inclinado com halteres — 4x 6–10
@@ -31,24 +35,25 @@
 - Extensão tríceps polia alta (corda) — 3x 10–15
 - Tríceps testa com barra W — 2x 10–12
 
-**Sexta — Legs (quadríceps, posterior de coxa, panturrilha, abdômen)**
+**Sexta — Legs + Core (quadríceps, posterior de coxa, panturrilha, cintura)**
 - Leg press inclinado — 4x 8–12
 - Extensão de pernas — 3x 12–15
 - Flexão de pernas deitado na máquina — 3x 10–12
 - Stiff — 3x 8–12
-- Elevação de panturrilha em pé na máquina — 4x 15–20
-- Elevação de pernas — 4x 15
+- Elevação de panturrilha em pé na máquina — 4x 10–15
+- Elevação de pernas — 3x 12–15
 - Prancha abdominal — 3x 45–60s
+- Stomach vacuum — 3x 20–30s _(cintura fina = metade do Índice de Adonis)_
 
-**Sábado — Upper (peito, ombro, costas acessório, tríceps, bíceps)**
+**Sábado — Upper (peito, ombro, costas acessório, braços + panturrilha 2ª freq.)**
 - Crossover na polia média — 3x 12–15
+- Desenvolvimento na máquina — 3x 8–12
 - Elevação lateral com halteres — 4x 10–15
-- Elevação lateral polia unilateral — 3x 15–20
-- Desenvolvimento Arnold ou máquina — 3x 8–12
-- Remada na máquina ou puxada triângulo — 3x 10–12
+- Remada na máquina — 3x 10–12
 - Crucifixo inverso sentado na máquina — 3x 12–20
 - Tríceps unilateral polia — 3x 10–15
-- Rosca scott ou concentrada — 3x 10–15
+- Rosca scott — 3x 10–15
+- Panturrilha sentado — 3x 12–15 _(nova — 2ª frequência semanal)_
 
 ## Cárdio — 3x/semana (seg, qua, sex, após o treino)
 - 5 min — inclinação 5 — velocidade 5.5
@@ -56,4 +61,4 @@
 - 5 min — inclinação 15 — velocidade 5.0
 
 ---
-_Atualizado: 2026-06-24._
+_Atualizado: 2026-07-01 (v2 — lateral redistribuída pra 3x/sem, panturrilha 2x/sem, vacuum adicionado, regras de progressão na planilha)._
