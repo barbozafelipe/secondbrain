@@ -6,5 +6,9 @@
 - [[Pipeline Kinesis Firehose DynamoDB para Databricks]]
 - [[Usage Plan e API Key integracao Meta WhatsApp]]
 - [[Usage Plan e API Key mitigacao ataque Hotsite Santander]]
+- [[ZPY - Associando permition set e conta em um grupo]]
+- [[ZPY - Como fazer nova conta AWS aparecer no Portal SSO]]
+- [[ZPY - PTSK0010372]]
+- [[ZPY- Reutilização de Permission Sets para novas contas AWS]]
 
 %% End Waypoint %%

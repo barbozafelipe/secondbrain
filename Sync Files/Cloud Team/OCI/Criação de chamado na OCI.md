@@ -6,4 +6,4 @@
 ### Essa aba abrirá automaticamente para criação do chamado:
 ![[Pasted image 20260505100220.png]]
 
-[[oci]]
+[[OCI]]

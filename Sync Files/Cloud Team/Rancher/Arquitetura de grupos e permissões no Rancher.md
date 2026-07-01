@@ -20,26 +20,6 @@ data: 2026-05-05
 
 ---
 
-## 👤 O que me diz respeito diretamente
-
-> [!warning] Minha primeira tarefa de governança K8s
-> Wellington/Thiago pediram para eu:
-> 1. Solicitar a criação do grupo **K8s Servidores** no Provider (Digital Ocean / AD Point)
-> 2. Mapear em cada cluster quais grupos têm quais permissões via ClusterRoleBinding
-> 3. Identificar roles sem regra e propor exclusão
-> 4. Aplicar o padrão de permissões do grupo Produção nos clusters que ainda não o têm
->
-> *"A ideia é você começar a entender como é o nível de permissionamento, entender os objetos de RoleBinding e ClusterRoleBinding."*
-
-> [!tip] Ação prática
-> - Abrir chamado para criar o grupo `k8s-servidores` no Identity Provider
-> - Entrar em cada cluster no Rancher → aba **RBAC** → ClusterRoleBindings → listar grupos e roles associadas
-> - Para cada role não padrão encontrada, abrir a configuração e verificar se tem regras definidas — se não tiver, propor exclusão
-> - Replicar a binding do grupo Produção (`get/list/watch/delete` em pods) nos clusters que ainda não têm
-> - Dúvidas: acionar Thiago ou Wellington
-
----
-
 ## 🗂️ Projetos em andamento
 
 ### Governança RBAC — Kubernetes / Rancher
