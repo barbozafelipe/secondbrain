@@ -9,6 +9,5 @@
 - [[[Azure] Localizar certificado ianoapp (diagnóstico)]]
 - [[[Azure] Trocar certificado ianoapp pelo portal (procedimento)]]
 - [[Rotação de certificados]]
-- [[Sem título]]
 
 %% End Waypoint %%
