@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+- [[2026-06-30_zscaler-ip-blocks-firewall-audit-digital-prod]]
 - [[APIM AIHub - 404 em operacao por urlTemplate com barra dupla]]
 - [[Criacao de Azure Database PostgreSQL AI Agents App]]
 - [[Criar RG e Azure AI Foundry para IA no B2B]]
