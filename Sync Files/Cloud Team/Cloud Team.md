@@ -7,6 +7,7 @@
 - **[[GCP]]**
 - **[[OCI]]**
 - **[[Okta]]**
+- **[[Processos]]**
 - **[[Rancher]]**
 - **[[Reuniões semanais]]**
 - **[[Zscaler]]**
