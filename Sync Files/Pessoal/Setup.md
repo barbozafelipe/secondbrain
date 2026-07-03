@@ -9,7 +9,7 @@
 - Arzopa (monitor portátil, comprado em 2025) — segunda tela sob demanda
 
 ## Periféricos
-- Mouse: Logitech G502 X Plus
+- Mouse: Logitech G502 X Plus — único para todos os modos (decidido: sem mouse separado p/ trabalho)
 - Teclado: AULA F75 (mecânico) — intenção declarada em jul/2026: trocar por teclado de membrana p/ trabalho; baixa prioridade, não executado
 - Fone de ouvido: Sony WH-1000XM5
 - Microfone: HyperX QuadCast
@@ -24,12 +24,14 @@
 ## Arquitetura de uso — confirmada (2026-07-03)
 - Decisão consolidada: PC gamer + Mac mini coexistem. PC = jogo; Mac = produtividade pessoal. Não repetir o ciclo de trocar um pelo outro.
 - Experimento "mesa em duas zonas" (pessoal à esq. c/ Mac+OLED / trabalho à dir. c/ Dell+Arzopa): **falhou** — a fricção para trocar de zona era só rolar a cadeira, e o Mac ligado ao lado funcionava como gatilho contínuo durante o expediente.
-- Princípio: a barreira é **disponibilidade** (cabo de força fora do lugar), não desmontagem física. Fricção gradual: versão leve primeiro, escalar só se falhar na prática.
+- Princípio: a barreira é **disponibilidade** (cabo de força fora do lugar), não desmontagem física. Fricção gradual: versão leve primeiro, escalar só mediante falha observada.
+- Gatilho de escalada pré-definido: se conectar o Mac durante o expediente uma única vez, o cabo migra para outro cômodo no mesmo dia (sem renegociação no momento).
 - Layout: estação única no OLED G6.
-    - Trabalho (seg/qua/sex remoto): Dell fechado no suporte, conectado via hub USB + USB-C→monitor; cabo de força do Mac mini em **outro cômodo** (o mini pode ficar na mesa, desligado); celular em outro cômodo; Arzopa desligado por padrão, ligado só em reunião (pesquisa fora da tela compartilhada).
-    - Fim do expediente: Dell guardado na mochila, fora do campo de visão. Sem trabalho fora do horário — desconexão total, sem "adiantar coisas" à noite ou no fim de semana.
-    - Pessoal: Mac mini + OLED, teclado e mouse próprios. Celular em outro cômodo também em parte do tempo pessoal; WhatsApp desktop no Mac para falar com a Bia (pareia uma vez, celular pode ficar longe).
-    - Jogo: cabo de força do PC guardado na gaveta por padrão; conectar só para sessão deliberada e devolver à gaveta ao terminar. Escalada se a vontade virar ruído: cabo em outro cômodo. A torre permanece na mesa (decoração) — a barreira é o cabo.
+    - Trabalho (seg/qua/sex remoto): Dell fechado no suporte, conectado via hub USB + USB-C→monitor; cabo de força do Mac mini na **gaveta do armário** (versão leve em teste — a reconexão já é fricção alta: cabos de difícil acesso, exige deitar sob a mesa); celular **sempre** em outro cômodo (MFA do Azure: vai até o celular e aprova); teclado e mouse pessoais mesmo.
+    - Reuniões: compartilhar **janela** no Teams, não a tela inteira — anotações/pesquisa ficam em outra janela, invisíveis. Atenção: aba nova aberta dentro da MESMA janela compartilhada aparece p/ todos; pesquisa vai em janela separada. Arzopa vira fallback raro.
+    - Fim do expediente: Dell guardado na mochila, fora do campo de visão. Sem trabalho fora do horário — desconexão total.
+    - Pessoal: Mac mini + OLED. Celular longe por padrão também fora do trabalho, checagens esporádicas; WhatsApp desktop permanentemente vinculado no Mac (falar com a Bia). Exceção em estudo profundo: fechar o app.
+    - Jogo: cabo de força do PC **sempre** na gaveta; conectar só para sessão deliberada e devolver à gaveta ao terminar. Escalada se a vontade virar ruído: cabo em outro cômodo. A torre permanece na mesa (decoração) — a barreira é o cabo.
 
 ## Histórico de máquinas
 1. ~2011–2016: notebook Samsung básico do pai → herdado; Minecraft com FPS baixo.
