@@ -21,7 +21,7 @@ status: em andamento
 
 ## Arquitetura
 
-Zendesk ↔ Imperva (WAF/proteção, escopo time SI) ↔ Amazon API Gateway (REST, domínio `chatbot.api.semparardoc.com.br` prod / `chatbot.api.staging.semparardoc.com.br` staging) → Lambda Worker → SQS → Lambda Adapter (REST/A2A) → **AgentCore Runtime** (orquestrador) → ElastiCache Redis (sessão) + DynamoDB (contexto) + Bedrock Knowledge Base (S3 + OpenSearch Serverless, embeddings Titan G2) → sub-agentes (protocolo A2A) → Lambda Integration-Zendesk (API Sunshine, credenciais via Secrets Manager) → volta pro Zendesk/Analyst.
+Zendesk ↔ Imperva (WAF/proteção, escopo time SI) ↔ Amazon API Gateway (REST, domínio por ambiente: `chatbot.api.semparardoc.com.br` prod | `chatbot.api.stage.semparardoc.com.br` stage | `chatbot.api.dev.semparardoc.com.br` dev — atualizado 03/07/2026) → Lambda Worker → SQS → Lambda Adapter (REST/A2A) → **AgentCore Runtime** (orquestrador) → ElastiCache Redis (sessão) + DynamoDB (contexto) + Bedrock Knowledge Base (S3 + OpenSearch Serverless, embeddings Titan G2) → sub-agentes (protocolo A2A) → Lambda Integration-Zendesk (API Sunshine, credenciais via Secrets Manager) → volta pro Zendesk/Analyst.
 
 Camadas auxiliares: Guardrails (Bedrock Invoke Model/Guardrails), Knowledge Base Layer (OpenSearch + S3), Permission Layer (AgentCore Identity → Cognito).
 
