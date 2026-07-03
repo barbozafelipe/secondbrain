@@ -21,13 +21,15 @@
 - Placa-mãe: B760M Aorus Elite
 - Placa de vídeo: GeForce RTX 4060 8GB — Asus/MSI
 
-## Arquitetura de uso — plano vigente (2026-07-03)
+## Arquitetura de uso — confirmada (2026-07-03)
 - Decisão consolidada: PC gamer + Mac mini coexistem. PC = jogo; Mac = produtividade pessoal. Não repetir o ciclo de trocar um pelo outro.
 - Experimento "mesa em duas zonas" (pessoal à esq. c/ Mac+OLED / trabalho à dir. c/ Dell+Arzopa): **falhou** — a fricção para trocar de zona era só rolar a cadeira, e o Mac ligado ao lado funcionava como gatilho contínuo durante o expediente.
+- Princípio: a barreira é **disponibilidade** (cabo de força fora do lugar), não desmontagem física. Fricção gradual: versão leve primeiro, escalar só se falhar na prática.
 - Layout: estação única no OLED G6.
-    - Trabalho (seg/qua/sex remoto): Dell fechado no suporte, conectado via hub USB + USB-C→monitor; cabo do Mac desconectado e guardado; Mac mini desligado; celular em outro cômodo; Arzopa desligado por padrão, ligado só em reunião (pesquisa fora da tela compartilhada).
-    - Pessoal: Mac mini + OLED, teclado e mouse próprios.
-    - Jogo: PC gamer via troca manual de cabos — fricção proposital, manter.
+    - Trabalho (seg/qua/sex remoto): Dell fechado no suporte, conectado via hub USB + USB-C→monitor; cabo de força do Mac mini em **outro cômodo** (o mini pode ficar na mesa, desligado); celular em outro cômodo; Arzopa desligado por padrão, ligado só em reunião (pesquisa fora da tela compartilhada).
+    - Fim do expediente: Dell guardado na mochila, fora do campo de visão. Sem trabalho fora do horário — desconexão total, sem "adiantar coisas" à noite ou no fim de semana.
+    - Pessoal: Mac mini + OLED, teclado e mouse próprios. Celular em outro cômodo também em parte do tempo pessoal; WhatsApp desktop no Mac para falar com a Bia (pareia uma vez, celular pode ficar longe).
+    - Jogo: cabo de força do PC guardado na gaveta por padrão; conectar só para sessão deliberada e devolver à gaveta ao terminar. Escalada se a vontade virar ruído: cabo em outro cômodo. A torre permanece na mesa (decoração) — a barreira é o cabo.
 
 ## Histórico de máquinas
 1. ~2011–2016: notebook Samsung básico do pai → herdado; Minecraft com FPS baixo.
