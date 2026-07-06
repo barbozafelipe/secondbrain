@@ -70,15 +70,30 @@ Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 | Meta                                       | Prazo      | Status                                                                                                                                                 |
 | ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Trilha Sem Parar (ESG, LGPD, Assédio)      | 29/05/2026 | Concluído                                                                                                                                              |
-| AWS Certified Cloud Practitioner (CLF-C02) | 31/08/2026 | Prova agendada para 22/08/2026 · 1º simulado em 06/07: **132/200** (ver acompanhamento abaixo) · plano de estudos v2 ativo                             |
+| AWS Certified Cloud Practitioner (CLF-C02) | 31/08/2026 | Prova agendada para 22/08/2026 · 1º simulado em 06/07: **132/200** · plano de estudos v2 ativo · análise por domínio concluída (ver abaixo)             |
 | Especialização Terraform (Azure + OCI)     | 31/10/2026 | Não iniciado                                                                                                                                           |
 | Ciclo de Inglês Técnico (30h)              | 18/12/2026 | Em progresso, mas cancelei as aulas por questões financeiras com o professor, e não posso voltar a ter aulas tão cedo ainda... não sei como vou fazer. |
 
 **TODO / conflito a resolver:** a decisão financeira de "pausar aulas de inglês até setembro de 2026" (ver [[Financeiro]]) conflita com a meta de Inglês do PDI (em progresso, prazo 18/12/2026). Alinhar.
 
 ### CLF-C02 — acompanhamento
-- **06/07/2026 — 1º simulado** (AWS Skill Builder Assessment, ~30 questões): **132/200 — nível "Estabelecido", percentil 74**. Autoavaliação de confiança por questão (metacognição): média ~46%; distribuição: 11/30 com confiança ≤25% (chute), 6/30 entre 30–50%, 6/30 entre 60–70%, 7/30 com ≥80%. Resta **1 tentativa** do assessment — reservar para ~16/08 como medição de progresso. Prints das questões ainda não sincronizados no vault (pasta Files) — análise questão a questão pendente.
-- **Plano de estudos v2** (decisão de 06/07): 20min seg/qua/sex (dias remotos, banco de questões) + bloco único de 45–60min no **domingo**; **sem sábado**. Consistência antes de volume; sessão perdida não se compensa nem acumula.
+- **06/07/2026 — 1º simulado** (AWS Skill Builder Assessment, 31 questões): **132/200 — nível "Estabelecido", percentil 74**.
+- **Acurácia real por domínio** (cruzando resultado detalhado com autoavaliação de confiança por questão):
+  - Cloud Concepts: 8/8 (100%)
+  - Billing and Pricing: 4/5 (80%)
+  - Security: 6/8 (75%)
+  - **Technology: 5/10 (50%) — domínio mais fraco, maior peso na prova real (34%)**
+- **Erros de alta confiança (falso conhecimento — prioridade máxima de revisão):**
+  - Q5 (Billing, 70% conf.): Cost and Usage Reports vs. AWS Cost Explorer (entrega de relatório no S3)
+  - Q11 (Security, 70% conf.): melhores práticas de IAM (confundiu "excluir conta raiz" com práticas corretas)
+  - Q4 (Technology, 65% conf.): vantagens do RDS vs. banco de dados no EC2
+- **Lacunas de conteúdo puro (baixa confiança + errou):** AWS Storage Gateway (Q7), AWS Config (Q20), AWS Trusted Advisor (Q24).
+- **Padrão identificado:** tendência a se subestimar — 8 questões com confiança ≤25% foram acertadas (Q2, Q6, Q14, Q15, Q18, Q19, Q22, Q29).
+- Resta **1 tentativa** do assessment — reservada para ~16/08 como medição de progresso.
+- **Plano de estudos v2** (decisão de 06/07, refinado em 06/07 com curso complementar):
+  - Seg/Qua/Sex 8h00–8h20 (dias remotos): banco de questões (Skill Builder + Tutorials Dojo). Sem sábado.
+  - Domingo: bloco de 45–60min. 12/07 e 19/07 dedicados ao curso em vídeo de André Iacono (Udemy) nas seções que cobrem as lacunas identificadas (O IAM; Billing e Support); 26/07 Bancos de Dados; 02/08 Well-Architected Framework e EcoSystem. 09/08 Official Practice Question Set; 16/08 2ª tentativa do assessment.
+  - Consistência antes de volume; sessão perdida não se compensa nem acumula.
 
 ---
 _Atualizado: 2026-07-06 · Fonte: notas pessoais + vault de trabalho (Carreira, PDI, reuniões semanais)._
