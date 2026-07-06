@@ -109,4 +109,5 @@ Nível de confiança: 10%
 
 
 
+Nível de confiança: 40%
 ![[Pasted image 20260706112421.png]]
