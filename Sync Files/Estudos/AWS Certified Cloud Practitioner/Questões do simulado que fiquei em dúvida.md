@@ -142,3 +142,8 @@ Nível de confiança: 50%
 
 Nível de confiança: 60%
 ![[Pasted image 20260706113407.png]]
+
+
+
+
+Resultado do meu primeiro simul
