@@ -1,7 +1,11 @@
 
-Não sabia nada sobre:
+Nível de confiança: 10%
 ![[Pasted image 20260706101519.png]]
 
 
 Nível de confiança: 40%
 ![[Pasted image 20260706101756.png]]
+
+
+Nível de confiança: 65%
+![[Pasted image 20260706101900.png]]
