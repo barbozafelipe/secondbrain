@@ -18,3 +18,11 @@ Nível de confiança: 70%
 
 Nível de confiança: 25%
 ![[Pasted image 20260706102053.png]]
+
+
+Nível de confiança: 15%
+![[Pasted image 20260706102140.png]]
+
+
+Nível de confiança: 30%
+![[Pasted image 20260706102228.png]]
