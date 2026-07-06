@@ -113,5 +113,6 @@ dv.table(["Domínio", "Peso na prova", "Tópicos", "% estudo", "Progresso"], row
 - [[CLF-C02 - Revisão Final]]
 - [[CLF-C02 - Simulados]]
 - [[CLF-C02 - Vouchers e Agendamento]]
+- [[Questões do simulado que fiquei em dúvida]]
 
 %% End Waypoint %%
