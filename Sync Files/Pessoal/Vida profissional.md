@@ -42,7 +42,7 @@ Cloud Engineer em ambiente multi-cloud (**AWS, Azure e OCI**) em um dos maiores 
 | **Thiago**              | Apoio técnico (Azure/OCI/K8s/Networking)                                                           | ~30 anos. Muito solícito. Meu principal apoio técnico.                                                              |
 | **João Pedro ("João")** | GCP / FinOps                                                                                       | ~30 anos.                                                                                                           |
 | **Lucas**               | AWS / Argo / GitOps                                                                                | Nascido em 1999 (o mais novo da equipe, depois de mim).                                                             |
-| Outros                  | Mateus, Ítalo, Ian (GKE), Leonardo ("Léo", cobra o time, é o diretor de infraestrutura da empresa) | Contatos recorrentes do squad.                                                                                      |
+| Outros                  | Mateus, Ítalo, Ian (GKE), Leonardo ("Léo", cobra o time, é o diretor de infraestrutura da empresa) | Contatos recorrentes do squad.                                                                                       |
 
 Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 
@@ -70,11 +70,15 @@ Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 | Meta                                       | Prazo      | Status                                                                                                                                                 |
 | ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Trilha Sem Parar (ESG, LGPD, Assédio)      | 29/05/2026 | Concluído                                                                                                                                              |
-| AWS Certified Cloud Practitioner (CLF-C02) | 31/08/2026 | Prova agendada para 22/08/2026, plano de estudos já traçado                                                                                            |
+| AWS Certified Cloud Practitioner (CLF-C02) | 31/08/2026 | Prova agendada para 22/08/2026 · 1º simulado em 06/07: **132/200** (ver acompanhamento abaixo) · plano de estudos v2 ativo                             |
 | Especialização Terraform (Azure + OCI)     | 31/10/2026 | Não iniciado                                                                                                                                           |
 | Ciclo de Inglês Técnico (30h)              | 18/12/2026 | Em progresso, mas cancelei as aulas por questões financeiras com o professor, e não posso voltar a ter aulas tão cedo ainda... não sei como vou fazer. |
 
 **TODO / conflito a resolver:** a decisão financeira de "pausar aulas de inglês até setembro de 2026" (ver [[Financeiro]]) conflita com a meta de Inglês do PDI (em progresso, prazo 18/12/2026). Alinhar.
 
+### CLF-C02 — acompanhamento
+- **06/07/2026 — 1º simulado** (AWS Skill Builder Assessment, ~30 questões): **132/200 — nível "Estabelecido", percentil 74**. Autoavaliação de confiança por questão (metacognição): média ~46%; distribuição: 11/30 com confiança ≤25% (chute), 6/30 entre 30–50%, 6/30 entre 60–70%, 7/30 com ≥80%. Resta **1 tentativa** do assessment — reservar para ~16/08 como medição de progresso. Prints das questões ainda não sincronizados no vault (pasta Files) — análise questão a questão pendente.
+- **Plano de estudos v2** (decisão de 06/07): 20min seg/qua/sex (dias remotos, banco de questões) + bloco único de 45–60min no **domingo**; **sem sábado**. Consistência antes de volume; sessão perdida não se compensa nem acumula.
+
 ---
-_Atualizado: 2026-06-24 · Fonte: notas pessoais + vault de trabalho (Carreira, PDI, reuniões semanais)._
+_Atualizado: 2026-07-06 · Fonte: notas pessoais + vault de trabalho (Carreira, PDI, reuniões semanais)._
