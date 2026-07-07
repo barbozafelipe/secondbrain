@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"9e661b5345a6871e","x":-519,"y":-241,"width":99,"height":50,"type":"text","text":"Item"},
+		{"id":"3aa99fda2f1d98a4","x":-420,"y":-241,"width":129,"height":50,"type":"text","text":"Quantidade"},
+		{"id":"947971630bb25fec","x":-291,"y":-241,"width":111,"height":50,"type":"text","text":"Peso"},
+		{"id":"1e364a420bd5cc50","x":-180,"y":-241,"width":120,"height":50,"type":"text","text":"Preço"}
+	],
+	"edges":[]
+}
