@@ -11,6 +11,7 @@
 - [[ZPY - Associando permition set e conta em um grupo]]
 - [[ZPY - Como fazer nova conta AWS aparecer no Portal SSO]]
 - [[ZPY - PTSK0010372]]
+- [[ZPY - RDS zapay-db-production Instância standalone com read replica assíncrona]]
 - [[ZPY- Reutilização de Permission Sets para novas contas AWS]]
 
 %% End Waypoint %%
