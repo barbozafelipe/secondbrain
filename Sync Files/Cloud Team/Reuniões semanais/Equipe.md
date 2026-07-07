@@ -1,12 +1,12 @@
 ---
 tags: [trabalho, sem-parar, equipe, squad, referência]
-atualizado: 2026-06-23
+atualizado: 2026-07-07
 ---
 
 # Equipe — Cloud & Infraestrutura
 
 > Mapa de quem faz o quê no squad de infra/cloud da Sem Parar (Corpay).
-> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]], [[19-05-2026]], [[26-05-2026]], [[02-06-2026]], [[16-06-2026]], [[23-06-2026]]).
+> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]], [[19-05-2026]], [[26-05-2026]], [[02-06-2026]], [[16-06-2026]], [[23-06-2026]], [[30-06-2026]], [[07-07-2026]]).
 
 ---
 
@@ -99,7 +99,7 @@ atualizado: 2026-06-23
 | **Kleber**                    | Tem aplicação que é case de uso do template Backstage                                                       |
 | **Diogo**                     | Executa mudanças no F5 (load balancer de rede)                                                              |
 | **Aurélio**                   | Time VB — acompanha e testa changes de migração de rede                                                     |
-| **Tales**                     | SI (Segurança da Informação) — envolvido em rotação de secrets e decisões de WAF/Imperva                    |
+| **Tales**                     | Em transição de SI para Cloud/DevSecOps (previsto para ~27/07/2026). Atualmente em SI — envolvido em rotação de secrets e WAF/Imperva. Rafael Humberto confirmou a transferência na reunião de [[07-07-2026]]. |
 | **Jonathan**                  | Gringo (operação) — envolvido em BigQuery, Elastic, PCI audit                                               |
 | **Zaza**                      | DevOps — migração de código/infra para GitHub                                                               |
 | **Yasu**                      | Gringo — apoiou Thiago na criação do repositório de IaC                                                     |
@@ -134,8 +134,10 @@ atualizado: 2026-06-23
 | **Maracanã**                  | Contato/gestor no Olho no Carro — acionado por Rafael Humberto para dar tração ao projeto                   |
 | **Erlani**                    | Arquitetura — pode ter contato na Caixa pré-pago para liberação de IPs do NAT Gateway                       |
 | **Everton**                   | Ex-membro do time de Network (Diogo) — saiu da empresa, deixando gap no time                                |
+| **Samuel**                    | DBA Oracle — responsável pela base de imagens de 380TB. Ponto de contato de Guilherme para decisões de storage/contingência |
+| **Laís**                      | Auditora/contato no time de PCI — referência para prazos e solicitações de evidências da auditoria          |
 
 ---
 
 > [!note] Atualização
-> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada na reunião de [[16-06-2026]] e [[23-06-2026]].
+> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada nas reuniões de [[30-06-2026]] e [[07-07-2026]].
