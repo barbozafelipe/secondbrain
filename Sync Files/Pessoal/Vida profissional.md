@@ -90,10 +90,12 @@ Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 - **Lacunas de conteúdo puro (baixa confiança + errou):** AWS Storage Gateway (Q7), AWS Config (Q20), AWS Trusted Advisor (Q24).
 - **Padrão identificado:** tendência a se subestimar — 8 questões com confiança ≤25% foram acertadas (Q2, Q6, Q14, Q15, Q18, Q19, Q22, Q29).
 - Resta **1 tentativa** do assessment — reservada para ~16/08 como medição de progresso.
+- **08/07/2026 — 1ª sessão de banco de questões** (20min): 4 questões, 2 acertos / 2 erros. Os 2 erros repetiram exatamente os gaps já mapeados: **AWS Trusted Advisor** (limites de serviço) confundido com Systems Manager, e **AWS Config** (compliance de configuração) confundido com Service Catalog. **Padrão confirmado: bloco de governança/gestão (AWS Config, Trusted Advisor, Service Catalog, Systems Manager, CloudFormation) é a lacuna mais consistente — 2ª/3ª vez que confunde essas ferramentas entre si.** Precisa de rodada extra dedicada a diferenciar essas 5.
+- **RDS/Multi-AZ**: aprofundou bastante por demanda de trabalho (colega pediu ajuda em conta AWS real), estudou e desenhou no Excalidraw as topologias completas (Aurora Serverless v2, Aurora Provisionado, Multi-AZ Cluster, Multi-AZ Standby, Single-AZ com/sem read replica) — nível Solutions Architect, acima do que CLF-C02 exige. Base de RDS está sólida; a sessão de domingo 26/07 (Bancos de Dados) pode ser mais curta/focada só no que é específico de prova.
 - **Plano de estudos v2** (decisão de 06/07, refinado em 06/07 com curso complementar):
   - Seg/Qua/Sex 8h00–8h20 (dias remotos): banco de questões (Skill Builder + Tutorials Dojo). Sem sábado.
   - Domingo: bloco de 45–60min. 12/07 e 19/07 dedicados ao curso em vídeo de André Iacono (Udemy) nas seções que cobrem as lacunas identificadas (O IAM; Billing e Support); 26/07 Bancos de Dados; 02/08 Well-Architected Framework e EcoSystem. 09/08 Official Practice Question Set; 16/08 2ª tentativa do assessment.
   - Consistência antes de volume; sessão perdida não se compensa nem acumula.
 
 ---
-_Atualizado: 2026-07-06 · Fonte: notas pessoais + vault de trabalho (Carreira, PDI, reuniões semanais)._
+_Atualizado: 2026-07-08 · Fonte: notas pessoais + vault de trabalho (Carreira, PDI, reuniões semanais)._
