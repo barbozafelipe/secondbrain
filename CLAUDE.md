@@ -11,8 +11,9 @@
 
 ## Regra de dia da semana (CRÍTICA)
 **Sempre calcule o dia da semana — nunca chute.** A rotina depende disso:
-- **Seg / Qua / Sex** → dia de treino (academia).
-- **Ter / Qui** → dia presencial no trabalho (acorda 6h, prioridades de trabalho primeiro).
+- **Seg / Qua / Sex** → trabalho remoto + treino (academia). Acorda ~07:20, dorme ~22:30.
+- **Ter / Qui** → dia presencial no trabalho (acorda **05:45**, 6h de trabalho + ~2h30 de deslocamento; dorme ~22:00; prioridades de trabalho primeiro).
+- **Sáb / Dom** → pernas + Beatriz (manhã, antes das 9h). Acorda ~08:00, dorme ~22:30.
 
 ## Estrutura real do vault (mapa canônico)
 Tudo de conteúdo mora sob `Sync Files/`. **Use estes caminhos reais** — não invente `diário/`, `infra/`, `research/` etc.
