@@ -3,6 +3,7 @@
 - [[2026-06-16_zapay-account-disambiguation]]
 - [[2026-07-02_chatbot-gringo-zendesk-agentcore]]
 - [[2026-07-02_iam-bedrockapikey-textract-s3-bucket-policy-bug]]
+- [[Criar dominio customizado para API Gateway (ACM + Route53)]]
 - [[Permitir acesso do Databricks a buckets S3 multi-conta]]
 - [[Permitir visibilidade de S3 em outra conta]]
 - [[Pipeline Kinesis Firehose DynamoDB para Databricks]]

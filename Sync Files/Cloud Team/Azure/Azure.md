@@ -1,6 +1,10 @@
 %% Begin Waypoint %%
+- [[403 IP Forbidden na Function copilot-nprd por Access Restriction zerada (site principal)]]
+- [[403 IP Forbidden no APIM aiagentsapp-prd por Access Restriction zerada no Web App]]
 - [[2026-06-30_zscaler-ip-blocks-firewall-audit-digital-prod]]
+- [[AI Search - ServiceDeleting 409 ao recriar com mesmo nome (troca de tier free-basic)]]
 - [[APIM AIHub - 404 em operacao por urlTemplate com barra dupla]]
+- [[CHG0097262 - Melhoria do RAG do agente Free Flow (tier basic + FAQ index)]]
 - [[Criacao de Azure Database PostgreSQL AI Agents App]]
 - [[Criar RG e Azure AI Foundry para IA no B2B]]
 - [[Inserção de blocos Zscaler em alguns serviços da Azure]]

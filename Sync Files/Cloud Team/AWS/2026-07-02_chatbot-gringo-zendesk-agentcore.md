@@ -21,7 +21,7 @@ status: em andamento
 
 ## Arquitetura
 
-Zendesk ↔ Imperva (WAF/proteção, escopo time SI) ↔ Amazon API Gateway (REST, domínio por ambiente: `chatbot.api.semparardoc.com.br` prod | `chatbot.api.stage.semparardoc.com.br` stage | `chatbot.api.dev.semparardoc.com.br` dev — atualizado 03/07/2026) → Lambda Worker → SQS → Lambda Adapter (REST/A2A) → **AgentCore Runtime** (orquestrador) → ElastiCache Redis (sessão) + DynamoDB (contexto) + Bedrock Knowledge Base (S3 + OpenSearch Serverless, embeddings Titan G2) → sub-agentes (protocolo A2A) → Lambda Integration-Zendesk (API Sunshine, credenciais via Secrets Manager) → volta pro Zendesk/Analyst.
+Zendesk ↔ Imperva (WAF/proteção, escopo time SI) ↔ Amazon API Gateway (REST, domínio por ambiente — padrão definitivo `chatbot.api.<env>.semparardoc.com.br`: DEV `chatbot.api.dev.semparardoc.com.br` **criado, validado e ativo em 14/07/2026**; stage/prod ainda a criar, seguir o mesmo padrão) → Lambda Worker → SQS → Lambda Adapter (REST/A2A) → **AgentCore Runtime** (orquestrador) → ElastiCache Redis (sessão) + DynamoDB (contexto) + Bedrock Knowledge Base (S3 + OpenSearch Serverless, embeddings Titan G2) → sub-agentes (protocolo A2A) → Lambda Integration-Zendesk (API Sunshine, credenciais via Secrets Manager) → volta pro Zendesk/Analyst.
 
 Camadas auxiliares: Guardrails (Bedrock Invoke Model/Guardrails), Knowledge Base Layer (OpenSearch + S3), Permission Layer (AgentCore Identity → Cognito).
 
@@ -33,11 +33,37 @@ Também existe um módulo WAF (WAFv2) **de fato deployado** na conta, associado 
 - Existe uma esteira real conhecida chamada **Medâne** (deploy de Lambda) — limitação conhecida: só permite flag genérica "usa VPC" sem controle granular de subnet (causou incidente real com 50+ Lambdas na VPC errada no projeto Carvalt/Afinz).
 - Francisco precisa confirmar com o **Zaza** como fica a rede de QA/PROD (esteira ou Terraform).
 
+## Domínio DEV — processo executado (14/07/2026, Felipe + Lucas)
+
+Runbook do que foi feito para criar `chatbot.api.dev.semparardoc.com.br` (serve de modelo para stage/prod — passo a passo genérico também em [[Criar dominio customizado para API Gateway (ACM + Route53)]]):
+
+1. **Certificado ACM** na conta do ambiente (DEV `538311878212`, sa-east-1) para o FQDN — validação DNS (CNAME), aguardar status Issued. ARN: `...certificate/91711ee1-9766-4baa-bec5-6272715dd7b2`.
+2. **Custom Domain Name** no API Gateway (mesma conta/região), endpoint Regional, TLS 1.3, associado ao certificado — a AWS gera um target `d-xxxxxxxxxx.execute-api.sa-east-1.amazonaws.com`.
+3. **API mapping**: domínio custom → API `worker-api-dev`, stage `dev`. Confirmado que a mesma API+stage pode ter mapping em múltiplos Custom Domain Names ao mesmo tempo, sem conflito — útil se precisar corrigir nome depois sem downtime.
+4. **DNS**: a zona pública `semparardoc.com.br` fica no **Route 53 da conta Infra `498638359097` (org Corpay)** — hosted zone `Z074611014ZD10SL5YBS`. Criar 2 CNAMEs: o de validação do ACM e o FQDN → target do Custom Domain (nunca apontar direto pra URL `execute-api` da API — quebra a validação TLS do certificado).
+5. **✅ Validado via AWS CloudShell**: `POST /webhook` retornou `202 {"status": "queued", ...}` — TLS ok, cadeia completa funcionando até a Lambda Worker.
+
+> [!info] Histórico de correção de nome
+> Primeira tentativa criou `chatbot.dev.api.semparardoc.com.br` (env antes de "api", batendo com o texto literal do chamado). Felipe percebeu a divergência com o padrão documentado pelo Rafael Humberto (`chatbot.api.<env>...`) e corrigiu: criou tudo do zero com o nome certo (ACM não permite renomear) e **descomissionou completamente** o nome antigo (CNAMEs, Custom Domain, certificado). **Nome definitivo e único hoje: `chatbot.api.dev.semparardoc.com.br`.**
+
+> [!warning] Padrão para stage/prod
+> Usar o mesmo formato: `chatbot.api.stage.semparardoc.com.br` e `chatbot.api.semparardoc.com.br` (prod, conforme lista original do Rafael Humberto). Confirmar o nome com a equipe *antes* de criar o certificado ACM, já que corrigir depois exige recriar tudo do zero.
+
 ## Rede — plano de correção do CIDR
 
 VPC `vpc-chatbot-dev` (`vpc-00dece0c46f17bcdd`) foi criada por Francisco **sem passar pelo processo de alocação de bloco CIDR do time de Network** — CIDR atual `10.4.0.0/16`. Toda VPC nova da empresa deveria vir de um bloco solicitado ao Network, para evitar overlap com integrações futuras (ex: on-premises).
 
-**Plano:** Felipe levanta o requisito e solicita à Network os blocos CIDR para DEV, QA e PROD. Francisco destrói a VPC atual e ela é recriada via Terraform com o CIDR aprovado.
+**✅ Blocos aprovados (TASK1256406, aprovado por Enio, informado por Thiago Ribeiro em 14/07/2026):**
+
+| Ambiente | Conta AWS | CIDR |
+|---|---|---|
+| DEV | 538311878212 | `10.18.198.0/24` |
+| QA | 487442499837 | `10.18.199.0/24` |
+| PROD | 110661053019 | `10.18.200.0/24` |
+
+⚠️ Cada bloco é `/24` (256 IPs) — o desenho original de subnets do Francisco (privadas `/22`) **não cabe**. As 4 subnets precisam ser redesenhadas (sugestão: 4× `/26`).
+
+**Estratégia de migração acordada (evita travar o destroy por ENIs anexadas):** subir a VPC nova em paralelo com o CIDR aprovado (outro nome/state, sem tocar na `vpc-chatbot-dev`), reapontar cada stack dependente (Lambdas atualizam in-place, SGs/subnet group do Redis são recriados — API Gateway e ARNs de Lambda não mudam), e só destruir a VPC antiga depois de validar tudo na nova.
 
 **⚠️ Pegadinha confirmada na revisão do código:** as 4 CIDRs de subnet (`modules/vpc/variables.tf`) são defaults hardcoded independentes, **não derivadas de `var.vpc_cidr`** via `cidrsubnet()`. Trocar só o CIDR da VPC não move as subnets — as 4 variáveis precisam ser recalculadas manualmente e em conjunto antes do apply, senão quebra (subnet fora do range da VPC).
 
