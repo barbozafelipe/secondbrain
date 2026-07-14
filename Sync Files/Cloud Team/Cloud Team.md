@@ -13,6 +13,5 @@
 - **[[Rancher]]**
 - **[[Reuniões semanais]]**
 - **[[Zscaler]]**
-- [[TESTE - Sync automatico]]
 
 %% End Waypoint %%
