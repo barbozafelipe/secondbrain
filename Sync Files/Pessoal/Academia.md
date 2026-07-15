@@ -1,5 +1,4 @@
 # Academia (Treino & Físico)
-
 > Metas de físico, restrições e divisão de treino.
 > Saúde/medicina (sono, cirurgia, dermatologia) está em [[Saúde]].
 
@@ -11,10 +10,9 @@
 
 ## Restrições
 - Acne-prone: evitar excesso de gordura, laticínios e gatilhos conhecidos (acompanhamento dermatológico em [[Saúde]]).
-- **TODO:** plano alimentar / macros / meta calórica (não documentado).
+- **TODO:** plano alimentar / macros / meta calórica (não documentado — é o que de fato controla a cintura, não o core work).
 
 ## Divisão de treino (v2 — 2026-07-01)
-
 > Planilha de execução com log de cargas (S1–S8, RIR, descanso): [Treino Felipe — PPL + Upper v2 no Google Sheets](https://docs.google.com/spreadsheets/d/1szv_cY12wQdk10EK9n40bkrOXxgmW04Fu3cusZu62s4/edit)
 > Progressão dupla: topo da faixa em todas as séries com RIR alvo → +2,5–5% de carga. Deload na semana 9.
 
@@ -35,7 +33,7 @@
 - Extensão tríceps polia alta (corda) — 3x 10–15
 - Tríceps testa com barra W — 2x 10–12
 
-**Sexta — Legs + Core (quadríceps, posterior de coxa, panturrilha, cintura)**
+**Sexta — Legs + Core (quadríceps, posterior de coxa, panturrilha, core)**
 - Leg press inclinado — 4x 8–12
 - Extensão de pernas — 3x 12–15
 - Flexão de pernas deitado na máquina — 3x 10–12
@@ -43,7 +41,7 @@
 - Elevação de panturrilha em pé na máquina — 4x 10–15
 - Elevação de pernas — 3x 12–15
 - Prancha abdominal — 3x 45–60s
-- Stomach vacuum — 3x 20–30s _(cintura fina = metade do Índice de Adonis)_
+- Stomach vacuum — 3x 20–30s _(ativação de TVA e postura — não reduz cintura por si só; isso depende do déficit calórico do TODO acima)_
 
 **Sábado — Upper (peito, ombro, costas acessório, braços + panturrilha 2ª freq.)**
 - Crossover na polia média — 3x 12–15
@@ -61,4 +59,4 @@
 - 5 min — inclinação 15 — velocidade 5.0
 
 ---
-_Atualizado: 2026-07-01 (v2 — lateral redistribuída pra 3x/sem, panturrilha 2x/sem, vacuum adicionado, regras de progressão na planilha)._
+_Atualizado: 2026-07-15 (v2.1 — corrigida a justificativa do stomach vacuum: não reduz cintura, apenas ativa TVA/postura; redução de cintura depende do déficit calórico ainda não documentado)._
