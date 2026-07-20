@@ -15,9 +15,12 @@ status: em andamento
 - **Claudio Henrique Menezes Delgado Toscano de Brito** — definiu Felipe como ponto focal técnico (HML/PRD). Aguardando ID do projeto no ServiceNow.
 - **Francisco Lucas Rodrigues de Sousa** — construiu toda a infra AWS do zero (VPC até integrações) numa conta limpa, sem conhecer as convenções do time.
 - **Wellington** — Cloud/DevOps, alinhando arquitetura, esteira e rede com Felipe.
-- **Isaelin** — orientou Francisco inicialmente (parte esteira, parte manual).
-- **Zaza** — ponto de contato para decidir se QA/PROD sobem via Terraform ou esteira (Francisco precisa alinhar com ele).
-- **Rafael Humberto** — acionado por Francisco para resolver domínio/certificado.
+- **Isaelin Claudino dos Santos = "Zaza"/"Zazinho"** (mesma pessoa — apelido confirmado por ele mesmo na call de 20/07) — DevOps, orienta Francisco e confirma o que é esteira vs. Terraform.
+- **Marcia Beatriz Pereira Domingues ("Bia")** — revisão de arquitetura, levanta pontos de resiliência/DLQ, observabilidade e compliance/PCI.
+- **Gustavo Henrique Moura Spindola** — dev do lado Gringo junto com Francisco, cuida da parte interna do AgentCore (chamadas externas, logs, timeouts) e do uso do DynamoDB.
+- **Rafael Humberto ("Rafa")** — acionado por Francisco para resolver domínio/certificado; também envolvido na questão de compliance/PCI do projeto.
+- **Amanda** — testadora, usa o ambiente DEV (que hoje também faz papel informal de homolog).
+- **Guilherme (sobrenome incerto: "Chavenko"/"Chameco") e um segundo "Lucas" (DevOps/Cloud)** — vão dar suporte nas pipelines de container/ECR. Atenção: Francisco também é chamado de "Lucas" pelo time (nome do meio) — são pessoas diferentes.
 
 ## Arquitetura
 
@@ -29,9 +32,10 @@ Também existe um módulo WAF (WAFv2) **de fato deployado** na conta, associado 
 
 ## Governança — Esteira vs. Terraform
 
-- Confirmado pelo Wellington: **SQS, Lambda e API Gateway sobem via esteira interna** da empresa (não Terraform livre). O resto (ElastiCache, DynamoDB, Bedrock KB, OpenSearch, S3, AgentCore Runtime, ECR, Secrets Manager) pode subir via Terraform normal, em DEV/QA/PROD.
+- **✅ CONFIRMADO AO VIVO na call de 20/07/2026 (Isaelin/Zaza presente, confirmou explicitamente):** esteira = **SQS, Lambda, API Gateway, S3 e DynamoDB**. Tudo o mais (ElastiCache, Bedrock/AgentCore/Knowledge Base, ECR, VPC, Secrets Manager) sobe via Terraform/"plataforma", em DEV/QA/PROD. Essa é a lista definitiva — havia divergência entre versões anteriores ditas pelo Wellington e pelo Isaelin, resolvida nessa reunião.
+  - SQS via esteira = fila padrão, sem parâmetros especiais (ajustável se precisar).
+  - DynamoDB via esteira = só cria as tabelas, não cria stack em volta (proteção contra falha de processo apagar tabela sem querer).
 - Existe uma esteira real conhecida chamada **Medâne** (deploy de Lambda) — limitação conhecida: só permite flag genérica "usa VPC" sem controle granular de subnet (causou incidente real com 50+ Lambdas na VPC errada no projeto Carvalt/Afinz).
-- Francisco precisa confirmar com o **Zaza** como fica a rede de QA/PROD (esteira ou Terraform).
 
 ## Domínio DEV — processo executado (14/07/2026, Felipe + Lucas)
 
@@ -117,14 +121,42 @@ iac/
     (agentcore/runtime, api-gateway-rest, dynamodb, ecr, elasticache, knowledge-base-managed, knowledge-base-serverless, lambda, sqs, triggers/lambda-sqs, vpc, waf)
 ```
 
-## Próximos passos
+## Call de alinhamento 20/07/2026 — "Dúvidas ambientes de HML e PRD"
 
-1. Felipe solicita blocos CIDR ao time de Network (DEV, QA, PROD).
-2. Francisco destrói a VPC atual; recriação via Terraform com CIDR novo, recalculando as 4 subnets.
+**Status confirmado:** DEV subido e testado. Próximo: QA — Francisco sobe a parte Terraform pareado com Felipe, alinha a parte esteira com DevOps (Guilherme/outro Lucas). Depois de QA validado com testes de estresse, decide caminho pra PROD.
+
+**Pontos de resiliência levantados pela Bia (ação pendente):**
+- Falta política de DLQ e retenção de mensagem no SQS — risco de perda de mensagem ou retry infinito se a Lambda Adapter travar sob estresse. Francisco vai alinhar isso com quem auxiliar no provisionamento da esteira.
+- Reforçar observabilidade — Isaelin/Zaza sugeriu pilotar em QA com testes de estresse.
+- Monitoramento: hoje 100% CloudWatch; **não decidido** se vai exportar também pra Dynatrace (usado internamente pelo time).
+- Único ponto de comunicação externa real no fluxo é dentro do **AgentCore Runtime** — tudo antes disso (API Gateway → Worker → SQS → Adapter) é 100% interno/AWS-managed, sem chamada externa. Reduz a superfície de risco de travamento a só dentro do AgentCore (que já tem timeout, logs estruturados e fallback mapeados).
+
+**Diagrama desatualizado (WAF vs. Imperva):** Felipe apontou que o desenho ainda mostra AWS WAF, mas na prática usam Imperva. Francisco confirmou ser resquício da primeira versão — **ação pendente: atualizar o diagrama**. Não ficou definido se o WAF module (confirmado deployado no DEV) será removido do Terraform ou mantido como camada extra.
+
+**DEV fazendo papel duplo (dev + homolog informal):** a conta DEV também é usada informalmente como ambiente de teste pra "Amanda" (testadora), enquanto QA de verdade não existia. Cogitam converter o OpenSearch Serverless do DEV pra instância gerenciada (custo) mais pra frente.
+
+**DynamoDB — propósito esclarecido:** 3 tabelas — 1 reservada pra sessão (uso futuro incerto), 2 pra tracking/eventos do bot (ajudam a recuperar contexto pros agentes). É solução **temporária** até o time de banco de dados da empresa ter estrutura própria pronta. Não usam Redis (volume/retenção) nem OpenSearch pra isso — propósito diferente (persistência/auditoria vs. cache de sessão).
+
+**Compliance / PCI (novo):** Gringo está entrando nos modelos de auditoria PCI da empresa — vai precisar de rastreabilidade de mudanças (Changes). Hoje não tem o fluxo formal via ServiceNow que Sem Parar/Zapay usa. Bia sugeriu, no mínimo, uma tabela de changelog. Isaelin/Zaza vai alinhar com o Rafa sobre o escopo PCI e nível de Change necessário.
+
+**Fluxo de aprovação pra PROD — em aberto:** cogitado PR aprovado por tech lead + code review como substituto ao Change/ServiceNow padrão, já que Gringo não tem esse fluxo. Não fechado.
+
+**Conta AWS compartilhada Gringo/Zapay:** tecnicamente viável, mas dúvida sobre viabilidade burocrática/compliance (mesmo tema do PCI) — Bia/Rafa vão avaliar.
+
+**Próximos passos consolidados (Isaelin/Zaza):**
+1. Francisco sobe infra em QA (Terraform, pareado com Felipe).
+2. Trazer código da aplicação (Lambdas) pro repositório oficial, com orquestração via AgentCore.
+3. Criar pipeline de atualização via ECR (provavelmente 2: build/push de imagem + atualização do serviço AgentCore após subir imagem — padrão similar ao já usado em OpenShift/RKE/OKE).
+4. Francisco alinha separadamente o fluxo de promoção/validação até produção.
+5. Isaelin/Zaza conversa com Rafa sobre PCI/compliance do Gringo.
+
+## Próximos passos (infraestrutura/rede)
+
+1. ~~Felipe solicita blocos CIDR ao time de Network~~ ✅ feito, blocos aprovados (ver tabela acima).
+2. Francisco destrói a VPC atual; recriação via Terraform com CIDR novo, recalculando as 4 subnets (estratégia: VPC nova em paralelo, não destroy-then-create).
 3. Confirmar com quem criou as tabelas `ggo-chatbot-ia-v2-*` se há dependência de rede antes de destruir.
-4. Francisco confirma com Zaza o modelo de rede para QA/PROD.
-5. Felipe sobe o DEV pareado com o Francisco (call).
-6. Código Terraform fica local até tudo funcionar em DEV/QA/PROD; só depois sobe pro GitHub da empresa (repositório a ser criado pelo time de DevOps).
+4. Felipe sobe o DEV pareado com o Francisco (call).
+5. Código Terraform fica local até tudo funcionar em DEV/QA/PROD; só depois sobe pro GitHub da empresa (repositório a ser criado pelo time de DevOps).
 
 ---
 
