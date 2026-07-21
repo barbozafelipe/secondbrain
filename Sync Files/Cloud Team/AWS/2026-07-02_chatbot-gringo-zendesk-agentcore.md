@@ -1,14 +1,17 @@
 ---
-tags: [aws, terraform, bedrock, agentcore, zendesk, chatbot, projeto-novo]
+tags: [aws, terraform, bedrock, agentcore, zendesk, chatbot, projeto-novo, secrets-manager, imperva]
 date: 2026-07-02
-cluster/resource: "conta Zapay DEV 538311878212 (sa-east-1) — VPC vpc-chatbot-dev"
-status: em andamento
+last_updated: 2026-07-21
+cluster/resource: "Zapay DEV 538311878212 (vpc-chatbot-dev, CIDR antigo a migrar) + Zapay QA 487442499837 (vpc-06aaf91551a918d4d, CIDR 10.18.199.0/24)"
+status: DEV completo (VPC pendente de migração) | QA fundação aplicada, esteira+secrets pendentes | PROD não iniciado
 ---
 
 # Chatbot Gringo (Zendesk + Bedrock AgentCore) — infra AWS
 
 > [!info] Contexto
-> Projeto de migração de um chatbot (cliente/integração "Gringo") para AWS, usando Zendesk como canal de atendimento e AWS Bedrock AgentCore como orquestrador de agentes de IA. Felipe é ponto focal técnico (definido por Claudio), Francisco construiu a infra do zero como piloto em conta limpa. Wellington e Isaelin (Cloud/DevOps) estão envolvidos na governança (esteira vs. Terraform livre).
+> Projeto de migração de um chatbot (cliente/integração "Gringo") para AWS, usando Zendesk como canal de atendimento e AWS Bedrock AgentCore como orquestrador de agentes de IA. Francisco construiu a infra do zero como piloto em conta limpa. Wellington e Isaelin (Cloud/DevOps) estão envolvidos na governança (esteira vs. Terraform livre).
+>
+> **Papel do Felipe (recalibrado 21/07/2026):** Felipe **não é o ponto focal do projeto** — esse é o Francisco (arquitetura, produto, resiliência). Felipe é o suporte de infraestrutura AWS: provisiona o que o Francisco precisa, revisa se cada permissão pedida é necessária, garante padrão da empresa (naming, esteira vs. Terraform, segurança).
 
 ## Pessoas
 
@@ -24,11 +27,32 @@ status: em andamento
 
 ## Arquitetura
 
-Zendesk ↔ Imperva (WAF/proteção, escopo time SI) ↔ Amazon API Gateway (REST, domínio por ambiente — padrão definitivo `chatbot.api.<env>.semparardoc.com.br`: DEV `chatbot.api.dev.semparardoc.com.br` **criado, validado e ativo em 14/07/2026**; stage/prod ainda a criar, seguir o mesmo padrão) → Lambda Worker → SQS → Lambda Adapter (REST/A2A) → **AgentCore Runtime** (orquestrador) → ElastiCache Redis (sessão) + DynamoDB (contexto) + Bedrock Knowledge Base (S3 + OpenSearch Serverless, embeddings Titan G2) → sub-agentes (protocolo A2A) → Lambda Integration-Zendesk (API Sunshine, credenciais via Secrets Manager) → volta pro Zendesk/Analyst.
+Zendesk ↔ Imperva (WAF/proteção, escopo time SI — ⚠️ ver seção "Imperva" abaixo, hoje NÃO está de fato no caminho do DEV) ↔ Amazon API Gateway (REST, domínio por ambiente — padrão definitivo `chatbot.api.<env>.semparardoc.com.br`: DEV `chatbot.api.dev.semparardoc.com.br` **criado, validado e ativo em 14/07/2026**; stage/prod ainda a criar, seguir o mesmo padrão) → Lambda Worker → SQS → Lambda Adapter (REST/A2A) → **AgentCore Runtime** (orquestrador) → ElastiCache Redis (sessão) + DynamoDB (contexto) + Bedrock Knowledge Base (S3 + OpenSearch Serverless, embeddings Titan G2) → sub-agentes (protocolo A2A) → Lambda Integration-Zendesk (API Sunshine) → volta pro Zendesk/Analyst.
+
+> [!warning] Correção 21/07/2026 — Secrets Manager NUNCA foi implementado de fato
+> A linha acima dizia "credenciais via Secrets Manager" — isso estava errado, era suposição baseada no nome das variáveis (`SUNSHINE_*`), nunca confirmada no código. Checagem real: `integration-zendesk/main.tf` passa `var.sunshine_*` direto como `environment_variables` da Lambda (texto puro); `aws secretsmanager list-secrets` na conta DEV retornou **lista vazia** — zero secrets criados. O segredo vive em texto puro em dois lugares: `terraform.tfvars` e a config da Lambda. Ver seção "Secrets Manager — plano de correção" abaixo.
+
+**Como o Zendesk entra no fluxo (explicação para quem não conhece a ferramenta):** o WhatsApp Business é registrado dentro do Zendesk (via Sunshine Conversations); toda mensagem do cliente chega primeiro no Zendesk (hop invisível pra gente, Meta→Zendesk), que normaliza e dispara um **segundo webhook**, esse sim configurado por nós, apontando pro domínio custom (`/webhook`). Na volta, a Lambda Integration-Zendesk chama a API do Zendesk (Sunshine) pra entregar a resposta — é o Zendesk quem fala com o WhatsApp, nunca a AWS diretamente. Zendesk = "central telefônica" que unifica canais (WhatsApp/Telegram/e-mail) + faz handoff pra atendente humano; toda a IA é 100% custom, construída na AWS (AgentCore), não usa nenhum bot nativo do Zendesk.
 
 Camadas auxiliares: Guardrails (Bedrock Invoke Model/Guardrails), Knowledge Base Layer (OpenSearch + S3), Permission Layer (AgentCore Identity → Cognito).
 
 Também existe um módulo WAF (WAFv2) **de fato deployado** na conta, associado ao API Gateway (Web ACL `worker-api-dev`) — Common Rule Set + Known Bad Inputs + IP Reputation + rate limit 2000 req/5min por IP. Não confundir com o Imperva, que fica antes na cadeia (SI).
+
+## Imperva — achado e processo de chamado (21/07/2026)
+
+**⚠️ Achado importante:** o DNS do domínio DEV (`chatbot.api.dev.semparardoc.com.br`) foi criado como CNAME **direto** pro target do API Gateway (`d-x0d8hxwvrk.execute-api.sa-east-1.amazonaws.com`) — **sem passar pelo Imperva**, apesar do Wellington ter dito lá no início do projeto que o tráfego bateria no Imperva primeiro. Ou seja: o que está configurado hoje diverge do que foi dito ser a arquitetura — mais um caso (como o WAF-vs-Imperva no diagrama) de "o que foi dito" ≠ "o que está de fato no ar".
+
+**Processo de correção descoberto (via Diogo Patricio de Santanna, rede, e Thiago Ribeiro, 21/07/2026):**
+1. Abrir chamado no ServiceNow, fila **"Requisições de SI"** → item **"Serviços de Internet"** → ação **"Publicação de Serviços de Internet"**.
+2. Campos: `URL` = o domínio público que fica na frente (ex: `chatbot.api.dev.semparardoc.com.br`); `Endereço IP` = a origem/backend (no caso de API Gateway, que não tem IP fixo, usar o **hostname** mesmo — confirmado pelo Diogo que o campo aceita).
+3. SI processa e devolve um **CNAME próprio do Imperva** (algo tipo `xxx.imperva.com`).
+4. **Ação do Felipe**: trocar o CNAME no Route 53 (conta Infra) — de "aponta direto pro API Gateway" para "aponta pro hostname do Imperva". Nada muda na configuração do API Gateway em si, só o DNS.
+
+**Importante: são DOIS chamados diferentes, por ambiente:**
+- **Chamado de criação de subdomínio** (ACM+Custom Domain+DNS) — aberto pelo **Rafael Humberto**, Felipe só executa.
+- **Chamado de Imperva pro SI** — aberto pelo **próprio Felipe**, independente do primeiro, um por ambiente (DEV já aberto em 21/07/2026, aguardando retorno; QA e PROD ainda precisam ser abertos quando os domínios respectivos existirem).
+
+**Status:** chamado de DEV aberto, aguardando SI responder (ServiceNow ou Teams).
 
 ## Governança — Esteira vs. Terraform
 
@@ -150,13 +174,58 @@ iac/
 4. Francisco alinha separadamente o fluxo de promoção/validação até produção.
 5. Isaelin/Zaza conversa com Rafa sobre PCI/compliance do Gringo.
 
-## Próximos passos (infraestrutura/rede)
+## ✅ QA aplicado de verdade (21/07/2026)
 
-1. ~~Felipe solicita blocos CIDR ao time de Network~~ ✅ feito, blocos aprovados (ver tabela acima).
-2. Francisco destrói a VPC atual; recriação via Terraform com CIDR novo, recalculando as 4 subnets (estratégia: VPC nova em paralelo, não destroy-then-create).
-3. Confirmar com quem criou as tabelas `ggo-chatbot-ia-v2-*` se há dependência de rede antes de destruir.
-4. Felipe sobe o DEV pareado com o Francisco (call).
-5. Código Terraform fica local até tudo funcionar em DEV/QA/PROD; só depois sobe pro GitHub da empresa (repositório a ser criado pelo time de DevOps).
+5 dos 6 stacks Terraform de QA já estão no ar (código em `infra-v4`, montado pela IA a partir do zip do Francisco):
+
+| Stack | Status | Detalhe |
+|---|---|---|
+| `platform/backend` | ✅ | Bucket `corpay-chatbot-terraform-state-qa` + lock table na conta QA |
+| `platform/network` | ✅ | VPC `vpc-06aaf91551a918d4d`, CIDR `10.18.199.0/24`; privadas `subnet-0e252b545733f95d3`/`subnet-0b7c3fbcf59bacf74`, públicas `subnet-0d3c0e33fcdcbb6bd`/`subnet-07ee831c4fbd5c69e` |
+| `platform/repository-image-runtime` (ECR) | ✅ | `ggo-chatbot-agentcore-repo` (IMMUTABLE). Francisco já fez push (tag `latest`, 21/07 09:49). **⚠️ Tag `latest` não pode ser reusada** (repo imutável) — próximos pushes precisam de tag única (hash/timestamp) |
+| `agents/runtime` (AgentCore) | ✅ | `ggo_chatbot_agentcore_qa`, role `arn:aws:iam::487442499837:role/ggo-chatbot-agentcore-runtime-qa`, SG `sg-0e652521126cfd335`. `REDIS_HOST` já atualizado com endpoint real |
+| `memory/cache` (Redis) | ✅ | `ggo-chatbot-redis-qa.43gj8w.0001.sae1.cache.amazonaws.com:6379` |
+| `memory/knowledge-base-serverless` | ⏸️ | Aguardando confirmação do Isaelin/Zaza sobre S3/esteira (o módulo cria um bucket S3 internamente) |
+
+**Pendente pra fechar 100%:** Francisco precisa passar `SUNSHINE_APP_ID/KEY_ID/SECRET`, `TRINCA_FUNCION_API_KEY`, `GATEWAY_API_KEY` e confirmar `BEDROCK_KNOWLEDGE_BASE_MODEL_ARN` pra conta QA — **mas não mais por chat** (ver seção Secrets Manager abaixo).
+
+### Bugs corrigidos no caminho (v3→v4 do código do Francisco)
+1. `network/variables.tf`/`outputs.tf` tinham declarações **duplicadas** + referência a `module.vpc_v2` inexistente — não fazia nem `terraform init`. Reescrito limpo.
+2. Módulo compartilhado `modules/agentcore/runtime/main.tf` — a policy IAM usava `var.zendesk_lambda_name` (nome cru) como `Resource` em vez do ARN construído — corrigido (afeta DEV também, é módulo compartilhado).
+3. Bloco órfão `terraform_remote_state.integration_zendesk` removido do `agents/runtime` — o ARN da Lambda agora é **construído** via `data.aws_caller_identity` + convenção de nome, sem depender de remote_state (mesma técnica aplicada depois pro Secrets Manager, ver abaixo).
+4. Dependência morta de remote_state removida do stack ECR.
+5. **Bug de tag cosmético, não corrigido ainda:** o módulo `vpc` tem `Name = "vpc-${var.name}-${var.env}"` só na tag da própria VPC — e o stack de rede nunca passa `env` pro módulo, então a tag sempre sai com `-dev` no final (mesmo em QA/PROD). Não afeta funcionamento, só o nome de exibição no console.
+
+### Descoberta de acesso IAM/SSO (21/07/2026) — Francisco já tinha acesso, não precisou criar nada
+Investigação (via AWS Identity Center) pra resolver "o Francisco tem permissão de push no ECR de QA?":
+- Francisco (`francisco.sousa@corpay.com.br`) já está no grupo SSO **`BR_AWSZPY_IA_DEVELOPER`** (10 membros — inclui Amanda, Gustavo, Claudio, todos batem com a call de 20/07).
+- Esse grupo tem permission sets **espelhados por conta**: `BR_PSZPY_IA_DEV` (conta DEV) e `BR_PSZPY_IA_QA` (conta QA) — ambos com `ecr:*` completo (push+pull), então Francisco **já tinha acesso**, sem precisar de credencial nova.
+- **Achado de governança tranquilizador:** o mesmo grupo também tem permission set em PROD (`BR_PSZPY_IA_PROD`), mas esse é **só leitura** (`ViewOnlyAccess` + DynamoDB/CloudWatch read-only, nenhuma policy de escrita) — segregação correta: mesmas pessoas, poder de escrita cai a zero em PROD. Padrão válido de IAM Identity Center (segregação por conta+permission-set, não por grupo separado).
+
+## Secrets Manager — plano de correção (21/07/2026)
+
+Como documentado acima, Secrets Manager nunca foi implementado — os segredos Sunshine vivem em texto puro no `tfvars` e na config da Lambda. Plano acordado:
+
+1. **Terraform cria só o "cofre"** (`aws_secretsmanager_secret`, com `lifecycle { ignore_changes = [secret_string] }`) — nenhum valor sensível no código.
+2. **Francisco preenche o valor manualmente no Console AWS** (ele já tem acesso via `BR_PSZPY_IA_QA`/`BR_PSZPY_IA_DEV`) — nunca mais por chat do Teams (mensagem "cola e depois eu apago" foi explicitamente descartada: Teams retém histórico mesmo com msg apagada, por causa de retenção/compliance — e o projeto está sob PCI).
+3. **Agrupar por domínio lógico num secret JSON** (não um secret por chave) — ex: `chatbot-gringo-sunshine-qa` contendo `SUNSHINE_APP_ID`, `SUNSHINE_KEY_ID`, `SUNSHINE_SECRET`, `SUNSHINE_API_BASE_URL` juntos. Código lê uma vez: `get_secret("chatbot-gringo-sunshine-qa")["SUNSHINE_APP_ID"]`.
+4. **IAM Resource com wildcard estreito no sufixo aleatório** (Secrets Manager sempre adiciona 6 chars aleatórios no ARN final): `arn:...:secret:chatbot-gringo-sunshine-qa-*` — evita depender de `terraform_remote_state` entre o stack que cria o secret e o `agents/runtime` (mesma técnica do fix da Lambda ARN). Evitar wildcard largo tipo `ggo-chatbot-*` (daria acesso a segredos não relacionados).
+5. **Código da aplicação precisa mudar** (Lambda + AgentCore passam a chamar `secretsmanager:GetSecretValue` em runtime) — isso é trabalho do Francisco/Gustavo, não só Terraform.
+
+**Ação pendente:** confirmar com Francisco/Gustavo se `TRINCA_FUNCION_API_KEY`/`GATEWAY_API_KEY` são do mesmo domínio do Sunshine ou de outro serviço, antes de criar os secrets agrupados.
+
+## Próximos passos (atualizado 21/07/2026)
+
+1. ~~Felipe solicita blocos CIDR ao time de Network~~ ✅ feito, blocos aprovados.
+2. ~~Subir fundação de QA (backend/network/ECR/agentcore/cache)~~ ✅ feito.
+3. Francisco: passar valores reais (Sunshine, Trinca, Gateway, Bedrock model ARN) — via Secrets Manager, não mais tfvars/chat.
+4. Isaelin/Zaza: confirmar S3/esteira pra destravar `knowledge-base-serverless`.
+5. Felipe: aguardar retorno do chamado de Imperva (DEV) → trocar CNAME no Route 53 quando vier a resposta.
+6. Felipe: abrir chamado de Imperva equivalente pra QA (e depois PROD) quando os domínios existirem.
+7. Francisco: destruir a VPC antiga de DEV (`10.4.0.0/16`) e migrar pra VPC nova com CIDR aprovado (estratégia: VPC em paralelo, não destroy-then-create) — ainda não feito, DEV continua na VPC antiga.
+8. Confirmar com quem criou as tabelas `ggo-chatbot-ia-v2-*` se há dependência de rede antes de destruir a VPC antiga.
+9. Francisco: alinhar com time de DevOps (Guilherme/outro Lucas) a parte de esteira (Lambda, SQS, API Gateway, DynamoDB) em QA.
+10. Código Terraform fica local até tudo funcionar em DEV/QA/PROD; só depois sobe pro GitHub da empresa (repositório a ser criado pelo time de DevOps).
 
 ---
 
