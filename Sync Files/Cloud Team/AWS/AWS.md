@@ -5,6 +5,7 @@
 - [[2026-07-02_iam-bedrockapikey-textract-s3-bucket-policy-bug]]
 - [[2026-07-15_regra-si-permite-spoofing-dominio-corpay-via-ses-externo]]
 - [[Criar dominio customizado para API Gateway (ACM + Route53)]]
+- [[Esteira AWS - mecanica das pipelines (Lambda, SQS-Dynamo, Terraform)]]
 - [[Permitir acesso do Databricks a buckets S3 multi-conta]]
 - [[Permitir visibilidade de S3 em outra conta]]
 - [[Pipeline Kinesis Firehose DynamoDB para Databricks]]

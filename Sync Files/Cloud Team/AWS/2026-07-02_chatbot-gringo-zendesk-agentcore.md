@@ -60,6 +60,7 @@ Também existe um módulo WAF (WAFv2) **de fato deployado** na conta, associado 
   - SQS via esteira = fila padrão, sem parâmetros especiais (ajustável se precisar).
   - DynamoDB via esteira = só cria as tabelas, não cria stack em volta (proteção contra falha de processo apagar tabela sem querer).
 - Existe uma esteira real conhecida chamada **Medâne** (deploy de Lambda) — limitação conhecida: só permite flag genérica "usa VPC" sem controle granular de subnet (causou incidente real com 50+ Lambdas na VPC errada no projeto Carvalt/Afinz).
+- **✅ Mecânica completa das esteiras documentada (22/07/2026)** — ver nota [[Esteira AWS - mecanica das pipelines (Lambda, SQS-Dynamo, Terraform)]]: templates reais (`pipeline-lambda.yml`, `pipeline-awsproducts.yml`, `pipeline-aws-iac-v2.yml`), estrutura de arquivo/pasta esperada, como o ambiente é resolvido. **Gap identificado:** documentação de Lambda esteira só cobre Node/Java/Golang — Python (usado pelo Gringo) não documentado, perguntar ao DevOps. **Gap 2:** o repo de referência Terraform (`fleetcorbr-aws-repo-iac`) só cobre contas Corpay/SemParar clássicas (FINTECH/FREEFLOW/INFRA/PARCERIAS/STP/TRIADE) — não tem Zapay/Gringo, confirmar se a pipeline pode ser estendida pra lá.
 
 ## Domínio DEV — processo executado (14/07/2026, Felipe + Lucas)
 
