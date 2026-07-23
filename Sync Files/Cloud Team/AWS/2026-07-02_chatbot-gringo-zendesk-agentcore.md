@@ -190,7 +190,7 @@ iac/
 | `platform/repository-image-runtime` (ECR) | ✅ | `ggo-chatbot-agentcore-repo` (IMMUTABLE). Francisco já fez push (tag `latest`, 21/07 09:49). **⚠️ Tag `latest` não pode ser reusada** (repo imutável) — próximos pushes precisam de tag única (hash/timestamp) |
 | `agents/runtime` (AgentCore) | ✅ | `ggo_chatbot_agentcore_qa`, role `arn:aws:iam::487442499837:role/ggo-chatbot-agentcore-runtime-qa`, SG `sg-0e652521126cfd335`. `REDIS_HOST` já atualizado com endpoint real |
 | `memory/cache` (Redis) | ✅ | `ggo-chatbot-redis-qa.43gj8w.0001.sae1.cache.amazonaws.com:6379` |
-| `memory/knowledge-base-serverless` | ⏸️ | Aguardando confirmação do Isaelin/Zaza sobre S3/esteira (o módulo cria um bucket S3 internamente) |
+| `memory/knowledge-base-serverless` | ⏸️ | Aguardando Isaelin/Zaza sobre S3/esteira (o módulo cria um bucket S3 internamente). **⚠️ 22/07: provavelmente destravado** — a esteira de S3 só publica conteúdo estático, não cria bucket (ver §6 da nota de esteira). Confirmar e aplicar |
 
 **Pendente pra fechar 100%:** Francisco precisa passar `SUNSHINE_APP_ID/KEY_ID/SECRET`, `TRINCA_FUNCION_API_KEY`, `GATEWAY_API_KEY` e confirmar `BEDROCK_KNOWLEDGE_BASE_MODEL_ARN` pra conta QA — **mas não mais por chat** (ver seção Secrets Manager abaixo).
 
