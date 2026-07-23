@@ -23,7 +23,11 @@ status: DEV completo (VPC pendente de migração) | QA fundação aplicada, este
 - **Gustavo Henrique Moura Spindola** — dev do lado Gringo junto com Francisco, cuida da parte interna do AgentCore (chamadas externas, logs, timeouts) e do uso do DynamoDB.
 - **Rafael Humberto ("Rafa")** — acionado por Francisco para resolver domínio/certificado; também envolvido na questão de compliance/PCI do projeto.
 - **Amanda** — testadora, usa o ambiente DEV (que hoje também faz papel informal de homolog).
-- **Guilherme (sobrenome incerto: "Chavenko"/"Chameco") e um segundo "Lucas" (DevOps/Cloud)** — vão dar suporte nas pipelines de container/ECR. Atenção: Francisco também é chamado de "Lucas" pelo time (nome do meio) — são pessoas diferentes.
+- **Guilherme Martins Chavenco** e **Lucas Mucheroni Correia** (ambos DevOps) — vão dar suporte nas pipelines de container/ECR. *(Nomes confirmados em 22/07 via `times/devops.md` do repo de documentação — apareciam como "Chavenko"/"Chameco" e "o outro Lucas" nas transcrições.)* Atenção: Francisco também é chamado de "Lucas" pelo time (nome do meio) — são pessoas diferentes.
+- **Diogo Patrício** (time de Network) — orientou sobre o processo de chamado do Imperva.
+- **Enio Marcelo da Silva** (time de SI) — aprovou os blocos CIDR (TASK1256406).
+- **Herlani Antonio Bimbo Junior** (Arquitetura) — primeiro aprovador no fluxo de Change Velocity, caso o projeto vá entrar em DevOps Change.
+- Ver [[Processos DevOps - chamados, fluxos, acessos e times]] para a lista completa de times e responsabilidades.
 
 ## Arquitetura
 

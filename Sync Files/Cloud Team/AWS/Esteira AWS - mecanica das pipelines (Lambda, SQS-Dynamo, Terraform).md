@@ -267,6 +267,7 @@ Automatiza: criação do repo GitHub → permissões/branch protection → Sonar
 
 ## Ver também
 
+- [[Processos DevOps - chamados, fluxos, acessos e times]] — **governança em volta das pipelines**: tipo de chamado, Gitflow, DevOps Change, rollback, acessos via Sailpoint e quem procurar em cada time
 - [[2026-07-02_chatbot-gringo-zendesk-agentcore]] — projeto que motivou o levantamento; contém o caso de uso aplicado
 - [[30-06-2026]] — incidente das 50+ Lambdas na VPC errada (causa raiz: limitação `UsaVPC`)
 - Repo de documentação: `SemParar-Alm/devops_documentation` (privado)
