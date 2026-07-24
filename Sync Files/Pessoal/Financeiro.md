@@ -87,7 +87,16 @@ Netflix (20) + Luz (150) + Internet (100) + Água (50) + Instalação multimídi
 | 30/12 | Salário 2ª quinz. dez | +2.230,40 | 9.151,97 |
 | 30/12 | Pix pai | −320 | 8.831,97 |
 
-**Veredito sobre financiar cadeira e cama em dezembro**: em novembro o empréstimo Nubank termina e vários parcelamentos pequenos também (Mac Mini, maquininha, drogaria, tinta) — abre espaço real bem na hora que o 13º cai. Financiar as duas (R$510/mês novos) ainda deixa **~R$8.800 em caixa** no fim do ano. Pressupõe: (1) PicPay não volta pro rotativo, (2) 13º líquido realmente perto de R$4.800 (confirmar no holerite), (3) esporádicos não passam de ~R$400/mês. Falhando qualquer um desses três, reavaliar a cama antes da cadeira (cadeira é mais barata e menos arriscada).
+**Veredito sobre financiar cadeira e cama em dezembro**: em novembro o empréstimo Nubank termina e vários parcelamentos pequenos também (Mac Mini, maquininha, drogaria, tinta) — abre espaço real bem na hora que o 13º cai. Financiar as duas (R$510/mês novos) ainda deixa caixa positivo no fim do ano. Pressupõe: (1) PicPay não volta pro rotativo, (2) 13º líquido realmente perto de R$4.800 (confirmar no holerite), (3) esporádicos + saídas com a Bia não passam de ~R$580/mês. Falhando qualquer um desses três, reavaliar a cama antes da cadeira (cadeira é mais barata e menos arriscada).
+
+### Correção 24/07 — saídas com a Bia entram na conta
+Média líquida da parte do Felipe em saídas de fim de semana com a Bia, calculada pelos Pix de reembolso dela nos extratos (mai: ~R$110, jun: ~R$64, jul parcial: ~R$254 projetado): **~R$180/mês**. Somado aos R$400 de esporádicos (Uber/Th/débito), o bloco de gastos variáveis vira **~R$580/mês**. Isso reduz o saldo projetado de 30/12 de ~R$8.832 para **~R$8.112**.
+
+### Não contabilizado: PLR
+Felipe entrou na empresa em 17/11/2025. Participação nos lucros e resultados (PLR) pode ter pagamento por volta de out/nov/2026 (padrão comum de ciclo semestral), mas valor e data não confirmados — perguntou por e-mail, sem resposta ainda. **Não entra em nenhuma conta deste plano.** Se cair, é folga extra — não motivo pra acelerar gastos.
+
+### Dashboard
+Roteiro completo (gráfico de acúmulo, timeline de compras, resumo mensal) publicado como página: https://claude.ai/code/artifact/2ae85dec-c7ca-4d47-896c-f08c16791fc0
 
 ## Tensão estratégica: quarto vs. reserva de independência
 - Plano do quarto (TV, painel, guarda-roupa, divisória, cadeira, GTA 6, viagem fim de ano): **~R$ 10.950**.
