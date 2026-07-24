@@ -9,6 +9,14 @@ objetivo: Aprovação no CLF-C02 — prova em 22/08/2026
 > [!tip] Como usar esta nota
 > Quando um lembrete do TickTick tocar, **venha aqui primeiro**. Localize a etapa na tabela abaixo, clique no link e siga o primeiro passo indicado na nota. Uma etapa por vez é o suficiente para chegar lá.
 
+> [!info] Como sustentar o hábito (sem histórico de estudo contínuo) — princípios aplicados ao plano v3
+> Felipe não tem hábito de estudo consolidado ainda. O plano é desenhado em cima disso, não apesar disso:
+> - **Nunca falhar dois dias seguidos.** Perder 1 sessão não quebra hábito nenhum; perder 2 seguidas é o ponto real de risco de abandono (evidência de formação de hábito). Se cair uma sessão, a próxima prevista simplesmente acontece — sem tentar compensar o que passou.
+> - **Autocompaixão > culpa.** A semana sem estudo de 13–20/07 e o bloqueio de 05–08/08 (cirurgia) não geram compensação nem culpa de propósito: tentar "recuperar o tempo perdido" é o gatilho clássico do efeito "já era, então desisto de vez" — culpa tende a matar o hábito inteiro, autocompaixão tende a só pular a falha e seguir.
+> - **Sessões de 15–20min, sem decisão nenhuma pra tomar.** Não é preguiça, é redução de fricção pra começar — quanto menor a barreira de entrada, maior a chance real de a sessão acontecer.
+> - **Drill (pergunta → resposta → correção imediata) em vez de reler conteúdo.** É o "testing effect"/recuperação ativa — o método com maior retenção comprovada, melhor que reler passivamente.
+> - **Zero estudo na véspera da prova e durante recuperação de cirurgia não é desculpa, é decisão correta.** A memória consolida durante o sono (não durante o estudo), e a carga cognitiva cai de verdade num período de recuperação física — cobrar estudo nesses momentos só gera falha garantida e culpa desnecessária.
+
 > [!warning] Status atual (24/07/2026) — plano v3
 > Prova real: **22/08/2026** (não 01/08 — a data antiga abaixo era do plano v1 e já foi substituída). 1º simulado (06/07): **132/200**. Ponto fraco confirmado: bloco de governança (Config/Trusted Advisor/Service Catalog/SSM/CloudFormation) e Storage Gateway. Semana de 13–20/07 sem estudo (sem compensação). Cirurgia em 05/08 com bloqueio de estudo até 08/08. Tracking detalhado e plano completo em `Sync Files/Pessoal/Vida profissional.md` → seção "CLF-C02 — acompanhamento" (fonte única da verdade — esta nota é conteúdo de referência).
 
