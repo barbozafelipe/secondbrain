@@ -111,10 +111,12 @@ Netflix (20) + Luz (150) + Internet (100) + Água (50) + Instalação multimídi
 | 30/12       | Salário 2ª quinz. dez                                  | +2.230,40                         | 9.151,97  |
 | 30/12       | Pix pai                                                | −320                              | 8.831,97  |
 
-**Veredito sobre financiar cadeira e cama em dezembro**: em novembro o empréstimo Nubank termina e vários parcelamentos pequenos também (Mac Mini, maquininha, drogaria, tinta) — abre espaço real bem na hora que o 13º cai. Financiar as duas (R$510/mês novos) ainda deixa caixa positivo no fim do ano. Pressupõe: (1) PicPay não volta pro rotativo, (2) 13º líquido realmente perto de R$4.800 (confirmar no holerite), (3) esporádicos + saídas com a Bia não passam de ~R$580/mês. Falhando qualquer um desses três, reavaliar a cama antes da cadeira (cadeira é mais barata e menos arriscada).
+</details>
 
-### Correção 24/07 — saídas com a Bia entram na conta
-Média líquida da parte do Felipe em saídas de fim de semana com a Bia, calculada pelos Pix de reembolso dela nos extratos (mai: ~R$110, jun: ~R$64, jul parcial: ~R$254 projetado): **~R$180/mês**. Somado aos R$400 de esporádicos (Uber/Th/débito), o bloco de gastos variáveis vira **~R$580/mês**. Isso reduz o saldo projetado de 30/12 de ~R$8.832 para **~R$8.112**.
+**Veredito sobre financiar cadeira e cama em dezembro**: em novembro o empréstimo Nubank termina e vários parcelamentos pequenos também (Mac Mini, maquininha, drogaria, tinta) — abre espaço real bem na hora que o 13º cai. Financiar as duas (R$510/mês novos) ainda deixa o ano fechando positivo (**~R$7.282** projetado). Pressupõe: (1) PicPay não volta pro rotativo, (2) 13º líquido realmente perto de R$4.800 (confirmar no holerite), (3) esporádicos não passam de ~R$600/mês. Falhando qualquer um desses três, reavaliar a cama antes da cadeira (cadeira é mais barata e menos arriscada).
+
+### Esporádicos e saídas com a Bia (medido nos extratos, 24/07)
+Os reembolsos que a Bia manda (metade dos rolês) já estão embutidos no número líquido medido: mai ~R$193, jun ~R$208, jul parcial ~R$254 recebidos dela. O bloco de gastos variáveis (débito+Pix, líquido, fora Uber) adotado é **R$600/mês** — vindo da média dos extratos, ponderada pro comportamento mais contido de julho. É a maior fonte de incerteza da projeção; por isso o dashboard deixa o Felipe digitar os reais e se autocorrige.
 
 ### Não contabilizado: PLR
 Felipe entrou na empresa em 17/11/2025. Participação nos lucros e resultados (PLR) pode ter pagamento por volta de out/nov/2026 (padrão comum de ciclo semestral), mas valor e data não confirmados — perguntou por e-mail, sem resposta ainda. **Não entra em nenhuma conta deste plano.** Se cair, é folga extra — não motivo pra acelerar gastos.
@@ -130,4 +132,4 @@ Roteiro completo (gráfico de acúmulo, timeline de compras, resumo mensal) publ
 - **Ponto real de atenção**: os R$ 10.950 do quarto competem diretamente pelo mesmo caixa que deveria semear a reserva de R$ 16-21k. Não são dois orçamentos separados — é a mesma sobra mensal disputada por dois objetivos com prazos bem diferentes (quarto = agora, independência = 2027).
 
 ---
-_Atualizado: 2026-07-24 — reconciliação completa de faturas (Nubank, PicPay, Mercado Pago, Itaú) via extratos reais, descoberta de rotativo ativo no PicPay, comprometimento real recalculado, roadmap de caixa até 31/08._
+_Atualizado: 2026-07-24 — reconciliação completa de faturas via extratos reais; rotativo do PicPay identificado; datas de pagamento corrigidas (30/07, 28/08 etc.); esporádicos medidos (R$600/mês); projeção verificada em Python (fim de ano R$7.281,97, menor saldo R$448,54); dashboard reconstruído com recálculo ao vivo._
