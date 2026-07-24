@@ -10,12 +10,12 @@ fonte: reflexao-cowork
 > TL;DR — Checklist vivo. A ordem abaixo é por **impacto real**, não por urgência emocional. Vilões principais: **nariz + refluxo**. A vista é o último item, não o primeiro.
 
 ## Prioridade 1 — Cirurgia (destrava tudo)
-- [ ] Fazer exame de sangue (fim de semana) — pré-operatório
-- [ ] Fazer ECG / ecocardiograma (fim do mês)
-- [ ] Retornar ao otorrino (CEMA) com exames prontos
-- [ ] Médico emite o pedido de cirurgia (septoplastia + turbinoplastia)
-- [ ] Lançar pedido no app Seguros Unimed (Privian) e aguardar aprovação
-- [ ] Cirurgia marcada
+- [x] Fazer exame de sangue (fim de semana) — pré-operatório
+- [x] Fazer ECG / ecocardiograma (fim do mês)
+- [x] Retornar ao otorrino (CEMA) com exames prontos
+- [x] Médico emite o pedido de cirurgia (septoplastia + turbinoplastia)
+- [x] Lançar pedido no app Seguros Unimed (Privian) e aguardar aprovação
+- [x] Cirurgia marcada
 - [ ] Pós-op: semana 1 muito entupido é esperado; melhora forte entre 10–14 dias
 - [ ] Pós-op: **não** usar fita na boca até liberação médica
 
@@ -40,7 +40,7 @@ fonte: reflexao-cowork
 - Dar tempo de recuperação (sono ajuda aqui)
 
 ## Prioridade 5 — Vista (último, não primeiro)
-- [ ] Refazer exame oftalmológico (faz ~10 anos)
+- [x] Refazer exame oftalmológico (faz ~10 anos)
 - Usar óculos pra longe/dirigir só se de fato ajudar
 > Miopia -0,50/-0,75 é leve. Não é vilão cognitivo importante.
 
