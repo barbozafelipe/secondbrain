@@ -15,6 +15,12 @@
 - **Ter / Qui** → dia presencial no trabalho (acorda **05:45**, 6h de trabalho + ~2h30 de deslocamento; dorme ~22:00; prioridades de trabalho primeiro).
 - **Sáb / Dom** → pernas + Beatriz (manhã, antes das 9h). Acorda ~08:00, dorme ~22:30.
 
+## Continuidade entre sessões e máquinas (CRÍTICO)
+Felipe alterna entre computadores diferentes, todos apontando pra este mesmo repositório git. **Sessões de chat não são compartilhadas entre máquinas — o vault é o único estado compartilhado.** Isso significa:
+- Ao retomar qualquer acompanhamento contínuo (estudo pra certificação, fitness, carreira etc.), **leia a nota de status relevante antes de responder** — nunca assuma que o histórico da conversa anterior está disponível, mesmo que o assunto pareça já ter sido discutido.
+- Exemplo ativo agora: acompanhamento do **AWS Certified Cloud Practitioner (CLF-C02)**, prova em 22/08/2026. Antes de continuar uma sessão de estudo, ler `Sync Files/Pessoal/Vida profissional.md` → seção "CLF-C02 — acompanhamento" (histórico completo, erros mapeados, plano de estudos ativo) **e** `Sync Files/Estudos/AWS Certified Cloud Practitioner/AWS Certified Cloud Practitioner.md` (status atual/dashboard, princípios de sustentação de hábito).
+- Via de mão dupla: toda sessão que avançar algum desses acompanhamentos deve **atualizar a mesma nota de status ao final** (ou ao longo da conversa), pra que a próxima sessão — nesta máquina ou em outra — já encontre o estado real, sem precisar o Felipe repetir contexto.
+
 ## Estrutura real do vault (mapa canônico)
 Tudo de conteúdo mora sob `Sync Files/`. **Use estes caminhos reais** — não invente `diário/`, `infra/`, `research/` etc.
 
