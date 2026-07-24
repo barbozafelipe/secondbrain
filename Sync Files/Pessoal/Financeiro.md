@@ -47,10 +47,11 @@ Netflix (20) + Luz (150) + Internet (100) + Água (50) + Instalação multimídi
 > **Esporádicos MEDIDOS nos extratos (mai/jun/jul, débito+Pix, fora o Uber que já está nas faturas):** miúdos (<R$100) foram R$1.624 (mai), R$1.189 (jun), R$520 (jul/23d). Maio foi outlier (muito restaurante + Pix de R$1.450 pra "Mariana Sanchez" — não identificado). Ritmo real recorrente ≈ R$600-900/mês líquido. **Número de trabalho adotado: R$600/mês** (é a maior incerteza do plano).
 >
 > **Projeção verificada (saldo inicial R$0, tudo no valor planejado, esporádicos R$600/mês):**
-> - Fim de cada mês: jul R$1.360,64 · ago R$3.172,33 · set R$4.665,35 · out R$6.403,00 · nov R$6.900,65 · **dez R$7.281,97**.
-> - **Saldo final projetado 30/12: R$ 7.281,97** (era ~R$8.112 na versão anterior; caiu porque os esporádicos reais são maiores que o chute de R$400).
-> - **Menor saldo do ano: R$448,54 (25/07). Nunca fica negativo — o plano aguenta.**
-> - Lógica validada em `scratchpad/projetar.py` e espelhada no dashboard interativo (número idêntico na tela).
+> - Fim de cada mês: jul R$1.360,64 · ago R$2.986,95 · set R$4.229,97 · out R$6.027,62 · nov R$6.475,27 · **dez R$6.806,59**.
+> - **Saldo final projetado 30/12: R$ 6.806,59.**
+> - **Menor saldo do ano: R$287,33 no dia 09/08** — quando a fatura real do Nubank (R$1.073,31) é paga com o salário de 30/07, ANTES da 1ª quinzena de agosto (14/08). É o ponto mais apertado do ano; a semana de 09/08 exige gasto zero fora do essencial.
+> - **CORREÇÃO 24/07 (Felipe pegou o erro):** a fatura do Nubank estava como estimativa de R$575; o valor real é **R$1.073,31, vence 09/08**. Também foi removido um PicPay de agosto duplicado (~R$313) — o PicPay de agosto já é a fatura de R$1.451,46 quitada em 25/07. Faturas futuras do Nubank revisadas pra cima (set R$750 c/ última do Mac Mini, out R$420, nov/dez R$400). Isso baixou o fim de ano de R$7.282 pra R$6.807.
+> - Lógica validada em `scratchpad/projetar.py` e espelhada no dashboard interativo (número idêntico na tela: R$6.806,59).
 >
 > **Dashboard reconstruído (24/07):** agora recalcula sozinho. Campo de saldo inicial + campo "valor real" por banco em cada data; ao digitar, o saldo projetado do fim do ano se ajusta na hora (a matemática roda na própria página, não precisa de mim nem de rotina). 60 linhas agrupadas por data. Verdade técnica importante: **uma rotina automática NÃO consegue ler o que o Felipe digita na página** (fica só no localStorage do navegador dele) — a ponte pro chat é o botão "Copiar status" → colar aqui; eu entro só pro julgamento (avaliar justificativa, reestruturar plano).
 
