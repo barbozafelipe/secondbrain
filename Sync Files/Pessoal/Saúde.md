@@ -21,7 +21,7 @@
 
 ## Plano de ação médico
 1. **Cirurgia nasal (Septoplastia + Turbinoplastia)** — **data confirmada: 05/08/2026 (Qua)**. Exames pré-operatórios no CEMA agendados; coberta pelo plano sem carência/coparticipação. Pós-op: nariz muito entupido na semana 1, melhora substancial entre 10–14 dias; não usar fitas na boca até liberação médica. Reflexo direto no cronograma de estudo do [[Vida profissional]] (CLF-C02): bloqueio de estudo previsto de 05/08 a 08/08.
-2. **Correção visual** — oftalmologista + lentes para zerar o esforço ocular (miopia não corrigida). **TODO:** agendar.
+2. **Correção visual** — exame feito em 06/06/2026 (Dr. Pedro Braga): miopia leve, OD -0,75 / OE -0,50/-0,50 eixo 155° (ver [[06-06-2026]] em [[Oftalmologista]]). **TODO:** decidir se monta óculos — grau é leve, só compensa se notar diferença no dia a dia.
 3. **Tratar o refluxo (RFL)** — urgente; IBP + ajustes dietéticos noturnos.
 4. **Ecocardiograma** — agendado pelo plano. **TODO:** data/resultado.
 5. **Jiu-jitsu** — para controle emocional/estresse, apenas **meses** após a consolidação total dos ossos do nariz pós-cirurgia.
