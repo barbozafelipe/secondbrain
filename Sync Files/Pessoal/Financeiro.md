@@ -39,55 +39,55 @@ Netflix (20) + Luz (150) + Internet (100) + Água (50) + Instalação multimídi
 
 > Estrutura do dashboard interativo (passo a passo): 14 passos sequenciais. Além das compras, inclui as parcelas mensais do empréstimo (05/09, 05/10) e a ÚLTIMA em 05/11 (empréstimo quitado — marco), mais um checkpoint go/no-go em ~20/11 antes da Black Friday ("saldo bateu ~R$ 7.590? se não, segura a TV"). Isso preenche o vazio jul→nov que antes desmotivava. A avaliação de justificativas (quando o Felipe marca "não fiz") é feita por mim/pela IA no chat, não pela página — ele usa o botão "Copiar status" e cola aqui pra eu revisar e reajustar valores.
 
-| Data | Evento | Δ | Acumulado |
-|---|---|---|---|
-| 25/07 (sáb) | Venda iPad | +1.900,00 | 1.900,00 |
-| 25/07 | PicPay agosto (rotativo quitado) | −1.451,46 | 448,54 |
-| 31/07 | Salário 2ª quinz. jul | +2.230,40 | 2.678,94 |
-| 31/07 | Pix pai | −674,63 | 2.004,31 |
-| 31/07 | Antecipa parcela empréstimo (venceria 05/08) | −493,67 | 1.510,64 |
-| ~10/08 | Fatura Nubank | −575 (est) | 935,64 |
-| 14/08 | Salário 1ª quinz. ago | +2.430,92 | 3.366,56 |
-| 16-20/08 | PicPay corrente + Mercado Pago + Itaú | −1.000 (est) | 2.366,56 |
-| ago | Esporádicos (Uber/Th/débito) | −400 (est) | 1.966,56 |
-| 31/08 | Salário 2ª quinz. ago | +2.230,40 | 4.196,96 |
-| 31/08 | Pix pai | −674,63 | 3.522,33 |
-| 05/09 | Parcela empréstimo | −493,67 | 3.028,66 |
-| ~10/09 | Fatura Nubank | −500 (est) | 2.528,66 |
-| 15/09 | Salário 1ª quinz. set | +2.430,92 | 4.959,58 |
-| 16-20/09 | Faturas PicPay+MP+Itaú | −900 (est) | 4.059,58 |
-| set | Esporádicos | −400 | 3.659,58 |
-| 30/09 | Salário 2ª quinz. set | +2.230,40 | 5.889,98 |
-| 30/09 | Pix pai | −674,63 | 5.215,35 |
-| 05/10 | Parcela empréstimo | −493,67 | 4.721,68 |
-| ~10/10 | Fatura Nubank | −480 (est) | 4.241,68 |
-| 15/10 | Salário 1ª quinz. out | +2.430,92 | 6.672,60 |
-| 16-20/10 | Faturas PicPay+MP+Itaú | −850 (est) | 5.822,60 |
-| out | Esporádicos | −400 | 5.422,60 |
-| 30/10 | Salário 2ª quinz. out | +2.230,40 | 7.653,00 |
-| 30/10 | Pix pai (reduzindo — iPad/instalação terminando) | −500 (est) | 7.153,00 |
-| 05/11 | **Última parcela empréstimo — quitado de vez** | −493,67 | 6.659,33 |
-| ~10/11 | Fatura Nubank (Mac Mini termina) | −350 (est) | 6.309,33 |
-| ~13/11 | Salário 1ª quinz. nov | +2.430,92 | 8.740,25 |
-| 16-20/11 | Faturas PicPay+MP+Itaú | −750 (est) | 7.990,25 |
-| nov | Esporádicos | −400 | 7.590,25 |
-| **27/11** | **GTA 6** — à vista, PS Store | −550 | 7.040,25 |
-| **27/11** | **TV TCL 65" P6K** — à vista, Pix (Black Friday) | −3.600 (est, faixa R$3.500-3.700) | 3.440,25 |
-| 30/11 | Salário 2ª quinz. nov | +2.230,40 | 5.670,65 |
-| 30/11 | **13º, 1ª parcela** (estimado — confirmar no holerite) | +2.500 (est) | 8.170,65 |
-| 30/11 | Pix pai (reduzido) | −320 | 7.850,65 |
-| ~10/12 | Fatura Nubank | −350 (est) | 7.500,65 |
-| 15/12 | Salário 1ª quinz. dez | +2.430,92 | 9.931,57 |
-| **15/12** | **Painel de TV** — à vista | −1.300 | 8.631,57 |
-| **15/12** | **Guarda-roupa** — à vista | −800 | 7.831,57 |
-| 16-20/12 | Faturas PicPay+MP+Itaú | −700 (est) | 7.131,57 |
-| ~18/12 | **13º, 2ª parcela** (estimado) | +2.300 (est) | 9.431,57 |
-| **18/12** | **Divisória MDF** — à vista (material) | −1.000 | 8.431,57 |
-| **20/12** | **Cadeira** — parcelado 10x R$260, 1ª parcela | −260 | 8.171,57 |
-| **20/12** | **Cama** — parcelado 12x R$250, 1ª parcela | −250 | 7.921,57 |
-| **28/12** | **Viagem fim de ano** | −1.000 | 6.921,57 |
-| 30/12 | Salário 2ª quinz. dez | +2.230,40 | 9.151,97 |
-| 30/12 | Pix pai | −320 | 8.831,97 |
+| Data        | Evento                                                 | Δ                                 | Acumulado |
+| ----------- | ------------------------------------------------------ | --------------------------------- | --------- |
+| 25/07 (sáb) | Venda iPad                                             | +1.900,00                         | 1.900,00  |
+| 25/07       | PicPay agosto (rotativo quitado)                       | −1.451,46                         | 448,54    |
+| 31/07       | Salário 2ª quinz. jul                                  | +2.230,40                         | 2.678,94  |
+| 31/07       | Pix pai                                                | −674,63                           | 2.004,31  |
+| 31/07       | Antecipa parcela empréstimo (venceria 05/08)           | −493,67                           | 1.510,64  |
+| ~10/08      | Fatura Nubank                                          | −575 (est)                        | 935,64    |
+| 14/08       | Salário 1ª quinz. ago                                  | +2.430,92                         | 3.366,56  |
+| 16-20/08    | PicPay corrente + Mercado Pago + Itaú                  | −1.000 (est)                      | 2.366,56  |
+| ago         | Esporádicos (Uber/Th/débito)                           | −400 (est)                        | 1.966,56  |
+| 31/08       | Salário 2ª quinz. ago                                  | +2.230,40                         | 4.196,96  |
+| 31/08       | Pix pai                                                | −674,63                           | 3.522,33  |
+| 05/09       | Parcela empréstimo                                     | −493,67                           | 3.028,66  |
+| ~10/09      | Fatura Nubank                                          | −500 (est)                        | 2.528,66  |
+| 15/09       | Salário 1ª quinz. set                                  | +2.430,92                         | 4.959,58  |
+| 16-20/09    | Faturas PicPay+MP+Itaú                                 | −900 (est)                        | 4.059,58  |
+| set         | Esporádicos                                            | −400                              | 3.659,58  |
+| 30/09       | Salário 2ª quinz. set                                  | +2.230,40                         | 5.889,98  |
+| 30/09       | Pix pai                                                | −674,63                           | 5.215,35  |
+| 05/10       | Parcela empréstimo                                     | −493,67                           | 4.721,68  |
+| ~10/10      | Fatura Nubank                                          | −480 (est)                        | 4.241,68  |
+| 15/10       | Salário 1ª quinz. out                                  | +2.430,92                         | 6.672,60  |
+| 16-20/10    | Faturas PicPay+MP+Itaú                                 | −850 (est)                        | 5.822,60  |
+| out         | Esporádicos                                            | −400                              | 5.422,60  |
+| 30/10       | Salário 2ª quinz. out                                  | +2.230,40                         | 7.653,00  |
+| 30/10       | Pix pai (reduzindo — iPad/instalação terminando)       | −500 (est)                        | 7.153,00  |
+| 05/11       | **Última parcela empréstimo — quitado de vez**         | −493,67                           | 6.659,33  |
+| ~10/11      | Fatura Nubank (Mac Mini termina)                       | −350 (est)                        | 6.309,33  |
+| ~13/11      | Salário 1ª quinz. nov                                  | +2.430,92                         | 8.740,25  |
+| 16-20/11    | Faturas PicPay+MP+Itaú                                 | −750 (est)                        | 7.990,25  |
+| nov         | Esporádicos                                            | −400                              | 7.590,25  |
+| **27/11**   | **GTA 6** — à vista, PS Store                          | −550                              | 7.040,25  |
+| **27/11**   | **TV TCL 65" P6K** — à vista, Pix (Black Friday)       | −3.600 (est, faixa R$3.500-3.700) | 3.440,25  |
+| 30/11       | Salário 2ª quinz. nov                                  | +2.230,40                         | 5.670,65  |
+| 30/11       | **13º, 1ª parcela** (estimado — confirmar no holerite) | +2.500 (est)                      | 8.170,65  |
+| 30/11       | Pix pai (reduzido)                                     | −320                              | 7.850,65  |
+| ~10/12      | Fatura Nubank                                          | −350 (est)                        | 7.500,65  |
+| 15/12       | Salário 1ª quinz. dez                                  | +2.430,92                         | 9.931,57  |
+| **15/12**   | **Painel de TV** — à vista                             | −1.300                            | 8.631,57  |
+| **15/12**   | **Guarda-roupa** — à vista                             | −800                              | 7.831,57  |
+| 16-20/12    | Faturas PicPay+MP+Itaú                                 | −700 (est)                        | 7.131,57  |
+| ~18/12      | **13º, 2ª parcela** (estimado)                         | +2.300 (est)                      | 9.431,57  |
+| **18/12**   | **Divisória MDF** — à vista (material)                 | −1.000                            | 8.431,57  |
+| **20/12**   | **Cadeira** — parcelado 10x R$260, 1ª parcela          | −260                              | 8.171,57  |
+| **20/12**   | **Cama** — parcelado 12x R$250, 1ª parcela             | −250                              | 7.921,57  |
+| **28/12**   | **Viagem fim de ano**                                  | −1.000                            | 6.921,57  |
+| 30/12       | Salário 2ª quinz. dez                                  | +2.230,40                         | 9.151,97  |
+| 30/12       | Pix pai                                                | −320                              | 8.831,97  |
 
 **Veredito sobre financiar cadeira e cama em dezembro**: em novembro o empréstimo Nubank termina e vários parcelamentos pequenos também (Mac Mini, maquininha, drogaria, tinta) — abre espaço real bem na hora que o 13º cai. Financiar as duas (R$510/mês novos) ainda deixa caixa positivo no fim do ano. Pressupõe: (1) PicPay não volta pro rotativo, (2) 13º líquido realmente perto de R$4.800 (confirmar no holerite), (3) esporádicos + saídas com a Bia não passam de ~R$580/mês. Falhando qualquer um desses três, reavaliar a cama antes da cadeira (cadeira é mais barata e menos arriscada).
 
