@@ -35,7 +35,9 @@ Netflix (20) + Luz (150) + Internet (100) + Água (50) + Instalação multimídi
 
 ## Roadmap de caixa — 25/07 a 30/12/2026 (fluxo relativo, a partir de R$ 0 em 25/07)
 
-> Ajuste de 24/07: a parcela do empréstimo que venceria 05/08 é antecipada em 31/07 (logo depois do salário cair), não no mesmo dia da venda do iPad — evita apertar o caixa no fim de semana. Pix pro pai continua R$ 674,63 até ~out/2026 (parcelas do iPad e da instalação multimídia ainda ativas), depois cai pra ~R$ 320-390.
+> Ajuste de 24/07: a parcela do empréstimo que venceria 05/08 é paga em 31/07 (com o salário na conta), NÃO no dia 25 junto com a venda do iPad. Motivo (Felipe perguntou se dava pra antecipar já no dia 25): depois de quitar o PicPay (R$ 1.451,46) sobram só R$ 448,54 dos R$ 1.900 do iPad, e a parcela é R$ 493,67 — faltariam ~R$ 45, e pagar no dia 25 deixaria a conta em R$ 0 por 6 dias sem colchão pra gasto variável (Uber/Th/Bia). O ganho de antecipar 5-6 dias é ~R$ 5 de juros, não compensa zerar a conta. Regra: dia 25 = só PicPay; parcela do empréstimo espera o salário do dia 31. Pix pro pai continua R$ 674,63 até ~out/2026 (parcelas do iPad e da instalação multimídia ainda ativas), depois cai pra ~R$ 320-390.
+
+> Estrutura do dashboard interativo (passo a passo): 14 passos sequenciais. Além das compras, inclui as parcelas mensais do empréstimo (05/09, 05/10) e a ÚLTIMA em 05/11 (empréstimo quitado — marco), mais um checkpoint go/no-go em ~20/11 antes da Black Friday ("saldo bateu ~R$ 7.590? se não, segura a TV"). Isso preenche o vazio jul→nov que antes desmotivava. A avaliação de justificativas (quando o Felipe marca "não fiz") é feita por mim/pela IA no chat, não pela página — ele usa o botão "Copiar status" e cola aqui pra eu revisar e reajustar valores.
 
 | Data | Evento | Δ | Acumulado |
 |---|---|---|---|
