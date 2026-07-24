@@ -20,7 +20,7 @@
 - Impactos relatados do déficit de sono: fadiga cognitiva ("crash das 14h"), memória de trabalho prejudicada e menor reparo muscular (70–80% do GH é liberado no sono profundo) — conexão direta com a estagnação na [[Academia]].
 
 ## Plano de ação médico
-1. **Cirurgia nasal (Septoplastia + Turbinoplastia)** — exames pré-operatórios no CEMA agendados; coberta pelo plano sem carência/coparticipação. Pós-op: nariz muito entupido na semana 1, melhora substancial entre 10–14 dias; não usar fitas na boca até liberação médica. **TODO:** data da cirurgia.
+1. **Cirurgia nasal (Septoplastia + Turbinoplastia)** — **data confirmada: 05/08/2026 (Qua)**. Exames pré-operatórios no CEMA agendados; coberta pelo plano sem carência/coparticipação. Pós-op: nariz muito entupido na semana 1, melhora substancial entre 10–14 dias; não usar fitas na boca até liberação médica. Reflexo direto no cronograma de estudo do [[Vida profissional]] (CLF-C02): bloqueio de estudo previsto de 05/08 a 08/08.
 2. **Correção visual** — oftalmologista + lentes para zerar o esforço ocular (miopia não corrigida). **TODO:** agendar.
 3. **Tratar o refluxo (RFL)** — urgente; IBP + ajustes dietéticos noturnos.
 4. **Ecocardiograma** — agendado pelo plano. **TODO:** data/resultado.
