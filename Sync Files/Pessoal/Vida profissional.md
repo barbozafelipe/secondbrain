@@ -70,7 +70,7 @@ Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 | Meta                                       | Prazo      | Status                                                                                                                                                 |
 | ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Trilha Sem Parar (ESG, LGPD, Assédio)      | 29/05/2026 | Concluído                                                                                                                                              |
-| AWS Certified Cloud Practitioner (CLF-C02) | 31/08/2026 | Prova agendada para 22/08/2026 · 1º simulado em 06/07: **132/200** · plano de estudos v2 ativo · análise por domínio concluída (ver abaixo)             |
+| AWS Certified Cloud Practitioner (CLF-C02) | 31/08/2026 | Prova agendada para 22/08/2026 · 1º simulado em 06/07: **132/200** · **plano de estudos v3 ativo** (recalibrado em 24/07 após semana sem estudo + cirurgia em 05/08) · análise por domínio concluída (ver abaixo)             |
 | Especialização Terraform (Azure + OCI)     | 31/10/2026 | Não iniciado                                                                                                                                           |
 | Ciclo de Inglês Técnico (30h)              | 18/12/2026 | Em progresso, mas cancelei as aulas por questões financeiras com o professor, e não posso voltar a ter aulas tão cedo ainda... não sei como vou fazer. |
 
@@ -92,10 +92,22 @@ Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 - Resta **1 tentativa** do assessment — reservada para ~16/08 como medição de progresso.
 - **08/07/2026 — 1ª sessão de banco de questões** (20min): 4 questões, 2 acertos / 2 erros. Os 2 erros repetiram exatamente os gaps já mapeados: **AWS Trusted Advisor** (limites de serviço) confundido com Systems Manager, e **AWS Config** (compliance de configuração) confundido com Service Catalog. **Padrão confirmado: bloco de governança/gestão (AWS Config, Trusted Advisor, Service Catalog, Systems Manager, CloudFormation) é a lacuna mais consistente — 2ª/3ª vez que confunde essas ferramentas entre si.** Precisa de rodada extra dedicada a diferenciar essas 5.
 - **RDS/Multi-AZ**: aprofundou bastante por demanda de trabalho (colega pediu ajuda em conta AWS real), estudou e desenhou no Excalidraw as topologias completas (Aurora Serverless v2, Aurora Provisionado, Multi-AZ Cluster, Multi-AZ Standby, Single-AZ com/sem read replica) — nível Solutions Architect, acima do que CLF-C02 exige. Base de RDS está sólida; a sessão de domingo 26/07 (Bancos de Dados) pode ser mais curta/focada só no que é específico de prova.
-- **Plano de estudos v2** (decisão de 06/07, refinado em 06/07 com curso complementar):
-  - Seg/Qua/Sex 8h00–8h20 (dias remotos): banco de questões (Skill Builder + Tutorials Dojo). Sem sábado.
-  - Domingo: bloco de 45–60min. 12/07 e 19/07 dedicados ao curso em vídeo de André Iacono (Udemy) nas seções que cobrem as lacunas identificadas (O IAM; Billing e Support); 26/07 Bancos de Dados; 02/08 Well-Architected Framework e EcoSystem. 09/08 Official Practice Question Set; 16/08 2ª tentativa do assessment.
-  - Consistência antes de volume; sessão perdida não se compensa nem acumula.
+- **13–20/07/2026: semana sem estudo** — hábito pausado por completo. Sem culpa, sem tentativa de compensar; o plano v3 abaixo já parte da realidade (não infla volume para recuperar o tempo perdido).
+- **24/07/2026 — 2ª sessão dedicada a governança** (Config, Trusted Advisor, Service Catalog, Systems Manager, CloudFormation): melhora frente à sessão de 08/07, mas ainda confunde na hora de diferenciar "notificação automática de desvio de configuração" (**AWS Config**) de "checagem periódica geral de boas práticas" (**AWS Trusted Advisor**). **3ª rodada seguida com dificuldade nesse bloco — vira prioridade #1 do plano v3**, junto com AWS Storage Gateway.
+- **05/08/2026 (Qua) — cirurgia de septoplastia + turbinoplastia.** Bloqueio de estudo de 05/08 a 08/08 (cirurgia + recuperação). Retomada leve a partir de 10/08, sem tentar compensar os dias perdidos.
+- **Plano de estudos v3** (recalibrado em 24/07/2026, considerando a semana sem estudo de 13–20/07 e a cirurgia de 05/08 — sessões continuam curtas, sem inflar volume):
+  - Seg/Qua/Sex 8h00–8h20 (dias remotos): banco de questões curto, com prioridade total no bloco de governança (Config/Trusted Advisor/Service Catalog/SSM/CloudFormation) e Storage Gateway até sentir domínio real; depois volta à rotação geral de revisão.
+  - **Dom 26/07**: Bancos de Dados — sessão curta, só o que é específico da prova (base de RDS já está acima do exigido).
+  - **Dom 02/08**: Well-Architected Framework + Ecosystem.
+  - **Seg 03/08**: última sessão de banco de questões antes da cirurgia.
+  - **05/08 a 08/08 (Qua–Sáb): zero estudo** — cirurgia + recuperação.
+  - **Seg 10/08**: retomada leve — banco de questões, reforço em governança/Storage Gateway.
+  - **Qua 12/08**: Official Practice Question Set (AWS Skill Builder) — pode ser um pouco mais longa, dividir em duas se preferir.
+  - **Sex 14/08**: revisão rápida geral.
+  - **Dom 16/08**: **2ª e última tentativa do assessment oficial** — medição real de progresso.
+  - **Semana final 17–21/08**: revisão distribuída por domínio (ver [[CLF-C02 - Revisão Final]], datas já corrigidas para a prova real de 22/08). **Sex 21/08 = zero estudo**, descanso total antes da prova.
+  - **Sáb 22/08: PROVA.**
+  - Consistência antes de volume; sessão perdida não se compensa nem acumula (mantido do v2).
 
 ---
-_Atualizado: 2026-07-08 · Fonte: notas pessoais + vault de trabalho (Carreira, PDI, reuniões semanais)._
+_Atualizado: 2026-07-24 · Fonte: notas pessoais + vault de trabalho (Carreira, PDI, reuniões semanais)._
