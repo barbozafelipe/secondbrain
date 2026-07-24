@@ -20,25 +20,23 @@ Parte de: [[AWS Certified Cloud Practitioner]]
 
 ### Instruções
 
-- [ ] Acessar o link e iniciar o simulado
-- [ ] Responder todas as 20 questões **sem consultar nada** (simule a prova real)
-- [ ] Ao terminar, revisar o gabarito comentado
-- [ ] Registrar o resultado na tabela abaixo
+- [x] Acessar o link e iniciar o simulado
+- [x] Responder todas as 20 questões **sem consultar nada** (simule a prova real)
+- [x] Ao terminar, revisar o gabarito comentado
+- [x] Registrar o resultado na tabela abaixo
 
-### Resultado — Simulado 1
+### Resultado — Simulado 1 (feito em 06/07/2026 — AWS Skill Builder Assessment, 31 questões)
 
-| Domínio | Peso | Acertos estimados | Observação |
+| Domínio | Peso | Acertos reais | Observação |
 |---|---|---|---|
-| Cloud Concepts | 24% | __ / __ | |
-| Security & Compliance | 30% | __ / __ | |
-| Cloud Technology & Services | 34% | __ / __ | |
-| Billing, Pricing & Support | 12% | __ / __ | |
-| **Score geral** | | **__%** | Meta: ≥ 80% |
+| Cloud Concepts | 24% | 8 / 8 (100%) | Dominado |
+| Billing, Pricing & Support | 12% | 4 / 5 (80%) | Bom |
+| Security & Compliance | 30% | 6 / 8 (75%) | Bom, IAM root ainda causou 1 erro de alta confiança |
+| Cloud Technology & Services | 34% | 5 / 10 (50%) | **Domínio mais fraco, maior peso da prova** — foco do plano v3 |
+| **Score geral** | | **132/200 — nível "Estabelecido", percentil 74** | Detalhe completo em [[Vida profissional]] |
 
-> [!tip] Interpretando o resultado
-> Score ≥ 80%: ótimo ritmo — siga para o simulado 2 na data prevista.
-> Score entre 60–79%: normal para o primeiro. Anote os domínios mais fracos e foque neles no lembrete 6.
-> Score < 60%: não se preocupe — você ainda tem 7 semanas até a prova. Revise os domínios fracos com calma.
+> [!tip] Interpretando o resultado (registrado)
+> Score sólido para 1ª tentativa. O gargalo real não é conteúdo desconhecido, é um bloco específico de ferramentas de governança que se confundem entre si (ver [[Questões do simulado que fiquei em dúvida]] e a seção de governança em [[CLF-C02 - Cloud Technology and Services]]) + AWS Storage Gateway. **Resta 1 tentativa do assessment**, reservada para 16/08/2026 como medição de progresso — não para 25/06 como no plano original (já passado).
 
 ---
 
@@ -72,29 +70,26 @@ Parte de: [[AWS Certified Cloud Practitioner]]
 
 ---
 
-## 🔔 Lembrete 7 — Simulado Oficial 2
+## 🔔 2ª e última tentativa do assessment oficial (repactuado — plano v3)
 
-**Data:** 25/06/2026 (Qui) · 16h | ⏱️ Tempo estimado: 45 min
+**Data:** 16/08/2026 (Dom) | ⏱️ Tempo estimado: 45 min
 
 > [!info] Primeiro passo (2 min)
-> Abra o mesmo link do simulado 1. O banco de questões pode repetir algumas — tudo bem, é parte do processo de consolidação.
+> Só existe **1 tentativa restante** do AWS Skill Builder Assessment (a prova já foi agendada, então isto não é mais um "simulado 2" genérico — é a última medição real antes da prova de 22/08). Abra o mesmo link do simulado 1.
 
 **Link:** [Simulado oficial AWS CLF-C02](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14050/aws-certified-cloud-practitioner-official-practice-question-set-clf-c02-english)
 
-### Resultado — Simulado 2
+### Resultado — 2ª tentativa (16/08/2026)
 
-| Domínio | Peso | Acertos estimados | vs. Simulado 1 |
+| Domínio | Peso | Acertos | vs. Simulado 1 (132/200) |
 |---|---|---|---|
 | Cloud Concepts | 24% | __ / __ | ↑ / ↓ / = |
 | Security & Compliance | 30% | __ / __ | ↑ / ↓ / = |
 | Cloud Technology & Services | 34% | __ / __ | ↑ / ↓ / = |
 | Billing, Pricing & Support | 12% | __ / __ | ↑ / ↓ / = |
-| **Score geral** | | **__%** | Meta: ≥ 80% |
+| **Score geral** | | **__%** | |
 
-### Decisão após simulado 2
+### Depois desta tentativa
 
-- [ ] Score ≥ 80% → ✅ **Aprovado para agendar.** Prosseguir para o [[CLF-C02 - Vouchers e Agendamento]] no lembrete 8.
-- [ ] Score < 80% → Reserve mais 30 min na semana seguinte para revisar os pontos fracos e agende assim mesmo — você tem até 02/07 para confirmar e a revisão final em 28/07.
-
-> [!success] Você chegou até aqui
-> Dois simulados feitos. Domínios revisados. O trabalho duro está feito — a prova é só a formalização do que você já sabe.
+- Independente do score, a prova real já está agendada para 22/08 — não é gate de decisão, é diagnóstico para direcionar a [[CLF-C02 - Revisão Final]] (17–21/08).
+- Foco de revisão: confirmar se o bloco de governança (Config/Trusted Advisor/Service Catalog/SSM/CloudFormation) e Storage Gateway finalmente estabilizaram.

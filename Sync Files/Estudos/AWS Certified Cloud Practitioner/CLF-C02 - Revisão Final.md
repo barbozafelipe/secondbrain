@@ -9,45 +9,45 @@ Parte de: [[AWS Certified Cloud Practitioner]]
 
 ---
 
-## 🔔 Lembrete — LAST WEEK STUDY (25/07/2026)
+## 🔔 Lembrete — LAST WEEK STUDY (17/08/2026)
 
-**Dispara em:** 25/07/2026 (Sáb) · início da semana final
-**Prova:** 01/08/2026 (Sáb)
+**Dispara em:** 17/08/2026 (Seg) · início da semana final
+**Prova:** 22/08/2026 (Sáb)
 
-> [!info] O que fazer quando este lembrete tocar
-> Abra esta nota, leia o plano da semana abaixo e distribua as sessões de revisão nos seus dias de trabalho. **Não estude nos fins de semana** (25 e 26/07 são descanso — o cérebro precisa desse intervalo para consolidar).
+> [!warning] Datas corrigidas (plano v3, 24/07/2026)
+> A versão original desta nota mirava uma prova em 01/08/2026. A prova real é **22/08/2026** — as datas abaixo já estão recalibradas. Além disso, terça e quinta desta semana (18/08 e 20/08) são **dias presenciais** (acorda 5h45, jornada mais puxada) — a revisão nesses dias é mais curta e opcional, não empilhada com dia de trabalho pesado.
 
 > [!tip] Por que revisão distribuída funciona melhor que cramming
 > O hipocampo consolida memória **durante o sono** — não durante o estudo. Revisar um pouco por dia ao longo da semana é 2–3× mais eficaz do que estudar tudo em um dia. A intensidade certa aqui é **frequência, não volume por sessão**. Você vai chegar na prova com o conteúdo ativo, não esgotado.
 
 ---
 
-## 📅 Plano da Semana Final — 27 a 31/07/2026
+## 📅 Plano da Semana Final — 17 a 21/08/2026
 
-> Sessões curtas (20–30 min) dentro do horário de trabalho. Sem material novo. Só ativação do que já está na cabeça.
+> Sessões curtas (15–25 min). Sem material novo. Só ativação do que já está na cabeça — e foco extra no bloco de governança/Storage Gateway, que é o gap que mais se repetiu no plano v3.
 
 | Dia | Sessão | O que revisar | Tempo |
 |---|---|---|---|
-| **Seg 27/07** | Revisão 1 | Domínio 1 — Cloud Concepts + Domínio 4 — Billing | ~25 min |
-| **Ter 28/07** | Revisão 2 | Domínio 2 — Security & Compliance | ~25 min |
-| **Qua 29/07** | Revisão 3 | Domínio 3 — Cloud Technology & Services | ~30 min |
-| **Qui 30/07** | Revisão 4 | Todos os domínios — varredura rápida nas tabelas abaixo | ~20 min |
-| **Sex 31/07** | ⛔ Sem estudo | Descanso total — deixe o cérebro consolidar | — |
-| **Sáb 01/08** | 🎯 PROVA | Acordar descansado, revisar logística, realizar a prova | — |
+| **Seg 17/08** (remoto) | Revisão 1 | Domínio 1 — Cloud Concepts + Domínio 4 — Billing (domínios fortes) | ~20 min |
+| **Ter 18/08** (presencial) | Opcional | Sem sessão formal — dia cheio. Se sobrar energia, repasso mental leve no trajeto | — |
+| **Qua 19/08** (remoto) | Revisão 2 | Domínio 2 — Security & Compliance | ~25 min |
+| **Qui 20/08** (presencial) | Revisão 3 (leve) | Domínio 3 — Cloud Technology & Services, focado em governança (Config/Trusted Advisor/Service Catalog/SSM/CloudFormation) e Storage Gateway | ~15 min |
+| **Sex 21/08** (remoto) | ⛔ Sem estudo | Descanso total — deixe o cérebro consolidar | — |
+| **Sáb 22/08** | 🎯 PROVA | Acordar descansado, revisar logística, realizar a prova | — |
 
 > [!warning] Regra de ouro da semana final
-> **Sexta-feira (31/07): zero estudo.** Não releia nada, não abra o Obsidian para conteúdo. Dê uma caminhada, durma bem. O sono da noite de sexta é o maior aliado do desempenho de sábado — o hipocampo fará o trabalho por você enquanto dorme.
+> **Sexta-feira (21/08): zero estudo.** Não releia nada, não abra o Obsidian para conteúdo. Dê uma caminhada, durma bem. O sono da noite de sexta é o maior aliado do desempenho de sábado — o hipocampo fará o trabalho por você enquanto dorme.
 
 ---
 
 ## ✅ Checklist da semana
 
-- [ ] Seg 27/07 — Revisão 1 concluída (Cloud Concepts + Billing)
-- [ ] Ter 28/07 — Revisão 2 concluída (Security & Compliance)
-- [ ] Qua 29/07 — Revisão 3 concluída (Cloud Technology)
-- [ ] Qui 30/07 — Revisão 4 concluída (varredura geral)
-- [ ] Sex 31/07 — Descansado ✅
-- [ ] Sáb 01/08 — Logística confirmada ✅
+- [ ] Seg 17/08 — Revisão 1 concluída (Cloud Concepts + Billing)
+- [ ] Ter 18/08 — opcional, sem culpa se não rolar
+- [ ] Qua 19/08 — Revisão 2 concluída (Security & Compliance)
+- [ ] Qui 20/08 — Revisão 3 concluída (Cloud Technology + governança/Storage Gateway)
+- [ ] Sex 21/08 — Descansado ✅
+- [ ] Sáb 22/08 — Logística confirmada ✅
 
 ---
 

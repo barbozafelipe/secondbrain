@@ -1,13 +1,16 @@
 ---
 tags: [estudo, carreira, pdi, aws, certificação, clf-c02]
-updated: 2026-05-06
-objetivo: Aprovação no CLF-C02 até 01/08/2026
+updated: 2026-07-24
+objetivo: Aprovação no CLF-C02 — prova em 22/08/2026
 ---
 
 # ☁️ AWS Certified Cloud Practitioner — CLF-C02
 
 > [!tip] Como usar esta nota
 > Quando um lembrete do TickTick tocar, **venha aqui primeiro**. Localize a etapa na tabela abaixo, clique no link e siga o primeiro passo indicado na nota. Uma etapa por vez é o suficiente para chegar lá.
+
+> [!warning] Status atual (24/07/2026) — plano v3
+> Prova real: **22/08/2026** (não 01/08 — a data antiga abaixo era do plano v1 e já foi substituída). 1º simulado (06/07): **132/200**. Ponto fraco confirmado: bloco de governança (Config/Trusted Advisor/Service Catalog/SSM/CloudFormation) e Storage Gateway. Semana de 13–20/07 sem estudo (sem compensação). Cirurgia em 05/08 com bloqueio de estudo até 08/08. Tracking detalhado e plano completo em `Sync Files/Pessoal/Vida profissional.md` → seção "CLF-C02 — acompanhamento" (fonte única da verdade — esta nota é conteúdo de referência).
 
 ---
 
@@ -61,20 +64,21 @@ dv.table(["Domínio", "Peso na prova", "Tópicos", "% estudo", "Progresso"], row
 ## 🔔 Trilha de Lembretes — O que fazer quando tocar
 
 > Cada linha é um lembrete no TickTick. Ao tocar: abra esta nota → clique no link → siga o **Primeiro Passo** da nota que abrir.
+> Itens 1–8 são do plano v1/v2 (já executados, datas no passado). A trilha ativa a partir daqui é o **plano v3** — ver status atual acima e detalhe completo em [[Vida profissional]].
 
 | # | Lembrete | Data | Abrir esta nota |
 |---|---|---|---|
-| ✅ | Cloud Concepts — revisão (7/8 tópicos) | Qualquer momento livre | [[CLF-C02 - Cloud Concepts]] |
-| 1 | Revisar Security & Compliance | 14/05/2026 (Qui) · 16h | [[CLF-C02 - Security and Compliance]] |
-| 2 | Revisar Cloud Technology & Services | 21/05/2026 (Qui) · 16h | [[CLF-C02 - Cloud Technology and Services]] |
-| 3 | Revisar Billing, Pricing & Support | 28/05/2026 (Qui) · 16h | [[CLF-C02 - Billing, Pricing and Support]] |
-| 4 | Pesquisar vouchers e descontos | 04/06/2026 (Qui) · 10h | [[CLF-C02 - Vouchers e Agendamento]] |
-| 5 | Fazer simulado oficial 1 | 11/06/2026 (Qui) · 16h | [[CLF-C02 - Simulados]] |
-| 6 | Revisar pontos fracos do simulado 1 | 18/06/2026 (Qui) · 16h | [[CLF-C02 - Simulados]] |
-| 7 | Fazer simulado oficial 2 | 25/06/2026 (Qui) · 16h | [[CLF-C02 - Simulados]] |
-| 8 | Agendar prova (Pearson VUE / PSI) | 02/07/2026 (Qui) · 10h | [[CLF-C02 - Vouchers e Agendamento]] |
-| 9 | LAST WEEK STUDY — Semana final de revisão | 25/07/2026 (Sáb) | [[CLF-C02 - Revisão Final]] |
-| 🎯 | **REALIZAR PROVA CLF-C02** | **01/08/2026 (Sáb)** | Pearson VUE / PSI — presencial |
+| ✅ | Cloud Concepts — revisão | Concluído | [[CLF-C02 - Cloud Concepts]] |
+| ✅ | Revisar Security & Compliance | Concluído (parcial — revisado no simulado) | [[CLF-C02 - Security and Compliance]] |
+| ✅ | Revisar Cloud Technology & Services | Concluído (parcial — governança ainda é lacuna ativa) | [[CLF-C02 - Cloud Technology and Services]] |
+| ✅ | Revisar Billing, Pricing & Support | Concluído (parcial) | [[CLF-C02 - Billing, Pricing and Support]] |
+| ✅ | Pesquisar vouchers e descontos | Concluído | [[CLF-C02 - Vouchers e Agendamento]] |
+| ✅ | Fazer simulado oficial 1 | Feito 06/07/2026 — **132/200** | [[CLF-C02 - Simulados]] |
+| ✅ | Revisar pontos fracos do simulado 1 | Em andamento — governança/Storage Gateway ainda ativo | [[CLF-C02 - Simulados]] |
+| ✅ | Agendar prova (Pearson VUE / PSI) | Confirmado — **22/08/2026** | [[CLF-C02 - Vouchers e Agendamento]] |
+| ⏳ | 2ª e última tentativa do assessment oficial | **16/08/2026 (Dom)** | [[CLF-C02 - Simulados]] |
+| ⏳ | LAST WEEK STUDY — Semana final de revisão | **17/08/2026 (Seg)** | [[CLF-C02 - Revisão Final]] |
+| 🎯 | **REALIZAR PROVA CLF-C02** | **22/08/2026 (Sáb)** | Pearson VUE / PSI — presencial |
 
 ---
 
