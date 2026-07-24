@@ -27,6 +27,7 @@ Cloud Engineer em ambiente multi-cloud (**AWS, Azure e OCI**) em um dos maiores 
 - **Redes e Segurança Cloud**: VNet Integration, Subnet Delegation, Private DNS Zones, roteamento avançado, isolamento de tráfego em NPROD/HML/PRD.
 - Governança de clusters **Kubernetes via Rancher/RKE** (RBAC, padronização).
 - Gestão de **certificados TLS** na AWS (ACM) e Azure, incluindo SAN multi-domínio, junto à Segurança da Informação (Imperva/WAF).
+- **FinOps multi-cloud**: automação de relatórios diários de custo (Lambda + API de custo do provedor + SES), replicando o padrão criado pelo Wellington para AWS — Felipe já entregou a versão para **OCI** (`oci-bucket-cost-daily`, 15/07/2026); Azure é o próximo provedor planejado.
 
 ## Contexto dos clientes do squad
 - **Sem Parar** = AWS + Azure + OCI (minha alocação principal).
@@ -35,14 +36,15 @@ Cloud Engineer em ambiente multi-cloud (**AWS, Azure e OCI**) em um dos maiores 
 ## Equipe e pessoas
 | Pessoa                  | Papel                                                                                              | Observações                                                                                                            |
 | ----------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| **Wellington**          | Tech Lead / Arquitetura (cliente)                                                                  | ~40 anos, pai de família. Delega tarefas progressivamente (simples → complexas). Lidera o projeto Spectra (AI Agents). |
+| **Wellington** (Wellington Feitosa) | Tech Lead / Arquitetura (cliente)                                                                  | ~40 anos, pai de família. Delega tarefas progressivamente (simples → complexas). Lidera o projeto Spectra (AI Agents). |
 | **Guilherme**           | Gestor do cliente (Sem Parar/Corpay)                                                               | Direto e prático. Controla banco de horas de terceiros em planilha. Feedback positivo sobre mim.                       |
 | **Deivison**            | Meu gestor na Compass                                                                              | Canal aberto via Teams. Cadência: 1:1 ~90 dias + updates assíncronos a cada 15 dias.                                   |
 | **Humberto Lopes**      | Gestor Compass (par do Deivison)                                                                   | Vai ao Sem Parar Seg/Qua; ocasionalmente Ter/Qui.                                                                      |
-| **Thiago**              | Apoio técnico (Azure/OCI/K8s/Networking)                                                           | ~30 anos. Muito solícito. Meu principal apoio técnico.                                                                 |
-| **João Pedro ("João")** | GCP / FinOps                                                                                       | ~30 anos.                                                                                                              |
-| **Lucas**               | AWS / Argo / GitOps                                                                                | Nascido em 1999 (o mais novo da equipe, depois de mim).                                                                |
-| Outros                  | Mateus, Ítalo, Ian (GKE), Leonardo ("Léo", cobra o time, é o diretor de infraestrutura da empresa) | Contatos recorrentes do squad.                                                                                         |
+| **Thiago** (Thiago Ferreira de Barros) | Apoio técnico (Azure/OCI/K8s/Networking)                                                           | ~30 anos. Muito solícito. Meu principal apoio técnico.                                                                 |
+| **João Pedro ("João")** (João Pedro Baria) | GCP / FinOps                                                                                       | ~30 anos.                                                                                                              |
+| **Lucas** (Lucas Paulo Gonçalves) | AWS / Argo / GitOps                                                                                | Nascido em 1999 (o mais novo da equipe, depois de mim). Cuidado com homônimos no squad amplo: há outro "Lucas" no time DevOps (Lucas Mucheroni Correia), e o Francisco (dev do projeto Chatbot Gringo) às vezes é chamado de "Lucas" pelo time (nome do meio) — pessoas diferentes. |
+| **Leonardo Martins**    | Par técnico no time Cloud (squad, AWS/Azure/GCP/OCI)                                               | Pessoa **distinta** do "Léo" diretor de infraestrutura (linha abaixo) — mesmo primeiro nome, papéis diferentes. Confirmado via doc oficial de processos DevOps (22/07/2026). |
+| Outros                  | Mateus Chagas, Ithallo Oliveira Nunes (antes registrado aqui como "Ítalo"), Essias Alves Souza, Cleber Silva Barbosa, Ian (GKE), Leonardo ("Léo", cobra o time, é o diretor de infraestrutura da empresa — não confundir com Leonardo Martins acima) | Contatos recorrentes do squad; nomes completos confirmados via doc oficial de processos DevOps (22/07/2026). |
 
 Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 
@@ -60,11 +62,13 @@ Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 - Sou o **mais novo do squad** (2003) e com **menos senioridade técnica** — em processo de crescimento e delegação progressiva.
 - Trabalho a presença social de forma intencional (participar em pequenas doses); a percepção da equipe sobre mim muda silenciosamente a cada boa entrega técnica.
 
-## Projetos / frentes atuais (jun/2026)
-- **Rotação de certificados TLS** em clusters RKE não-produtivos: fazer 1–2 junto com o Wellington e depois seguir solo (coordenado também com o Thiago).
+## Projetos / frentes atuais (jul/2026)
+- **Rotação de certificados TLS** em clusters RKE não-produtivos: fazer 1–2 junto com o Wellington e depois seguir solo (coordenado também com o Thiago) — segue ativa (rotação do `console.mgmt.rke.corpay.com.br` feita em jul/2026).
 - Apoio a **Zapay / Olho no Carro** (DNS, novas entradas) quando Lucas/Mateus precisarem.
 - **GKE Standard**: previsto voltar a trabalhar com o Ian após a fase de Secrets.
-- **Projeto Stra (AI Agents)** do Wellington: oportunidade de participar (sessões semanais).
+- **Projeto Spectra (AI Agents)** do Wellington: oportunidade de participar (sessões semanais).
+- **Chatbot Gringo (Zendesk + Bedrock AgentCore)** — projeto novo desde 02/07/2026: migração de um chatbot do cliente Gringo pra AWS. Felipe **não é o ponto focal** (esse é o Francisco, que construiu a infra do zero) — atua como suporte de infraestrutura AWS: provisiona o que é pedido, revisa se cada permissão é realmente necessária, garante padrão da empresa (naming, esteira vs. Terraform, segurança/Imperva). Claudio Henrique já o definiu como ponto focal técnico para HML/PRD (aguardando ID formal no ServiceNow). Status em 22/07: DEV completo, QA com fundação de infra aplicada.
+- **DRP de ZAPEI (SPDOCS)**: Felipe está escrevendo a seção 6 (ambiente computacional AWS) do Disaster Recovery Plan de ZAPEI/débitos de veículo — processo conduzido por Tibúrcio (TI/PCN/DRP) e Tati (Risco/BIA), com consultoria Protiviti. Teste de nuvem AWS planejado para Q4/2026 (pendente de alinhamento com Eliton).
 
 ## PDI — metas de desenvolvimento
 | Meta                                       | Prazo      | Status                                                                                                                                                 |
