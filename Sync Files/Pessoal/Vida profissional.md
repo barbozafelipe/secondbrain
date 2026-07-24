@@ -4,20 +4,55 @@
 > Relacionado: [[Plano de vida]], [[Financeiro]], [[Saúde]].
 
 ## Trajetória de carreira
-- 16 anos: comecei a trabalhar em marcenaria com meu pai.
-- 19 anos: iniciei faculdade de Cyber Segurança na Impacta.
-- Pouco antes dos 20: suporte ao cliente em empresa de internet.
-- Set/2023: estágio na Service IT (virtualização → redes → cloud); me apaixonei por cloud.
-- Out/2024: efetivado como Analista de Cloud Júnior na Service IT.
-- Mai/2025: desligado.
-- ~2 semanas depois: SkyOne, Analista de Implantação Júnior; desligado após 3 meses.
-- 17/11/2025: emprego atual — **Engenheiro Cloud Pleno pela Compass UOL**, alocado na **Sem Parar/Corpay**.
+
+> Datas e valores confirmados via carteira de trabalho digital (eSocial) e histórico do LinkedIn em 24/07/2026 — substituem estimativas anteriores menos precisas.
+
+- **Nov/2019 (~16 anos)**: marcenaria com meu pai, informal (sem registro). Comecei ganhando R$ 50/dia; depois de ~1 ano, média de ~R$ 1.400/mês.
+- **Fev/2022 (19 anos)**: início da faculdade de Defesa Cibernética (CST) na Impacta — fev/2022 a jun/2024.
+- **Set/2022 a ago/2023 (19–20 anos)**: **Aliancanet Telecom** (CLT) — Auxiliar de Suporte / Technical Support Analyst, Guarulhos, presencial. **R$ 1.522,31.** Primeiro emprego CLT registrado.
+- **Set/2023 a set/2024 (20–21 anos)**: estágio de infraestrutura na **Service IT** (híbrido) — virtualização → redes → cloud; me apaixonei por cloud.
+- **Out/2024 a mai/2025 (21 anos)**: efetivado na Service IT como **Multi Cloud Analyst JR** — regime **PJ** (não CLT): **R$ 4.000 fixo + R$ 1.000 de plantão obrigatório = R$ 5.000**. Plantão de sexta 18h à sexta seguinte 9h, acionado via Zabbix/NOC/colegas/clientes (empresa de consultoria) — muitos falsos positivos, eu odiava.
+- **Mai/2025 — desligado da Service IT.** Dois incidentes com o mesmo cliente (banco, "difícil" mas que gostava de mim) na mesma época: (1) enviei por engano a esse cliente a planilha de máquinas Oracle Cloud de **outro** cliente — confundi dois pedidos simultâneos de colegas diferentes; (2) esse cliente viu um comentário interno que deixei ao transferir/fechar um chamado mal roteado (erro da ferramenta) — não devia ser visível a ele, mas era. As duas coisas juntas resultaram no desligamento. **Lição prática**: tratar todo comentário em ferramenta de chamado como potencialmente visível ao cliente; conferir duas vezes antes de enviar qualquer arquivo específico de conta/cliente.
+- **16/06/2025 a 18/09/2025 (21–22 anos)**: **SkyOne** (CLT) — Analista de Implantação Júnior / Cloud Project Analyst JR. **R$ 3.800** — queda salarial real frente aos R$ 5.000 (PJ) da Service IT. A vaga sugeria trabalho com cloud, mas na prática era majoritariamente suporte ao **AutoSky** (produto white-label proprietário da empresa), camuflado na descrição da vaga — conhecimento não portátil pra outras empresas. Desmotivei, desengajei, fui desligado após 3 meses.
+- **17/11/2025 (22–23 anos) — emprego atual**: **Compass UOL** (CLT) — cargo formal na carteira "Analista Infra Estrutura PL", atuando como **Engenheiro Cloud Pleno**, alocado na **Sem Parar/Corpay**. **R$ 6.077,29.**
+
+### Progressão salarial (valores confirmados via carteira digital)
+| Período | Empresa | Regime | Valor |
+|---|---|---|---|
+| set/2022–ago/2023 | Aliancanet Telecom | CLT | R$ 1.522,31 |
+| out/2024–mai/2025 | Service IT (efetivado) | **PJ** | R$ 4.000 + R$ 1.000 plantão = R$ 5.000 |
+| jun/2025–set/2025 | SkyOne | CLT | R$ 3.800 |
+| nov/2025–atual | Compass UOL | CLT | R$ 6.077,29 |
+
+> A curva não é uma linha reta: teve uma queda real (SkyOne, R$ 3.800 CLT, depois de já ter tido R$ 5.000 PJ na Service IT). O salário CLT atual (R$ 6.077,29) só ultrapassou o teto PJ anterior (R$ 5.000) em nov/2025 — cerca de 6 meses depois da queda do SkyOne.
 
 ## Emprego atual
 - **Contratante**: Compass UOL. **Cliente/alocação**: Sem Parar/Corpay.
+- **Cargo formal na carteira**: "Analista Infra Estrutura PL" — o título usado no dia a dia é "Engenheiro Cloud Pleno".
+- **Salário CLT atual**: R$ 6.077,29 (desde 17/11/2025).
 - **Regime híbrido**: presencial terças e quintas (9h–18h); remoto nos demais dias.
 - Sem metas individuais na Compass — contribuo para as metas da Sem Parar, sem participação direta no PPR deles.
 - **PPR da Compass**: não considerar no planejamento enquanto não confirmado e depositado (ver [[Financeiro]]).
+
+## Avaliação de trajetória e projeção salarial (análise em 24/07/2026)
+
+> Pergunta que motivou esta análise: aos 23 anos (nasci 30/01/2003), ganhando R$ 6.077,29 CLT, é realista chegar a **R$ 8.000 CLT aos 25 anos** (30/01/2028 — faltam ~18 meses)?
+
+**O que é real e positivo:**
+- Em ~3 anos desde o primeiro contato com cloud (estágio Service IT, set/2023) fui de suporte ao cliente numa ISP para **Engenheiro Cloud Pleno** num dos maiores ecossistemas de pagamento da América Latina — squad com +30 contas AWS, responsável principal por Azure e OCI. Isso é rápido pra escopo/complexidade de responsabilidade, mais rápido que salário.
+- O escopo atual está, sendo honesto, **acima do que "Pleno" costuma cobrir**: escrevendo uma seção de um DRP formal (normalmente trabalho de sênior/arquitetura), replicando sozinho um padrão de FinOps criado pelo Wellington (sênior) pra um provedor novo (OCI), e dando suporte técnico a um projeto de produção de IA generativa. Escopo subindo mais rápido que o título é sinal de que o salário tende a alcançar — não é garantia, mas é o padrão mais comum no mercado.
+- Construção de certificações de forma consistente desde 2022 (Oracle, AWS, Azure, Udemy) — isso é hábito, não sorte.
+
+**O que não dá pra suavizar:**
+- A curva salarial **não subiu em linha reta**. Teve uma queda real: dos R$ 5.000 (PJ) na Service IT pros R$ 3.800 (CLT) no SkyOne — perda de ~24%. O R$ 6.077,29 atual só ultrapassou o teto anterior (R$ 5.000) uns 6 meses depois dessa queda. Sendo rigoroso com os números: o salto de R$ 3.800 → R$ 6.077,29 impressiona mais do que o ganho real de R$ 5.000 (que eu já tinha tocado antes) → R$ 6.077,29 — um ganho real de ~22% em 14 meses, não os ~60% que a comparação com o SkyOne sugere à primeira vista.
+- Dos 3 empregos formais (CLT/PJ) antes do atual, **2 terminaram em desligamento**, não em saída por escolha própria pra algo melhor. As causas foram diferentes cada vez (erro de manuseio de dado + visibilidade de comentário na Service IT; desengajamento ao descobrir o teto do produto proprietário no SkyOne) — não é um padrão de falha repetida, o que é tranquilizador, mas vale ter isso mapeado com clareza em vez de só lembrar da versão resumida.
+
+**Projeção pra R$ 8.000 aos 25 (30/01/2028, ~18 meses):**
+- **Caminho passivo** (só reajuste/mérito interno na Compass, sem trocar de emprego nem virar Sênior): histórico de mercado em bodyshop/consultoria costuma dar 5–10%/ano. Nesse ritmo, a projeção fica entre **R$ 6.700–7.200** aos 25 — abaixo da meta.
+- **Caminho realista pra bater R$ 8.000**: promoção interna pra Sênior OU troca de emprego depois de consolidar ~2 anos de Pleno multi-cloud de alta responsabilidade (por volta de meados de 2027) — padrão clássico de salto de 20–40% no mercado de tech brasileiro. Com o escopo já atual (DRP, FinOps, IA), **R$ 8.000 é uma meta conservadora, não ambiciosa**, se buscada ativamente por uma dessas duas rotas — não vai acontecer só esperando o reajuste anual.
+- **Resumo honesto**: a trajetória está no caminho certo em **capacidade** — o gargalo pra bater R$ 8k aos 25 não é competência técnica, é precisar **agir ativamente** (negociar promoção ou trocar de emprego) em vez de assumir que o salário vai acompanhar o escopo sozinho.
+
+**Conexão com o [[Plano de vida]]:** o objetivo de sair de casa é em **2027** (aos 24 anos) — **antes** da meta de R$ 8k aos 25 (início de 2028). Ou seja, a saída de casa não deve depender de bater essa meta salarial primeiro; ela já está sendo bancada pela reserva de independência (~R$ 16.400–21.050 da minha parte, ver [[Plano de vida]]), não pelo salário futuro. São dois marcos com timelines diferentes — não amarrar um ao outro.
 
 ## Atuação técnica
 Cloud Engineer em ambiente multi-cloud (**AWS, Azure e OCI**) em um dos maiores ecossistemas de mobilidade e pagamentos da América Latina. Squad de infraestrutura responsável por +30 contas AWS e múltiplas subscriptions Azure.
