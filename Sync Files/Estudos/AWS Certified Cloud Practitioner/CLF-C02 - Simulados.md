@@ -1,6 +1,6 @@
 ---
 tags: [estudo, aws, certificação, clf-c02, simulado]
-updated: 2026-05-06
+updated: 2026-07-24
 ---
 
 # 📝 CLF-C02 — Simulados e Revisão de Pontos Fracos

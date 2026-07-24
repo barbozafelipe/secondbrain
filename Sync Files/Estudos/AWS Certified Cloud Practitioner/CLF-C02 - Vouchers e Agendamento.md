@@ -41,23 +41,19 @@ Parte de: [[AWS Certified Cloud Practitioner]]
 
 ---
 
-## 🔔 Lembrete 8 — Agendar a prova
+## ✅ Lembrete 8 — Agendar a prova (concluído)
 
-**Data:** 02/07/2026 (Qui) · 10h | ⏱️ Tempo estimado: 20 min
-
-> [!info] Primeiro passo (2 min)
-> Antes de entrar no site do Pearson VUE, confira se você tem o voucher ou código de desconto em mãos. Se sim, abra o link abaixo e agende direto.
+**Feito:** prova confirmada para **22/08/2026 (Sábado)** — não 01/08 como o plano original previa; agendamento acabou saindo para uma data mais distante.
 
 ### Checklist de agendamento
 
-- [ ] Ter em mãos o voucher ou código de desconto (se conseguiu)
-- [ ] Acessar o [Pearson VUE — AWS](https://home.pearsonvue.com/aws)
-- [ ] Fazer login (ou criar conta se não tiver)
-- [ ] Selecionar **AWS Certified Cloud Practitioner (CLF-C02)**
-- [ ] Escolher **centro de teste presencial** próximo (São Paulo ou sua cidade)
-- [ ] Selecionar **01/08/2026 (sábado)** como data-alvo
-  - Se não houver disponibilidade nessa data, escolher o sábado mais próximo anterior
-- [ ] Confirmar e pagar (aplicar voucher se tiver)
+- [x] Ter em mãos o voucher ou código de desconto (se conseguiu)
+- [x] Acessar o [Pearson VUE — AWS](https://home.pearsonvue.com/aws)
+- [x] Fazer login (ou criar conta se não tiver)
+- [x] Selecionar **AWS Certified Cloud Practitioner (CLF-C02)**
+- [x] Escolher centro de teste presencial
+- [x] Data confirmada: **22/08/2026 (sábado)**
+- [x] Confirmar e pagar (aplicar voucher se tiver)
 - [ ] Anotar o número de confirmação da prova aqui: `________`
 - [ ] Salvar o e-mail de confirmação
 

@@ -1,6 +1,6 @@
 ---
 tags: [estudo, aws, certificação, clf-c02, revisão]
-updated: 2026-05-06
+updated: 2026-07-24
 ---
 
 # 🔁 CLF-C02 — Semana Final de Revisão
@@ -162,7 +162,7 @@ Parte de: [[AWS Certified Cloud Practitioner]]
 
 ## 🗓️ Logística da prova — confirme antes de dormir
 
-> [!important] Prova: **01/08/2026 (Sábado)**
+> [!important] Prova: **22/08/2026 (Sábado)**
 
 - [ ] Confirmar horário e endereço do centro de teste (está no e-mail de confirmação do Pearson VUE)
 - [ ] Documento com foto separado e acessível

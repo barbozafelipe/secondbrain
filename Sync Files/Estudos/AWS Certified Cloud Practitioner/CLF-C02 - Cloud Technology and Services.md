@@ -145,6 +145,18 @@
 ### EFS — Elastic File System
 - File system compartilhado via NFS — múltiplas instâncias EC2 ao mesmo tempo
 
+### AWS Storage Gateway — lacuna de conteúdo (Q7 do simulado, ainda não revisado a fundo)
+- Ponte híbrida: conecta seu ambiente **on-premises** ao armazenamento AWS, mantendo cache local para acesso rápido.
+- 3 tipos de gateway — a prova testa qual usar em cada cenário:
+
+| Tipo | O que faz | Palavra-chave na prova |
+|---|---|---|
+| **File Gateway** | Expõe buckets S3 como arquivos via NFS/SMB no seu servidor local | "acessar S3 como se fosse um file share local" |
+| **Volume Gateway** | Apresenta volumes de disco iSCSI para servidores on-prem, com backup automático como snapshots no S3 | "backup de volumes on-premises para a nuvem" |
+| **Tape Gateway** | Substitui a fita física — apresenta uma biblioteca de fitas virtual (VTL) compatível com softwares de backup existentes | "aposentar biblioteca de fitas físicas sem trocar o software de backup" |
+
+> **Regra para a prova**: se o cenário menciona **"on-premises" + "sem migrar tudo de uma vez" + "cache local"**, é Storage Gateway. Se menciona especificamente "fita" (tape), é sempre **Tape Gateway**.
+
 ---
 
 ## Banco de Dados
@@ -226,6 +238,19 @@
 | **AWS Config** | Histórico de configuração e verificação de conformidade |
 | **Trusted Advisor** | Checa custo, segurança, fault tolerance, performance, limites de serviço |
 | **Systems Manager** | Gerencia frota de EC2 (patch, run command, parâmetros) |
+
+> [!danger] 🎯 Bloco de governança — lacuna confirmada (3 rodadas de erro seguidas: simulado 06/07, drill 08/07, drill 24/07)
+> As 5 ferramentas abaixo aparecem juntas nas opções de questão porque todas "olham" a conta de algum jeito — mas cada uma responde a **um gatilho diferente**. A pergunta certa para diferenciar não é "o que ela monitora", é **"quando ela age"**.
+>
+> | Serviço | Gatilho — quando ela age | Frase-chave da prova |
+> |---|---|---|
+> | **AWS Config** | **Automático, em tempo real, todo desvio.** Dispara sozinho toda vez que um recurso monitorado muda de configuração e viola uma regra (ex: bucket virou público). Não é uma checagem periódica — é **notificação de desvio no momento em que acontece**. | "avisar automaticamente quando um recurso sair de conformidade", "histórico de mudanças de configuração", "regra de compliance contínua" |
+> | **AWS Trusted Advisor** | **Sob demanda / periódico, visão geral da conta inteira.** Você (ou o painel) roda os checks e recebe recomendações gerais em 5 categorias (custo, segurança, tolerância a falhas, performance, limites de serviço). Não reage a um evento específico — é uma **auditoria geral da "saúde" da conta**. | "checar boas práticas da conta", "recomendações de custo/segurança de forma geral", "otimização não relacionada a um recurso específico" |
+> | **AWS Service Catalog** | **Não monitora nada — controla o que pode ser criado.** É um catálogo de produtos/templates (ex: CloudFormation pré-aprovados) que o time de governança disponibiliza para que usuários provisionem só o que está autorizado, sem precisar saber Terraform/CloudFormation. | "autosserviço com governança", "padronizar o que usuários podem provisionar", "catálogo de produtos aprovados" |
+> | **AWS Systems Manager (SSM)** | **Ação operacional sob comando, na frota.** Não é sobre compliance de conta — é sobre **executar** algo em instâncias EC2/on-prem: rodar patch, Run Command, gerenciar parâmetros/segredos (Parameter Store), sessão sem SSH. | "aplicar patch em várias instâncias", "rodar comando remoto sem SSH", "gerenciar parâmetros/segredos de app" |
+> | **AWS CloudFormation** | **Não monitora nem audita — provisiona.** IaC nativa da AWS: você descreve a infra em um template (JSON/YAML) e ele cria/atualiza/destrói os recursos como uma *stack*. É a ferramenta que o Service Catalog empacota por trás. | "criar infraestrutura como código", "template que provisiona múltiplos recursos juntos", "stack" |
+>
+> **Teste rápido**: se a questão descreve algo acontecendo **sozinho e imediatamente** após uma mudança → Config. Se é uma **varredura geral, sem gatilho específico** → Trusted Advisor. Se é sobre **o que o usuário tem permissão de criar** → Service Catalog. Se é sobre **executar uma ação numa frota de instâncias** → Systems Manager. Se é sobre **criar a infraestrutura em si via template** → CloudFormation.
 
 ---
 
