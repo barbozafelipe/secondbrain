@@ -35,7 +35,29 @@ Netflix (20) + Luz (150) + Internet (100) + Água (50) + Instalação multimídi
 
 ## Roadmap de caixa — 25/07 a 30/12/2026 (fluxo relativo, a partir de R$ 0 em 25/07)
 
-> Ajuste de 24/07: a parcela do empréstimo que venceria 05/08 é paga em 31/07 (com o salário na conta), NÃO no dia 25 junto com a venda do iPad. Motivo (Felipe perguntou se dava pra antecipar já no dia 25): depois de quitar o PicPay (R$ 1.451,46) sobram só R$ 448,54 dos R$ 1.900 do iPad, e a parcela é R$ 493,67 — faltariam ~R$ 45, e pagar no dia 25 deixaria a conta em R$ 0 por 6 dias sem colchão pra gasto variável (Uber/Th/Bia). O ganho de antecipar 5-6 dias é ~R$ 5 de juros, não compensa zerar a conta. Regra: dia 25 = só PicPay; parcela do empréstimo espera o salário do dia 31. Pix pro pai continua R$ 674,63 até ~out/2026 (parcelas do iPad e da instalação multimídia ainda ativas), depois cai pra ~R$ 320-390.
+> ⚠️ **VERSÃO CORRIGIDA E VERIFICADA (24/07, fim da sessão) — use estes números; a tabela detalhada mais abaixo é a versão anterior (datas e esporádicos desatualizados, acumulado inválido).**
+>
+> **Datas de pagamento (regra real do Felipe: dia 15 e dia 30, ou o último dia útil ANTES quando cai em fim de semana — calculadas, não chutadas):**
+> - 2ª quinz jul: **30/07** (qui) · 1ª ago: **14/08** (sex) · 2ª ago: **28/08** (sex, pq 30/08 é domingo)
+> - 1ª set: **15/09** (ter) · 2ª set: **30/09** (qua) · 1ª out: **15/10** (qui) · 2ª out: **30/10** (sex)
+> - 1ª nov: **13/11** (sex, pq 15/11 é domingo) · 2ª nov: **30/11** (seg) · 1ª dez: **15/12** (ter) · 2ª dez: **30/12** (qua)
+> - Salário 1ª quinzena = R$ 2.430,92 · 2ª quinzena = R$ 2.230,40.
+> - **Correção**: a 2ª quinzena de julho é **30/07**, não 31/07; a de agosto é **28/08**, não 31/08.
+>
+> **Esporádicos MEDIDOS nos extratos (mai/jun/jul, débito+Pix, fora o Uber que já está nas faturas):** miúdos (<R$100) foram R$1.624 (mai), R$1.189 (jun), R$520 (jul/23d). Maio foi outlier (muito restaurante + Pix de R$1.450 pra "Mariana Sanchez" — não identificado). Ritmo real recorrente ≈ R$600-900/mês líquido. **Número de trabalho adotado: R$600/mês** (é a maior incerteza do plano).
+>
+> **Projeção verificada (saldo inicial R$0, tudo no valor planejado, esporádicos R$600/mês):**
+> - Fim de cada mês: jul R$1.360,64 · ago R$3.172,33 · set R$4.665,35 · out R$6.403,00 · nov R$6.900,65 · **dez R$7.281,97**.
+> - **Saldo final projetado 30/12: R$ 7.281,97** (era ~R$8.112 na versão anterior; caiu porque os esporádicos reais são maiores que o chute de R$400).
+> - **Menor saldo do ano: R$448,54 (25/07). Nunca fica negativo — o plano aguenta.**
+> - Lógica validada em `scratchpad/projetar.py` e espelhada no dashboard interativo (número idêntico na tela).
+>
+> **Dashboard reconstruído (24/07):** agora recalcula sozinho. Campo de saldo inicial + campo "valor real" por banco em cada data; ao digitar, o saldo projetado do fim do ano se ajusta na hora (a matemática roda na própria página, não precisa de mim nem de rotina). 60 linhas agrupadas por data. Verdade técnica importante: **uma rotina automática NÃO consegue ler o que o Felipe digita na página** (fica só no localStorage do navegador dele) — a ponte pro chat é o botão "Copiar status" → colar aqui; eu entro só pro julgamento (avaliar justificativa, reestruturar plano).
+
+<details>
+<summary>Versão anterior do roadmap (datas/esporádicos desatualizados — NÃO usar o acumulado)</summary>
+
+> Ajuste de 24/07: a parcela do empréstimo que venceria 05/08 é paga em 30/07 (com o salário na conta), NÃO no dia 25 junto com a venda do iPad. Motivo (Felipe perguntou se dava pra antecipar já no dia 25): depois de quitar o PicPay (R$ 1.451,46) sobram só R$ 448,54 dos R$ 1.900 do iPad, e a parcela é R$ 493,67 — faltariam ~R$ 45, e pagar no dia 25 deixaria a conta em R$ 0 por 6 dias sem colchão pra gasto variável (Uber/Th/Bia). O ganho de antecipar 5-6 dias é ~R$ 5 de juros, não compensa zerar a conta. Regra: dia 25 = só PicPay; parcela do empréstimo espera o salário do dia 31. Pix pro pai continua R$ 674,63 até ~out/2026 (parcelas do iPad e da instalação multimídia ainda ativas), depois cai pra ~R$ 320-390.
 
 > Estrutura do dashboard interativo (passo a passo): 14 passos sequenciais. Além das compras, inclui as parcelas mensais do empréstimo (05/09, 05/10) e a ÚLTIMA em 05/11 (empréstimo quitado — marco), mais um checkpoint go/no-go em ~20/11 antes da Black Friday ("saldo bateu ~R$ 7.590? se não, segura a TV"). Isso preenche o vazio jul→nov que antes desmotivava. A avaliação de justificativas (quando o Felipe marca "não fiz") é feita por mim/pela IA no chat, não pela página — ele usa o botão "Copiar status" e cola aqui pra eu revisar e reajustar valores.
 
