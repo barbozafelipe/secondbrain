@@ -55,9 +55,9 @@ Sobra estimada acumulada até 31/08, depois de cobrir tudo isso: **rough estimat
 
 ## Tensão estratégica: quarto vs. reserva de independência
 - Plano do quarto (TV, painel, guarda-roupa, divisória, cadeira, GTA 6, viagem fim de ano): **~R$ 10.950**.
-- [[Plano de vida|Reserva de independência]] (sair de casa em 2027, mas não deve ser uma p´re): **~R$ 16.400-21.050** (parte do Felipe).
+- [[Plano de vida|Reserva de independência]] (sair de casa em 2027, mas não deve ser uma premissa, não está confirmado ainda): **~R$ 16.400-21.050** (parte do Felipe).
 - A decisão de hoje de não vender o G29 já cortou a fonte de caixa da reserva pela metade.
-- TV, painel e guarda-roupa são reaproveitáveis na mudança pro apartamento (não é gasto perdido); **cadeira e divisória são específicos do quarto atual e não migram**.
+- TV, painel e guarda-roupa são reaproveitáveis na mudança pro apartamento (não é gasto perdido); **cadeira e divisória também, são coisas que vou utilizar no apartamento**.
 - **Ponto real de atenção**: os R$ 10.950 do quarto competem diretamente pelo mesmo caixa que deveria semear a reserva de R$ 16-21k. Não são dois orçamentos separados — é a mesma sobra mensal disputada por dois objetivos com prazos bem diferentes (quarto = agora, independência = 2027).
 
 ---
