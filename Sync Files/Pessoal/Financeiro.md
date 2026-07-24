@@ -124,6 +124,21 @@ Felipe entrou na empresa em 17/11/2025. Participação nos lucros e resultados (
 ### Dashboard
 Roteiro completo (gráfico de acúmulo, timeline de compras, resumo mensal) publicado como página: https://claude.ai/code/artifact/2ae85dec-c7ca-4d47-896c-f08c16791fc0
 
+### Revisão de especialista (24/07) — melhorias aplicadas e riscos a vigiar
+Aplicado no dashboard:
+- **Termômetro mensal**: substitui o registro de cada gasto (que o Felipe não vai fazer). 1x/mês ele digita o saldo real do banco; a página compara com o previsto pra hoje e mostra se está acima/abaixo. Pega o drift de esporádicos sem precisar anotar nada.
+- **Reserva mínima R$1.000 intocável**: linha vermelha no gráfico + regra. O saldo final (R$7.282) NÃO é tudo pra gastar — é R$1.000 de emergência + resto pros objetivos.
+- **Meses recolhíveis** (só o atual aberto) pra reduzir carga cognitiva das 60 linhas.
+- **Justificativa reformulada** pra pedir o plano de recuperação ("como você recupera?"), não só a desculpa — evita licenciamento moral.
+- **Regra da sobra→empréstimo**: todo mês "acima do plano" até nov, jogar a sobra no empréstimo (5,95%/mês rende mais que qualquer investimento).
+
+Riscos que ficam de vigilância (não resolvidos, dependem de dados/decisão do Felipe):
+- **Fragilidade do início (25/07–ago)**: menor saldo R$448, abaixo da reserva. As primeiras ~5 semanas são o período crítico — um imprevisto de R$500 aí pode reabrir o rotativo. Depois de ~setembro a reserva é automática.
+- **13º é load-bearing**: todo o plano do quarto depende dele cair ~R$4.800 líquido. Confirmar no holerite; se vier menor, a cama/cadeira são as primeiras a cortar.
+- **Cauda de parcelas em 2027**: cadeira (10x) + cama (12x) começam em dez e correm por 2027, junto com Sony (18x até ~ago/27) e outras. Fechar 2026 com R$7.282 em caixa NÃO é estar livre — há ~R$1.000+/mês de parcelas atravessando pra 2027, o que colide com a meta de sair de casa. Revisitar em jan/2027.
+- **Esporádicos**: adotado R$600/mês (ritmo contido de julho). Maio real foi R$3.852 líquido. Se voltar ao padrão mai/jun, o plano derrete — o termômetro é o alarme.
+- **Pix "Mariana Sanchez" R$1.450 (28/05)**: gasto grande não identificado, perguntado ao Felipe, sem resposta ainda.
+
 ## Tensão estratégica: quarto vs. reserva de independência
 - Plano do quarto (TV, painel, guarda-roupa, divisória, cadeira, GTA 6, viagem fim de ano): **~R$ 10.950**.
 - [[Plano de vida|Reserva de independência]] (sair de casa em 2027, mas não deve ser uma premissa, não está confirmado ainda): **~R$ 16.400-21.050** (parte do Felipe).
