@@ -53,7 +53,7 @@
 - Rosca scott — 3x 10–15
 - Panturrilha sentado — 3x 12–15 _(nova — 2ª frequência semanal)_
 
-## Cárdio — 3x/semana (seg, qua, sex, após o treino)
+## Cárdio — 3x/semana (seg, qua, sáb, após o treino)
 - 5 min — inclinação 5 — velocidade 5.5
 - 5 min — inclinação 10 — velocidade 5.5
 - 5 min — inclinação 15 — velocidade 5.0
