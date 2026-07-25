@@ -273,13 +273,13 @@ A faixa produtiva é ~10–20 séries/músculo/semana. **Você fica no terço m�
 
 ## 10. Suplementos (só o que tem evidência que paga o custo)
 
-| Suplemento | Dose | Veredito |
-|---|---|---|
-| **Creatina monoidratada** | 5 g/dia, todo dia, com ou sem treino | ✅ O suplemento com melhor evidência que existe. Não afeta acne. **Manter inclusive no pós-op** |
-| **Proteína em pó (isolado)** | Conforme necessário para fechar 140 g | ✅ Conveniência. Não é mágica |
-| **Vitamina D** | Só se exame mostrar deficiência | ⚠️ Checar no ecocardiograma/exames do [[Saúde]] |
-| **Cafeína pré-treino** | ❌ **Não nos dias de semana** | Meia-vida de 5–6h. Tomada às 18h30, metade ainda está no corpo às 22h30 — e **seu maior problema de saúde é o sono profundo**. Sabotar N3 para levantar 2 kg a mais é péssimo negócio |
-| Todo o resto (BCAA, glutamina, pré-treinos, termogênicos) | — | ❌ Dinheiro jogado fora |
+| Suplemento                                                | Dose                                  | Veredito                                                                                                                                                                              |
+| --------------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Creatina monoidratada**                                 | 5 g/dia, todo dia, com ou sem treino  | ✅ O suplemento com melhor evidência que existe. Não afeta acne. **Manter inclusive no pós-op**                                                                                        |
+| **Proteína em pó (isolado)**                              | Conforme necessário para fechar 140 g | ✅ Conveniência. Não é mágica                                                                                                                                                          |
+| **Vitamina D**                                            | Só se exame mostrar deficiência       | ⚠️ Checar no ecocardiograma/exames do [[Saúde]]                                                                                                                                       |
+| **Cafeína pré-treino**                                    | ❌ **Não nos dias de semana**          | Meia-vida de 5–6h. Tomada às 18h30, metade ainda está no corpo às 22h30 — e **seu maior problema de saúde é o sono profundo**. Sabotar N3 para levantar 2 kg a mais é péssimo negócio |
+| Todo o resto (BCAA, glutamina, pré-treinos, termogênicos) | —                                     | ❌ Dinheiro jogado fora                                                                                                                                                                |
 
 **Corte de cafeína: nada após as 14h.**
 
