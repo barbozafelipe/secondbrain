@@ -125,6 +125,18 @@ Felipe entrou na empresa em 17/11/2025. Participação nos lucros e resultados (
 ### Dashboard
 Roteiro completo (gráfico de acúmulo, timeline de compras, resumo mensal) publicado como página: https://claude.ai/code/artifact/2ae85dec-c7ca-4d47-896c-f08c16791fc0
 
+### ⚠️ DESVIO REAL 25/07 — venda do iPad caiu, plano recalculado
+O comprador do iPad desistiu no dia da venda (25/07). Isso tirou R$ 1.900 do plano — o dinheiro que ia quitar o PicPay na hora. Felipe checou as 3 saídas possíveis (RDB pra resgatar: não tem; pai flexibilizar o repasse: não dá; revender rápido: difícil, ele ficou triste) — nenhuma disponível. Solução aplicada, só com disciplina, sem pedir nada a ninguém:
+
+- **PicPay adiado pra 16/08** (não mais quitado em 25/07) — aceita ~R$30-50 a mais de juro de rotativo pelo atraso, mas evita furar o empréstimo ou a fatura do Nubank, que são dívida "dura".
+- **Esporádicos no talo** até 09/08 (~R$50, quase zero) e ainda contidos até 31/08 (R$400, não volta ao ritmo normal de R$600 ainda).
+- **Fatura Nubank paga parcial JÁ em 30/07** (R$1.012,10 de R$1.073,31), não esperando o vencimento (09/08) — Felipe questionou por que esperar; resposta: sem desconto por antecipar fatura de cartão (diferente do empréstimo), mas pagar imediatamente remove a tentação de gastar esse dinheiro nos ~10 dias até o vencimento. Deixa ~R$61,21 no rotativo por poucos dias, quitado com o salário de 14/08. Custo: ~R$2 de juro. Diferente do problema original do PicPay porque é curto e já tem data de quitação garantida.
+- **Reserva de R$1.000 zerada** por esse evento — o plano toca R$0,00 de propósito em 09/08. Prioridade reconstruir a partir de set/out.
+
+**Novo saldo final projetado (30/12): R$ 5.166,05** (era R$ 6.806,59 com o iPad — perda líquida de ~R$1.640, entre a renda perdida e o juro extra do atraso). Novo checkpoint da Black Friday (20/11): ~R$4.800 em vez de R$6.800. Lógica validada em `scratchpad/projetar.py`, replicada na página e na agenda do Google (eventos de 25/07 e 30/07 ajustados, novos marcos em 09/08, 14/08 e 16/08 criados).
+
+Compra do Digeliv (suplemento, R$89,90) que estava cogitada pra 25/07 com o dinheiro do iPad — **adiada**, sem previsão ainda, só depois que o caixa respirar (~meados de agosto).
+
 ### Revisão de especialista (24/07) — melhorias aplicadas e riscos a vigiar
 Aplicado no dashboard:
 - **Termômetro mensal**: substitui o registro de cada gasto (que o Felipe não vai fazer). 1x/mês ele digita o saldo real do banco; a página compara com o previsto pra hoje e mostra se está acima/abaixo. Pega o drift de esporádicos sem precisar anotar nada.
