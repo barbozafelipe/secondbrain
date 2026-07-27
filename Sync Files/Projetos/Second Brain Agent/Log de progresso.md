@@ -18,7 +18,7 @@ tags: [projeto, ia, mcp, log]
 
 ### Inspiração
 
-Reunião semanal de 02/06 — Wellington apresentou o projeto **Stra** com agentes de IA (SRE, Cloud Architect, FinOps) usando Claude + MCP. Decidi criar meu próprio agente pessoal para aprender a stack e depois contribuir com o time.
+Reunião semanal de 02/06 — Wellington apresentou o projeto **Spectra com agentes de IA (SRE, Cloud Architect, FinOps) usando Claude + MCP. Decidi criar meu próprio agente pessoal para aprender a stack e depois contribuir com o time.
 
 ---
 
