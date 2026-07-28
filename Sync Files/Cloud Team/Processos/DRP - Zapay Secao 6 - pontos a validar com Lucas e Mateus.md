@@ -1,8 +1,11 @@
 ---
 tags: [trabalho, sem-parar, zapay, drp, aws, validação, inventário]
 data: 2026-07-28
-status: validado-via-cli
+status: validado-via-cli-e-time
 ---
+
+> [!success] Retorno do Mateus (2026-07-28)
+> Confirmou a inclusão de Payment (infra avaliada pelo PCI) e Tools (runners, GrowthBook, outros apps compartilhados da plataforma Zapay como um todo). Apontou que o texto só listava as VPCs da conta principal, faltando deixar claro que Payment e Tools também têm VPC própria ativa. Validou banco, cache e mensageria sem ressalvas. Confirmou que o ArgoCD é usado para provisionamento dos serviços e que, por isso, deve compor o escopo de um teste de recuperação. Tudo incorporado na revisão de 2026-07-28 (documento agora com 6.1–6.7, VPCs de Tools e Payment explicitadas, GrowthBook e runners compartilhados mencionados no 6.2, e o ponto do ArgoCD reforçado no 6.7).
 
 # DRP Zapay — Seção 6: inventário validado e pontos para Lucas / Mateus
 
