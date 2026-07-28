@@ -19,7 +19,33 @@ status: validado-via-cli
 
 ### Cluster Kubernetes
 
-- **Um único cluster EKS em produção**: `zapay-one`, v1.34, ACTIVE. Varredura em `sa-east-1`, `us-east-1` e `us-east-2` não encontrou outros. Staging tem `zpy-k8s-cluster-staging` em conta separada (`901943060028`, us-east-2).
+> [!warning] Correção de 2026-07-28 (após retorno do Lucas)
+> A primeira varredura só cobriu as contas `zapay` e `zapay-staging`, porque o inventário de junho havia classificado **Tools** e **Payment** como "fora do perímetro" (contas Corpay). O Lucas corrigiu: **são contas da Zapay e estão no escopo**. Com elas, os "3 clusters" da reunião de 30/06 **se confirmam**.
+
+**Três clusters EKS, todos v1.34, todos com endpoint da API sem exposição pública:**
+
+| Cluster | Finalidade | Conta / Região | VPC | Nós |
+|---|---|---|---|---|
+| `zapay-one` | Produção | Zapay (071032557399) / sa-east-1 | EKS-VPC 192.168.0.0/16 | 73 |
+| `zpy-platform-tools` | Ferramentas | Tools (148761638451) / **us-east-2** | vpc-tools 10.50.0.0/16 | 13 |
+| `zpy-k8s-cluster-staging` | Staging | zapay-staging (901943060028) / us-east-2 | vpc-staging 10.200.0.0/16 | — |
+
+**Ferramentas rodando no `zpy-platform-tools`** (confirmadas pelos ALBs internos): **ArgoCD** (`k8s-argocd-argocdse-*` — esteira GitOps), **HashiCorp Vault** + **Dex** (`k8s-vault-vaulttoo-*`, `k8s-vault-dex-*`), **OpenMetadata**, **DevLake**, ingress-nginx e `zpy-growth`. Bancos da conta Tools: `zpy-db-tools` (PostgreSQL 16.13, t4g.micro) e `devlake-tools` (Aurora MySQL 8.0, t4g.medium) — ambos **sem Multi-AZ**, em us-east-2c.
+
+Nós do cluster de ferramentas por AZ: us-east-2a = 1, us-east-2b = 6, us-east-2c = 6.
+
+### Conta Payment (831926599670) — escopo PCI
+
+- VPC dedicada **`zpy-payment-pci-proxy-vpc`** (10.10.0.0/16), sa-east-1, **6 sub-redes** nas 3 AZs (3 "Private" + 3 "Publica", mas **todas** com `MapPublicIpOnLaunch: false`).
+- **Sem VPC peering e sem Transit Gateway attachment** — rede isolada.
+- **Zero EC2, zero RDS, zero load balancers.** Carga de trabalho integralmente serverless:
+  - **API Gateway REST** `PaymentGatewayAPI` (id `nl6tw7442a`)
+  - **Lambda** `zpy-payment-pci-proxy` — 512 MB, timeout 30s, x86_64, associada às 3 sub-redes privadas. Última modificação: 2025-09-19.
+- Boa notícia para o DRP: escopo PCI minimizado e superfície de recuperação pequena.
+
+### Conta Monitoring (976193234625)
+
+Sem EKS. Apenas 2 EC2 e um LB `suporte-glpi` em us-east-2 — service desk, fora do caminho crítico de débitos veiculares.
 - **73 nós EC2 ativos**, distribuídos: `sa-east-1a` = 27, `sa-east-1b` = 13, `sa-east-1c` = 33.
 - **Zero managed nodegroups, zero Fargate profiles** — os nós são gerenciados pelo **Spot.io / Spotinst Ocean** (confirmado pelas tags `spotinst:aws:ec2:group:*` nas instâncias e pelos nomes de sub-rede `spotinst-eks-stack-Subnet0X`).
 - Endpoint da API do cluster: **público desabilitado, privado habilitado** — só alcançável de dentro da VPC. Isso justifica tecnicamente a obrigatoriedade da VPN.
@@ -93,9 +119,13 @@ Ironia do inventário: a única base Multi-AZ do ambiente é a `zpy-customer-com
 
 Mateus estava certo sobre **Redis** (Multi-AZ + failover automático) e sobre o **cluster** (3 AZs). O ponto do RDS é o que não se sustenta.
 
-### 2. "3 clusters separados" não se confirma
+### 2. "3 clusters separados" — CONFIRMADO
 
-A reunião mencionou "3 clusters separados: ferramentas, aplicações, staging". A varredura encontrou **1 cluster em produção** (`zapay-one`) e **1 em staging**. Vale perguntar se a separação de "ferramentas" existe por namespace dentro do `zapay-one`, ou se está planejada e ainda não implementada.
+A reunião de 30/06 mencionou "3 clusters separados: ferramentas, aplicações, staging". **Confirmado**, uma vez incluída a conta Tools. A lição de método: o inventário de junho excluiu Tools/Payment por convenção de perímetro, e isso produziu uma conclusão errada. Contas "Corpay" nessa organização podem, sim, ser da Zapay — validar caso a caso, não por nome.
+
+### 2b. Esteira de implantação em outra região
+
+O **ArgoCD** vive em us-east-2 (conta Tools), enquanto a produção está em sa-east-1. Isso é favorável num cenário de indisponibilidade regional da produção (a esteira sobrevive), mas cria dependência cruzada: reimplantar aplicações exige que **duas contas e duas regiões** estejam saudáveis. Vale discutir no plano de teste de DR.
 
 ### 3. Contingência do Daycoval na mesma AZ da principal
 
@@ -118,7 +148,8 @@ Nenhum dos planos do AWS Backup tem `CopyActions`. Os cofres vivem em `sa-east-1
 | 1 | Escopo real da **Vercel** | Só site institucional ou a aplicação do usuário final? Muda o entendimento do RTO — o front pode continuar no ar com o back-end fora. |
 | 2 | **MongoDB Atlas** atende débitos veiculares ou só o ONC? | Se for só ONC, sai do escopo desta seção. |
 | 3 | Estágio da migração **Cloudflare → Imperva** | Ajustar o texto se já concluiu. |
-| 4 | **ZapayPayer** (575108926897) participa do fluxo de débitos veiculares? | A descrição "Serviços de pagamento" na tabela 6.1 é suposição. |
+| 4 | **ZapayPayer** (575108926897) participa do fluxo de débitos veiculares? | A descrição "Serviços de pagamento" na tabela 6.1 é suposição — e agora convive com a conta **Payment**, que é a de escopo PCI. Confirmar a diferença entre as duas. |
+| 7 | Bancos da conta **Tools** sem Multi-AZ e backup de 1 dia (`devlake-tools`) | Se o ArgoCD depende do `zpy-db-tools`, a perda dessa base afeta a esteira de implantação. |
 | 5 | **Daycoval** está no caminho crítico de débitos veiculares? | Determina se entra na seção ou se é escopo de outro processo. |
 | 6 | Dependência do **Spot.io** | Confirmar se uma indisponibilidade do Spot.io impede o escalonamento/substituição de nós. |
 
