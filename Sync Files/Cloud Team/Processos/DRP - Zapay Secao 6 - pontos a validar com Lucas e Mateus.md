@@ -14,7 +14,7 @@ status: validado-via-cli-e-time
 >
 > **Todos os dados foram validados via AWS CLI em 2026-07-28**, conta `071032557399` (Zapay prod), região `sa-east-1`.
 >
-> Ver também: [[DRP - Zapay v2.0 (débitos veiculares) - notas de trabalho]] · [[DRP - Metodologia BIA-PCN-DRP (SPDOCS)]] · [[2026-06-16_zapay-account-disambiguation]]
+> Ver também: [[DRP - Zapay v2.0 (débitos veiculares) - notas de trabalho]] · [[DRP - Metodologia BIA-PCN-DRP (SPDOCS)]] · [[2026-06-16_zapay-account-disambiguation]] · [[ZPY - Visao geral do ambiente AWS Zapay (contas, clusters, redes, bancos, PCI)]]
 
 ---
 
