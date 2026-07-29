@@ -22,6 +22,8 @@ Este é o ponto mais importante da decisão e não aparece na história dele:
 - Em muitos contratos, o valor pago durante a obra **não reduz** o saldo a financiar — ele quita a entrada.
 - Se ele comprou há ~3 anos, é provável que **ainda não tenha chegado nas chaves**. A comparação honesta com o meu caso só existe depois desse marco. Vale perguntar a ele diretamente: já pegou as chaves? Qual ficou a parcela do financiamento?
 
+> **Comparação de regiões**: o ranking completo das regiões candidatas (critério: atender Pinheiros + Consolação, arborização, custo-benefício e valorização futura) está em [[Moradia — Ranking de regiões]].
+
 ### Números da região (jul/2026)
 | Referência | Valor |
 |---|---|
