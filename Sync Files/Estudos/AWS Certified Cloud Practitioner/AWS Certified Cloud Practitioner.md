@@ -17,6 +17,11 @@ objetivo: Aprovação no CLF-C02 — prova em 22/08/2026
 > - **Drill (pergunta → resposta → correção imediata) em vez de reler conteúdo.** É o "testing effect"/recuperação ativa — o método com maior retenção comprovada, melhor que reler passivamente.
 > - **Zero estudo na véspera da prova e durante recuperação de cirurgia não é desculpa, é decisão correta.** A memória consolida durante o sono (não durante o estudo), e a carga cognitiva cai de verdade num período de recuperação física — cobrar estudo nesses momentos só gera falha garantida e culpa desnecessária.
 
+> [!tip] Conexão prova ↔ trabalho atual (motivação extra, mapeado 27/07/2026)
+> Pedido do Felipe: estudar não só pra uma prova futura, mas pra algo que já é presente. Mapeamento preciso, sem forçar conexão onde não existe:
+> - **Erros confirmados que já são trabalho real hoje:** Cost Explorer vs. CUR (você vive Cost Explorer no `oci-bucket-cost-daily`, 15/07) · Config/Trusted Advisor/Service Catalog/CloudFormation (é a decisão esteira-vs-Terraform do Chatbot Gringo, call 20/07 com Isaelin/Zaza) · Storage Gateway (conecta com a seção 6 do DRP de ZAPEI que você está escrevendo agora — mesmo domínio conceitual: topologia híbrida e recuperação de desastres).
+> - **Ainda não testado no simulado, mas já é trabalho ativo — antecipar antes de virar erro:** Route 53/ACM/VPC-CIDR (você fez isso de verdade em 14/07 no domínio do Chatbot Gringo, e está no meio da migração de VPC/CIDR do mesmo projeto) · boas práticas de conta root/MFA especificamente (não IAM geral, que você já manda bem — Q11 foi só nessa regra pontual).
+
 > [!warning] Status atual (24/07/2026) — plano v3
 > Prova real: **22/08/2026** (não 01/08 — a data antiga abaixo era do plano v1 e já foi substituída). 1º simulado (06/07): **132/200**. Ponto fraco confirmado: bloco de governança (Config/Trusted Advisor/Service Catalog/SSM/CloudFormation) e Storage Gateway. Semana de 13–20/07 sem estudo (sem compensação). Cirurgia em 05/08 com bloqueio de estudo até 08/08. Tracking detalhado e plano completo em `Sync Files/Pessoal/Vida profissional.md` → seção "CLF-C02 — acompanhamento" (fonte única da verdade — esta nota é conteúdo de referência).
 
