@@ -111,9 +111,11 @@ Convívio social mais frequente com Thiago, João e Lucas (almoços, saídas).
 | Trilha Sem Parar (ESG, LGPD, Assédio)      | 29/05/2026 | Concluído                                                                                                                                              |
 | AWS Certified Cloud Practitioner (CLF-C02) | 31/08/2026 | Prova agendada para 22/08/2026 · 1º simulado em 06/07: **132/200** · **plano de estudos v3 ativo** (recalibrado em 24/07 após semana sem estudo + cirurgia em 05/08) · análise por domínio concluída (ver abaixo)             |
 | Especialização Terraform (Azure + OCI)     | 31/10/2026 | Não iniciado                                                                                                                                           |
-| Ciclo de Inglês Técnico (30h)              | 18/12/2026 | Em progresso, mas cancelei as aulas por questões financeiras com o professor, e não posso voltar a ter aulas tão cedo ainda... não sei como vou fazer. |
+| Ciclo de Inglês Técnico (30h)              | **Congelada** | Meta **congelada em 29/07/2026**. Aulas canceladas por questão financeira com o professor; em vez de deixar a meta como "em progresso" sem execução, foi tirada do ciclo atual do PDI. Retomar quando o caixa permitir (ver [[Financeiro]]). |
 
-**TODO / conflito a resolver:** a decisão financeira de "pausar aulas de inglês até setembro de 2026" (ver [[Financeiro]]) conflita com a meta de Inglês do PDI (em progresso, prazo 18/12/2026). Alinhar.
+> **Conflito resolvido (29/07/2026):** a contradição entre "pausar as aulas de inglês" ([[Financeiro]]) e a meta de Inglês constar como "em progresso" no PDI deixou de existir — a meta foi formalmente congelada, não está mais em aberto.
+
+**Custo de oportunidade registrado (para revisitar, não para culpa):** inglês é a alavanca de renda de maior retorno na minha trilha específica. Cloud + inglês fluente é o que abre contrato PJ internacional em dólar, que é o maior salto de renda disponível no mercado brasileiro de tech e **não exige nada de excepcional** — só remove a barreira do idioma. Congelar a meta é a decisão certa para o caixa de 2026; o que não pode é ela ficar congelada por anos sem uma data de reavaliação. **Reavaliar quando o empréstimo Nubank encerrar (05/11/2026)**, que é quando o fluxo mensal abre.
 
 ### CLF-C02 — acompanhamento
 - **06/07/2026 — 1º simulado** (AWS Skill Builder Assessment, 31 questões): **132/200 — nível "Estabelecido", percentil 74**.
