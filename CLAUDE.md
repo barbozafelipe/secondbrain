@@ -19,6 +19,7 @@
 Felipe alterna entre computadores diferentes, todos apontando pra este mesmo repositório git. **Sessões de chat não são compartilhadas entre máquinas — o vault é o único estado compartilhado.** Isso significa:
 - Ao retomar qualquer acompanhamento contínuo (estudo pra certificação, fitness, carreira etc.), **leia a nota de status relevante antes de responder** — nunca assuma que o histórico da conversa anterior está disponível, mesmo que o assunto pareça já ter sido discutido.
 - Exemplo ativo agora: acompanhamento do **AWS Certified Cloud Practitioner (CLF-C02)**, prova em 22/08/2026. Antes de continuar uma sessão de estudo, ler `Sync Files/Pessoal/Vida profissional.md` → seção "CLF-C02 — acompanhamento" (histórico completo, erros mapeados, plano de estudos ativo) **e** `Sync Files/Estudos/AWS Certified Cloud Practitioner/AWS Certified Cloud Practitioner.md` (status atual/dashboard, princípios de sustentação de hábito).
+- **Acompanhamento ativo desde 29/07/2026 — decisão de compra de imóvel + projeção de carreira/renda.** Antes de responder qualquer coisa sobre salário, benchmark de mercado, futuro financeiro, moradia, aluguel vs. compra ou escolha de bairro, ler **`Sync Files/Pessoal/Análise de futuro — renda, patrimônio e moradia.md`** (nota-mãe: consolida o raciocínio completo, os números já verificados e os pontos em aberto) e, conforme o assunto, `Sync Files/Pessoal/Moradia — Ranking de regiões.md`, `Sync Files/Pessoal/Plano de vida.md` e `Sync Files/Pessoal/Financeiro.md`. **Não refazer análise já feita nem contradizer decisão já registrada** — a nota-mãe tem uma seção "Pontos em aberto" que é por onde continuar.
 - Via de mão dupla: toda sessão que avançar algum desses acompanhamentos deve **atualizar a mesma nota de status ao final** (ou ao longo da conversa), pra que a próxima sessão — nesta máquina ou em outra — já encontre o estado real, sem precisar o Felipe repetir contexto.
 
 ## Estrutura real do vault (mapa canônico)
@@ -28,10 +29,11 @@ Tudo de conteúdo mora sob `Sync Files/`. **Use estes caminhos reais** — não 
 |---|---|
 | Daily notes | `Sync Files/Diário/` (`YYYY-MM-DD.md`) |
 | Captura rápida / ambíguo | `Sync Files/Inbox/` |
-| Trabalho — Azure/AWS/GCP/OCI/Okta/Zscaler/Rancher | `Sync Files/Work/<Provider>/` |
-| Trabalho — certificados | `Sync Files/Work/Certificados/` |
-| Trabalho — carreira / 1:1 / feedback | `Sync Files/Work/Carreira/Sem Parar - Corpay/` |
-| Reuniões semanais | `Sync Files/Work/Reuniões semanais/` |
+| Trabalho — Azure/AWS/GCP/OCI/Okta/Zscaler/Rancher/Elastic | `Sync Files/Cloud Team/<Provider>/` |
+| Trabalho — certificados | `Sync Files/Cloud Team/Certificados/` |
+| Trabalho — processos DevOps | `Sync Files/Cloud Team/Processos/` |
+| Trabalho — carreira / 1:1 / feedback | `Sync Files/Carreira/Sem Parar - Corpay/` e `Sync Files/Carreira/Compass UOL/` |
+| Reuniões semanais | `Sync Files/Cloud Team/Reuniões semanais/` |
 | Estudos / certificações | `Sync Files/Estudos/` |
 | Médico (consultas, exames) | `Sync Files/Médico/<Especialidade>/` |
 | Treino & físico (hub) | `Sync Files/Pessoal/Academia.md` |

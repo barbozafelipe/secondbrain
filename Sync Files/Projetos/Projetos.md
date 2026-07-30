@@ -5,6 +5,8 @@
 	- [[Configuração MCP]]
 	- [[Log de progresso]]
 	- [[Prompt — Second Brain Agent]]
+- **Workday Tray**
+
 
 %% End Waypoint %%
 

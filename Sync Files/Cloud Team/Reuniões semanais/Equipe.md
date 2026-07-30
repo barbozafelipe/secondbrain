@@ -1,12 +1,12 @@
 ---
 tags: [trabalho, sem-parar, equipe, squad, referência]
-atualizado: 2026-07-07
+atualizado: 2026-07-29
 ---
 
 # Equipe — Cloud & Infraestrutura
 
 > Mapa de quem faz o quê no squad de infra/cloud da Sem Parar (Corpay).
-> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]], [[19-05-2026]], [[26-05-2026]], [[02-06-2026]], [[16-06-2026]], [[23-06-2026]], [[30-06-2026]], [[07-07-2026]]).
+> Fonte: reuniões semanais ([[07-04-2026]], [[14-04-2026]], [[28-04-2026]], [[05-05-2026]], [[12-05-2026]], [[19-05-2026]], [[26-05-2026]], [[02-06-2026]], [[16-06-2026]], [[23-06-2026]], [[30-06-2026]], [[07-07-2026]], [[29-07-2026]]).
 
 ---
 
@@ -136,8 +136,11 @@ atualizado: 2026-07-07
 | **Everton**                   | Ex-membro do time de Network (Diogo) — saiu da empresa, deixando gap no time                                |
 | **Samuel**                    | DBA Oracle — responsável pela base de imagens de 380TB. Ponto de contato de Guilherme para decisões de storage/contingência |
 | **Laís**                      | Auditora/contato no time de PCI — referência para prazos e solicitações de evidências da auditoria          |
+| **Amanda Borges Pain**        | Área de negócios (B2B) — solicitou configuração de e-mail contato@olhonocarro.com.br em ferramenta 100desk  |
+| **Diego Sanches**             | Gringo — envolvido na força-tarefa de coleta de evidências PCI organizada por Rafael Humberto               |
+| **Matias (RealCloud/SpotInst)** | Contato comercial/técnico da RealCloud/SpotInst — VPA automático e otimização de clusters                 |
 
 ---
 
 > [!note] Atualização
-> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada nas reuniões de [[30-06-2026]] e [[07-07-2026]].
+> Essa nota é atualizada conforme novas reuniões adicionam contexto. Última atualização baseada nas reuniões de [[07-07-2026]] e [[29-07-2026]].

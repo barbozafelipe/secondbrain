@@ -159,5 +159,18 @@ Riscos que ficam de vigilância (não resolvidos, dependem de dados/decisão do 
 - TV, painel e guarda-roupa são reaproveitáveis na mudança pro apartamento (não é gasto perdido); **cadeira e divisória também, são coisas que vou utilizar no apartamento**.
 - **Ponto real de atenção**: os R$ 10.950 do quarto competem diretamente pelo mesmo caixa que deveria semear a reserva de R$ 16-21k. Não são dois orçamentos separados — é a mesma sobra mensal disputada por dois objetivos com prazos bem diferentes (quarto = agora, independência = 2027).
 
+### ⚠️ Atualização 29/07/2026 — a tensão mudou de forma com a hipótese de compra
+Passei a cogitar **comprar um apartamento na planta** (região Vila Sônia) em vez de alugar em 2027 — detalhes, números e rotas em [[Plano de vida]]. Impacto direto neste arquivo:
+
+- **O plano do quarto fica ainda mais caro em custo de oportunidade.** Se a rota for comprar, os R$ 10.950 deixam de competir só com a reserva de aluguel e passam a competir com a **entrada + ITBI/registro (R$ 16-20k)** de um imóvel. Móvel comprado agora para um quarto que eu deixaria em ~2029-2030 continua reaproveitável, mas o dinheiro parado nele não rende nem entra na entrada.
+- **Ordem correta das prioridades de caixa** (da mais cara para a mais barata em juros):
+  1. Rotativo do PicPay (~7,2%/mês) — quitar e não reabrir.
+  2. Empréstimo Nubank (CET 109,49% a.a.) — termina 05/11/2026.
+  3. Reserva de emergência de R$ 1.000 reconstruída (hoje zerada pelo evento do iPad).
+  4. **Só então** assumir qualquer compromisso de longo prazo (parcela de obra).
+- **Regra**: não assinar contrato de compra enquanto 1 e 2 estiverem abertos. Parcela de obra é obrigação dura de 3+ anos; rotativo aberto junto com isso é a combinação que quebra o plano.
+- **Fato a não esquecer**: a parcela de obra de R$ 700-1.200 que parece barata **não é a prestação do apartamento** — é a entrada parcelada, corrigida por INCC. A prestação real (R$ 2.400-3.500 + condomínio) só aparece nas chaves. Ver [[Plano de vida]].
+- **Renda do casal atualizada**: Bia ~R$ 6.000 líquidos (mais que meus R$ 4.702,43). Renda somada ~R$ 10.700 líquidos — é o que torna a compra viável, e também o que exige a estrutura jurídica descrita em [[Plano de vida]].
+
 ---
-_Atualizado: 2026-07-24 — reconciliação completa de faturas via extratos reais; rotativo do PicPay identificado; datas de pagamento corrigidas (30/07, 28/08 etc.); esporádicos medidos (R$600/mês); projeção verificada em Python (fim de ano R$7.281,97, menor saldo R$448,54); dashboard reconstruído com recálculo ao vivo._
+_Atualizado: 2026-07-29 — hipótese de compra de imóvel na planta (Vila Sônia) incorporada à tensão estratégica: ordem de prioridade de caixa, regra de não assinar contrato com dívida cara aberta, distinção parcela de obra vs. prestação, renda do casal atualizada. Anterior: 2026-07-24 — reconciliação completa de faturas via extratos reais; rotativo do PicPay identificado; datas de pagamento corrigidas (30/07, 28/08 etc.); esporádicos medidos (R$600/mês); projeção verificada em Python (fim de ano R$7.281,97, menor saldo R$448,54); dashboard reconstruído com recálculo ao vivo._
