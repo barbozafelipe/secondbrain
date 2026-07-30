@@ -2,8 +2,6 @@
 - **[[AWS]]**
 - **[[Azure]]**
 - **[[Certificados]]**
-- **Elastic**
-	- [[CTASK0137369 - Atualização índice no Elasticsearch]]
 - **[[GCP]]**
 - **[[OCI]]**
 - **[[Okta]]**
