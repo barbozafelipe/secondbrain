@@ -9,7 +9,6 @@
 - [[[Azure] Localizar certificado ianoapp (diagnóstico)]]
 - [[[Azure] Trocar certificado ianoapp pelo portal (procedimento)]]
 - [[[RKE] Trocar certificado console.mgmt.rke.corpay.com.br (TLS termina no F5, nao no cluster)]]
-- [[Rotação de certificados]]
 - [[Sem título]]
 
 %% End Waypoint %%
