@@ -112,6 +112,7 @@ Plano anterior: alugar em 2027 (Tucuruvi). Nova intenção: **comprar na planta*
 
 ## 7. Pontos em aberto para próximas sessões
 
+- [ ] **Contato ativo (29/07/2026)**: corretora da Vivaz Residencial (Cyrela) ofereceu lançamento próximo à estação Vila Sônia. Reputação Cyrela/Vivaz: nota 7.7/10 no Reclame Aqui (financeiramente sólida, mas pós-venda/entrega com defeitos é queixa recorrente — exigir vistoria minuciosa antes do aceite). **Regra dura continua valendo: não assinar nada antes de 05/11/2026 e com PicPay rotativo zerado**, mesmo com pressão de "condição especial".
 - [ ] Perguntar ao colega da Vila Sônia: **já pegou as chaves? Quanto ficou a parcela do financiamento?** — é a informação que valida ou derruba a referência inteira
 - [ ] Simular enquadramento **MCMV sozinho e com a renda da Bia somada** (somar pode tirar da faixa subsidiada e encarecer o financiamento)
 - [ ] Definir estrutura jurídica da compra com a Bia (escritura com dois nomes e frações, ou união estável registrada) — ver [[Plano de vida]]
