@@ -54,6 +54,20 @@
 
 **Conexão com o [[Plano de vida]]:** o objetivo de sair de casa é em **2027** (aos 24 anos) — **antes** da meta de R$ 8k aos 25 (início de 2028). Ou seja, a saída de casa não deve depender de bater essa meta salarial primeiro; ela já está sendo bancada pela reserva de independência (~R$ 16.400–21.050 da minha parte, ver [[Plano de vida]]), não pelo salário futuro. São dois marcos com timelines diferentes — não amarrar um ao outro.
 
+### 🎯 Atualização 31/07/2026 — a meta salarial ganhou um número exato: **R$ 7.177**
+
+A hipótese de **comprar apartamento na planta** amarrou salário e moradia de um jeito que antes não existia. Simulação real da Caixa (ver [[Moradia — Empreendimentos avaliados]]):
+
+- Com **R$ 6.077,29** de bruto, o financiamento máximo é R$ 242.904 → entrada exigida de **R$ 117.796** num imóvel de R$ 360.700.
+- Com **R$ 7.177** de bruto, o financiamento sobe para R$ 288.560 → a entrada cai para o piso de 20%, **R$ 72.140**.
+- **R$ 1.100 a mais de salário bruto elimina R$ 45.656 de entrada exigida.** Acima de R$ 7.177 não melhora mais — o piso do programa passa a mandar.
+
+**Implicações diretas:**
+1. **R$ 7.177 é um alvo intermediário melhor que R$ 8.000 aos 25** — está a apenas 18% do atual, e é onde o retorno financeiro é máximo e descontínuo. Depois dele, o retorno de salário adicional na conta do imóvel é zero.
+2. **É o item de maior retorno financeiro do próximo ano, acima de qualquer corte de gasto.** Nenhuma disciplina de consumo gera R$ 45.656 em 18 meses; um degrau de promoção gera.
+3. O ponto de 24/07 — *"o gargalo não é competência técnica, é precisar agir ativamente"* — deixou de ser abstrato. Agora tem preço.
+4. **Estabilidade também virou requisito duro**: admissão em 17/11/2025 (8 meses de casa em bodyshop), e o banco reavalia renda **e vínculo** na entrega das chaves. Com 2 desligamentos em 3 empregos anteriores, trocar de emprego perto da assinatura ou das chaves é risco real de financiamento negado. Isso favorece a rota **promoção interna** sobre a rota **troca de emprego**, ao contrário do que a análise de 24/07 sugeria.
+
 ## Atuação técnica
 Cloud Engineer em ambiente multi-cloud (**AWS, Azure e OCI**) em um dos maiores ecossistemas de mobilidade e pagamentos da América Latina. Squad de infraestrutura responsável por +30 contas AWS e múltiplas subscriptions Azure.
 - **Responsabilidades principais no cliente: Azure e OCI** (responsável principal).

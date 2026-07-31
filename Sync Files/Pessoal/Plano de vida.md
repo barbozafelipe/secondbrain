@@ -62,8 +62,12 @@ Comprar na planta **não** resolve moradia em 2027 — o imóvel fica pronto só
 5. **MCMV**: verificar enquadramento. Atenção contraintuitiva — **somar a renda da Bia pode me tirar da faixa subsidiada** e encarecer o financiamento. Simular sozinho e em conjunto antes de decidir em nome de quem o imóvel fica.
 6. **Reservar ITBI/registro** (R$ 16-20k) separado do resto.
 
-### ⚠️ Atualização 31/07/2026 — a pré-condição nº 2 foi calculada, e reprova
-Ver **[[Moradia — Empreendimentos avaliados]]**. Com renda bruta de R$ 6.077,29 e o limite da Caixa de 30% de comprometimento, a parcela máxima é **R$ 1.823/mês**, o que financia ~R$ 187k e comporta um imóvel de **~R$ 233k** — não os R$ 400-500k estimados acima. Um apartamento de R$ 360.700 exige **R$ 9.247 de renda bruta**. **A compra em 2026 não fecha em nenhuma das três rotas.** O destravador é a promoção a sênior (R$ 10k bruto → imóvel de ~R$ 391k), prevista para 2029-2031 — o que, por coincidência, alinha a compra com o prazo natural da Rota A.
+### ⚠️ Atualização 31/07/2026 — a pré-condição nº 2 foi cumprida, e reprova
+Ver **[[Moradia — Empreendimentos avaliados]]**. **A simulação real da Caixa chegou**: imóvel de R$ 360.000 → **entrada mínima de R$ 116.824,74** + R$ 18.000 de ITBI, financiamento máximo R$ 243.175,26, parcela R$ 1.823,19 (PRICE, 420 meses). Contra R$ 3.668,85 de FGTS: **falta R$ 132.127**, que parcelado até as chaves seria **R$ 7.362/mês — 157% do salário líquido**. **A compra em 2026 não fecha em nenhuma das três rotas.**
+
+A entrada é 32,7% e não os 20% do programa **porque a renda é o gargalo, não o LTV**. O destravador exato é **R$ 7.177 de renda bruta**: aí a entrada cai para o piso de R$ 72.140. Isso está a 18% de distância e é um degrau de promoção — não anos de poupança.
+
+Custo mensal real pós-chaves seria R$ 1.823,19 + condomínio (~R$ 600) + IPTU = **R$ 2.513/mês, 53% do líquido**, contra os R$ 1.500 que eu mesmo defini como confortável ao corretor.
 
 Também descoberto: os lançamentos acessíveis nessa faixa são **HIS 2**, com renda familiar máxima de R$ 9.726 (**compor com a Bia inviabiliza a compra** — resolve a questão jurídica abaixo por eliminação) e restrição de revenda/locação averbada na matrícula por **10 anos**, o que conflita com o plano de alugar o imóvel aos ~30.
 

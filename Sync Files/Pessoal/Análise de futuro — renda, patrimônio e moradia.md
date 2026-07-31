@@ -120,8 +120,13 @@ Análise completa em **[[Moradia — Empreendimentos avaliados]]** (In Next Tucu
 
 ## 7. Pontos em aberto para próximas sessões
 
-- [ ] **Resolver ambiguidade (31/07/2026)**: o folhetão trazido como "Vila Sônia" é do **Grand Vivaz Lapa 2 (Rua Félix Guilhem, 900, Lapa de Baixo)**. Confirmar com a corretora o nome e endereço reais do empreendimento ofertado.
-- [ ] **Mandar às corretoras as 10 perguntas de [[Moradia — Empreendimentos avaliados]]** — em especial a nº 4 (simulação Caixa da parcela pós-chaves com R$ 6.077,29 sozinho). É a que confirma ou derruba a conta acima.
+- [x] ~~Resolver ambiguidade "Vila Sônia" vs. Lapa~~ — **resolvido 31/07**: o Vivaz Estação Vila Sônia existe e está em pré-lançamento sem tabela; o folhetão da Lapa era referência de produto.
+- [x] ~~Obter a simulação Caixa~~ — **obtida 31/07**, ver acima.
+- [ ] **Meta operacional derivada: chegar a R$ 7.177 de renda bruta.** É o número que reduz a entrada exigida pela metade. Está a 18% de distância. Ver [[Vida profissional]] — isso torna a promoção a Sênior o item de maior retorno financeiro do próximo ano, acima de qualquer corte de gasto.
+- [ ] **Não assinar a Autorização de Análise de Crédito (DRIVECRED)** enquanto a compra não fechar na conta.
+- [ ] **Transcrever os 3 áudios da corretora Nelia de 31/07 07:49-07:50** (Claude não transcreve voz) — vieram junto com o print da simulação e podem conter estrutura de pagamento alternativa.
+- [ ] **Pedir simulação da tipologia "1 DORM + OFFICE" do In Next Mazzei (R$ 292.400)** — é o caso de uso real (1 quarto + escritório), R$ 68.300 mais barato, e derruba a entrada de R$ 117.796 para R$ 58.480.
+- [ ] **Cobrar do corretor Paiva a tabela do Vila Sônia** e uma simulação numérica de verdade — o que ele chamou de "pré-aprovação" era só uma consulta cadastral com "NADA CONSTA".
 - [ ] **Reavaliar a Lapa como região.** Ela não estava no ranking de 29/07 e sai melhor que a Zona Norte nos dois trajetos (Pinheiros ~30-35 min; e Consolação **direto, sem baldeação**, quando o trecho Perdizes→São Joaquim da Linha 6 abrir em 2027). Santa Marina inaugurou em 02/07/2026.
 - [ ] **Contato ativo (29/07/2026)**: corretora da Vivaz Residencial (Cyrela) ofereceu lançamento próximo à estação Vila Sônia. Reputação Cyrela/Vivaz: nota 7.7/10 no Reclame Aqui (financeiramente sólida, mas pós-venda/entrega com defeitos é queixa recorrente — exigir vistoria minuciosa antes do aceite). **Regra dura continua valendo: não assinar nada antes de 05/11/2026 e com PicPay rotativo zerado**, mesmo com pressão de "condição especial".
 - [ ] Perguntar ao colega da Vila Sônia: **já pegou as chaves? Quanto ficou a parcela do financiamento?** — é a informação que valida ou derruba a referência inteira
