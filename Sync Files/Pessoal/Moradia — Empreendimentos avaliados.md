@@ -297,6 +297,17 @@ Projeto **Vivaz Estação Vila Sônia em pré-lançamento, sem tabela**. Já rec
 
 **Pendência final**: valor do Ato (entrada inicial) e valor aproximado de cada reforço semestral/anual — únicos dois números que faltam para montar o fluxo de caixa completo mês a mês. **Também descoberto**: "final 6" é válido do 2º ao 9º pavimento — o preço varia ~R$ 3-5 mil por andar, então falta confirmar em qual andar há disponibilidade.
 
+### Preços reais por andar (confirmados 31/07/2026)
+
+| Andar | Preço | Entrada (20%, trava LTV) | + ITBI | Gap vs. FGTS | Parcela-base s/ Ato/reforço (39x) |
+|---|---|---|---|---|---|
+| 6º e 7º | R$ 299.600 | R$ 59.920 | R$ 14.980 | R$ 71.231 | R$ 1.536/mês |
+| 8º e 9º | R$ 302.700 | R$ 60.540 | R$ 15.135 | R$ 72.006 | R$ 1.552/mês |
+
+**O andar quase não muda a conta** (diferença de R$ 775 no gap entre os extremos) — dentro da faixa de preferência do Felipe (6 a 10), pode escolher por outro critério que o impacto financeiro é desprezível. Ato e reforço **ainda não informados** — Nelia repetiu a mesma estrutura genérica (Ato + 39 mensais + "pode incluir" semestral/anual) sem valores, confirmando que só saem com a simulação real.
+
+**Quinta ocorrência do padrão de urgência (31/07)**: "é o último dia do mês, pode ter alteração no valor" — dessa vez junto a números reais de tabela, então mais crível como rotina operacional do que as anteriores. Não muda a situação do Felipe: sem o valor do Ato, não há como agir independentemente do preço subir ou não.
+
 - [ ] ⚠️ **Quarta ocorrência do padrão (31/07)**: antes mesmo de Felipe reenviar a pergunta pendente, Nelia mandou mensagem não solicitada com números de valorização de outros empreendimentos dela mesma (não verificáveis, autorreferidos) + lista de mais de 10 outros projetos/incorporadoras que vende. Não respondeu Ato nem reforço. Padrão consolidado: escassez artificial → urgência temporal → desvio de perguntas → gatilho de FOMO por valorização não verificada. Felipe orientado a ignorar a parte de valorização e reenviar a pergunta original sem alteração de foco.
 - [ ] Orientação solar do **Tipo G do Tucuruvi (final 08)** fica em segundo plano agora, mas ainda vale verificar no Google Maps satélite se o Mazzei não fechar (endereço já existe: R. Paulo de Faria, 384).
 - [ ] **Confirmar se o final 09 tem varanda** — o anúncio diz "36m² com Varanda", a planta Tipo H não mostra varanda claramente.
