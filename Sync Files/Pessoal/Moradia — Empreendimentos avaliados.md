@@ -277,7 +277,25 @@ Projeto **Vivaz Estação Vila Sônia em pré-lançamento, sem tabela**. Já rec
 - [ ] Confirmar status de registro de incorporação e previsão de entrega do Mazzei (pré-lançamento, ainda não informado).
 - [x] **Foco mudou (31/07): Felipe decidiu priorizar o Mazzei 1D+Office sobre o In Next Tucuruvi.** Confirmado que quer especificamente o **final 6** (Tipo C, 30,02 m²). Simulação simples pedida à Nelia baseada nesse final — aguardando retorno.
 - [ ] ⚠️ **Segunda ocorrência de tática de urgência da mesma corretora/grupo (31/07, tarde)**: "vem hoje/sábado/domingo, tabela pode subir 2-5% quando virar o mês". Mesmo padrão da escassez artificial já registrada no Tucuruvi ("só tem uma unidade" → "voltou uma unidade" 23 min depois). Felipe recusou a visita corretamente e manteve o plano de entender por mensagem primeiro. **Nota para reforçar se repetir**: 2-5% sobre R$ 292.400 (R$ 5.848-14.620) é irrelevante perto do gap real de caixa (R$ 69.431 vs. FGTS de R$ 3.668,85) — não há argumento de "preço subindo" que mude essa conta, e a regra de não assinar antes de 05/11/2026 continua valendo independente de qualquer promoção.
-- [ ] ⚠️ **Terceira ocorrência — desvio de pergunta direta (31/07)**: Felipe mandou 7 perguntas técnicas/financeiras específicas (preço exato do final 6, entrada, parcelas, balão/reforço, correção INCC, prazo de obra, registro de incorporação, condomínio, vaga). Nelia respondeu com elogio genérico ao prédio (construção convencional vs. estrutural — tecnicamente real, mas não responde nada) e oferta de outros projetos/regiões (Parada Inglesa). **Nenhuma das 7 perguntas foi respondida.** Felipe foi orientado a reenviar a lista numerada e insistir nas respostas antes de qualquer avanço. Padrão consolidado desta corretora: escassez artificial + urgência temporal + desvio de perguntas concretas — três ocorrências diferentes em menos de 48h.
+- [x] ~~Terceira ocorrência — desvio de pergunta direta~~ — **respondida na segunda tentativa (31/07).** Registro consolidado abaixo.
+
+### ✅ Respostas de Nelia às 7 perguntas (31/07/2026, segunda tentativa)
+
+| Pergunta | Resposta |
+|---|---|
+| Preço exato | "A partir de R$ 292.400" (ainda não é valor fechado do final 6) |
+| Entrada | "Depende do valor de aprovação do financiamento" — consistente com o cálculo já feito (R$ 58.480, trava LTV 80%) |
+| Estrutura de pagamento | **Ato + 39 parcelas** |
+| Balão/reforço | **Confirmado: "pode incluir semestral e anuais"** — valor não informado |
+| Correção | INCC, "sempre com o índice de dois meses antes" (padrão de mercado, sem taxa numérica) |
+| Prazo de obra | **36 meses + 180 dias — entrega prevista 11/2029** |
+| Registro de incorporação | **Sim, já registrado** — resolve o risco legal |
+| Condomínio | **R$ 10/m² × tamanho ≈ R$ 300/mês** (bem menor que a estimativa genérica de R$ 600 usada antes — atualizar) |
+| Vaga | **Só nos apartamentos de 2 dormitórios.** No 1D+Office não tem; vagas avulsas existem mas "não liberadas no momento" |
+
+**Cálculo da parcela-base** (ignorando reforços, que ainda não têm valor): R$ 58.480 ÷ 39 ≈ **R$ 1.499/mês** — já maior que a sobra projetada de R$ 800-1.200/mês em [[Financeiro]], antes mesmo de somar os reforços semestrais/anuais. **"Tranquilo" ainda não confirmado pelos números.**
+
+**Pendência final**: valor do Ato (entrada inicial) e valor aproximado de cada reforço semestral/anual — únicos dois números que faltam para montar o fluxo de caixa completo mês a mês.
 - [ ] Orientação solar do **Tipo G do Tucuruvi (final 08)** fica em segundo plano agora, mas ainda vale verificar no Google Maps satélite se o Mazzei não fechar (endereço já existe: R. Paulo de Faria, 384).
 - [ ] **Confirmar se o final 09 tem varanda** — o anúncio diz "36m² com Varanda", a planta Tipo H não mostra varanda claramente.
 - [ ] **Conferir meses totais de CLT na CTPS digital** (condição de cotista FGTS = taxa menor).
