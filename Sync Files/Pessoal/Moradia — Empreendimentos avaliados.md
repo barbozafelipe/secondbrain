@@ -129,6 +129,44 @@ Todos com incorporação Rit Realty / RTE / Vazplan e intermediação Drive:
 - O **vídeo do decorado enviado é do In Next Mazzei**, não da unidade avaliada (*"é a mesma planta, só muda a posição da porta"*). O Felipe nunca viu por dentro a unidade que está considerando.
 - *"Obras aceleradas!"*, *"Pré lançamento, uma correria"*, *"Chegou a sua vez de sair do aluguel!!"*.
 
+## 2.3 Terceiro projeto: Plano&Mais Butantã (Cury/Plano&Plano) — descoberto 31/07/2026
+
+Indicado pelo amigo Jean como alternativa após comparação equivocada com o Mazzei (ver seção de "achados via amigo" abaixo). Achado por conta própria do Felipe navegando no site da Cury.
+
+| Campo | Valor |
+|---|---|
+| Endereço | Av. Eliseu de Almeida, 1830 — Butantã, São Paulo/SP |
+| Construtora | **Cury (Plano&Plano)** — grande, capital aberto (B3: CURY3), foco em MCMV/HIS em escala, bom histórico de entrega |
+| Status da obra | **"Em Construção"** — mais avançado que o Mazzei (pré-lançamento) e muito mais que a Vila Sônia (nem R.I. tem ainda) |
+| Preço | "A partir de R$ 228.681" — provavelmente unidade menor (1 dorm, ~27m²). 2 dorms/35m² visto revendido por R$ 323.900 em site terceiro (não é preço oficial) |
+| Tipologias | 1 e 2 dormitórios |
+| Enquadramento | **HIS-1 e HIS-2 misturados no mesmo prédio** — teto de renda pode variar por unidade; confirmar qual classificação se aplica à unidade de interesse (HIS-1 tem teto mais baixo que HIS-2; possível que a renda de R$6.077,29 sozinho ultrapasse o teto do HIS-1 para algumas unidades) |
+| Lazer | Piscina, churrasqueira, brinquedoteca, portaria — completo |
+
+### Transporte — o melhor resultado de todos até agora
+
+Fica a ~200-300m da **Estação São Paulo-Morumbi (Linha 4-Amarela)** — já existente e operando, sem depender de obra futura. Pelo [Ranking de regiões](Sync%20Files/Pessoal/Moradia%20—%20Ranking%20de%20regiões.md):
+
+| Estação | Até Pinheiros | Até Consolação (Bia) |
+|---|---|---|
+| Vila Sônia | 3 estações | 7 estações |
+| **São Paulo-Morumbi** | **2 estações** | **6 estações** |
+| Butantã | 1 estação | 5 estações |
+
+**Melhor que a Vila Sônia nos dois trajetos, sem apostar em valorização futura incerta.**
+
+### Por que está "barato" — não é local ruim
+
+1. **HIS** — preço limitado por decreto municipal, mesmo mecanismo do Mazzei/Tucuruvi (restrições de 10 anos e teto de renda se aplicam igual).
+2. **Colado na Rodovia Raposo Tavares** — trade-off real de ruído/poluição; verificar se a unidade de interesse dá pra rodovia ou pra rua interna.
+3. **Cury constrói compacto e em escala** — reduz custo por eficiência, não por localização ruim.
+
+### Corretora ativa: Bali (Plano&Plano) — WhatsApp desde 31/07
+
+Contato comercial reativo (empresa entrou em contato, não o Felipe). Mensagem inicial enviada com as mesmas 10 perguntas estruturadas que funcionaram com Nelia/Paiva, incluindo a pergunta nova sobre HIS-1 vs HIS-2 e sobre orientação/exposição à rodovia. Aguardando resposta.
+
+---
+
 ## 2.2 Tipologia "1 DORM + OFFICE" no In Next Mazzei — **TEM janela sim, corrigido em 31/07**
 
 Na tabela de pré-lançamento enviada em 30/07:
