@@ -8,17 +8,69 @@ fonte: conversa-claude
 
 # Moradia — Empreendimentos avaliados
 
-> **TL;DR:** Dois empreendimentos analisados em 31/07/2026 (In Next Tucuruvi e Grand Vivaz Lapa 2). **Nenhuma das unidades de 2 dormitórios é comprável pelo Felipe sozinho com a renda de hoje** — a parcela pós-chaves do Tucuruvi exige R$ 9.247 de renda bruta contra os R$ 6.077,29 atuais. O destravador não é a entrada, é a promoção. E os dois são **HIS 2**, o que trava revenda/locação por 10 anos e conflita com o plano de alugar o imóvel aos ~30 anos.
+> **TL;DR:** **A simulação real da Caixa chegou em 31/07/2026 e fecha a questão: entrada mínima de R$ 116.824,74** para um imóvel de R$ 360.000, mais R$ 18.000 de ITBI. O Felipe tem R$ 3.668,85 de FGTS. **Gap de R$ 132.127** — que diluído até as chaves daria R$ 7.362/mês, ou 157% do salário líquido inteiro. Não é apertado, é aritmeticamente impossível. **O gatilho concreto é chegar a R$ 7.177 de renda bruta**, quando a entrada exigida despenca de R$ 117.796 para o piso de 20% (R$ 72.140).
 
 Nota-mãe: [[Análise de futuro — renda, patrimônio e moradia]]. Critérios de região: [[Moradia — Ranking de regiões]]. Rotas e pré-condições: [[Plano de vida]]. Capacidade de caixa: [[Financeiro]].
 
 ---
 
-## ⚠️ Ambiguidade a resolver antes de qualquer coisa
+## 0. A simulação real da Caixa (31/07/2026, 07:48 — corretora Nelia)
 
-A corretora da Vivaz foi registrada em 29/07 como tendo um lançamento **próximo à estação Vila Sônia**. O folhetão que ela (ou o Felipe) trouxe em 31/07 é do **Grand Vivaz Lapa 2 — Rua Félix Guilhem, 900, Lapa de Baixo** (confirmado na letra miúda: CBR MAGIK LZ 24, memorial prenotado sob nº 674397 no 10º CRI/SP).
+Print enviado pela corretora, para imóvel de R$ 360.000:
 
-Hipóteses: (a) o book da Lapa foi mandado só como referência de planta — as tipologias FIT/SMART/CONECT são padronizadas em toda a linha Vivaz; (b) a oferta mudou para a Lapa; (c) arquivo errado. **Perguntar o nome exato e o endereço do empreendimento.**
+| Campo | Valor |
+|---|---|
+| Valor do imóvel | R$ 360.000,00 |
+| **Valor mínimo de entrada** | **R$ 116.824,74 (32,5%)** |
+| Valor máximo de financiamento | R$ 243.175,26 |
+| Taxa efetiva | 8,47% a.a. |
+| Sistema | **PRICE**, parcelas fixas |
+| Prazo máximo | **420 meses** (35 anos) |
+| Primeira parcela | **R$ 1.823,19** |
+| ITBI e outras despesas | R$ 18.000 (~5%) |
+
+**R$ 1.823,19 é exatamente 30% de R$ 6.077,29** — o teto de comprometimento da Caixa. O banco liberou o máximo absoluto que a renda comporta e ainda assim parou em R$ 243.175. A entrada não é 20% por exigência do programa: **é 32,7% porque a renda não alcança o resto.**
+
+- **Custo total do financiamento**: R$ 1.823,19 × 420 = **R$ 765.740** sobre R$ 243.175 financiados = **3,15x**. Última parcela em **2061, aos 58 anos**.
+- **Custo mensal real pós-chaves**: parcela R$ 1.823,19 + condomínio ~R$ 600 + IPTU ~R$ 90 = **R$ 2.513/mês = 53% do líquido**. O Felipe disse ao corretor Paiva que queria R$ 1.500 (parcela + condomínio). Com R$ 1.500 all-in, o que fecha é um imóvel de **~R$ 128.000** — não existe no mercado.
+
+### Gap de caixa
+| | |
+|---|---|
+| Entrada + ITBI/registro | **R$ 135.796** |
+| FGTS disponível (informado 29/07) | R$ 3.668,85 |
+| **Falta** | **R$ 132.127** |
+| Diluído nov/26 → chaves mar/28 (16 meses) | **R$ 7.362/mês = 157% do salário líquido** |
+
+### O gatilho: R$ 7.177 de renda bruta
+| Renda bruta | Financia | Entrada exigida |
+|---|---|---|
+| **R$ 6.077 (hoje)** | R$ 242.904 | **R$ 117.796** |
+| R$ 7.000 | R$ 281.256 | R$ 79.444 |
+| **R$ 7.177** | R$ 288.560 | **R$ 72.140** ← piso de 20% |
+| R$ 9.000+ | R$ 288.560 | R$ 72.140 (não melhora mais) |
+
+**R$ 1.100 a mais de bruto elimina R$ 45.656 de entrada exigida.** Depois de R$ 7.177 o piso de 20% do programa passa a mandar e ganhar mais não ajuda. → **A meta não é "juntar entrada", é chegar a R$ 7.177 de bruto.** Está a 18% de distância; é um degrau de promoção; é gratuito. Ver [[Vida profissional]].
+
+---
+
+## 0.1 ⚠️ O "pré-aprovado" do corretor Paiva não é uma aprovação
+
+Em 29/07 21:55 o Paiva enviou um PDF e afirmou: *"Quando acontece esses casos, seu crédito já está pré aprovado"* e *"você consegue comprar tranquilamente!"*.
+
+O PDF é uma **"Pesquisa Cadastral Simplificada"** do sistema Caixa Aqui, resultado **`[NADA CONSTA]`** — ou seja, **apenas ausência de restrição no CPF**. Não avalia renda, não avalia valor de imóvel, não calcula parcela. **Não é análise de capacidade.**
+
+Contraste em 34 horas: consulta de nome limpo → *"compra tranquilamente"* (29/07) · simulação com renda real → **entrada de R$ 116.824,74** (31/07). A segunda é a verdadeira.
+
+**Regra derivada: só aceitar como "aprovação" um documento que contenha renda, valor do imóvel, prazo e parcela.** Consulta cadastral, Serasa limpo e "pré-aprovação" verbal não são nada.
+
+---
+
+## ⚠️ Ambiguidade RESOLVIDA (31/07/2026)
+
+O **Vivaz Estação Vila Sônia existe** — o corretor Paiva confirmou por escrito em 29/07: *"Vamos realizar um lançamento de apartamentos próximo da estação Vila Sônia"*, em **pré-lançamento, ainda sem tabela de preços**. O folhetão do **Grand Vivaz Lapa 2** foi enviado como **referência de produto** (tipologias FIT/SMART/CONECT são padronizadas em toda a linha Vivaz). Não houve troca de oferta nem arquivo errado.
+
+**Pendência: cobrar a tabela do Vila Sônia quando sair, e exigir simulação numérica (não consulta cadastral).**
 
 ---
 
@@ -56,6 +108,48 @@ Hipóteses: (a) o book da Lapa foi mandado só como referência de planta — as
 
 **Ponto estratégico:** as unidades **CONECT MAX (36,72 e 39,46 m²) são R2V — sem nenhuma restrição de HIS.** São a versão do imóvel que poderia ser alugada livremente, e são o comparável honesto do Tipo H de 36,52 m² do Tucuruvi (o SMART de 31 m² é 16% menor). **Pedir preço.**
 
+## 2.1 São TRÊS empreendimentos do mesmo grupo, e a corretora os mistura
+
+Todos com incorporação Rit Realty / RTE / Vazplan e intermediação Drive:
+
+| | **In Tucuruvi** | **In Next Tucuruvi** | **In Next Mazzei** |
+|---|---|---|---|
+| Endereço | Av. Dr. Antônio Maria de Laet, 275 | R. Paulo de Faria, 384 (Vila Gustavo) | Av. Mazzei |
+| Entrega | **Dez/2026** | Jun/2027 → Mar/2028 | Pré-lançamento |
+| Unidades | 230, 31 pavimentos | 138, 19 pavimentos | — |
+| Vagas | **103 vagas** | **Zero** | — |
+| Incorporação | RTMN Empreendimentos SPE | IN NEXT TUCURUVI SPE | — |
+
+**O que está "em frente ao shopping e terminando de construir" é o In Tucuruvi** (Av. Antônio Maria de Laet, entrega dez/2026) — foi o que o Felipe perguntou de início. O que foi ofertado é o **In Next Tucuruvi**, que a própria corretora depois esclareceu ser *"de esquina Paulo de Faria com a Guajau"*, ou seja, **atrás** do shopping — mas o anúncio dizia **"EM FRENTE AO SHOPPING-METRÔ TUCURUVI!"**.
+
+**Sinais de pressão de venda registrados (30/07):**
+- 15:15 *"Tem só uma unidade HIS 2"* → 15:38 *"Voltou uma unidade no 6° andar vista shopping, mesmo valor"* — escassez desfeita em 23 minutos.
+- O **vídeo do decorado enviado é do In Next Mazzei**, não da unidade avaliada (*"é a mesma planta, só muda a posição da porta"*). O Felipe nunca viu por dentro a unidade que está considerando.
+- *"Obras aceleradas!"*, *"Pré lançamento, uma correria"*, *"Chegou a sua vez de sair do aluguel!!"*.
+
+## 2.2 🎯 Achado: tipologia "1 DORM + OFFICE" no In Next Mazzei
+
+Na tabela de pré-lançamento enviada em 30/07 e não explorada:
+
+> **1 DORM + OFFICE (HIS2) — 29,92 a 31,82 m² — a partir de R$ 292.400**
+
+Confirmado no book do Mazzei: a tipologia se chama literalmente **"1 DORM. + OFFICE / 2º DORM."** (Tipo B, finais 3 e 4; Tipos C e D, finais 5-10). **É exatamente o caso de uso do Felipe** — um quarto para dormir, um cômodo para o escritório — e custa **R$ 68.300 a menos** que o do Tucuruvi.
+
+O efeito na entrada é desproporcional, porque abaixo de ~R$ 300k a renda deixa de ser o gargalo e volta a valer o piso de 20%:
+
+| Unidade | Preço | Entrada necessária | % |
+|---|---|---|---|
+| In Next Tucuruvi 2d 36,52 m² | R$ 360.700 | **R$ 117.796** | 32,7% |
+| In Next Mazzei 2d 36,29 m² HIS2 | R$ 345.900 | R$ 102.996 | 29,8% |
+| **In Next Mazzei 1d + OFFICE** | **R$ 292.400** | **R$ 58.480** | 20,0% |
+| In Next Mazzei 1d 27,27 m² HIS2 | R$ 266.500 | R$ 53.300 | 20,0% |
+| In Tucuruvi studio 24,92 m² HIS2 | R$ 260.200 | R$ 52.040 | 20,0% |
+| In Next Mazzei studio 22,72 m² R2V | R$ 241.700 | R$ 48.340 | 20,0% |
+
+**A entrada cai pela metade.** Continua fora do alcance hoje (R$ 58.480 + R$ 14.620 de ITBI), mas é problema de outra ordem de grandeza — e o Mazzei está em pré-lançamento, com prazo de obra maior para diluir. **Pedir simulação dessa tipologia.**
+
+> Referência de comparação HIS vs. livre: na tabela do In Tucuruvi, **R$ 360.700** compra ou um 2 dorms de 36,52 m² **HIS2** (In Next), ou um 1 dorm de 33 m² **NR1-12, sem restrição nenhuma** (unids 511 e 512). É o desconto do HIS tornado visível — e o preço dele é a trava de 10 anos.
+
 ---
 
 ## 3. A trava HIS 2 (Decreto Municipal 64.895/2026)
@@ -75,6 +169,8 @@ Descoberta desta sessão e **o item que mais impacta o plano de longo prazo**:
 ---
 
 ## 4. A conta que decide — capacidade de financiamento
+
+> ⚠️ **Esta seção foi a estimativa feita ANTES da simulação real chegar. Use a seção 0.** A estimativa assumiu SAC/360 meses; a Caixa usou PRICE/420 meses, o que eleva o financiamento máximo de ~R$ 187k para R$ 243k. **A parcela máxima de R$ 1.823 estava correta ao centavo** (bateu exatamente com o print). Mantida aqui como registro do método.
 
 Caixa limita a parcela a **30% da renda bruta**. Felipe: R$ 6.077,29 → **parcela máxima R$ 1.823/mês**.
 
@@ -118,8 +214,11 @@ Contra sobra mensal projetada de **R$ 800–1.200/mês** após nov/2026 ([[Finan
 
 **Não é a entrada que compra o apartamento — é a promoção.** Consistente com a projeção de sênior R$ 10–13k em 2029–2031 registrada em [[Análise de futuro — renda, patrimônio e moradia]].
 
-### FGTS — alavanca não considerada antes
-Sem Parar desde 17/11/2025, ~R$ 486/mês (8% do bruto): **~R$ 5.800 até nov/2026 · ~R$ 13.600 até mar/2028 · ~R$ 18.500 até jan/2029.** Utilizável como recursos próprios no MCMV. É dinheiro que já é dele e não estava em nenhuma conta do plano.
+### FGTS — número real (corrigido 31/07)
+Saldo informado às duas corretoras: **R$ 3.668,85** (não os ~R$ 5.800 estimados). Depósito mensal confirmado no holerite de jun/2026: **R$ 485,64/mês**. Projeção: ~R$ 5.600 em nov/2026 · ~R$ 13.400 em mar/2028. Utilizável como recursos próprios no MCMV — mas cobre 2,7% da entrada exigida hoje.
+
+### Dado de emprego confirmado no holerite (jun/2026)
+Empregador é **COLT Compass.UOL Tecnol. Ltda** (bodyshop), cargo **Analista de Infraestrutura Pleno**, **admissão 17/11/2025** — apenas 8 meses de casa. Salário mensal R$ 6.077,29, líquido da 2ª quinzena R$ 2.230,40. Relevante porque o banco reavalia renda **e vínculo** na entrega das chaves, e [[Análise de futuro — renda, patrimônio e moradia]] já registra 2 desligamentos em 3 empregos como fator de risco. A ficha da DRIVECRED pergunta *"possui 36 meses de registro CLT?"* — é a condição de **cotista do FGTS**, que reduz a taxa. **Conferir o total na CTPS digital.**
 
 ---
 
