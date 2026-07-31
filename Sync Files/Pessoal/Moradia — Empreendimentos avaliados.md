@@ -92,6 +92,8 @@ O **Vivaz Estação Vila Sônia existe** — o corretor Paiva confirmou por escr
 
 **Planta Tipo H:** quarto principal ~2,40 × 3,30 m (≈7,9 m²); **segundo quarto ~2,30 × 2,40 m (≈5,5 m²)** — cabe mesa + cadeira e pouco mais. Os dois quartos dão para a mesma fachada, então a orientação solar não é escolhível dentro da unidade: é definida pelo final. **Final 09 é de esquina (lado da Rua Guajaú).**
 
+**Planta Tipo G (final 8, 36,68 m²) — candidata mais forte para o escritório.** Confirmado por planta renderizada em 31/07: o segundo cômodo é desenhado como escritório (mesa, notebook, cadeira) e **fica na mesma fachada do quarto principal, com janela própria** — ao contrário de qualquer tipologia do Mazzei (ver 2.2). É a única unidade das analisadas que satisfaz ao mesmo tempo "dois cômodos" e "os dois com luz natural". Falta confirmar a orientação solar do final 8 (ver pendências).
+
 **Risco de construtora — o mais alto dos dois.** SPE pequena, sem histórico consolidado. Reclamações públicas de atraso na entrega de chaves e no registro em empreendimento da RTE na Vila Guilherme, e de compradores do próprio Tucuruvi (compra jan/2025) esperando muito além dos 60 dias prometidos para assinar o financiamento com a Caixa.
 
 ## 2. Grand Vivaz Lapa 2
@@ -268,7 +270,7 @@ Projeto **Vivaz Estação Vila Sônia em pré-lançamento, sem tabela**. Já rec
 - [ ] **Confirmar se o final 09 tem varanda** — o anúncio diz "36m² com Varanda", a planta Tipo H não mostra varanda claramente.
 - [ ] **Conferir meses totais de CLT na CTPS digital** (condição de cotista FGTS = taxa menor).
 - [ ] **Perguntar ao colega da Vila Sônia**: já pegou as chaves? Quanto ficou a parcela do financiamento? — continua sendo a informação mais valiosa disponível de graça.
-- [ ] Considerar o **Tipo G (final 8, 36,68 m²)** do In Next Tucuruvi — é espelhado, ligeiramente maior, e o próprio decorado do book o mostra montado **como escritório**.
+- [x] ~~Considerar o Tipo G (final 8, 36,68 m²)~~ — **confirmado 31/07 por planta renderizada: tem janela própria no escritório.** Ver seção 1 e 2.2. Vira a recomendação principal. Falta só a orientação solar do final 8 (item acima).
 
 **Regra dura mantida: não assinar nada antes de 05/11/2026** (última parcela Nubank) e com o rotativo do PicPay zerado. "Só tem uma unidade" é técnica de venda — comprovado: a escassez se desfez em 23 minutos.
 
