@@ -163,7 +163,36 @@ Fica a ~200-300m da **Estação São Paulo-Morumbi (Linha 4-Amarela)** — já e
 
 ### Corretora ativa: Bali (Plano&Plano) — WhatsApp desde 31/07
 
-Contato comercial reativo (empresa entrou em contato, não o Felipe). Mensagem inicial enviada com as mesmas 10 perguntas estruturadas que funcionaram com Nelia/Paiva, incluindo a pergunta nova sobre HIS-1 vs HIS-2 e sobre orientação/exposição à rodovia. Aguardando resposta.
+Contato comercial reativo (empresa entrou em contato, não o Felipe). Mensagem inicial enviada com 9 perguntas estruturadas (mesmo padrão que funcionou com Nelia/Paiva), incluindo HIS-1 vs HIS-2 e orientação/exposição à rodovia.
+
+**Quarta ocorrência do padrão "só quer marcar visita"** (agora com as três corretoras diferentes) — Bali ignorou as 9 perguntas e só perguntou se podia ir ao stand no dia seguinte. Felipe redirecionou, mesma resposta padrão de sempre.
+
+#### Respostas reais (31/07/2026, via áudio transcrito)
+
+| Campo | Valor |
+|---|---|
+| Torre/tipologia | Torre A, 2 dormitórios — finais 5 e 11 |
+| Entrega | **Janeiro/2029** |
+| Preço (até o 12º andar) | **R$ 333.986** — bem acima do "a partir de R$ 228.681" do site (mesma pegadinha de sempre) |
+| Enquadramento | **HIS2** |
+| Subsídio | **Zero** — renda de "seis e pouco" ultrapassa o teto (confirma a hipótese de Faixa 3 sem subsídio) |
+| Orientação solar | **Final 5 = sol da manhã** (ela respondeu direto, sem precisar insistir) |
+
+**Mecânica de INCC nova e mais detalhada que a do Mazzei**: o saldo devedor corrige por INCC só até a **assinatura do financiamento com o banco** (que aqui acontece rápido — 3-4 meses após o lançamento, não só na entrega). Depois disso, o saldo congela; só as parcelas da entrada continuam corrigindo até a entrega (jan/2029). Reduz a exposição à correção sobre a parte maior do valor, comparado a esperar até as chaves.
+
+**Cálculo do gap** (mesma metodologia dos outros dois projetos):
+
+| Projeto | Preço | Entrada | Trava | Gap vs. FGTS |
+|---|---|---|---|---|
+| Tucuruvi | R$ 360.700 | R$ 117.796 | Renda | R$ 132.162 |
+| **Mazzei 1D+Office** | R$ 292.400 | R$ 58.480 | LTV | **R$ 69.431** |
+| Butantã (final 11/5) | R$ 333.986 | R$ 91.082 | **Renda** | R$ 104.113 |
+
+**Fica no meio dos outros dois.** Diferente do Mazzei, aqui a renda volta a travar — a meta de R$ 7.177 de renda bruta (seção 0) volta a valer para esta unidade.
+
+⚠️ **Inconsistência a esclarecer**: o site mostrava "Final 05 = Torre B, 1 dormitório, 27,38 m²", mas Bali descreveu "final 5" como 2 dormitórios na Torre A com sol da manhã. Pode ser tipologia/torre diferente do que apareceu no site, ou confusão dela. Perguntar direto antes de assumir que é a mesma unidade.
+
+**Ainda não respondido**: Ato, número de parcelas, valor dos reforços, condomínio, opção de vaga, e se existe tipologia "1 dorm + escritório" mais barata (pergunta original nunca respondida).
 
 ---
 
