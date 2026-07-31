@@ -171,6 +171,7 @@ Passei a cogitar **comprar um apartamento na planta** (região Vila Sônia) em v
   3. Reserva de emergência de R$ 1.000 reconstruída (hoje zerada pelo evento do iPad).
   4. **Só então** assumir qualquer compromisso de longo prazo (parcela de obra).
 - **Regra**: não assinar contrato de compra enquanto 1 e 2 estiverem abertos. Parcela de obra é obrigação dura de 3+ anos; rotativo aberto junto com isso é a combinação que quebra o plano.
+  - **Atualização 31/07/2026**: essa regra é por condição (PicPay=0 + Nubank quitado + reserva R$1.000), não por data fixa — 05/11/2026 era só a projeção do ritmo atual, quitação antecipada do Nubank pode adiantar o gatilho. Ver detalhe em [[Plano de vida]]. Mas isso não resolve sozinho: falta ainda confirmar o valor do "Ato" (pagamento devido na assinatura) do apartamento do In Next Mazzei em negociação — ver [[Moradia — Empreendimentos avaliados]] — antes de qualquer decisão de assinar mais cedo.
 - **Fato a não esquecer**: a parcela de obra de R$ 700-1.200 que parece barata **não é a prestação do apartamento** — é a entrada parcelada, corrigida por INCC. A prestação real (R$ 2.400-3.500 + condomínio) só aparece nas chaves. Ver [[Plano de vida]].
 - **Renda do casal atualizada**: Bia ~R$ 6.000 líquidos (mais que meus R$ 4.702,43). Renda somada ~R$ 10.700 líquidos — é o que torna a compra viável, e também o que exige a estrutura jurídica descrita em [[Plano de vida]].
 

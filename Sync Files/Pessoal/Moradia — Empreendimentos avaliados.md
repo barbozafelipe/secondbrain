@@ -304,7 +304,7 @@ Projeto **Vivaz Estação Vila Sônia em pré-lançamento, sem tabela**. Já rec
 - [ ] **Perguntar ao colega da Vila Sônia**: já pegou as chaves? Quanto ficou a parcela do financiamento? — continua sendo a informação mais valiosa disponível de graça.
 - [x] ~~Considerar o Tipo G (final 8, 36,68 m²)~~ — **confirmado 31/07 por planta renderizada: tem janela própria no escritório.** Ver seção 1 e 2.2. Vira a recomendação principal. Falta só a orientação solar do final 8 (item acima).
 
-**Regra dura mantida: não assinar nada antes de 05/11/2026** (última parcela Nubank) e com o rotativo do PicPay zerado. "Só tem uma unidade" é técnica de venda — comprovado: a escassez se desfez em 23 minutos.
+**Regra dura revisada 31/07/2026 — por condição, não por data fixa** (ver [[Plano de vida]]): PicPay rotativo zerado + Nubank quitado + reserva de R$ 1.000 reconstruída. 05/11/2026 era só a data projetada no ritmo atual; quitação antecipada do Nubank pode antecipar o gatilho. **Mas isso não abre a porta para assinar sem saber o valor do Ato** — que é, por definição, devido no momento da assinatura e ainda não foi informado. "Só tem uma unidade" é técnica de venda — comprovado: a escassez se desfez em 23 minutos.
 
 ---
 
