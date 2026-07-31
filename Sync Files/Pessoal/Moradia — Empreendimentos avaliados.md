@@ -293,6 +293,14 @@ Felipe respondeu pedindo (mesmo padrão de perguntas que funcionou com a Nelia):
 - **Felipe não revelou valor de entrada guardada** (perguntado por Paiva) — decisão deliberada para evitar que a proposta seja desenhada em torno do que ele "tem" em vez do preço real do imóvel.
 - **Pendências**: preço real de unidade, se existe combo "1 dorm + escritório mais barato", status específico do registro de incorporação (resposta anterior foi genérica — "todos os empreendimentos têm" — não confirmou este projeto especificamente, que ainda é "breve lançamento").
 
+#### ⚠️ Achado importante (31/07/2026): este empreendimento AINDA NÃO TEM Registro de Incorporação
+
+Paiva respondeu direto: **"R.I. quando está aprovado já temos como fazer as vendas, ainda não temos, pois vai ser feito um 'meeting' de divulgação."**
+
+Por lei (Lei 4.591/64), nada pode ser formalmente comercializado antes do RI. Isso não é "pré-lançamento com tabela reservada" — é **estágio anterior ao lançamento real**, mais cedo que o Mazzei (já tem RI) e muito mais cedo que o Tucuruvi (já vendendo ativamente). Explica por que não existe tabela de preços nem planta oficial ainda.
+
+**Reprioridade prática**: não avançar com documentação/simulação real na Vila Sônia agora — não há imóvel real pra simular. **Mazzei continua sendo a frente ativa**; Vila Sônia passa a ser "acompanhar até o meeting de divulgação acontecer", sem pressa. Pergunta pendente que ainda vale a pena (independe do RI): se existe tipologia "1 dorm + escritório" mais barata que o 2 dormitórios completo, e previsão do meeting de divulgação.
+
 ### Ainda pendente
 - [ ] **Transcrever os 16 áudios do WhatsApp** (Claude não transcreve voz). Prioridade: os **3 áudios da Nelia de 31/07 07:49–07:50**, enviados junto com o print da simulação — podem conter estrutura de pagamento alternativa.
 - [x] ~~Orientação solar do Mazzei~~ — **confirmada 31/07 pela Nelia: finais 6, 8, 10 pegam sol da manhã (vista Cantareira).** Ver seção 2.2.
