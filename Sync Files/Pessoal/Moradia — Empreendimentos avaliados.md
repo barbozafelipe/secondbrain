@@ -143,9 +143,15 @@ Na primeira análise por imagem, concluí que o escritório não tinha janela (p
 
 **Confirmado por comparação: o segundo quarto do "2 DORMS" de verdade do Mazzei (Tipo A/H/I/K, R$ 345.900, cama verde-água) continua sem esse padrão — parede lisa, sem janela.** Ou seja, dentro do mesmo prédio, a unidade mais barata (1D+Office) tem melhor solução de janela que a unidade mais cara (2 dorms). Não generalizar de uma tipologia para a outra.
 
-### Pendência real: orientação solar, não existência da janela
+### ✅ Orientação solar CONFIRMADA pela Nelia (31/07/2026, por escrito)
 
-A janela existe; falta saber para onde ela dá. Tentei ler a bússola do desenho (norte aponta quase reto para cima, levemente inclinado à esquerda), mas **o Mazzei está em pré-lançamento e ainda não tem endereço/lote publicado** — não dá para cruzar com mapa real e confirmar com segurança. Uma leitura de ângulo numa bússola pequena de material de marketing tem margem de erro grande demais para decidir "é leste" com confiança. **Pedir à Nelia a implantação com orientação solar dos finais 5, 6 (Tipo C) e 7, 8, 9, 10 (Tipo D)** — mesma pendência já registrada para o Tipo G do Tucuruvi.
+> "Finais 5, 7, 9: vista Santana, sol da tarde. Finais 6, 8, 10: vista Cantareira, sol da manhã."
+
+**Finais 6, 8 e 10 pegam sol da manhã** — satisfaz o requisito original (luz direta ao amanhecer para o escritório, ciclo circadiano), mesmo não sendo "leste cravado" (a vista para a Serra da Cantareira, a norte/nordeste de SP, sugere fachada mais nordeste). Na prática é a orientação preferível em SP: sol da manhã sem o calor pesado da tarde que os finais 5/7/9 (vista Santana) recebem.
+
+Diferença de tamanho entre os finais com sol da manhã: **final 6 = Tipo C (30,02 m²)**; **finais 8 e 10 = Tipo D (29,92 m²)** — 0,1 m² de diferença, irrelevante. **Pendente confirmar com a Nelia se há diferença de preço entre eles**, já que a tabela "a partir de R$ 292.400" provavelmente ancora no menor.
+
+**Decisão do Felipe (31/07): priorizar o Mazzei 1D+Office sobre o In Next Tucuruvi.** Mensagem enviada à Nelia pedindo simulação simples nos finais 6/8/10, além de status de registro de incorporação e previsão de entrega (pré-lançamento — ainda não confirmado se já tem incorporação registrada).
 
 ### A conta financeira do 1D+OFFICE
 
@@ -266,10 +272,11 @@ Projeto **Vivaz Estação Vila Sônia em pré-lançamento, sem tabela**. Já rec
 
 ### Ainda pendente
 - [ ] **Transcrever os 16 áudios do WhatsApp** (Claude não transcreve voz). Prioridade: os **3 áudios da Nelia de 31/07 07:49–07:50**, enviados junto com o print da simulação — podem conter estrutura de pagamento alternativa.
-- [ ] **Orientação solar — pendência ampliada em 31/07.** Requisito: janela do escritório voltada a **leste** (sol da manhã, ciclo circadiano). Agora são DUAS unidades candidatas com janela confirmada no escritório, ambas com orientação pendente:
-  - **Tucuruvi final 08 (Tipo G)** — verificar no Google Maps satélite (endereço já existe: R. Paulo de Faria, 384).
-  - **Mazzei finais 5, 6 (Tipo C) e 7, 8, 9, 10 (Tipo D)** — não dá para verificar por mapa ainda, pré-lançamento sem endereço publicado. **Pedir direto à Nelia a implantação com indicação do Norte.**
-  - No Tipo H do Tucuruvi (final 09, a unidade ofertada) os dois quartos dão para a mesma face sem escritório janelado — não é candidata nesse critério.
+- [x] ~~Orientação solar do Mazzei~~ — **confirmada 31/07 pela Nelia: finais 6, 8, 10 pegam sol da manhã (vista Cantareira).** Ver seção 2.2.
+- [ ] Confirmar se há diferença de preço entre final 6 (Tipo C, 30,02 m²) e finais 8/10 (Tipo D, 29,92 m²).
+- [ ] Confirmar status de registro de incorporação e previsão de entrega do Mazzei (pré-lançamento, ainda não informado).
+- [ ] **Foco mudou (31/07): Felipe decidiu priorizar o Mazzei 1D+Office sobre o In Next Tucuruvi.** Mensagem enviada à Nelia desconsiderando o Tucuruvi. Simulação simples pedida para os finais 6/8/10 — aguardando retorno.
+- [ ] Orientação solar do **Tipo G do Tucuruvi (final 08)** fica em segundo plano agora, mas ainda vale verificar no Google Maps satélite se o Mazzei não fechar (endereço já existe: R. Paulo de Faria, 384).
 - [ ] **Confirmar se o final 09 tem varanda** — o anúncio diz "36m² com Varanda", a planta Tipo H não mostra varanda claramente.
 - [ ] **Conferir meses totais de CLT na CTPS digital** (condição de cotista FGTS = taxa menor).
 - [ ] **Perguntar ao colega da Vila Sônia**: já pegou as chaves? Quanto ficou a parcela do financiamento? — continua sendo a informação mais valiosa disponível de graça.
