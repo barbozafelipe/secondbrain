@@ -26,7 +26,7 @@
 - Nome da mãe: Marivania Barboza da Silva Gonçalves
 - Nome do pai: José Devau Gonçalves
 - Grau de instrução: Ensino Superior Completo
-- Declara Imposto de Renda: Sim
+- Declara Imposto de Renda: Sim — 1ª e única declaração, feita em 2026 (ano-base 2025), pelo site do governo. Sem retificadora.
 
 > Dados profissionais (empresa, cargo, salário, FGTS) ficam em [[Vida profissional]] e [[Financeiro]] — não duplicar aqui, só referenciar.
 
