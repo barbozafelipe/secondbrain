@@ -270,6 +270,18 @@ Projeto **Vivaz Estação Vila Sônia em pré-lançamento, sem tabela**. Já rec
 
 **Pedir a ele:** a tabela do Vila Sônia quando sair, e **a mesma simulação numérica que a Nelia fez** (renda, valor, prazo, parcela) — não consulta cadastral.
 
+#### Atualização 31/07/2026 — reativou contato com um número (ainda genérico)
+
+Paiva mandou: **"prévia de financiamento R$ 244.000,00 de acordo com sua renda"** + exemplo hipotético (unidade de R$ 289.000 → diferença de R$ 45.000 seria parcela de obra).
+
+**O R$ 244.000 bate com nosso cálculo independente (R$ 242.904, diferença de só R$ 1.096)** — valida a metodologia usada nas contas desta nota.
+
+**Mas o exemplo tem um erro: não aplicou o teto de 80% de LTV.** Pra uma unidade de R$ 289.000, 80% do valor é R$ 231.200 (menor que os R$ 244.000 de capacidade de renda) — quem trava aqui é o LTV, não a renda, igual em todas as outras unidades analisadas (Mazzei, Tucuruvi). Entrada real seria **R$ 57.800 (20%)**, não os R$ 45.000 (15,6%) que ele calculou. Ele avisou que era "só um exemplo" — não necessariamente má-fé, mas não usar esse número como referência real.
+
+**Ponto de virada calculado**: abaixo de ~R$ 305.000 de preço de unidade, o LTV sempre trava a entrada em ~20%; acima disso, a renda passa a travar e a entrada cresce mais rápido que 20%.
+
+Felipe respondeu pedindo (mesmo padrão de perguntas que funcionou com a Nelia): preço de unidade real (não exemplo), simulação de entrada real, estrutura de pagamento (Ato/parcelas/reforços), correção INCC, prazo de obra, registro de incorporação, condomínio, opção sem vaga, **se existe tipologia "1 dorm + escritório"** (o que resolveu o Mazzei), e orientação solar assim que houver plantas. Aguardando resposta.
+
 ### Ainda pendente
 - [ ] **Transcrever os 16 áudios do WhatsApp** (Claude não transcreve voz). Prioridade: os **3 áudios da Nelia de 31/07 07:49–07:50**, enviados junto com o print da simulação — podem conter estrutura de pagamento alternativa.
 - [x] ~~Orientação solar do Mazzei~~ — **confirmada 31/07 pela Nelia: finais 6, 8, 10 pegam sol da manhã (vista Cantareira).** Ver seção 2.2.
