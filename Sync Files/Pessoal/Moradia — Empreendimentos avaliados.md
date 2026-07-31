@@ -295,7 +295,9 @@ Projeto **Vivaz Estação Vila Sônia em pré-lançamento, sem tabela**. Já rec
 
 **Cálculo da parcela-base** (ignorando reforços, que ainda não têm valor): R$ 58.480 ÷ 39 ≈ **R$ 1.499/mês** — já maior que a sobra projetada de R$ 800-1.200/mês em [[Financeiro]], antes mesmo de somar os reforços semestrais/anuais. **"Tranquilo" ainda não confirmado pelos números.**
 
-**Pendência final**: valor do Ato (entrada inicial) e valor aproximado de cada reforço semestral/anual — únicos dois números que faltam para montar o fluxo de caixa completo mês a mês.
+**Pendência final**: valor do Ato (entrada inicial) e valor aproximado de cada reforço semestral/anual — únicos dois números que faltam para montar o fluxo de caixa completo mês a mês. **Também descoberto**: "final 6" é válido do 2º ao 9º pavimento — o preço varia ~R$ 3-5 mil por andar, então falta confirmar em qual andar há disponibilidade.
+
+- [ ] ⚠️ **Quarta ocorrência do padrão (31/07)**: antes mesmo de Felipe reenviar a pergunta pendente, Nelia mandou mensagem não solicitada com números de valorização de outros empreendimentos dela mesma (não verificáveis, autorreferidos) + lista de mais de 10 outros projetos/incorporadoras que vende. Não respondeu Ato nem reforço. Padrão consolidado: escassez artificial → urgência temporal → desvio de perguntas → gatilho de FOMO por valorização não verificada. Felipe orientado a ignorar a parte de valorização e reenviar a pergunta original sem alteração de foco.
 - [ ] Orientação solar do **Tipo G do Tucuruvi (final 08)** fica em segundo plano agora, mas ainda vale verificar no Google Maps satélite se o Mazzei não fechar (endereço já existe: R. Paulo de Faria, 384).
 - [ ] **Confirmar se o final 09 tem varanda** — o anúncio diz "36m² com Varanda", a planta Tipo H não mostra varanda claramente.
 - [ ] **Conferir meses totais de CLT na CTPS digital** (condição de cotista FGTS = taxa menor).
