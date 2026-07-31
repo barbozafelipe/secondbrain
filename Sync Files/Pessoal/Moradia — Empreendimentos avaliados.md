@@ -282,6 +282,17 @@ Paiva mandou: **"prévia de financiamento R$ 244.000,00 de acordo com sua renda"
 
 Felipe respondeu pedindo (mesmo padrão de perguntas que funcionou com a Nelia): preço de unidade real (não exemplo), simulação de entrada real, estrutura de pagamento (Ato/parcelas/reforços), correção INCC, prazo de obra, registro de incorporação, condomínio, opção sem vaga, **se existe tipologia "1 dorm + escritório"** (o que resolveu o Mazzei), e orientação solar assim que houver plantas. Aguardando resposta.
 
+#### Segunda resposta de Paiva (31/07/2026)
+
+- **O R$ 244.000/R$ 289.000 da mensagem anterior era genérico** — "simulação com base na Zona Oeste, último valor que saiu", não específico da Vila Sônia. Confirma que era mesmo exemplo ilustrativo.
+- **INCC confirmado.** **Prazo de obra ~30 meses** (mais curto que os ~39-40 do Mazzei — mesma entrada dilui em menos tempo, parcela mensal tende a ser maior).
+- **Condomínio ~R$ 8-9/m²** (mais barato que o Mazzei, R$10/m²).
+- **Sem opção de vaga na Zona Oeste** — confirma padrão já registrado em [[Moradia — Ranking de regiões]].
+- ⚠️ **Confusão a esclarecer**: ele disse "tenho planta de 1 dormitório, e se pegar o de 2 dormitórios pode usar o segundo quarto como escritório" — **isso NÃO é equivalente ao 1D+Office do Mazzei.** O Mazzei tinha uma tipologia específica **mais barata** que o 2 dorms completo, caindo abaixo do teto de LTV e cortando a entrada quase pela metade. "Usar o quarto como escritório" em qualquer 2 dormitórios custa o preço cheio — não é vantagem financeira nenhuma. Pergunta enviada pra esclarecer se existe produto equivalente mais barato.
+- ⚠️ **Terceira tentativa de levar Felipe ao estande** (áudio, 31/07): argumento de que "documentação real pode liberar mais financiamento". Parcialmente verdade, mas **documentação não exige visita presencial** — são coisas separadas que ele está misturando. Felipe decidiu não visitar e perguntou se pode mandar os documentos remotamente.
+- **Felipe não revelou valor de entrada guardada** (perguntado por Paiva) — decisão deliberada para evitar que a proposta seja desenhada em torno do que ele "tem" em vez do preço real do imóvel.
+- **Pendências**: preço real de unidade, se existe combo "1 dorm + escritório mais barato", status específico do registro de incorporação (resposta anterior foi genérica — "todos os empreendimentos têm" — não confirmou este projeto especificamente, que ainda é "breve lançamento").
+
 ### Ainda pendente
 - [ ] **Transcrever os 16 áudios do WhatsApp** (Claude não transcreve voz). Prioridade: os **3 áudios da Nelia de 31/07 07:49–07:50**, enviados junto com o print da simulação — podem conter estrutura de pagamento alternativa.
 - [x] ~~Orientação solar do Mazzei~~ — **confirmada 31/07 pela Nelia: finais 6, 8, 10 pegam sol da manhã (vista Cantareira).** Ver seção 2.2.
