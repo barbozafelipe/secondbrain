@@ -110,8 +110,19 @@ Plano anterior: alugar em 2027 (Tucuruvi). Nova intenção: **comprar na planta*
 
 ---
 
+## 6.1 Atualização 31/07/2026 — dois empreendimentos avaliados, ambos reprovam na conta
+
+Análise completa em **[[Moradia — Empreendimentos avaliados]]** (In Next Tucuruvi R$ 360.700 e Grand Vivaz Lapa 2). Três achados que mudam o plano:
+
+1. **A restrição não é a entrada — é a renda.** A Caixa limita a parcela a 30% do bruto: com R$ 6.077,29, a parcela máxima é R$ 1.823, o que financia ~R$ 187k e comporta um imóvel de ~R$ 233k. O Tucuruvi exigiria **renda bruta de R$ 9.247** (52% a mais). **Nenhuma unidade de 2 dorms é comprável sozinho em 2026.** O que destrava é a promoção a sênior (R$ 10k bruto → imóvel de ~R$ 391k), não poupar entrada.
+2. **Ambos são HIS 2 (Decreto 64.895/2026).** Renda familiar máxima R$ 9.726 → **compor com a Bia inviabiliza a compra**, o que valida comprar sozinho. Mas a restrição fica averbada na matrícula por **10 anos**: revenda e locação limitadas até ~2038, o que **conflita com o plano de alugar o imóvel aos ~30 anos**.
+3. **FGTS é alavanca não considerada**: ~R$ 486/mês desde 17/11/2025 → ~R$ 13.600 até mar/2028. Utilizável como recursos próprios no MCMV.
+
 ## 7. Pontos em aberto para próximas sessões
 
+- [ ] **Resolver ambiguidade (31/07/2026)**: o folhetão trazido como "Vila Sônia" é do **Grand Vivaz Lapa 2 (Rua Félix Guilhem, 900, Lapa de Baixo)**. Confirmar com a corretora o nome e endereço reais do empreendimento ofertado.
+- [ ] **Mandar às corretoras as 10 perguntas de [[Moradia — Empreendimentos avaliados]]** — em especial a nº 4 (simulação Caixa da parcela pós-chaves com R$ 6.077,29 sozinho). É a que confirma ou derruba a conta acima.
+- [ ] **Reavaliar a Lapa como região.** Ela não estava no ranking de 29/07 e sai melhor que a Zona Norte nos dois trajetos (Pinheiros ~30-35 min; e Consolação **direto, sem baldeação**, quando o trecho Perdizes→São Joaquim da Linha 6 abrir em 2027). Santa Marina inaugurou em 02/07/2026.
 - [ ] **Contato ativo (29/07/2026)**: corretora da Vivaz Residencial (Cyrela) ofereceu lançamento próximo à estação Vila Sônia. Reputação Cyrela/Vivaz: nota 7.7/10 no Reclame Aqui (financeiramente sólida, mas pós-venda/entrega com defeitos é queixa recorrente — exigir vistoria minuciosa antes do aceite). **Regra dura continua valendo: não assinar nada antes de 05/11/2026 e com PicPay rotativo zerado**, mesmo com pressão de "condição especial".
 - [ ] Perguntar ao colega da Vila Sônia: **já pegou as chaves? Quanto ficou a parcela do financiamento?** — é a informação que valida ou derruba a referência inteira
 - [ ] Simular enquadramento **MCMV sozinho e com a renda da Bia somada** (somar pode tirar da faixa subsidiada e encarecer o financiamento)

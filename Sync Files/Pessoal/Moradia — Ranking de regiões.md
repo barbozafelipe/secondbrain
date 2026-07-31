@@ -49,6 +49,14 @@ Qualquer outra região da cidade obriga pelo menos um de nós dois a baldear tod
 - Linha 6-Laranja (aberta desde 02/07/2026) + CPTM. Parque da Água Branca. Muito lançamento novo.
 - **Contra**: mesmo problema da Pompeia — valorização já capturada, e o trajeto até Pinheiros é ruim.
 
+### Entrou depois (31/07/2026) — Lapa / Lapa de Baixo
+Não estava no ranking original e **merece entrar entre 2º e 3º**. Ver [[Moradia — Empreendimentos avaliados]].
+- **Para Pinheiros (eu)**: Estação Lapa (Linha 8) → Presidente Altino → Linha 9-Esmeralda → Pinheiros. ~30-35 min, 1 baldeação.
+- **Para a Consolação (Bia)**: a **Estação Santa Marina da Linha 6-Laranja inaugurou em 02/07/2026**. Quando o trecho Perdizes→São Joaquim abrir (previsto 2027), ela vai **direto, sem baldeação**, até Higienópolis-Mackenzie, a 5 min a pé da Consolação.
+- **Valorização ainda não capturada**: o trecho sul da Linha 6 é 2027 — mesmo tipo de argumento que sustentava a Vila Sônia, mas aqui a estação já está aberta e operando.
+- Preço bem abaixo da Vila Sônia nos lançamentos compactos (Grand Vivaz Lapa a partir de ~R$ 220k para 24 m²).
+- **Contra**: Lapa de Baixo é mais industrial/menos arborizada que Butantã ou Pompeia; verificar a pé.
+
 ### Descartados apesar de baratos
 Zona Norte, Zona Leste e o trecho leste da Linha 2-Verde (Chácara Klabin, Sacomã): preço bom, mas condenam pelo menos um de nós a baldeação diária longa. Barato no m², caro na vida.
 
