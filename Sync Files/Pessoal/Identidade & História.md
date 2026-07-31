@@ -25,6 +25,8 @@
 - Celular: 11 98938-3751
 - Nome da mãe: Marivania Barboza da Silva Gonçalves
 - Nome do pai: José Devau Gonçalves
+- Grau de instrução: Ensino Superior Completo
+- Declara Imposto de Renda: Sim
 
 > Dados profissionais (empresa, cargo, salário, FGTS) ficam em [[Vida profissional]] e [[Financeiro]] — não duplicar aqui, só referenciar.
 
