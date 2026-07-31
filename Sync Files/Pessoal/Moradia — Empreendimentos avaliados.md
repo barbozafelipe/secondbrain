@@ -127,26 +127,40 @@ Todos com incorporação Rit Realty / RTE / Vazplan e intermediação Drive:
 - O **vídeo do decorado enviado é do In Next Mazzei**, não da unidade avaliada (*"é a mesma planta, só muda a posição da porta"*). O Felipe nunca viu por dentro a unidade que está considerando.
 - *"Obras aceleradas!"*, *"Pré lançamento, uma correria"*, *"Chegou a sua vez de sair do aluguel!!"*.
 
-## 2.2 🎯 Achado: tipologia "1 DORM + OFFICE" no In Next Mazzei
+## 2.2 Tipologia "1 DORM + OFFICE" no In Next Mazzei — investigada e REPROVADA por falta de janela
 
-Na tabela de pré-lançamento enviada em 30/07 e não explorada:
+Na tabela de pré-lançamento enviada em 30/07:
 
 > **1 DORM + OFFICE (HIS2) — 29,92 a 31,82 m² — a partir de R$ 292.400**
 
-Confirmado no book do Mazzei: a tipologia se chama literalmente **"1 DORM. + OFFICE / 2º DORM."** (Tipo B, finais 3 e 4; Tipos C e D, finais 5-10). **É exatamente o caso de uso do Felipe** — um quarto para dormir, um cômodo para o escritório — e custa **R$ 68.300 a menos** que o do Tucuruvi.
+Confirmado no book do Mazzei: a tipologia se chama literalmente **"1 DORM. + OFFICE / 2º DORM."** (Tipo B, finais 3 e 4, 31,82 m²; Tipos C e D, finais 5-10, 29,92-30,02 m²). Custa **R$ 68.300 a menos** que o Tucuruvi.
 
-O efeito na entrada é desproporcional, porque abaixo de ~R$ 300k a renda deixa de ser o gargalo e volta a valer o piso de 20%:
+### ⚠️ Verificação por planta renderizada (31/07/2026): o escritório NÃO TEM JANELA
 
-| Unidade | Preço | Entrada necessária | % |
-|---|---|---|---|
-| In Next Tucuruvi 2d 36,52 m² | R$ 360.700 | **R$ 117.796** | 32,7% |
-| In Next Mazzei 2d 36,29 m² HIS2 | R$ 345.900 | R$ 102.996 | 29,8% |
-| **In Next Mazzei 1d + OFFICE** | **R$ 292.400** | **R$ 58.480** | 20,0% |
-| In Next Mazzei 1d 27,27 m² HIS2 | R$ 266.500 | R$ 53.300 | 20,0% |
-| In Tucuruvi studio 24,92 m² HIS2 | R$ 260.200 | R$ 52.040 | 20,0% |
-| In Next Mazzei studio 22,72 m² R2V | R$ 241.700 | R$ 48.340 | 20,0% |
+Renderizei as páginas do PDF em alta resolução (via PyMuPDF, já que o extrator de texto não captura as cotas dentro dos desenhos vetoriais). Achados:
 
-**A entrada cai pela metade.** Continua fora do alcance hoje (R$ 58.480 + R$ 14.620 de ITBI), mas é problema de outra ordem de grandeza — e o Mazzei está em pré-lançamento, com prazo de obra maior para diluir. **Pedir simulação dessa tipologia.**
+- **Tipo B (31,82 m²)**: o quarto principal tem parede externa com janela (marcação "PROJEÇÃO A.C." junto à cota 3,20). **O "office" fica espremido entre o quarto e a lavanderia/área de serviço, sem nenhuma parede externa** — é um nicho de circulação com mesa encostada, não um cômodo com abertura própria.
+- **Verifiquei também a tipologia "2 DORMS" de verdade do Mazzei** (Tipo A/H/I/K, 36,04-36,55 m², R$ 345.900, mesma faixa HIS2): **o mesmo problema se repete.** O segundo quarto (com cama de roupa verde-água na planta) está cercado por paredes internas nos quatro lados — parede da sala, corredor de entrada, armário — **zero contato com fachada externa**.
+
+**Conclusão: os dois produtos do Mazzei (o mais barato e o "2 dorms" de verdade) têm o segundo cômodo cego. Não é peculiaridade de uma tipologia — é como o projeto inteiro foi desenhado**, provavelmente decorrência da geometria do prédio (unidades internas ao redor do poço de elevadores, só uma fachada exposta por unidade).
+
+### Comparação com o Tucuruvi — que resolve isso
+
+Reconferi a planta **Tipo G do In Next Tucuruvi (final 8, 36,68 m²)**, já sinalizada como candidata em 31/07 mais cedo: o cômodo de escritório (com mesa, notebook, cadeira) **fica na mesma fachada do quarto principal, com janela própria** (mesmo padrão de cotas de abertura da janela do quarto ao lado). **É a única das três opções que entrega o requisito original — dois cômodos, os dois com luz natural** — sujeito a confirmar a orientação solar do final 8 (pendência já registrada abaixo).
+
+### A conta financeira do 1D+OFFICE (calculada, para registro — mas reprovado no critério de janela)
+
+Diferente das unidades de R$ 345-360k, esta é **travada pelo LTV (80%), não pela renda** — ou seja, **a meta de R$ 7.177 de renda bruta (seção 0) não se aplica a ela.**
+
+| Unidade | Preço | Financia | Entrada | ITBI | Total | Gap vs. FGTS | Trava |
+|---|---|---|---|---|---|---|---|
+| Tucuruvi Tipo H 36,52 m² | R$ 360.700 | R$ 242.904 | R$ 117.796 (32,7%) | R$ 18.035 | R$ 135.831 | R$ 132.162 | **Renda** |
+| Mazzei 2 DORMS 36,29 m² | R$ 345.900 | R$ 242.904 | R$ 102.996 (29,8%) | R$ 17.295 | R$ 120.291 | R$ 116.622 | **Renda** |
+| **Mazzei 1D+OFFICE ~30 m²** | R$ 292.400 | R$ 233.920 | **R$ 58.480 (20,0%)** | R$ 14.620 | **R$ 73.100** | **R$ 69.431** | **LTV (80%)** |
+
+Entrada diluída durante a obra (pré-lançamento, sem data de entrega — usando 24-40 meses como referência do padrão do grupo): **R$ 1.462-2.437/mês**, contra sobra projetada de R$ 800-1.200/mês. Gap menor que o Tucuruvi, mas ainda não fecha sozinho.
+
+**Veredito: financeiramente é a melhor opção das três. Para o requisito de escritório com janela (prioridade declarada desde o início, incluindo o motivo do ciclo circadiano), é a pior. Recomendação: priorizar o Tipo G do Tucuruvi e pedir a simulação e a orientação solar dele antes de considerar o Mazzei.**
 
 > Referência de comparação HIS vs. livre: na tabela do In Tucuruvi, **R$ 360.700** compra ou um 2 dorms de 36,52 m² **HIS2** (In Next), ou um 1 dorm de 33 m² **NR1-12, sem restrição nenhuma** (unids 511 e 512). É o desconto do HIS tornado visível — e o preço dele é a trava de 10 anos.
 
