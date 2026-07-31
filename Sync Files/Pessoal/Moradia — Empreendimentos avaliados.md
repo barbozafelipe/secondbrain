@@ -129,7 +129,7 @@ Todos com incorporação Rit Realty / RTE / Vazplan e intermediação Drive:
 - O **vídeo do decorado enviado é do In Next Mazzei**, não da unidade avaliada (*"é a mesma planta, só muda a posição da porta"*). O Felipe nunca viu por dentro a unidade que está considerando.
 - *"Obras aceleradas!"*, *"Pré lançamento, uma correria"*, *"Chegou a sua vez de sair do aluguel!!"*.
 
-## 2.2 Tipologia "1 DORM + OFFICE" no In Next Mazzei — investigada e REPROVADA por falta de janela
+## 2.2 Tipologia "1 DORM + OFFICE" no In Next Mazzei — **TEM janela sim, corrigido em 31/07**
 
 Na tabela de pré-lançamento enviada em 30/07:
 
@@ -137,32 +137,32 @@ Na tabela de pré-lançamento enviada em 30/07:
 
 Confirmado no book do Mazzei: a tipologia se chama literalmente **"1 DORM. + OFFICE / 2º DORM."** (Tipo B, finais 3 e 4, 31,82 m²; Tipos C e D, finais 5-10, 29,92-30,02 m²). Custa **R$ 68.300 a menos** que o Tucuruvi.
 
-### ⚠️ Verificação por planta renderizada (31/07/2026): o escritório NÃO TEM JANELA
+### ⚠️ Correção (31/07/2026): primeira leitura da planta estava errada
 
-Renderizei as páginas do PDF em alta resolução (via PyMuPDF, já que o extrator de texto não captura as cotas dentro dos desenhos vetoriais). Achados:
+Na primeira análise por imagem, concluí que o escritório não tinha janela (procurei o símbolo de retângulo riscado do banheiro e não achei nada parecido perto da mesa). **O Felipe conferiu a planta e apontou o erro.** Reampliei em resolução muito mais alta (14x) especificamente a faixa da parede de baixo, e o padrão certo aparece: **uma janela de correr (duas linhas paralelas com um degrau no meio)**, contínua, passando tanto sob o quarto principal quanto sob a mesa do escritório — é a mesma parede externa atendendo os dois cômodos.
 
-- **Tipo B (31,82 m²)**: o quarto principal tem parede externa com janela (marcação "PROJEÇÃO A.C." junto à cota 3,20). **O "office" fica espremido entre o quarto e a lavanderia/área de serviço, sem nenhuma parede externa** — é um nicho de circulação com mesa encostada, não um cômodo com abertura própria.
-- **Verifiquei também a tipologia "2 DORMS" de verdade do Mazzei** (Tipo A/H/I/K, 36,04-36,55 m², R$ 345.900, mesma faixa HIS2): **o mesmo problema se repete.** O segundo quarto (com cama de roupa verde-água na planta) está cercado por paredes internas nos quatro lados — parede da sala, corredor de entrada, armário — **zero contato com fachada externa**.
+**Confirmado por comparação: o segundo quarto do "2 DORMS" de verdade do Mazzei (Tipo A/H/I/K, R$ 345.900, cama verde-água) continua sem esse padrão — parede lisa, sem janela.** Ou seja, dentro do mesmo prédio, a unidade mais barata (1D+Office) tem melhor solução de janela que a unidade mais cara (2 dorms). Não generalizar de uma tipologia para a outra.
 
-**Conclusão: os dois produtos do Mazzei (o mais barato e o "2 dorms" de verdade) têm o segundo cômodo cego. Não é peculiaridade de uma tipologia — é como o projeto inteiro foi desenhado**, provavelmente decorrência da geometria do prédio (unidades internas ao redor do poço de elevadores, só uma fachada exposta por unidade).
+### Pendência real: orientação solar, não existência da janela
 
-### Comparação com o Tucuruvi — que resolve isso
+A janela existe; falta saber para onde ela dá. Tentei ler a bússola do desenho (norte aponta quase reto para cima, levemente inclinado à esquerda), mas **o Mazzei está em pré-lançamento e ainda não tem endereço/lote publicado** — não dá para cruzar com mapa real e confirmar com segurança. Uma leitura de ângulo numa bússola pequena de material de marketing tem margem de erro grande demais para decidir "é leste" com confiança. **Pedir à Nelia a implantação com orientação solar dos finais 5, 6 (Tipo C) e 7, 8, 9, 10 (Tipo D)** — mesma pendência já registrada para o Tipo G do Tucuruvi.
 
-Reconferi a planta **Tipo G do In Next Tucuruvi (final 8, 36,68 m²)**, já sinalizada como candidata em 31/07 mais cedo: o cômodo de escritório (com mesa, notebook, cadeira) **fica na mesma fachada do quarto principal, com janela própria** (mesmo padrão de cotas de abertura da janela do quarto ao lado). **É a única das três opções que entrega o requisito original — dois cômodos, os dois com luz natural** — sujeito a confirmar a orientação solar do final 8 (pendência já registrada abaixo).
+### A conta financeira do 1D+OFFICE
 
-### A conta financeira do 1D+OFFICE (calculada, para registro — mas reprovado no critério de janela)
-
-Diferente das unidades de R$ 345-360k, esta é **travada pelo LTV (80%), não pela renda** — ou seja, **a meta de R$ 7.177 de renda bruta (seção 0) não se aplica a ela.**
+Diferente das unidades de R$ 345-360k, esta é **travada pelo LTV (80%), não pela renda** — ou seja, **a meta de R$ 7.177 de renda bruta (seção 0) não se aplica a ela.** O gargalo aqui é caixa acumulado, não salário.
 
 | Unidade | Preço | Financia | Entrada | ITBI | Total | Gap vs. FGTS | Trava |
 |---|---|---|---|---|---|---|---|
-| Tucuruvi Tipo H 36,52 m² | R$ 360.700 | R$ 242.904 | R$ 117.796 (32,7%) | R$ 18.035 | R$ 135.831 | R$ 132.162 | **Renda** |
-| Mazzei 2 DORMS 36,29 m² | R$ 345.900 | R$ 242.904 | R$ 102.996 (29,8%) | R$ 17.295 | R$ 120.291 | R$ 116.622 | **Renda** |
-| **Mazzei 1D+OFFICE ~30 m²** | R$ 292.400 | R$ 233.920 | **R$ 58.480 (20,0%)** | R$ 14.620 | **R$ 73.100** | **R$ 69.431** | **LTV (80%)** |
+| Tucuruvi Tipo H 36,52 m² (sem janela no 2º quarto*) | R$ 360.700 | R$ 242.904 | R$ 117.796 (32,7%) | R$ 18.035 | R$ 135.831 | R$ 132.162 | **Renda** |
+| Mazzei 2 DORMS 36,29 m² (sem janela no 2º quarto) | R$ 345.900 | R$ 242.904 | R$ 102.996 (29,8%) | R$ 17.295 | R$ 120.291 | R$ 116.622 | **Renda** |
+| **Mazzei 1D+OFFICE ~30 m² (COM janela, orientação a confirmar)** | R$ 292.400 | R$ 233.920 | **R$ 58.480 (20,0%)** | R$ 14.620 | **R$ 73.100** | **R$ 69.431** | **LTV (80%)** |
+| Tucuruvi **Tipo G** 36,68 m² final 8 (COM janela, orientação a confirmar) | ~R$ 360.700 (a confirmar) | ~R$ 242.904 | ~R$ 118k | ~R$ 18k | ~R$ 136k | ~R$ 132k | **Renda** |
 
-Entrada diluída durante a obra (pré-lançamento, sem data de entrega — usando 24-40 meses como referência do padrão do grupo): **R$ 1.462-2.437/mês**, contra sobra projetada de R$ 800-1.200/mês. Gap menor que o Tucuruvi, mas ainda não fecha sozinho.
+*Tipo H = a unidade específica ofertada pela Nelia (final 09). Tipo G (final 08) é a variante espelhada com escritório janelado — ver seção 1.
 
-**Veredito: financeiramente é a melhor opção das três. Para o requisito de escritório com janela (prioridade declarada desde o início, incluindo o motivo do ciclo circadiano), é a pior. Recomendação: priorizar o Tipo G do Tucuruvi e pedir a simulação e a orientação solar dele antes de considerar o Mazzei.**
+Entrada diluída durante a obra do Mazzei (pré-lançamento, sem data de entrega — usando 24-40 meses como referência do padrão do grupo): **R$ 1.462-2.437/mês**, contra sobra projetada de R$ 800-1.200/mês. Gap menor que o Tucuruvi, mas ainda não fecha sozinho.
+
+**Veredito atualizado: o Mazzei 1D+Office e o Tucuruvi Tipo G empatam como os dois candidatos que satisfazem o requisito da janela.** O Mazzei ganha em preço/gap de caixa e não depende da meta salarial; o Tipo G tem mais m² e é a mesma construtora. **Decisão final depende de: (1) orientação solar confirmada dos dois, (2) data de entrega real do Mazzei quando sair do pré-lançamento.**
 
 > Referência de comparação HIS vs. livre: na tabela do In Tucuruvi, **R$ 360.700** compra ou um 2 dorms de 36,52 m² **HIS2** (In Next), ou um 1 dorm de 33 m² **NR1-12, sem restrição nenhuma** (unids 511 e 512). É o desconto do HIS tornado visível — e o preço dele é a trava de 10 anos.
 
@@ -266,7 +266,10 @@ Projeto **Vivaz Estação Vila Sônia em pré-lançamento, sem tabela**. Já rec
 
 ### Ainda pendente
 - [ ] **Transcrever os 16 áudios do WhatsApp** (Claude não transcreve voz). Prioridade: os **3 áudios da Nelia de 31/07 07:49–07:50**, enviados junto com o print da simulação — podem conter estrutura de pagamento alternativa.
-- [ ] **Orientação solar da fachada dos finais 09** (Tucuruvi). Requisito: janela do escritório voltada a **leste** (sol da manhã, ciclo circadiano). No Tipo H os dois quartos dão para a mesma face — quem decide é o final, não a planta. Pedir implantação com o Norte, ou verificar no Google Maps satélite.
+- [ ] **Orientação solar — pendência ampliada em 31/07.** Requisito: janela do escritório voltada a **leste** (sol da manhã, ciclo circadiano). Agora são DUAS unidades candidatas com janela confirmada no escritório, ambas com orientação pendente:
+  - **Tucuruvi final 08 (Tipo G)** — verificar no Google Maps satélite (endereço já existe: R. Paulo de Faria, 384).
+  - **Mazzei finais 5, 6 (Tipo C) e 7, 8, 9, 10 (Tipo D)** — não dá para verificar por mapa ainda, pré-lançamento sem endereço publicado. **Pedir direto à Nelia a implantação com indicação do Norte.**
+  - No Tipo H do Tucuruvi (final 09, a unidade ofertada) os dois quartos dão para a mesma face sem escritório janelado — não é candidata nesse critério.
 - [ ] **Confirmar se o final 09 tem varanda** — o anúncio diz "36m² com Varanda", a planta Tipo H não mostra varanda claramente.
 - [ ] **Conferir meses totais de CLT na CTPS digital** (condição de cotista FGTS = taxa menor).
 - [ ] **Perguntar ao colega da Vila Sônia**: já pegou as chaves? Quanto ficou a parcela do financiamento? — continua sendo a informação mais valiosa disponível de graça.
