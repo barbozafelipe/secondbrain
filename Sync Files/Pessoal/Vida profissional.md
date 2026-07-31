@@ -28,8 +28,10 @@
 
 ## Emprego atual
 - **Contratante**: Compass UOL. **Cliente/alocação**: Sem Parar/Corpay.
-- **Cargo formal na carteira**: "Analista Infra Estrutura PL" — o título usado no dia a dia é "Engenheiro Cloud Pleno".
-- **Salário CLT atual**: R$ 6.077,29 (desde 17/11/2025).
+- **Cargo formal na carteira**: "Analista Infra Estrutura PL" (CBO 2124-10) — o título usado no dia a dia é "Engenheiro Cloud Pleno".
+- **Salário CLT atual**: R$ 6.077,29 (desde 17/11/2025). Tipo de contrato: prazo indeterminado (era prazo determinado até 15/02/2026).
+- **CNPJ (para fichas cadastrais/financiamento)**: Compass.UOL Tecnologia Ltda — 07.654.824/0001-24. Endereço registrado: Av. Sete de Setembro, 496, Andar 1, Sala 206 Sala A, Centro, Passo Fundo/RS, CEP 99010-120 (matriz de folha de pagamento — não é onde trabalho fisicamente, que é a Sem Parar em SP).
+- **36 meses de registro CLT?** NÃO — somando toda a carteira (Aliançanet ~12m + SkyOne ~3m + Compass ~8,5m) dá ~23,5 meses, abaixo de 36. O período PJ na Service IT não conta. Resposta relevante para "condição de cotista FGTS" em fichas de financiamento (ver [[Moradia — Empreendimentos avaliados]]).
 - **Regime híbrido**: presencial terças e quintas (9h–18h); remoto nos demais dias.
 - Sem metas individuais na Compass — contribuo para as metas da Sem Parar, sem participação direta no PPR deles.
 - **PPR da Compass**: não considerar no planejamento enquanto não confirmado e depositado (ver [[Financeiro]]).
