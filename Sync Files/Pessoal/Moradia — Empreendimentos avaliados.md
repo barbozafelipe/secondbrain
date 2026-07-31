@@ -234,27 +234,35 @@ Critério original: Felipe em Pinheiros, Bia na Consolação, sem baldeação di
 
 ---
 
-## 6. Perguntas para as corretoras (não assinar nada sem estas respostas)
+## 6. Estado das negociações e próximos passos (31/07/2026)
 
-1. Valor total e **% exato de recursos próprios** exigido.
-2. Divisão da entrada: sinal, quantas mensais, **tem balão semestral/anual?**, tem **parcela das chaves?**
-3. Financiamento contratado **na assinatura** (Apoio à Produção, pagando juros de obra) ou **só na entrega?** — decisivo no Tucuruvi.
-4. **Simulação da parcela pós-chaves com renda bruta de R$ 6.077,29, sozinho, sem compor.** Pedir o print da simulação da Caixa. → *é a pergunta que encerra a discussão.*
-5. **Uso de FGTS** como recursos próprios — quanto reduz por mês.
-6. **Condomínio estimado.**
-7. **Multa contratual por atraso** na entrega.
-8. **Orientação solar da fachada** dos finais 09 (Tucuruvi) — implantação com o Norte indicado. *Requisito: janela do escritório voltada para leste (sol da manhã, ciclo circadiano).*
-9. *(Vivaz)* Preço das **CONECT MAX 36,72 e 39,46 m² (R2V, sem restrição HIS)**.
-10. *(Tucuruvi)* Entrega é jun/2027 ou mar/2028? Por que mudou? Estágio real da obra hoje.
+### Corretora Nelia (Drive / grupo RTE) — WhatsApp desde 30/07
+Ofertou o In Next Tucuruvi final 09 a R$ 360.700. **Entregou a simulação real em 31/07 07:48** — o único documento honesto do processo, e produzido porque o Felipe insistiu três vezes. Enviou ficha cadastral e a **Autorização de Análise de Crédito (DRIVECRED Serviços e Assessoria)**, ainda **não assinada**.
 
-**Regra dura mantida: não assinar nada antes de 05/11/2026** (última parcela Nubank) e com o rotativo do PicPay zerado. "Só tem uma unidade" é técnica de venda — num prédio de 138 unidades com obra até 2028 vão aparecer outras.
+**Decisão: não assinar a autorização agora.** Não é armadilha (é consulta padrão a SCR/Bacen e Serasa), mas viabiliza uma compra que a própria simulação da empresa mostrou que não fecha. Assinar só coloca dados com terceiros sem contrapartida.
 
-Pendência antiga que continua sendo a informação mais valiosa disponível de graça: **perguntar ao colega da Vila Sônia se já pegou as chaves e quanto ficou a parcela do financiamento.**
+**Pedir a ela:** simulação da tipologia **1 DORM + OFFICE do In Next Mazzei (R$ 292.400)** e o cronograma de pagamento da entrada no Mazzei (sinal, mensais, balão semestral, parcela das chaves).
+
+### Corretor Paiva (Vivaz / Cyrela) — WhatsApp desde 29/07
+Projeto **Vivaz Estação Vila Sônia em pré-lançamento, sem tabela**. Já recebeu holerites, CPF, data de nascimento e saldo de FGTS. Prometeu montar 2 modelos de proposta — **ainda não entregou**. Vendeu "pré-aprovação" em cima de consulta cadastral (ver seção 0.1).
+
+**Pedir a ele:** a tabela do Vila Sônia quando sair, e **a mesma simulação numérica que a Nelia fez** (renda, valor, prazo, parcela) — não consulta cadastral.
+
+### Ainda pendente
+- [ ] **Transcrever os 16 áudios do WhatsApp** (Claude não transcreve voz). Prioridade: os **3 áudios da Nelia de 31/07 07:49–07:50**, enviados junto com o print da simulação — podem conter estrutura de pagamento alternativa.
+- [ ] **Orientação solar da fachada dos finais 09** (Tucuruvi). Requisito: janela do escritório voltada a **leste** (sol da manhã, ciclo circadiano). No Tipo H os dois quartos dão para a mesma face — quem decide é o final, não a planta. Pedir implantação com o Norte, ou verificar no Google Maps satélite.
+- [ ] **Confirmar se o final 09 tem varanda** — o anúncio diz "36m² com Varanda", a planta Tipo H não mostra varanda claramente.
+- [ ] **Conferir meses totais de CLT na CTPS digital** (condição de cotista FGTS = taxa menor).
+- [ ] **Perguntar ao colega da Vila Sônia**: já pegou as chaves? Quanto ficou a parcela do financiamento? — continua sendo a informação mais valiosa disponível de graça.
+- [ ] Considerar o **Tipo G (final 8, 36,68 m²)** do In Next Tucuruvi — é espelhado, ligeiramente maior, e o próprio decorado do book o mostra montado **como escritório**.
+
+**Regra dura mantida: não assinar nada antes de 05/11/2026** (última parcela Nubank) e com o rotativo do PicPay zerado. "Só tem uma unidade" é técnica de venda — comprovado: a escassez se desfez em 23 minutos.
 
 ---
 
 ## Fontes (31/07/2026)
-- Books: `IN NEXT TUCURUVI BOOK.pdf` (dez/24) e `Grand Vivaz Lapa 2-Folhetão Mobile.pdf`
+- Exports de WhatsApp: corretora Nelia (30-31/07) e corretor Paiva (29-30/07), com books, tabelas de preço, holerites, consulta cadastral Caixa e print da simulação
+- Books: `IN NEXT TUCURUVI BOOK.pdf` (dez/24), `[IN TUCURUVI] Book final 13/06/2026`, `IN NEXT MAZZEI Book oficial`, `Grand Vivaz Lapa 2-Folhetão Mobile.pdf`
 - HIS 2 / Decreto 64.895/2026: Elevo Imóveis, iApartamentos, Gestão Urbana PMSP, MySide
 - MCMV 2026 (faixas, teto R$ 600k, juros): CNN Brasil, Tenda, SP Imóvel
 - In Next Tucuruvi (preços, 138 unid., entrega jun/27): Órulo, RTE Empreendimentos, Catálogo das Construtoras
@@ -264,4 +272,4 @@ Pendência antiga que continua sendo a informação mais valiosa disponível de 
 - Aluguel Tucuruvi 2 dorms: ZAP/QuintoAndar (~R$ 53/m² → ~R$ 1.900–2.500 para 36 m²)
 
 ---
-_Criado em 2026-07-31. Cálculos em `scratchpad/calc.py`._
+_Criado em 2026-07-31. Atualizado no mesmo dia com a simulação real da Caixa e a análise dos exports de WhatsApp das duas corretoras. Cálculos em `scratchpad/calc.py` e `scratchpad/calc2.py` (o segundo calibrado com o print real, bate ao centavo)._
