@@ -114,7 +114,9 @@ Netflix (20) + Luz (150) + Internet (100) + Água (50) + Instalação multimídi
 
 </details>
 
-**Veredito sobre financiar cadeira e cama em dezembro**: em novembro o empréstimo Nubank termina e vários parcelamentos pequenos também (Mac Mini, maquininha, drogaria, tinta) — abre espaço real bem na hora que o 13º cai. Financiar as duas (R$510/mês novos) ainda deixa o ano fechando positivo (**~R$7.282** projetado). Pressupõe: (1) PicPay não volta pro rotativo, (2) 13º líquido realmente perto de R$4.800 (confirmar no holerite), (3) esporádicos não passam de ~R$600/mês. Falhando qualquer um desses três, reavaliar a cama antes da cadeira (cadeira é mais barata e menos arriscada).
+**Veredito sobre financiar a cama em dezembro**: em novembro o empréstimo Nubank termina e vários parcelamentos pequenos também (Mac Mini, maquininha, drogaria, tinta) — abre espaço real bem na hora que o 13º cai. Financiar a cama ainda deixa o ano fechando positivo (**~R$7.282** projetado). Pressupõe: (1) PicPay não volta pro rotativo, (2) 13º líquido realmente perto de R$4.800 (confirmar no holerite), (3) esporádicos não passam de ~R$600/mês.
+
+> **Atualização 03/08/2026: cadeira removida do plano.** Decisão do Felipe — não compra mais a cadeira este ano (2026). Os valores acima (R$260/mês, 10x) e as referências a ela no restante deste arquivo são história, não plano ativo.
 
 ### Esporádicos e saídas com a Bia (medido nos extratos, 24/07)
 Os reembolsos que a Bia manda (metade dos rolês) já estão embutidos no número líquido medido: mai ~R$193, jun ~R$208, jul parcial ~R$254 recebidos dela. O bloco de gastos variáveis (débito+Pix, líquido, fora Uber) adotado é **R$600/mês** — vindo da média dos extratos, ponderada pro comportamento mais contido de julho. É a maior fonte de incerteza da projeção; por isso o dashboard deixa o Felipe digitar os reais e se autocorrige.
@@ -135,7 +137,21 @@ O comprador do iPad desistiu no dia da venda (25/07). Isso tirou R$ 1.900 do pla
 
 **Novo saldo final projetado (30/12): R$ 5.132,26** (era R$ 6.806,59 com o iPad). Novo checkpoint da Black Friday (20/11): ~R$4.800 em vez de R$6.800. Lógica validada em `scratchpad/projetar.py`, replicada na página e na agenda do Google (eventos de 25/07 e 30/07 ajustados, novos marcos em 09/08, 14/08 e 16/08 criados).
 
-**Ajuste 31/07 — valores reais do dia do pagamento**: Felipe recebeu o salário no dia 31 (não 30 como calculado) e informou os valores reais: parcela do empréstimo saiu R$489,09 (não R$493,67 — provavelmente juro proporcional por pagar antes do vencimento oficial de 05/08) e a fatura do Nubank veio R$1.112,18 (não R$1.073,31 estimado — R$38,87 a mais, provavelmente mais Uber ou compras no período). Recalculado: paga R$1.016,68 da fatura hoje (30/07 na página), deixa ~R$95,50 no rotativo até 14/08. Novo saldo final: **R$5.132,26**. Também perguntou por que esperar até 09/08 pra pagar o Nubank em vez de pagar já — resposta registrada: sem desconto por antecipar fatura de cartão (diferente do empréstimo), mas pagar imediatamente remove a tentação de gastar esse dinheiro nos ~10 dias até o vencimento — por isso o modelo já paga o máximo possível no dia do salário, não no vencimento.
+**Ajuste 31/07 — valores reais do dia do pagamento**: Felipe recebeu o salário no dia 31 (não 30 como calculado) e informou os valores reais: parcela do empréstimo saiu R$489,09 (não R$493,67) e a fatura do Nubank veio R$1.112,18 (não R$1.073,31 estimado). Paga R$1.016,68 da fatura no dia do salário (não espera o vencimento 09/08) — motivo registrado: sem desconto por antecipar fatura de cartão (diferente do empréstimo), mas pagar imediatamente remove a tentação de gastar esse dinheiro até o vencimento.
+
+**🎉 REVIRAVOLTA 31/07 — iPad vendido de novo, PicPay ZERADO por completo**: Felipe vendeu o iPad (sem a caneta/Apple Pencil 2) por **R$1.661,00** (segunda tentativa, depois do primeiro comprador desistir em 25/07). Ele perguntou "o que é melhor matar com esse dinheiro" — PicPay (rotativo) ou o empréstimo (que tinha uma tela de quitação real mostrando R$1.313,45 pra pagar as 3 parcelas restantes, economizando R$167,57). Resposta dada: **PicPay primeiro**, porque (1) rotativo sem teto, ativamente compondo, contra taxa fixa e decrescente do empréstimo, e (2) o rotativo tinha consumido praticamente todo o limite do cartão (só R$26 disponíveis de R$3.600) — problema prático de liquidez, não só custo.
+
+Valores reais do PicPay (bem diferentes da estimativa anterior de ~R$1.472): **R$583,31** de rotativo de julho + **R$1.050,81** da fatura de agosto inteira (antecipada, não só o mínimo). Felipe pagou os dois. **PicPay está zerado por completo agora** — rotativo e fatura corrente, nenhuma pendência.
+
+Restou **R$19,88** na conta (menor saldo real do ano até agora). Esporádicos ficam em **ZERO literal** até o salário de 14/08 — não sobrou nem o "talo" de R$50 que estava previsto.
+
+Itaú e Mercado Pago de agosto também vieram mais altos que o estimado (Itaú R$542,13 vs R$238,12 estimado; MP R$475,75 vs R$448,95) — atualizado com os valores reais das telas do app, ainda em aberto (fecham 11-12/08, vencem 17-20/08), cobertos com folga pelo salário de 14/08.
+
+**Novo saldo final projetado (30/12): R$6.408,33** (verificado em `scratchpad/projetar.py` e replicado na página — bateu exatamente).
+
+**Bug técnico corrigido durante a sessão**: o "menor saldo do ano" na página mostrava valores negativos sem o sinal de menos (só ficava vermelho) — corrigido pra sempre exibir o sinal. Também reordenei um ajuste de conciliação interno que criava um mergulho negativo artificial no modelo (não reflitia a realidade).
+
+**Ainda em aberto**: quitação do empréstimo (R$1.313,45, economiza R$167,57, desconto encolhe a cada mês) — próximo alvo assim que sobrar caixa de novo, provavelmente com a sobra de agosto ou o 13º. Reserva de emergência de R$1.000 continua zerada, prioridade reconstruir a partir de set/out.
 
 Compra do Digeliv (suplemento, R$89,90) que estava cogitada pra 25/07 com o dinheiro do iPad — **adiada**, sem previsão ainda, só depois que o caixa respirar (~meados de agosto).
 
@@ -149,17 +165,17 @@ Aplicado no dashboard:
 
 Riscos que ficam de vigilância (não resolvidos, dependem de dados/decisão do Felipe):
 - **Fragilidade do início (25/07–ago)**: menor saldo R$448, abaixo da reserva. As primeiras ~5 semanas são o período crítico — um imprevisto de R$500 aí pode reabrir o rotativo. Depois de ~setembro a reserva é automática.
-- **13º é load-bearing**: todo o plano do quarto depende dele cair ~R$4.800 líquido. Confirmar no holerite; se vier menor, a cama/cadeira são as primeiras a cortar.
-- **Cauda de parcelas em 2027**: cadeira (10x) + cama (12x) começam em dez e correm por 2027, junto com Sony (18x até ~ago/27) e outras. Fechar 2026 com R$7.282 em caixa NÃO é estar livre — há ~R$1.000+/mês de parcelas atravessando pra 2027, o que colide com a meta de sair de casa. Revisitar em jan/2027.
+- **13º é load-bearing**: todo o plano do quarto depende dele cair ~R$4.800 líquido. Confirmar no holerite; se vier menor, a cama é a primeira a cortar.
+- **Cauda de parcelas em 2027**: cama (12x) começa em dez e corre por 2027, junto com Sony (18x até ~ago/27) e outras. Fechar 2026 com R$7.282 em caixa NÃO é estar livre — há parcelas atravessando pra 2027, o que colide com a meta de sair de casa. Revisitar em jan/2027.
 - **Esporádicos**: adotado R$600/mês (ritmo contido de julho). Maio real foi R$3.852 líquido. Se voltar ao padrão mai/jun, o plano derrete — o termômetro é o alarme.
 - **Pix "Mariana Sanchez" R$1.450 (28/05)**: gasto grande não identificado, perguntado ao Felipe, sem resposta ainda.
 
 ## Tensão estratégica: quarto vs. reserva de independência
-- Plano do quarto (TV, painel, guarda-roupa, divisória, cadeira, GTA 6, viagem fim de ano): **~R$ 10.950**.
+- Plano do quarto (TV, painel, guarda-roupa, divisória, GTA 6, viagem fim de ano): **~R$ 8.350** (era R$ 10.950 com a cadeira — removida do plano em 03/08/2026, não compra mais este ano).
 - [[Plano de vida|Reserva de independência]] (sair de casa em 2027, mas não deve ser uma premissa, não está confirmado ainda): **~R$ 16.400-21.050** (parte do Felipe).
 - A decisão de hoje de não vender o G29 já cortou a fonte de caixa da reserva pela metade.
-- TV, painel e guarda-roupa são reaproveitáveis na mudança pro apartamento (não é gasto perdido); **cadeira e divisória também, são coisas que vou utilizar no apartamento**.
-- **Ponto real de atenção**: os R$ 10.950 do quarto competem diretamente pelo mesmo caixa que deveria semear a reserva de R$ 16-21k. Não são dois orçamentos separados — é a mesma sobra mensal disputada por dois objetivos com prazos bem diferentes (quarto = agora, independência = 2027).
+- TV, painel e guarda-roupa são reaproveitáveis na mudança pro apartamento (não é gasto perdido); **divisória também, é coisa que vou utilizar no apartamento**.
+- **Ponto real de atenção**: os R$ 8.350 do quarto competem diretamente pelo mesmo caixa que deveria semear a reserva de R$ 16-21k. Não são dois orçamentos separados — é a mesma sobra mensal disputada por dois objetivos com prazos bem diferentes (quarto = agora, independência = 2027).
 
 ### ⚠️ Atualização 29/07/2026 — a tensão mudou de forma com a hipótese de compra
 Passei a cogitar **comprar um apartamento na planta** (região Vila Sônia) em vez de alugar em 2027 — detalhes, números e rotas em [[Plano de vida]]. Impacto direto neste arquivo:
@@ -174,6 +190,35 @@ Passei a cogitar **comprar um apartamento na planta** (região Vila Sônia) em v
   - **Atualização 31/07/2026**: essa regra é por condição (PicPay=0 + Nubank quitado + reserva R$1.000), não por data fixa — 05/11/2026 era só a projeção do ritmo atual, quitação antecipada do Nubank pode adiantar o gatilho. Ver detalhe em [[Plano de vida]]. Mas isso não resolve sozinho: falta ainda confirmar o valor do "Ato" (pagamento devido na assinatura) do apartamento do In Next Mazzei em negociação — ver [[Moradia — Empreendimentos avaliados]] — antes de qualquer decisão de assinar mais cedo.
 - **Fato a não esquecer**: a parcela de obra de R$ 700-1.200 que parece barata **não é a prestação do apartamento** — é a entrada parcelada, corrigida por INCC. A prestação real (R$ 2.400-3.500 + condomínio) só aparece nas chaves. Ver [[Plano de vida]].
 - **Renda do casal atualizada**: Bia ~R$ 6.000 líquidos (mais que meus R$ 4.702,43). Renda somada ~R$ 10.700 líquidos — é o que torna a compra viável, e também o que exige a estrutura jurídica descrita em [[Plano de vida]].
+
+## Cama Queen (colchão + baú) para o quarto — DECIDIDO em 03/08/2026, compra em dez/2026
+
+**Plano fechado, nada comprado ainda.** Compra prevista pra **novembro/dezembro/2026 com o 13º**, à vista no Pix, pelos motivos financeiros na seção abaixo. Não precisa reabrir nenhuma das duas decisões nas próximas sessões — só executar a compra.
+
+| Item | Produto decidido | Preço | Onde |
+|---|---|---|---|
+| **Colchão** | Emma Original Queen (158×198, 25 cm, 3 camadas) | R$ 2.378 (Amazon) a R$ 2.755 (Mercado Livre) — mesma loja oficial Emma, comparar no dia da compra | Amazon ou Mercado Livre, loja oficial Emma |
+| **Base com baú** | Cama Box Baú Queen 158×198×42cm Courino Linho, pistão a gás, vendedor Cama InHouse | R$ 1.221,86 no Pix (ou 10x R$ 129,99) | MadeiraMadeira, ID 2778480, 4,2★/82 avaliações |
+| **Total estimado** | | **~R$ 3.600–3.977** | cabe na folga do roadmap de dezembro |
+
+### Colchão — por que Emma Original Queen
+
+**Rejeitado no caminho**: Kit "Colchão Emma One + Cama Baú Emma Queen" por R$ 6.400 no Mercado Livre. Motivo duplo — (1) financeiro: Emma One Light avulso custa R$ 1.612 no site da Emma e uma cama baú genérica boa custa ~R$ 1.200–1.500, então o kit cobra ~R$ 3.000 só pela marca na base; (2) ergonômico: o Emma One tem só 18 cm e 2 camadas (vs. 25 cm/3 camadas do Original), é mais firme, e com 68,5 kg de corpo leve isso piora a distribuição de pressão em ombro/quadril — o mesmo problema já mapeado abaixo pra colchões firmes com peso leve.
+
+**Por que não comprar agora**: em 31/07 sobraram R$ 19,88 na conta, reserva zerada, esporádicos em zero literal até o salário de 14/08, PicPay recém-quitado. R$ 3.000 agora só entra via cartão — reabre exatamente o rotativo que acabou de ser fechado. O roadmap já tem **"Cama — 12x R$ 250" a partir de 20/12** (= R$ 3.000): se o colchão vier por cima, o item "cama+colchão" vira ~R$ 6.000, não R$ 3.000. [[Plano de vida]] orça "colchão bom" em R$ 1.500–2.500 — a faixa de R$ 2.100–2.500 abaixo cabe nesse orçamento sem estourar.
+
+**Conclusões técnicas da pesquisa (não refazer):**
+- **Tamanho: Queen 158×198, não Casal 138×188.** Regra é altura + 10–15 cm; com 1,82 m ele precisa de ≥1,92 m. Os 188 cm do casal padrão são curtos. Consequência: a **cama de dezembro tem que ser Queen** — comprar cama casal e colchão queen é erro caro.
+- **Firmeza: médio/macio, não "firme/ortopédico".** Ele está com 68,5 kg — corpo leve não afunda o suficiente em colchão firme e o quadril/ombro desalinham a coluna. A maioria dos colchões BR nessa faixa é calibrada pra 100–150 kg/pessoa.
+- **Descartados na pesquisa:** Castor Premium Tecnopedic (molas *bicônicas*, não ensacadas, espumas D20/D28); Herval MaxSpring (molas entrelaçadas em bloco, não ensacadas); Ortobom Freedom (Reclame Aqui 6.2/10, só 34,4% voltariam a comprar, queixas recorrentes de afundamento em 2–4 meses); Zissou (a partir de R$ 7.690), Emma Diamond Cooling queen (R$ 5.889) e Emma Premium Hybrid 2.0 queen (R$ 4.050) — todos fora do teto.
+- **Finalistas (preços verificados em 03/08/2026, Queen):** Emma Original 25 cm — R$ 2.378 na Amazon (loja oficial da Emma) vs R$ 3.353 no site da própria Emma; venceu o teste comparativo da PROTESTE (dez/2022, 6 colchões de espuma, 71 pts), 4,7★ em 1.938 avaliações, 10 anos de garantia, firmeza 7/10. Alternativa mais macia: Luuna Original **Macio** 26 cm, firmeza 4/10, R$ 2.799 na Amazon. Alternativa com molas: Castor (Reclame Aqui 8.4/10) Innovation Pocket 27 cm, R$ 2.345 no Pix — porém só **12 meses** de garantia.
+- **Pegadinha do canal**: comprar na Amazon sai ~R$ 975 mais barato no Emma Original, mas a tela da Amazon mostra "devolução em 7 dias" e há relato bem votado de que a Emma não dá suporte a quem compra por lá. As **100 noites de teste** só são contratualmente limpas comprando em colchoesemma.com.br. Luuna: 100 noites no site próprio, **30 noites** via Amazon.
+- **Item de maior retorno e que não é o colchão**: elevar a cabeceira da cama 10–15 cm com calços (~R$ 50). Serve pro pós-operatório de 05/08 (cabeceira a ~30° por 7–10 dias) e principalmente pro **refluxo faringolaríngeo** de [[Saúde]], que é crônico. Nenhum colchão de R$ 3.000 resolve o déficit de sono profundo — a causa raiz é a obstrução nasal, e o que ataca isso é a cirurgia.
+
+### Base com baú — por que a Cama InHouse (MadeiraMadeira)
+- **Descartado**: Castor (marca do colchão também descartado, mas aqui é só a base) — todos os modelos de base baú queen da loja oficial saem acima de R$ 2.200 no Pix, e a Ortobom (base, não colchão) sai R$ 1.989,98 — ambos acima do que o mercado cobra pelo mesmo produto genérico.
+- **Vendedor a evitar**: WS Colchões (via MadeiraMadeira) — preço atrativo (R$ 771,91 Pix) mas reputação do vendedor marcada como "não oferece bom atendimento" e "entrega com atraso".
+- **Escolhido**: Cama Box Baú Queen 158×198×42cm Courino Linho com Pistão a Gás, vendedor Cama InHouse (via MadeiraMadeira, ID 2778480) — **R$ 1.221,86 no Pix** (6% off) ou 10x R$ 129,99 sem juros, vendedor com "bom atendimento" e "entrega no prazo", +18 mil vendas, **4,2★/82 avaliações**. Baú bipartido (passa por porta estreita), 25 cm de profundidade interna, madeira de eucalipto tratada, pistão a gás. Garantia de 90 dias (padrão do segmento). Cabe dentro do que já estava reservado no roadmap ("Cama — 12x R$ 250" ≈ R$ 3.000 total) com folga.
 
 ---
 _Atualizado: 2026-07-29 — hipótese de compra de imóvel na planta (Vila Sônia) incorporada à tensão estratégica: ordem de prioridade de caixa, regra de não assinar contrato com dívida cara aberta, distinção parcela de obra vs. prestação, renda do casal atualizada. Anterior: 2026-07-24 — reconciliação completa de faturas via extratos reais; rotativo do PicPay identificado; datas de pagamento corrigidas (30/07, 28/08 etc.); esporádicos medidos (R$600/mês); projeção verificada em Python (fim de ano R$7.281,97, menor saldo R$448,54); dashboard reconstruído com recálculo ao vivo._
