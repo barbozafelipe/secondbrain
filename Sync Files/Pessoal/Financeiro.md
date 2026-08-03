@@ -195,11 +195,11 @@ Passei a cogitar **comprar um apartamento na planta** (região Vila Sônia) em v
 
 **Plano fechado, nada comprado ainda.** Compra prevista pra **novembro/dezembro/2026 com o 13º**, à vista no Pix, pelos motivos financeiros na seção abaixo. Não precisa reabrir nenhuma das duas decisões nas próximas sessões — só executar a compra.
 
-| Item | Produto decidido | Preço | Onde |
-|---|---|---|---|
-| **Colchão** | Emma Original Queen (158×198, 25 cm, 3 camadas) | R$ 2.378 (Amazon) a R$ 2.755 (Mercado Livre) — mesma loja oficial Emma, comparar no dia da compra | Amazon ou Mercado Livre, loja oficial Emma |
-| **Base com baú** | Cama Box Baú Queen 158×198×42cm Courino Linho, pistão a gás, vendedor Cama InHouse | R$ 1.221,86 no Pix (ou 10x R$ 129,99) | MadeiraMadeira, ID 2778480, 4,2★/82 avaliações |
-| **Total estimado** | | **~R$ 3.600–3.977** | cabe na folga do roadmap de dezembro |
+| Item               | Produto decidido                                                                   | Preço                                                                                             | Onde                                           |
+| ------------------ | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| **Colchão**        | Emma Original Queen (158×198, 25 cm, 3 camadas)                                    | R$ 2.378 (Amazon) a R$ 2.755 (Mercado Livre) — mesma loja oficial Emma, comparar no dia da compra | Amazon ou Mercado Livre, loja oficial Emma     |
+| **Base com baú**   | Cama Box Baú Queen 158×198×42cm Courino Linho, pistão a gás, vendedor Cama InHouse | R$ 1.221,86 no Pix (ou 10x R$ 129,99)                                                             | MadeiraMadeira, ID 2778480, 4,2★/82 avaliações |
+| **Total estimado** |                                                                                    | **~R$ 3.600–3.977**                                                                               | cabe na folga do roadmap de dezembro           |
 
 ### Colchão — por que Emma Original Queen
 
