@@ -107,17 +107,17 @@ tipo: reunião técnica
 
 ## 📌 Ações identificadas na reunião
 
-| Ação | Responsável |
-|---|---|
-| Rotacionar chave da service account do Terraform | **João Pedro** |
-| Verificar e restringir acesso à secret do Terraform no GitHub | João Pedro + DevOps Gringo |
-| Criar canal para solicitações de infra da Gringo | Wellington + DevOps Gringo |
-| Bloquear merge no repo de IaC sem aprovação do Cloud | DevOps Gringo + GitHub admin |
-| Compartilhar documento de arquitetura do GKE Standard | **Wellington** → DevOps Gringo |
-| Verificar situação da VPN com Ian | **Thiago** |
-| Verificar acesso ao GitHub para membros sem permissão | Wellington → Zaza |
-| Buscar gravações de passagem de conhecimento (PH + Daniel) | **Wellington** (OneDrive do Daniel) |
-| Mapear secrets ativas vs. obsoletas em prod | **Messias** (em andamento) |
+| Ação                                                          | Responsável                         |
+| ------------------------------------------------------------- | ----------------------------------- |
+| Rotacionar chave da service account do Terraform              | **João Pedro**                      |
+| Verificar e restringir acesso à secret do Terraform no GitHub | João Pedro + DevOps Gringo          |
+| Criar canal para solicitações de infra da Gringo              | Wellington + DevOps Gringo          |
+| Bloquear merge no repo de IaC sem aprovação do Cloud          | DevOps Gringo + GitHub admin        |
+| Compartilhar documento de arquitetura do GKE Standard         | **Wellington** → DevOps Gringo      |
+| Verificar situação da VPN com Ian                             | **Thiago**                          |
+| Verificar acesso ao GitHub para membros sem permissão         | Wellington → Zaza                   |
+| Buscar gravações de passagem de conhecimento (PH + Daniel)    | **Wellington** (OneDrive do Daniel) |
+| Mapear secrets ativas vs. obsoletas em prod                   | **Essias** (em andamento)           |
 
 ---
 

@@ -2,4 +2,4 @@ Chamado: CTASK0134245
 
 Atualizar certificado:
 
-- [ ] cpay-qa.corpay.com.br
+- [x] cpay-qa.corpay.com.br
