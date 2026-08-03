@@ -1,8 +1,9 @@
 ---
-tags: [aws, terraform, bedrock, textract, iam, s3, corpay-ai, servicenow, projeto-novo]
+tags: [aws, terraform, bedrock, textract, iam, s3, corpay-ai, servicenow, projeto-novo, cloudtrail]
 date: 2026-08-03
-cluster/resource: "CORPAY-AI 176238383094 (ex-CONTAINER QA), us-east-1"
-status: IaC criado localmente, pendente de confirmações antes do apply
+last_updated: 2026-08-03
+cluster/resource: "CORPAY-AI 176238383094 (ex-CONTAINER QA) | Sandbox 003120962440 (referência real, investigada via CloudTrail)"
+status: IaC criado e ajustado com achados reais do sandbox, pendente de confirmações antes do apply
 ---
 
 # CORPAY-AI — provisionamento Bedrock/Textract/S3 pro projeto BC Correios
@@ -53,10 +54,15 @@ recurso de computação dentro da AWS (EC2/Lambda/EKS) via metadata/OIDC. Sem
 esse mecanismo disponível, a credencial estática é o caminho correto — não é
 falha de segurança, é a única opção real pra esse consumidor.
 
+> [!warning] Atualização 2026-08-03 — não é UMA credencial, são DUAS
+> A investigação do sandbox (seção abaixo) mostrou que o Bedrock usa um
+> mecanismo de auth diferente (bearer token) do S3/Textract (access key SigV4).
+> Ver "Achado 3" abaixo.
+
 **Rede:** sem VPC endpoint. Acesso via endpoints públicos da AWS, coerente com
 o consumidor ser um SaaS externo.
 
-## Achado relevante — bucket de teste já documentado
+## Achado 1 — bucket de teste já documentado
 
 O bucket de teste que o Thiago criou (`snow-s3-textract-bucket`) **não está na
 conta CORPAY-AI** — vive na conta **Sandbox** (`003120962440`, `us-east-1`),
@@ -70,6 +76,78 @@ recurso da sandbox.
 Essa nota antiga também documenta um bug real de policy (ARN de bucket vs.
 `bucket/*` para ações de objeto) que serve de checklist pra não repetir na
 policy nova.
+
+## Investigação do sandbox (2026-08-03) — comparar com a arquitetura real
+
+O usuário sugeriu acessar a conta sandbox pra ver como a arquitetura já funciona
+lá antes de fechar o Terraform. Login via `aws sso login --profile
+BR_PS_CLOUD-003120962440`, inspeção de bucket + IAM + **CloudTrail** (90 dias de
+eventos `InvokeModel`). Achados relevantes:
+
+### Achado 2 — a "avaliação de custo" do Thiago já é fato consumado
+
+CloudTrail mostra dois usuários IAM distintos ao longo do tempo:
+
+| Período | Usuário IAM | Model ID invocado | Forma |
+|---|---|---|---|
+| até 2026-07-21 | `BedrockAPIKey-zwcz` | `anthropic.claude-3-sonnet-20240229-v1:0` | direto |
+| a partir de 2026-07-30 | `BedrockAPIKey-51ot` | `global.anthropic.claude-sonnet-4-6` | via inference profile **global** |
+
+O "Sonnet 3" que o Thiago citou era de fato o Claude 3 Sonnet (descontinuado pela
+Anthropic em jul/2025) — e a migração pro Sonnet 4.6 **já aconteceu**, não é mais
+avaliação. `bedrock_foundation_models`/`bedrock_inference_profiles` no Terraform
+já atualizados com esses valores reais.
+
+**Efeito colateral na policy:** o profile `global.*` roteou inferência pra
+`ap-northeast-1`, `ap-southeast-4`, `eu-west-1` e `eu-west-2` — tudo numa janela
+de minutos. `main.tf` foi ajustado pra usar wildcard de região no ARN do
+foundation model (padrão recomendado da AWS pra cross-region/global inference
+profile) em vez de listar regiões específicas, que quebraria a cada rota nova.
+
+### Achado 3 — Bedrock usa "Bedrock API key" (bearer token), não access key SigV4
+
+`"callWithBearerToken": true` em 100% das chamadas de `InvokeModel` no
+CloudTrail. Isso é um **IAM Service Specific Credential** pro serviço
+`bedrock.amazonaws.com` (`aws iam create-service-specific-credential`), não a
+access key clássica — provavelmente porque o Flow Designer não implementa
+assinatura SigV4 completa e usa o método bearer token mais simples que a AWS
+oferece especificamente pro Bedrock.
+
+**Esse token expira** (confirmado: 30 dias pro `zwcz`, 90 dias pro `51ot`) — e
+já causou um incidente real no sandbox: quando o token do `zwcz` expirou em
+2026-07-24, em vez de rotacionar, criaram um usuário inteiro novo (`51ot`). Sem
+plano de rotação isso se repete em produção, com o BC Correios parando de
+verdade.
+
+S3 e Textract continuam precisando da access key clássica — o bearer token é
+específico do Bedrock.
+
+### Achado 4 — divergência de região (dito ≠ real, de novo)
+
+O Thiago corrigiu no Teams: *"a região é us-east-1"*. Mas **100% dos eventos**
+de `InvokeModel` no CloudTrail batem em `bedrock-runtime.sa-east-1.amazonaws.com`
+— não é o `inferenceRegion` (que varia, é do profile global), é a região do
+**endpoint** que o Flow Designer chama. Mesmo padrão do achado do Imperva no
+projeto Gringo: o que foi dito diverge do que está configurado de fato.
+`terraform.tfvars` mantém `us-east-1` (última palavra do Thiago) mas com
+pendência aberta — **não aplicar até resolver isso**, trocar região depois do
+apply implica recriar bucket e toda a policy.
+
+### Achado 5 — Textract nunca foi chamado de verdade no sandbox
+
+Zero eventos de `StartDocumentTextDetection` nos últimos 90 dias de CloudTrail.
+O fluxo assíncrono que o Thiago descreveu (`Start` + polling `Get`) parece ser
+o desenho pretendido, mas só o Bedrock foi de fato exercitado até agora. Vale
+perguntar se o Textract já foi validado em outro lugar.
+
+### Achado 6 — config do bucket sandbox, pra comparação
+
+SSE-S3/AES256 com bucket key, `BucketOwnerEnforced`, public access block total,
+**sem** bucket policy (controle só via IAM), **sem** versionamento, **sem**
+lifecycle rule, **sem** tags. Nossa stack replica o essencial e vai além em dois
+pontos — lifecycle de expiração (rede de segurança pro DELETE que a app faz) e
+bucket policy deny-non-TLS — que não existem no sandbox. Não é algo a reverter,
+é melhoria mesmo.
 
 ## IaC criado
 
@@ -104,29 +182,35 @@ usava, ver nota linkada acima).
 
 ## Pendências antes do apply
 
-Detalhe completo em `docs/PENDENCIAS.md` do repo. Resumo:
+Detalhe completo e atualizado em `docs/PENDENCIAS.md` do repo. Resumo pós-investigação:
 
 1. **Nome do bucket** — aguardando confirmação final do Thiago.
-2. **Model ID do Bedrock** — Thiago citou "Sonnet 3", que foi descontinuado
-   pela Anthropic em jul/2025; precisa do model ID exato usado hoje, mais
-   confirmar model access habilitado no console (não vem por Terraform).
-3. **Bucket de state do Terraform** — precisa existir na conta CORPAY-AI antes
+2. **Model ID do Bedrock** — em boa parte resolvido via CloudTrail (Achado 2);
+   falta só o Thiago confirmar que é o mesmo pra produção e habilitar model
+   access no console da CORPAY-AI (não herda do sandbox).
+3. **Mecanismo de auth do Bedrock** — achado novo (Achado 3): decidir se
+   produção usa Bedrock API key (bearer token, com rotação obrigatória) ou
+   SigV4 padrão.
+4. **Região** — reaberto (Achado 4): conflito real entre o que o Thiago disse
+   (`us-east-1`) e o que o CloudTrail mostra (`sa-east-1`). Bloqueante.
+5. **Bucket de state do Terraform** — precisa existir na conta CORPAY-AI antes
    do `init` (o bucket usado pelo `fleetcorbr-aws-repo-iac` é de outra conta,
    `867102406853`).
-4. **Acesso de write na CORPAY-AI** — confirmar se o papel `BR_PS_CLOUD` no
+6. **Acesso de write na CORPAY-AI** — confirmar se o papel `BR_PS_CLOUD` no
    portal SSO permite criar IAM/S3, e se vai rodar local ou entrar numa
    pipeline.
-5. **Entrega da access key** — gerada fora do Terraform (não fica no state),
-   entregue via Connection & Credential Alias do ServiceNow, alinhado com a
-   Larissa (aprovação) e o Thiago (uso).
+7. **Entrega das credenciais** (agora duas, não uma) — geradas fora do
+   Terraform, entregues via Connection & Credential Alias do ServiceNow,
+   alinhado com a Larissa (aprovação) e o Thiago (uso). Bedrock API key
+   precisa de rotação agendada — ver Achado 3.
 
 ## Próximos passos
 
-1. Segunda-feira (2026-08-03 em diante): conversar com o Thiago pra fechar as
-   pendências 1 e 2.
-2. Decidir e aplicar bootstrap do bucket de state (pendência 3).
+1. Conversar com o Thiago pra fechar região (4), model ID de produção (2) e
+   mecanismo de auth do Bedrock (3) — os três bloqueiam o apply.
+2. Decidir e aplicar bootstrap do bucket de state (5).
 3. Confirmar acesso de write e rodar `terraform plan`/`apply`.
-4. Gerar a access key e combinar entrega/rotação com Larissa + Thiago.
+4. Gerar as duas credenciais e combinar entrega/rotação com Larissa + Thiago.
 5. Depois de validado, subir o repo pro GitHub da empresa.
 
 ## Referências
