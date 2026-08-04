@@ -3,7 +3,7 @@ tags: [aws, terraform, bedrock, textract, iam, s3, corpay-ai, servicenow, projet
 date: 2026-08-03
 last_updated: 2026-08-03
 cluster/resource: "CORPAY-AI 176238383094 (ex-CONTAINER QA) | Sandbox 003120962440 (referência real, investigada via CloudTrail)"
-status: Thiago respondeu bloqueadores; faltam 2 confirmações pequenas + bootstrap do state antes do apply
+status: IaC pronto pra aplicar (2 stacks validadas) — falta executar apply + habilitar model access no console
 ---
 
 # CORPAY-AI — provisionamento Bedrock/Textract/S3 pro projeto BC Correios
@@ -219,14 +219,36 @@ do Thiago (2026-08-03):
 7. **Entrega das credenciais** (duas: access key + Bedrock API key) — falta
    combinar canal com a Larissa e definir rotação.
 
+## Fechamento do IaC (2026-08-03)
+
+Nome do bucket confirmado (`sn-bucket-textract`), pergunta de KMS deixada de lado,
+e a rotação do Bedrock API key classificada como pendência de **processo**, não de
+infra — não bloqueia o apply. Com isso o código foi finalizado:
+
+- **Nova stack `INFRA/TFSTATE`** — bucket `corpay-ai-tf-state` (versionamento,
+  SSE-S3, public access block, deny non-TLS, `prevent_destroy`, expiração de
+  versões antigas em 90d). Roda com state **local** (ovo-e-galinha: cria o bucket
+  que guardaria o próprio state). Sem DynamoDB lock table — o backend S3 do
+  Terraform ≥ 1.10 faz lock nativo via `use_lockfile`, a tabela virou legado.
+- **`backend.tf` do BC-CORREIOS/PRD ativado**, apontando pra esse bucket.
+- **Perfil AWS CLI criado** pra CORPAY-AI (`BR_PS_CLOUD-176238383094`, sso-session
+  `Corpay`, região `us-east-1`) — não existia; backup do `~/.aws/config` feito antes.
+- **`docs/COMO-APLICAR.md`** — runbook com a ordem correta, o que esperar em cada
+  plan, os passos manuais (model access no console, geração das duas credenciais)
+  e uma tabela sintoma→causa pra troubleshooting.
+
+`terraform fmt -check -recursive` e `terraform validate` passam nas duas stacks.
+
 ## Próximos passos
 
-1. Confirmar com o Thiago a troca underscore→hífen no bucket (rápido).
-2. Definir quem rotaciona o Bedrock API key antes de expirar.
-3. Decidir e aplicar bootstrap do bucket de state.
-4. Confirmar acesso de write e rodar `terraform plan`/`apply`.
-5. Gerar as duas credenciais e combinar entrega/rotação com Larissa + Thiago.
-6. Depois de validado, subir o repo pro GitHub da empresa.
+1. `aws sso login --profile BR_PS_CLOUD-176238383094` e validar que o papel
+   `BR_PS_CLOUD` tem permissão de criar S3/IAM nessa conta (única incógnita
+   técnica restante — se der `AccessDenied`, abrir chamado pro permission set).
+2. `terraform apply` na `INFRA/TFSTATE`, depois na `BC-CORREIOS/PRD`.
+3. Habilitar **model access** no console do Bedrock (conta CORPAY-AI, `us-east-1`)
+   pros dois modelos candidatos — não vem por Terraform, não herda do sandbox.
+4. Gerar as duas credenciais e combinar entrega/rotação com Larissa + Thiago.
+5. Depois de validado ponta a ponta com o Thiago, subir o repo pro GitHub da empresa.
 
 ## Referências
 
