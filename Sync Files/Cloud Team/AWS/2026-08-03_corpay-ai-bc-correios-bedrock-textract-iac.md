@@ -3,7 +3,7 @@ tags: [aws, terraform, bedrock, textract, iam, s3, corpay-ai, servicenow, projet
 date: 2026-08-03
 last_updated: 2026-08-03
 cluster/resource: "CORPAY-AI 176238383094 (ex-CONTAINER QA) | Sandbox 003120962440 (referência real, investigada via CloudTrail)"
-status: IaC criado e ajustado com achados reais do sandbox, pendente de confirmações antes do apply
+status: Thiago respondeu bloqueadores; faltam 2 confirmações pequenas + bootstrap do state antes do apply
 ---
 
 # CORPAY-AI — provisionamento Bedrock/Textract/S3 pro projeto BC Correios
@@ -149,6 +149,25 @@ pontos — lifecycle de expiração (rede de segurança pro DELETE que a app faz
 bucket policy deny-non-TLS — que não existem no sandbox. Não é algo a reverter,
 é melhoria mesmo.
 
+## Respostas do Thiago (2026-08-03)
+
+Mandei as 4 perguntas bloqueantes + 3 informativas dos achados acima. Respostas:
+
+| # | Pergunta | Resposta | Efeito |
+|---|---|---|---|
+| Região | `us-east-1`? | Confirmado — *"Isso, na região us-east-1"* | **Resolvido.** Sandbox usa `sa-east-1`, mas são contas diferentes; sem conflito real, era só coincidência de contas distintas. |
+| Nome do bucket | — | `sn_bucket_textract` | Nome **inválido** (S3 não aceita underscore) — convertido pra `sn-bucket-textract`, checado como disponível. Falta ele confirmar a troca. |
+| Modelo Bedrock | Sonnet 4.6 é definitivo? | *"Ainda estamos vendo se vamos usar o Sonnet 3 ou 4.6"* — decisão de custo é da Larissa | Terraform ajustado pra liberar **os dois modelos** de uma vez, não trava esperando decisão de negócio. |
+| Auth do Bedrock | Bearer token ou SigV4? | *"O token é mais fácil aqui pra mim"* | **Resolvido** — segue Bedrock API key (bearer token), igual ao sandbox. Falta só definir quem rotaciona antes de expirar. |
+| Volume | docs/dia | "50, 70, 100, 150, difícil ter média" | Sem risco de quota do Textract nesse volume — resolvido, sem ação. |
+| KMS/CMK | — | "Não entendi" | Pergunta mal formulada da minha parte — vou reformular mais simples numa próxima rodada. |
+| Textract validado? | — | Ainda validando com a área + custo do Sonnet 4.6 com a Larissa | Não bloqueia o Terraform (policy já cobre), só confirma que o fluxo real ainda não rodou ponta a ponta. |
+
+**O que ainda falta pro Terraform ficar 100% pronto** (`docs/PENDENCIAS.md` tem o
+detalhe): confirmação da troca underscore→hífen no bucket, definir quem rotaciona
+o Bedrock API key, e as três pendências internas nossas (bucket de state,
+acesso de write, canal de entrega de credencial com a Larissa).
+
 ## IaC criado
 
 Repositório local (ainda não subiu pro GitHub da empresa):
@@ -182,36 +201,32 @@ usava, ver nota linkada acima).
 
 ## Pendências antes do apply
 
-Detalhe completo e atualizado em `docs/PENDENCIAS.md` do repo. Resumo pós-investigação:
+Detalhe completo e atualizado em `docs/PENDENCIAS.md` do repo. Resumo pós-respostas
+do Thiago (2026-08-03):
 
-1. **Nome do bucket** — aguardando confirmação final do Thiago.
-2. **Model ID do Bedrock** — em boa parte resolvido via CloudTrail (Achado 2);
-   falta só o Thiago confirmar que é o mesmo pra produção e habilitar model
-   access no console da CORPAY-AI (não herda do sandbox).
-3. **Mecanismo de auth do Bedrock** — achado novo (Achado 3): decidir se
-   produção usa Bedrock API key (bearer token, com rotação obrigatória) ou
-   SigV4 padrão.
-4. **Região** — reaberto (Achado 4): conflito real entre o que o Thiago disse
-   (`us-east-1`) e o que o CloudTrail mostra (`sa-east-1`). Bloqueante.
-5. **Bucket de state do Terraform** — precisa existir na conta CORPAY-AI antes
-   do `init` (o bucket usado pelo `fleetcorbr-aws-repo-iac` é de outra conta,
-   `867102406853`).
-6. **Acesso de write na CORPAY-AI** — confirmar se o papel `BR_PS_CLOUD` no
-   portal SSO permite criar IAM/S3, e se vai rodar local ou entrar numa
-   pipeline.
-7. **Entrega das credenciais** (agora duas, não uma) — geradas fora do
-   Terraform, entregues via Connection & Credential Alias do ServiceNow,
-   alinhado com a Larissa (aprovação) e o Thiago (uso). Bedrock API key
-   precisa de rotação agendada — ver Achado 3.
+1. ~~Nome do bucket~~ — quase resolvido: Thiago deu `sn_bucket_textract`, convertido
+   pra `sn-bucket-textract` (underscore inválido em nome de S3). Falta confirmar a troca.
+2. ~~Model ID do Bedrock~~ — resolvido pro Terraform: libera os dois modelos
+   candidatos (Sonnet 3 e 4.6) já que a decisão de negócio (Larissa, custo) ainda
+   não fechou. Falta habilitar model access no console da CORPAY-AI pros dois.
+3. ~~Mecanismo de auth do Bedrock~~ — **resolvido**: bearer token (Bedrock API
+   key), confirmado pelo Thiago. Falta só definir quem rotaciona antes de expirar.
+4. ~~Região~~ — **resolvido**: `us-east-1` confirmado. Era coincidência de contas
+   diferentes (sandbox em `sa-east-1`), não divergência real.
+5. **Bucket de state do Terraform** — ainda pendente, decisão nossa (não do
+   Thiago). Precisa existir na conta CORPAY-AI antes do `init`.
+6. **Acesso de write na CORPAY-AI** — ainda pendente, decisão nossa.
+7. **Entrega das credenciais** (duas: access key + Bedrock API key) — falta
+   combinar canal com a Larissa e definir rotação.
 
 ## Próximos passos
 
-1. Conversar com o Thiago pra fechar região (4), model ID de produção (2) e
-   mecanismo de auth do Bedrock (3) — os três bloqueiam o apply.
-2. Decidir e aplicar bootstrap do bucket de state (5).
-3. Confirmar acesso de write e rodar `terraform plan`/`apply`.
-4. Gerar as duas credenciais e combinar entrega/rotação com Larissa + Thiago.
-5. Depois de validado, subir o repo pro GitHub da empresa.
+1. Confirmar com o Thiago a troca underscore→hífen no bucket (rápido).
+2. Definir quem rotaciona o Bedrock API key antes de expirar.
+3. Decidir e aplicar bootstrap do bucket de state.
+4. Confirmar acesso de write e rodar `terraform plan`/`apply`.
+5. Gerar as duas credenciais e combinar entrega/rotação com Larissa + Thiago.
+6. Depois de validado, subir o repo pro GitHub da empresa.
 
 ## Referências
 
