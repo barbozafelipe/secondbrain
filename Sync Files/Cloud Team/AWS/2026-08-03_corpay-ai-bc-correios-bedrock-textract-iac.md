@@ -3,7 +3,7 @@ tags: [aws, terraform, bedrock, textract, iam, s3, corpay-ai, servicenow, projet
 date: 2026-08-03
 last_updated: 2026-08-03
 cluster/resource: "CORPAY-AI 176238383094 (ex-CONTAINER QA) | Sandbox 003120962440 (referência real, investigada via CloudTrail)"
-status: IaC pronto pra aplicar (2 stacks validadas) — falta executar apply + habilitar model access no console
+status: APLICADO e testado ao vivo (2026-08-04) — Bedrock invoke real funcionando; falta só gerar e entregar credenciais
 ---
 
 # CORPAY-AI — provisionamento Bedrock/Textract/S3 pro projeto BC Correios
@@ -239,16 +239,56 @@ infra — não bloqueia o apply. Com isso o código foi finalizado:
 
 `terraform fmt -check -recursive` e `terraform validate` passam nas duas stacks.
 
-## Próximos passos
+## Apply real (2026-08-04)
 
-1. `aws sso login --profile BR_PS_CLOUD-176238383094` e validar que o papel
-   `BR_PS_CLOUD` tem permissão de criar S3/IAM nessa conta (única incógnita
-   técnica restante — se der `AccessDenied`, abrir chamado pro permission set).
-2. `terraform apply` na `INFRA/TFSTATE`, depois na `BC-CORREIOS/PRD`.
-3. Habilitar **model access** no console do Bedrock (conta CORPAY-AI, `us-east-1`)
-   pros dois modelos candidatos — não vem por Terraform, não herda do sandbox.
-4. Gerar as duas credenciais e combinar entrega/rotação com Larissa + Thiago.
-5. Depois de validado ponta a ponta com o Thiago, subir o repo pro GitHub da empresa.
+As duas stacks foram aplicadas de verdade na conta CORPAY-AI:
+
+**`INFRA/TFSTATE`** — 7 recursos criados. Bucket `corpay-ai-tf-state` confirmado
+existente (`get-bucket-location`), com o `terraform.tfstate` da stack do projeto
+já salvo lá dentro (`BC-CORREIOS/PRD/terraform.tfstate`).
+
+**`BC-CORREIOS/PRD`** — 8 recursos criados, 0 destroy. Confirmado via AWS CLI
+(não só no state do Terraform):
+- Bucket `sn-bucket-textract`, `us-east-1`
+- Usuário IAM `arn:aws:iam::176238383094:user/service/svc-servicenow-bc-correios`
+
+Perfil AWS CLI pra CORPAY-AI (`BR_PS_CLOUD-176238383094`) funcionou de primeira —
+o papel `BR_PS_CLOUD` tinha permissão pra criar S3/IAM, sem precisar de chamado.
+
+## Achado 7 — "Model access" foi aposentado pela AWS, e o Sonnet 3 está bloqueado
+
+Tentei seguir meu próprio runbook (passo 3, "habilitar model access no console")
+e a página não existe mais: *"Serverless foundation models are now automatically
+enabled across all AWS commercial regions when first invoked in your account."*
+
+Testei via CLI pra confirmar de verdade (não só a mensagem do console):
+
+```bash
+aws bedrock-runtime invoke-model --region us-east-1 \
+  --model-id "arn:aws:bedrock:us-east-1:176238383094:inference-profile/global.anthropic.claude-sonnet-4-6" \
+  --body '{"anthropic_version":"bedrock-2023-05-31","max_tokens":10,"messages":[{"role":"user","content":"oi"}]}' \
+  --cli-binary-format raw-in-base64-out out.json
+```
+
+Funcionou de primeira: `"Oi! Tudo bem?"`. Testei também `anthropic.claude-3-
+sonnet-20240229-v1:0` (o outro candidato) e deu `ResourceNotFoundException`:
+*"This Model is marked by provider as Legacy and you have not been actively
+using the model in the last 30 days."* — a AWS bloqueia esse modelo específico
+pra contas sem uso recente, independente de permissão IAM.
+
+**Efeito prático:** a decisão "Sonnet 3 ou 4.6" que ainda estava com a Larissa
+(Achado 2) ficou resolvida por um fato técnico, não por escolha de custo — só o
+4.6 é utilizável nessa conta. Removido `anthropic.claude-3-sonnet-20240229-v1:0`
+de `terraform.tfvars` e reaplicado (`Plan: 0 to add, 1 to change, 0 to destroy`
+— só tirou o ARN da policy, sem downtime).
+
+## Próximos passos (o que falta é manual, fora do Terraform)
+
+1. Gerar as duas credenciais (`aws iam create-access-key` +
+   `aws iam create-service-specific-credential --service-name bedrock.amazonaws.com`)
+   e combinar entrega/rotação com Larissa + Thiago.
+2. Pedir pro Thiago validar o fluxo ponta a ponta (upload → Textract → Bedrock).
+3. Depois de validado, subir o repo pro GitHub da empresa.
 
 ## Referências
 
