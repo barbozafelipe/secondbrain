@@ -153,6 +153,19 @@ Itaú e Mercado Pago de agosto também vieram mais altos que o estimado (Itaú R
 
 **Ainda em aberto**: quitação do empréstimo (R$1.313,45, economiza R$167,57, desconto encolhe a cada mês) — próximo alvo assim que sobrar caixa de novo, provavelmente com a sobra de agosto ou o 13º. Reserva de emergência de R$1.000 continua zerada, prioridade reconstruir a partir de set/out.
 
+### Integração 03/08 — roteiro do quarto batido com o plano da Cama Queen já decidido
+O Felipe pediu pra tirar a cadeira de 20/12 (cancelada, ver seção "Cadeira removida do plano" acima) e ajustar o valor da cama pro plano já fechado na seção "Cama Queen" deste arquivo. Ao trocar "Cama — 1ª de 12x R$250" (só a 1ª parcela fictícia) pelo valor real à vista (colchão Emma R$2.378 + base InHouse R$1.221,86 = **R$3.599,86 à vista, não parcelado**), dezembro **ficou negativo em R$300,08** no dia da viagem (28/12) — com tudo mais que já estava lá (TV, painel, guarda-roupa, divisória, viagem), a cama à vista sozinha estourava o caixa.
+
+**Correção aplicada**: a divisória de MDF (R$1.000, projeto DIY com o pai, sem nenhuma urgência) foi **adiada pra janeiro/2027**. Isso sozinho resolve o buraco — dezembro volta a fechar positivo. Nenhuma outra decisão foi reaberta (nem cadeira, nem colchão, nem base).
+
+**Novo saldo final projetado (30/12): R$2.610,32** (era R$4.700,18 quando a cama ainda estava modelada como só a 1ª parcela de R$250 — a diferença mostra o custo real de comprar à vista em vez de fictício-parcelado). Página, agenda (2 eventos ajustados) e este arquivo sincronizados.
+
+### Regra estrutural 03/08 — salário do último dia útil do mês
+Felipe confirmou o padrão pretendido: o salário da 2ª quinzena (último dia útil do mês) serve pra pagar **pai + parcela do empréstimo + fatura do Nubank**, tudo no dia do recebimento — adiantado, não esperando os vencimentos reais (empréstimo ~dia 05, fatura Nubank ~dia 09-10 do mês seguinte). Mesma lógica já aplicada em jul→ago: sem desconto por antecipar fatura de cartão, mas tira a tentação de deixar dinheiro parado. Reestruturado o roteiro inteiro (ago-dez) pra seguir esse padrão em todo mês daqui pra frente — total do ano não muda (R$4.700,18), só a data em que cada pagamento acontece.
+
+### ⚠️ ERRO CORRIGIDO 03/08 — PS5 nunca tinha entrado no roteiro
+O PS5 (R$341,63/mês, Pix pro pai, 11 parcelas restantes até meados de 2027) **nunca foi incluído em nenhuma versão do roteiro** desde que ele foi criado — descoberto só agora porque o Felipe mencionou de passagem que ia "pagar o PS5 pro pai" dia 15/08. Isso inflava o saldo final projetado em ~R$1.700 (5 meses × R$341,63 até dezembro). Corrigido: adicionado como pagamento fixo em toda 1ª quinzena (mesmo dia do salário), de agosto a dezembro. **Novo saldo final projetado: R$4.700,18** (era R$6.408,33). Página, vault e cálculo de comprometimento de renda todos atualizados. Lição: sempre que o Felipe mencionar um pagamento recorrente de passagem, checar se ele já está no modelo antes de seguir em frente.
+
 Compra do Digeliv (suplemento, R$89,90) que estava cogitada pra 25/07 com o dinheiro do iPad — **adiada**, sem previsão ainda, só depois que o caixa respirar (~meados de agosto).
 
 ### Revisão de especialista (24/07) — melhorias aplicadas e riscos a vigiar
