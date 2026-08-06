@@ -4,6 +4,7 @@
 - [[2026-07-02_chatbot-gringo-zendesk-agentcore]]
 - [[2026-07-02_iam-bedrockapikey-textract-s3-bucket-policy-bug]]
 - [[2026-07-15_regra-si-permite-spoofing-dominio-corpay-via-ses-externo]]
+- [[2026-08-03_corpay-ai-bc-correios-bedrock-textract-iac]]
 - [[Criar dominio customizado para API Gateway (ACM + Route53)]]
 - [[Esteira AWS - mecanica das pipelines (Lambda, SQS-Dynamo, Terraform)]]
 - [[Permitir acesso do Databricks a buckets S3 multi-conta]]
@@ -15,7 +16,6 @@
 - [[ZPY - Associando permition set e conta em um grupo]]
 - [[ZPY - Como fazer nova conta AWS aparecer no Portal SSO]]
 - [[ZPY - PTSK0010372]]
-- [[ZPY - RDS zapay-db-production Instância standalone com read replica assíncrona]]
 - [[ZPY- Reutilização de Permission Sets para novas contas AWS]]
 
 %% End Waypoint %%
