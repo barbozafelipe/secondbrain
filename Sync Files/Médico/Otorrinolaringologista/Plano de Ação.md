@@ -56,4 +56,4 @@ fonte: reflexao-cowork
 - [[Otorrinolaringologista]]
 - [[03-06-2026]]
 - [[Laudo da Laringoscopia]]
-- [[Laudo da Tomografia seios da face]]
+- [[Laudo da Tomografia]]

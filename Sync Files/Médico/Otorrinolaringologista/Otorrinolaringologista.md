@@ -4,7 +4,8 @@
 - [[25-02-2026]]
 - [[Imagens da Laringoscopia]]
 - [[Laudo da Laringoscopia]]
-- [[Laudo da Tomografia seios da face]]
+- [[Laudo da Tomografia 2]]
+- [[Laudo da Tomografia]]
 - [[Plano de Ação]]
 
 %% End Waypoint %%
