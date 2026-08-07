@@ -417,6 +417,46 @@ Por lei (Lei 4.591/64), nada pode ser formalmente comercializado antes do RI. Is
 
 ---
 
+## 7. Simulação real recebida — Mazzei 1D+Office, andar 6º/7º (07/08/2026, corretora Sofia/eqp. Romero, via Nélia)
+
+Fecha a pendência aberta em 31/07 ("pedir simulação simples da tipologia 1D+Office"). Preço bate exatamente com a tabela de andares já registrada (R$ 299.600, 6º/7º).
+
+| Campo | Valor |
+|---|---|
+| Unidade | 606 ou 706, HIS2, 30,02 m² |
+| Preço | R$ 299.600 |
+| Financiamento aprovado | **R$ 269.280,00 (89,9% do valor)** |
+| FGTS apurado | R$ 3.673,46 |
+| Gap (Ato + parcelas de obra) | R$ 26.646,50 |
+| Estrutura sugerida | Ato R$ 10.000 (ago/26) + 39x R$ 426,83 (a partir de set/26) |
+| Parcela financiamento (nas chaves) | R$ 2.014/mês |
+| Condomínio estimado | R$ 300/mês |
+| Documentação (ITBI+Registro) | Grátis — condição de pré-lançamento, só mais 3 unidades |
+| Taxa de assessoria (na assinatura) | R$ 2.000 |
+
+### ⚠️ Ponto crítico: o financiamento de 89,9% contradiz o teto de 80% LTV usado em toda a análise anterior
+Toda a conta deste arquivo (seção 4, seção 2.2) usa **80% de LTV como teto do MCMV/Caixa** — inclusive a simulação real com print oficial do Tucuruvi (31/07). O corretor Paiva já cometeu **esse exato erro de cálculo** antes (não aplicar o teto de 80%, ver seção 6). A explicação de Sofia (áudio 3): o valor de **avaliação** da Caixa seria maior que o preço de venda promocional, permitindo financiar mais que 80% do preço pago. É tecnicamente possível, mas **não confirmado por documento formal do banco** — só relato de corretora via WhatsApp/áudio. **Não assumir esse número como real até vir um documento da Caixa** (carta de crédito ou extrato de simulação), não um resumo comercial.
+- **Pergunta em aberto pro Felipe**: ele já passou por análise de crédito formal (não só consulta cadastral) pra esse imóvel? Se sim, quando e assinou alguma autorização? A regra registrada em 31/07 era **não assinar autorização de análise de crédito (DRIVECRED ou equivalente) até a compra fechar na conta** — se isso já foi assinado/feito, é um desvio da regra que vale documentar, sem alarme, mas com atenção.
+
+### ⚠️ Custo novo, não modelado até agora: "evolução de obras"
+Sofia mencionou (áudio 3) que **um mês depois de assinar o financiamento com a Caixa** (previsto 6-9 meses após o contrato de compra), começa a se pagar **"evolução de obras"** — % crescente (5% a 100%) sobre o valor da parcela de financiamento aprovada (R$ 2.014), **em cima** dos R$ 426,83/mês, não em vez deles. Nenhum cálculo anterior deste arquivo incluía esse item. Pedir o cronograma percentual por escrito antes de considerar a conta fechada.
+
+### Por que não assinar agora, mesmo se os números forem reais
+A regra de pré-condições ([[Plano de vida]]) continua sem ser satisfeita: PicPay zerado ✅, mas **Nubank ainda não quitado** e **reserva de R$ 1.000 ainda zerada** (ver [[Financeiro]], saldo de R$ 19,88 em 31/07). O **Ato de R$ 10.000 pedido pra "ago/26" é literalmente este mês** — não existe esse dinheiro disponível sem reabrir dívida cara, o oposto do que vem sendo consertado a sessão inteira.
+
+### Táticas de venda — 6ª ocorrência do mesmo padrão (grupo Drive/RTE)
+- Escassez: "só tenho mais 3 apartamentos com documentação grátis" — mesmo padrão do "só tem uma unidade" → "voltou uma unidade" 23 min depois (Nelia, Tucuruvi, 30/07).
+- Sugestão de pular a visita ao plantão e "subir a proposta" direto — unidade nunca vista pessoalmente.
+- Ancoragem: "menor até do que esses 700 que você falou" — usa o próprio número do Felipe como referência, sem mencionar a evolução de obras que soma por cima.
+
+### Próximos passos
+- [ ] Pedir documento formal da Caixa (não resumo de corretora) confirmando os R$ 269.280 de financiamento.
+- [ ] Pedir cronograma percentual da "evolução de obras" por escrito.
+- [ ] Não revelar que não há R$ 10.000 disponíveis agora — mesma lógica já aplicada com Paiva.
+- [ ] Esclarecer se já houve análise de crédito formal/assinatura de autorização — checar se desviou da regra registrada em 31/07.
+
+---
+
 ## Fontes (31/07/2026)
 - Exports de WhatsApp: corretora Nelia (30-31/07) e corretor Paiva (29-30/07), com books, tabelas de preço, holerites, consulta cadastral Caixa e print da simulação
 - Books: `IN NEXT TUCURUVI BOOK.pdf` (dez/24), `[IN TUCURUVI] Book final 13/06/2026`, `IN NEXT MAZZEI Book oficial`, `Grand Vivaz Lapa 2-Folhetão Mobile.pdf`

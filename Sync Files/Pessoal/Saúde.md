@@ -13,6 +13,8 @@
 - **Déficit de sono profundo (N3)**: média ~58 min/noite (ideal ~1h30–2h). Estimativa de ~600h de sono profundo perdidas nos últimos 2 anos.
 - Rastreado pelo **Apple Watch Series 8** (vale analisar sua taxa de efetividade, os números não são exatos); baseline salvo para comparação pós-cirurgia. **TODO:** localizar/anexar o baseline.
 - Causa raiz mecânica: obstrução nasal gerando RERAs (despertares por esforço respiratório) que expulsam o corpo do sono profundo.
+- **Trio de potencialização do sono**: (1) **cirurgia (Septoplastia + Turbinoplastia)** — feita em 05/08/2026, correção da causa raiz mecânica; (2) **óculos BlueBlockers Full 95%** — comprado em 06/08/2026, R$ 384,30 (cupom PRIMEIRACOMPRA10, economia R$ 42,70), ainda não chegou; (3) **Colchão Queen Emma Original 158x198cm** (3 camadas de espuma a vácuo, capa removível lavável, 10 anos de garantia) — a comprar em até 4 meses (prazo-alvo: ~08/12/2026).
+- **Rotina fixa de dormir: 22h todos os dias** (ver regra de dia da semana no `CLAUDE.md`). BlueBlockers deve entrar **19:00-19:30** (2h-3h antes de deitar) para dar janela livre à melatonina.
 
 ## Otorrino — diagnóstico
 - **Desvio de septo grau III com esporão ósseo** + hipertrofia de cornetos.

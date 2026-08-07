@@ -6,6 +6,7 @@
 ## Quem é
 - Beatriz ("Bia"), nascida em 15/02/2000.
 - Namoramos desde 16/09/2023.
+- Peso ~58 kg, altura ~1,68 m (informado por Felipe em 03/08/2026, aproximado).
 
 ## Dinâmica atual
 - Encontros geralmente nos finais de semana.
